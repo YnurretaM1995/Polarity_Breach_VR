@@ -157,25 +157,24 @@ namespace PolarityBreach.PolaritySystem
         {
             if (pool == null) return;
 
-            Vector3 dir = transform.forward;
-            dir.y = 0f;
-            dir.Normalize();
-
-            ShootProjectile projectile = pool.GetProjectile(_muzzle.position, Quaternion.LookRotation(dir));
+            ShootProjectile projectile = pool.GetProjectile(_muzzle.position, _muzzle.rotation);
 
             if (projectile == null) return;
             projectile.SetStats(speed, damage, knockbackForce);
-            
+
             var bulletPolarity = projectile.GetComponent<PolarityComponent>();
             if (bulletPolarity != null) bulletPolarity.SetPolarity(_polarity.CurrentPolarity);
 
             _lastShotTime = Time.time;
         }
 
-        
-        
+
+
         private void AutoFire()
         {
+            float trigger = OVRInput.Get(OVRInput.Axis1D.PrimaryIndexTrigger, OVRInput.Controller.RTouch);
+            if (trigger < 0.5f) { Debug.Log("Trigger: " + trigger); return; }
+
             if (Time.time >= _lastShotTime + _playerStats.attackSpeedDelay)
             {
                 Shoot();

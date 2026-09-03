@@ -30,7 +30,17 @@ namespace PolarityBreach.PolaritySystem
         [SerializeField] private PolarityPostProcessPulse postProcessPulse;
         public event Action OnPolaritySwitched;
         public static event Action<Transform> OnAnyPlayerPolaritySwitched;
-        
+
+        private void Update()
+        {
+            if (UIQueue.IsBlocking || PauseMenu.IsPaused) return;
+
+            if (OVRInput.GetDown(OVRInput.Button.PrimaryIndexTrigger))
+            {
+                TrySwitch();
+            }
+        }
+
         public float SwitchCooldown
         {
             get => _playerStats.polaritySwitchCooldown;

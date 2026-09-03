@@ -13,6 +13,7 @@ namespace PolarityBreach.Player
         [SerializeField] private Button attackSpeedButton;
         [SerializeField] private Button maxHealthButton;
         [SerializeField] private Button defaultSelectedButton;
+        [SerializeField] private VRDialoguePanel vrPanel;
 
         private PlayerLevelUpBonus levelUpBonus;
         private float previousTimeScale = 1f;
@@ -58,6 +59,7 @@ namespace PolarityBreach.Player
             Time.timeScale = 0f;
 
             panel.SetActive(true);
+            if (vrPanel != null) vrPanel.PlaceInFrontOfPlayer();
             IsOpen = true;
 
             StartCoroutine(SelectDefaultButtonNextFrame());

@@ -5055,7 +5055,7 @@ GameObject:
   - component: {fileID: -47310936437993871}
   - component: {fileID: 1102459450802981452}
   m_Layer: 0
-  m_Name: Sphere
+  m_Name: NewBullet
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
