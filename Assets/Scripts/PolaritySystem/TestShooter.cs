@@ -2,7 +2,6 @@ using PolarityBreach.Audio;
 using PolarityBreach.Player;
 using PolarityBreach.UI;
 using UnityEngine;
-using UnityEngine.Audio;
 using UnityEngine.InputSystem;
 
 namespace PolarityBreach.PolaritySystem
@@ -20,7 +19,19 @@ namespace PolarityBreach.PolaritySystem
         [SerializeField] private AudioClip shootSound;
         [SerializeField, Range(0f, 1f)] private float shootSoundVolume = 1f;
         [SerializeField] private bool playShootSoundAs2D;
+
+        [Header("Charge Shot SFX")]
+        [SerializeField] private AudioSource chargeLoopSource;
         [SerializeField] private AudioClip chargeSound;
+        [SerializeField, Range(0f, 1f)] private float chargeSoundVolume = 1f;
+        [SerializeField] private AudioSource heldChargeLoopSource;
+        [SerializeField] private AudioClip heldChargeSound;
+        [SerializeField, Range(0f, 1f)] private float heldChargeSoundVolume = 1f;
+        [SerializeField] private AudioClip chargeCancelSound;
+        [SerializeField, Range(0f, 1f)] private float chargeCancelSoundVolume = 1f;
+        [SerializeField] private AudioClip chargedShotSound;
+        [SerializeField, Range(0f, 1f)] private float chargedShotSoundVolume = 1f;
+        [SerializeField] private bool playChargeShotSoundsAs2D = true;
         
         private bool _isCharging;
         private bool _chargeReady;
@@ -51,6 +62,10 @@ namespace PolarityBreach.PolaritySystem
             _cam = Camera.main;
             if (_muzzle == null) 
                 _muzzle = transform;
+            if (chargeLoopSource == null)
+                chargeLoopSource = CreateLoopSource("Charge Shot Loop Audio");
+            if (heldChargeLoopSource == null)
+                heldChargeLoopSource = CreateLoopSource("Held Charge Shot Loop Audio");
 
             _fireAction = new InputAction("Fire", InputActionType.Button);
             _fireAction.AddBinding("<Mouse>/leftButton");
@@ -68,6 +83,8 @@ namespace PolarityBreach.PolaritySystem
             _fireAction.Disable();
             PauseMenu.OnPauseChanged -= HandlePause;
             UIQueue.OnBlockingChanged -= HandlePause;
+            StopChargeLoop();
+            StopHeldChargeLoop();
         }
         private void OnDestroy() => _fireAction.Dispose();
 
@@ -85,6 +102,7 @@ namespace PolarityBreach.PolaritySystem
                 if (_fireAction.WasReleasedThisFrame())
                 {
                     ReleaseCharge();
+                    return;
                 }
 
                 if (_fireAction.IsPressed())
@@ -99,7 +117,11 @@ namespace PolarityBreach.PolaritySystem
         
         private void HandlePause(bool paused)
         {
-            if (paused) _fireAction.Disable();
+            if (paused)
+            {
+                _fireAction.Disable();
+                CancelCharge(false);
+            }
             else _fireAction.Enable();
         }
         
@@ -108,6 +130,8 @@ namespace PolarityBreach.PolaritySystem
             _isCharging = true;
             _chargeReady = false;
             _chargeStartTime = Time.time;
+            StopHeldChargeLoop();
+            StartChargeLoop();
         }
 
         private void UpdateCharging()
@@ -117,6 +141,8 @@ namespace PolarityBreach.PolaritySystem
             if (holdTime >= _playerStats.chargeTime && !_chargeReady)
             {
                 _chargeReady = true;
+                StartHeldChargeLoop();
+                StopChargeLoop();
                 Debug.Log("Charge Shot READY!");
             }
         }
@@ -125,11 +151,13 @@ namespace PolarityBreach.PolaritySystem
         {
             if (_isCharging && _chargeReady)
             {
+                StopChargeLoop();
+                StopHeldChargeLoop();
                 ChargeShot();
             }
             else
             {
-                Debug.Log("Charge Shot CANCELLED!");
+                CancelCharge(true);
             }
             
             _isCharging = false;
@@ -151,30 +179,32 @@ namespace PolarityBreach.PolaritySystem
                 _playerStats.chargeShotSpeed,
                 _playerStats.chargeShotDamage,
                 _playerStats.chargeShotKnockBackPower);
+            PlayChargeShotSfx();
         }
 
         private void ShootFromPool(ProjectilePool pool, float speed, float damage, float knockbackForce)
         {
             if (pool == null) return;
 
-            ShootProjectile projectile = pool.GetProjectile(_muzzle.position, _muzzle.rotation);
+            Vector3 dir = transform.forward;
+            dir.y = 0f;
+            dir.Normalize();
+
+            ShootProjectile projectile = pool.GetProjectile(_muzzle.position, Quaternion.LookRotation(dir));
 
             if (projectile == null) return;
             projectile.SetStats(speed, damage, knockbackForce);
-
+            
             var bulletPolarity = projectile.GetComponent<PolarityComponent>();
             if (bulletPolarity != null) bulletPolarity.SetPolarity(_polarity.CurrentPolarity);
 
             _lastShotTime = Time.time;
         }
 
-
-
+        
+        
         private void AutoFire()
         {
-            float trigger = OVRInput.Get(OVRInput.Axis1D.PrimaryIndexTrigger, OVRInput.Controller.RTouch);
-            if (trigger < 0.5f) { Debug.Log("Trigger: " + trigger); return; }
-
             if (Time.time >= _lastShotTime + _playerStats.attackSpeedDelay)
             {
                 Shoot();
@@ -202,6 +232,107 @@ namespace PolarityBreach.PolaritySystem
             }
 
             AudioHandler.Play3DSound(clip, transform.position, shootSoundVolume);
+        }
+
+        private void StartChargeLoop()
+        {
+            if (chargeSound == null) return;
+
+            if (chargeLoopSource == null)
+                chargeLoopSource = CreateLoopSource("Charge Shot Loop Audio");
+
+            chargeLoopSource.clip = chargeSound;
+            chargeLoopSource.volume = chargeSoundVolume;
+            chargeLoopSource.loop = true;
+            chargeLoopSource.spatialBlend = playChargeShotSoundsAs2D ? 0f : 1f;
+            chargeLoopSource.outputAudioMixerGroup = AudioHandler.DefaultSfxMixerGroup;
+            chargeLoopSource.Play();
+        }
+
+        private void StopChargeLoop()
+        {
+            if (chargeLoopSource == null) return;
+
+            if (chargeLoopSource.isPlaying && chargeLoopSource.clip == chargeSound)
+                chargeLoopSource.Stop();
+
+            chargeLoopSource.loop = false;
+        }
+
+        private void StartHeldChargeLoop()
+        {
+            if (heldChargeSound == null) return;
+
+            if (heldChargeLoopSource == null)
+                heldChargeLoopSource = CreateLoopSource("Held Charge Shot Loop Audio");
+
+            heldChargeLoopSource.clip = heldChargeSound;
+            heldChargeLoopSource.volume = heldChargeSoundVolume;
+            heldChargeLoopSource.loop = true;
+            heldChargeLoopSource.spatialBlend = playChargeShotSoundsAs2D ? 0f : 1f;
+            heldChargeLoopSource.outputAudioMixerGroup = AudioHandler.DefaultSfxMixerGroup;
+            heldChargeLoopSource.Play();
+        }
+
+        private void StopHeldChargeLoop()
+        {
+            if (heldChargeLoopSource == null) return;
+
+            if (heldChargeLoopSource.isPlaying && heldChargeLoopSource.clip == heldChargeSound)
+                heldChargeLoopSource.Stop();
+
+            heldChargeLoopSource.loop = false;
+        }
+
+        private void CancelCharge(bool playCancelSound)
+        {
+            if (!_isCharging) return;
+
+            StopChargeLoop();
+            StopHeldChargeLoop();
+            _lastShotTime = Time.time;
+
+            if (playCancelSound)
+            {
+                Debug.Log("Charge Shot CANCELLED!");
+                PlayChargeCancelSfx();
+            }
+
+            _isCharging = false;
+            _chargeReady = false;
+        }
+
+        private void PlayChargeCancelSfx()
+        {
+            if (playChargeShotSoundsAs2D)
+            {
+                AudioHandler.Play2DSound(chargeCancelSound, chargeCancelSoundVolume);
+                return;
+            }
+
+            AudioHandler.Play3DSound(chargeCancelSound, transform.position, chargeCancelSoundVolume);
+        }
+
+        private void PlayChargeShotSfx()
+        {
+            if (playChargeShotSoundsAs2D)
+            {
+                AudioHandler.Play2DSound(chargedShotSound, chargedShotSoundVolume);
+                return;
+            }
+
+            AudioHandler.Play3DSound(chargedShotSound, transform.position, chargedShotSoundVolume);
+        }
+
+        private AudioSource CreateLoopSource(string sourceName)
+        {
+            GameObject sourceObject = new GameObject(sourceName);
+            sourceObject.transform.SetParent(transform);
+            sourceObject.transform.localPosition = Vector3.zero;
+
+            AudioSource source = sourceObject.AddComponent<AudioSource>();
+            source.playOnAwake = false;
+            return source;
         }
     }
 }

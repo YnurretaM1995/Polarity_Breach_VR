@@ -21,6 +21,7 @@ namespace PolarityBreach.PolaritySystem
         private PlayerStatsData _playerStats;
 
         [Header("SFX")]
+        [SerializeField] private AudioClip[] colorSounds;
         [SerializeField] private AudioClip colorSound;
         [SerializeField, Range(0f, 1f)] private float colorSoundVolume = 1f;
         [SerializeField] private bool playColorSoundAs2D = true;
@@ -30,17 +31,7 @@ namespace PolarityBreach.PolaritySystem
         [SerializeField] private PolarityPostProcessPulse postProcessPulse;
         public event Action OnPolaritySwitched;
         public static event Action<Transform> OnAnyPlayerPolaritySwitched;
-
-        private void Update()
-        {
-            if (UIQueue.IsBlocking || PauseMenu.IsPaused) return;
-
-            if (OVRInput.GetDown(OVRInput.Button.PrimaryIndexTrigger))
-            {
-                TrySwitch();
-            }
-        }
-
+        
         public float SwitchCooldown
         {
             get => _playerStats.polaritySwitchCooldown;
@@ -125,13 +116,25 @@ namespace PolarityBreach.PolaritySystem
 
         private void PlaySwitchSfx()
         {
+            AudioClip clip = GetRandomSwitchSound();
+
             if (playColorSoundAs2D)
             {
-                AudioHandler.Play2DSound(colorSound, colorSoundVolume, sfxMixerGroup);
+                AudioHandler.Play2DSound(clip, colorSoundVolume, sfxMixerGroup);
                 return;
             }
 
-            AudioHandler.Play3DSound(colorSound, transform.position, colorSoundVolume, sfxMixerGroup);
+            AudioHandler.Play3DSound(clip, transform.position, colorSoundVolume, sfxMixerGroup);
+        }
+
+        private AudioClip GetRandomSwitchSound()
+        {
+            if (colorSounds != null && colorSounds.Length > 0)
+            {
+                return colorSounds[UnityEngine.Random.Range(0, colorSounds.Length)];
+            }
+
+            return colorSound;
         }
         
         private void HandlePause(bool paused)

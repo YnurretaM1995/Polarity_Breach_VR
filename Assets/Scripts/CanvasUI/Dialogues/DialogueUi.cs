@@ -11,13 +11,9 @@ namespace PolarityBreach.UI
     {
         public static DialogueUI Instance { get; private set; }
 
-
         [Header("Panels")]
         [SerializeField] private GameObject root;
         [SerializeField] private Image fullScreenBackground;
-        [SerializeField] private VRDialoguePanel vrPanel;
-
-
 
         [Header("Text")]
         [SerializeField] private TMP_Text speakerText;
@@ -133,7 +129,6 @@ namespace PolarityBreach.UI
         private void OpenPanel(DialogueSequence sequence)
         {
             if (root != null) root.SetActive(true);
-            if (vrPanel != null) vrPanel.PlaceInFrontOfPlayer();
 
             sequenceLeftSprite = sequence.leftPortrait;
             sequenceRightSprite = sequence.rightPortrait;
@@ -256,7 +251,7 @@ namespace PolarityBreach.UI
         {
             bool keyboard = Keyboard.current != null && Keyboard.current.spaceKey.isPressed;
             bool gamepad = Gamepad.current != null && Gamepad.current.buttonSouth.isPressed;
-            return keyboard || gamepad || OVRInput.Get(OVRInput.Button.One);
+            return keyboard || gamepad;
         }
 
         private void ApplyPortraits(DialogueLine line)
@@ -301,7 +296,7 @@ namespace PolarityBreach.UI
 
             bool mouse = Mouse.current != null && Mouse.current.leftButton.wasPressedThisFrame;
 
-            return keyboard || gamepad || mouse || OVRInput.GetDown(OVRInput.Button.One) || OVRInput.GetDown(OVRInput.Button.PrimaryIndexTrigger);
+            return keyboard || gamepad || mouse;
         }
 
         private void PlayNextSfx()
