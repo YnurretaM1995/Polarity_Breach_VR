@@ -26,7 +26,7 @@ RenderSettings:
   m_AmbientIntensity: 1
   m_AmbientMode: 0
   m_SubtractiveShadowColor: {r: 0.42, g: 0.478, b: 0.627, a: 1}
-  m_SkyboxMaterial: {fileID: 2100000, guid: 17887e9083e2ca948a8d034c14a11d35, type: 2}
+  m_SkyboxMaterial: {fileID: 2100000, guid: 693f28be7d45f174781921cb0d6a5e8c, type: 2}
   m_HaloStrength: 0.5
   m_FlareStrength: 1
   m_FlareFadeSpeed: 3
@@ -24469,6 +24469,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 73a340f0f27b9fd48a2822e4cacbac8a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::PolarityBreach.Player.LevelUpMenu
+  vrPanel: {fileID: 0}
+  rayInteractable: {fileID: 0}
   panel: {fileID: 8707660}
   attackPowerButton: {fileID: 1941363041}
   attackSpeedButton: {fileID: 517392762}
@@ -26572,6 +26574,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::PolarityBreach.UI.DialogueUI
   root: {fileID: 2062428639}
   fullScreenBackground: {fileID: 768298883}
+  vrPanel: {fileID: 0}
   speakerText: {fileID: 2014316476}
   bodyText: {fileID: 1143506742}
   speakerBox: {fileID: 1424227279}

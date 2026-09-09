@@ -44436,6 +44436,9 @@ MonoBehaviour:
   playerStats: {fileID: 1817478972}
   speed: 4
   gravity: -9.81
+  dashUI: {fileID: 443353770}
+  dashSfxSource: {fileID: 1466711692}
+  dashSound: {fileID: 8300000, guid: ea7feda3d44ff2444a2f5a2c5f60d4bd, type: 3}
 --- !u!1001 &1986030325
 PrefabInstance:
   m_ObjectHideFlags: 0
