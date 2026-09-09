@@ -1318,6 +1318,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::VRLocomotion
   centerEye: {fileID: 8883544274666823346}
   controller: {fileID: 5010554355284060704}
+  playerStats: {fileID: 0}
   speed: 4
   gravity: -9.81
 --- !u!143 &5010554355284060704
