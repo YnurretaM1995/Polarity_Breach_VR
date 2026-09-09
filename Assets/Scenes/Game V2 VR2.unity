@@ -1693,8 +1693,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::PolarityBreach.PolaritySystem.PolarityVisual
   _renderers: []
-  _blackMaterial: {fileID: 0}
-  _whiteMaterial: {fileID: 0}
+  _blackMaterial: {fileID: 2100000, guid: cf5a4c6025887f74a8a495cbcf3fad05, type: 2}
+  _whiteMaterial: {fileID: 2100000, guid: f769f7e8a7155ec46b9ae207f265ab40, type: 2}
   flashMaterial: {fileID: 0}
   flashDuration: 0.04
 --- !u!114 &72424264
@@ -11266,8 +11266,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::PolarityBreach.PolaritySystem.PolarityVisual
   _renderers: []
-  _blackMaterial: {fileID: 0}
-  _whiteMaterial: {fileID: 0}
+  _blackMaterial: {fileID: 2100000, guid: cf5a4c6025887f74a8a495cbcf3fad05, type: 2}
+  _whiteMaterial: {fileID: 2100000, guid: f769f7e8a7155ec46b9ae207f265ab40, type: 2}
   flashMaterial: {fileID: 0}
   flashDuration: 0.04
 --- !u!114 &593373611
@@ -35281,8 +35281,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::PolarityBreach.Player.VRBloodVignette
   bloodVolume: {fileID: 0}
   playerHealth: {fileID: 1817478971}
-  minIntensity: 0.25
-  maxIntensity: 0.7
+  minIntensity: 0.3
+  maxIntensity: 0.8
   pulseAmount: 0.25
   slowPulse: 3
   fastPulse: 20
@@ -43739,6 +43739,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::VRLocomotion
   centerEye: {fileID: 1045211117}
   controller: {fileID: 1981308073}
+  playerStats: {fileID: 1817478972}
   speed: 4
   gravity: -9.81
 --- !u!1001 &1986030325

@@ -5,6 +5,7 @@ public class VRLocomotion : MonoBehaviour
     [Header("Referencias")]
     public Transform centerEye;
     public CharacterController controller;
+    public PolarityBreach.Player.PlayerStatsData playerStats;
 
     [Header("Movimiento")]
     public float speed = 2.5f;
@@ -26,7 +27,8 @@ public class VRLocomotion : MonoBehaviour
         forward.Normalize();
         right.Normalize();
 
-        Vector3 move = (forward * input.y + right * input.x) * speed;
+        float currentSpeed = playerStats != null ? playerStats.CurrentMovementSpeed : speed;
+        Vector3 move = (forward * input.y + right * input.x) * currentSpeed;
 
         if (controller.isGrounded && verticalVelocity < 0f)
             verticalVelocity = -1f;
