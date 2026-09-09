@@ -13,7 +13,7 @@ namespace PolarityBreach.Menus
         [SerializeField] private CanvasGroup menuButtonsGroup;
         [SerializeField] private Selectable defaultSelectedButton;
         [SerializeField] private AudioSource musicSource;
-        [SerializeField] private string gameSceneName = "Game V2";
+        [SerializeField] private string gameSceneName = "Game V2 VR2";
 
         [Header("Optional Options Menu")]
         [SerializeField] private GameObject optionsPanel;
@@ -86,7 +86,7 @@ namespace PolarityBreach.Menus
                 menuButtonsGroup.blocksRaycasts = false;
             }
 
-            SelectButton(optionsSelectedButton);
+           // SelectButton(optionsSelectedButton);
         }
 
         public void CloseOptions()
@@ -102,7 +102,7 @@ namespace PolarityBreach.Menus
                 menuButtonsGroup.blocksRaycasts = true;
             }
 
-            SelectButton(defaultSelectedButton);
+           // SelectButton(defaultSelectedButton);
         }
 
         public void ExitGame()
@@ -138,7 +138,7 @@ namespace PolarityBreach.Menus
                 menuButtonsGroup.blocksRaycasts = true;
             }
 
-            SelectButton(defaultSelectedButton);
+           // SelectButton(defaultSelectedButton);
         }
 
         private IEnumerator StartGameRoutine()

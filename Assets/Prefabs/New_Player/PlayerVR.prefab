@@ -146,7 +146,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1432061870133092189
 Transform:
   m_ObjectHideFlags: 0
@@ -637,7 +637,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 8128b78a7cdab8241bc0502dc0108187, type: 3}
       propertyPath: m_Name
-      value: 'Player '
+      value: PlayerVR
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 8128b78a7cdab8241bc0502dc0108187, type: 3}
       propertyPath: m_IsActive
@@ -1148,6 +1148,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::PolarityBreach.PolaritySystem.PlayerPolarityController
   _switchActionRef: {fileID: 0}
+  colorSounds: []
   colorSound: {fileID: 8300000, guid: cb6a08fef3f75844e88fde47fae06058, type: 3}
   colorSoundVolume: 0.5
   playColorSoundAs2D: 1
@@ -1178,7 +1179,17 @@ MonoBehaviour:
   shootSound: {fileID: 0}
   shootSoundVolume: 1
   playShootSoundAs2D: 0
+  chargeLoopSource: {fileID: 0}
   chargeSound: {fileID: 8300000, guid: 65230a01292a2e342abb6573d0276562, type: 3}
+  chargeSoundVolume: 1
+  heldChargeLoopSource: {fileID: 0}
+  heldChargeSound: {fileID: 0}
+  heldChargeSoundVolume: 1
+  chargeCancelSound: {fileID: 0}
+  chargeCancelSoundVolume: 1
+  chargedShotSound: {fileID: 0}
+  chargedShotSoundVolume: 1
+  playChargeShotSoundsAs2D: 1
   _muzzle: {fileID: 3820362221456888046}
 --- !u!95 &2214496471069055959
 Animator:
@@ -1228,6 +1239,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::PolarityBreach.Player.PlayerHealth
   bloodOverlay: {fileID: 0}
+  bloodVignette: {fileID: 0}
   cameraShake: {fileID: 0}
 --- !u!114 &8464766854188612401
 MonoBehaviour:
@@ -1516,6 +1528,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 4525950570153421853}
     m_Modifications:
+    - target: {fileID: 228308607683952517, guid: 72b63a56a7d71d14e85fcbd06f1608df, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 315177552105525567, guid: 72b63a56a7d71d14e85fcbd06f1608df, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
@@ -1670,7 +1686,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4741555103619460855}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 8f53c12bfb7ef1d47b97e1eff4a17461, type: 3}
   m_Name: 

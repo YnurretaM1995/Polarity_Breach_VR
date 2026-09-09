@@ -387,6 +387,8 @@ MonoBehaviour:
   shootSound: {fileID: 8300000, guid: f55671d441e5e234ea9e67aa84393daf, type: 3}
   shootSoundVolume: 1
   playShootSoundAs2D: 0
+  flattenAim: 1
+  aimHeightOffset: 0.5
 --- !u!114 &3123404587782500808
 MonoBehaviour:
   m_ObjectHideFlags: 0

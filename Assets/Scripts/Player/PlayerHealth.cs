@@ -9,6 +9,7 @@ namespace PolarityBreach.Player
     public class PlayerHealth : MonoBehaviour, IDamageable
     {
         [SerializeField] private BloodOverlay bloodOverlay;
+        [SerializeField] private VRBloodVignette bloodVignette;
         [SerializeField] private CameraControlScript cameraShake;
 
         private PlayerStatsData playerStats;
@@ -48,8 +49,9 @@ namespace PolarityBreach.Player
             }
             
             bloodOverlay?.OnDamaged();
-            cameraShake?.Shake(1.25f);
-            
+
+            bloodVignette?.OnDamaged();
+
             if (CurrentHealth <= 0f)
             {
                 CurrentHealth = 0f;

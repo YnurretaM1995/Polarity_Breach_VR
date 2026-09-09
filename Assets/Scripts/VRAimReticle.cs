@@ -19,7 +19,7 @@ public class VRAimReticle : MonoBehaviour
 
         reticle.position = point;
 
-        float distance = Vector3.Distance(muzzle.position, point);
-        reticle.localScale = Vector3.one * sizeAtOneMeter * distance;
+        //float distance = Vector3.Distance(muzzle.position, point);
+        //reticle.localScale = Vector3.one * sizeAtOneMeter * distance;
     }
 }

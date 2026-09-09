@@ -1,3 +1,4 @@
+using Oculus.Interaction;
 using System.Collections;
 using UnityEngine;
 using UnityEngine.EventSystems;
@@ -8,6 +9,9 @@ namespace PolarityBreach.Player
     public class LevelUpMenu : MonoBehaviour
     {
         [Header("References")]
+
+        [SerializeField] private VRDialoguePanel vrPanel;
+        [SerializeField] private RayInteractable rayInteractable;
         [SerializeField] private GameObject panel;
         [SerializeField] private Button attackPowerButton;
         [SerializeField] private Button attackSpeedButton;
@@ -36,6 +40,7 @@ namespace PolarityBreach.Player
             maxHealthButton?.onClick.AddListener(ChooseMaxHealth);
 
             panel.SetActive(false);
+            if (rayInteractable != null) rayInteractable.enabled = false;
             IsOpen = false;
         }
 
@@ -58,9 +63,11 @@ namespace PolarityBreach.Player
             Time.timeScale = 0f;
 
             panel.SetActive(true);
+            if (rayInteractable != null) rayInteractable.enabled = true;
+            if (vrPanel != null) vrPanel.PlaceInFrontOfPlayer();
             IsOpen = true;
 
-            StartCoroutine(SelectDefaultButtonNextFrame());
+            //StartCoroutine(SelectDefaultButtonNextFrame());
         }
 
         private IEnumerator SelectDefaultButtonNextFrame()
@@ -101,6 +108,7 @@ namespace PolarityBreach.Player
         {
             IsOpen = false;
             panel.SetActive(false);
+            if (rayInteractable != null) rayInteractable.enabled = false;
 
             if (PauseMenu.IsPaused)
             {

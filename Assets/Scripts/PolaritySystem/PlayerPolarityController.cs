@@ -47,6 +47,16 @@ namespace PolarityBreach.PolaritySystem
             RefToSwitchAction();
         }
 
+        private void Update()
+        {
+            if (UIQueue.IsBlocking || PauseMenu.IsPaused) return;
+
+            if (OVRInput.GetDown(OVRInput.Button.PrimaryIndexTrigger))
+            {
+                TrySwitch();
+            }
+        }
+
         private void RefToSwitchAction()
         {
             if (_switchActionRef != null)

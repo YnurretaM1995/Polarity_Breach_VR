@@ -26,6 +26,10 @@ namespace PolarityBreach.Enemy
         [SerializeField, Range(0f, 1f)] private float shootSoundVolume = 1f;
         [SerializeField] private bool playShootSoundAs2D;
 
+        [Header("Aim")]
+        [SerializeField] private bool flattenAim = true;
+        [SerializeField] private float aimHeightOffset = 0.5f;
+
         private EnemyPursuitAI pursuitAI;
         private float fireCooldown;
         private Collider[] ownColliders;
@@ -86,8 +90,13 @@ namespace PolarityBreach.Enemy
             if (enemyAnimation != null) enemyAnimation.PlayAttack();
             PlayShootSfx();
 
-            Vector3 targetPoint = pursuitAI.Target.position + Vector3.up * 0.5f;
-            Vector3 baseDirection = (targetPoint - firePoint.position).normalized;
+            Vector3 targetPoint = pursuitAI.Target.position + Vector3.up * aimHeightOffset;
+            Vector3 baseDirection = targetPoint - firePoint.position;
+
+            if (flattenAim) baseDirection.y = 0f;
+
+            if (baseDirection.sqrMagnitude < 0.001f) return;
+            baseDirection.Normalize();
 
             float startAngle = -spreadAngle;
             float angleStep = projectilesPerShot > 1 ? (spreadAngle * 2f) / (projectilesPerShot - 1) : 0f;
@@ -103,7 +112,6 @@ namespace PolarityBreach.Enemy
                 var projPolarity = proj.GetComponent<PolarityComponent>();
                 if (projPolarity != null && _polarity != null)
                     projPolarity.SetPolarity(_polarity.CurrentPolarity);
-
 
                 Collider projCollider = proj.GetComponent<Collider>();
                 if (projCollider != null)
