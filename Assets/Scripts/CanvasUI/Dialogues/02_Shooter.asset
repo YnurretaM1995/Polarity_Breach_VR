@@ -47,7 +47,9 @@ MonoBehaviour:
     isPrompt: 0
     keyboardHint: 
     gamepadHint: 
-  - text: "Keyboard: Right Click \nGamepad: Left Trigger (LT)"
+  - text: 'Right Trigger (RT) : Shoot
+
+      Left Trigger (LT) : Change Polarity'
     speakerName: 
     leftPortrait: 0
     rightPortrait: 0

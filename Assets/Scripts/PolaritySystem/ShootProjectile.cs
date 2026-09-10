@@ -12,6 +12,7 @@ namespace PolarityBreach.PolaritySystem
     {
         [SerializeField] private TrailRenderer trail;
         [SerializeField] private ParticleSystem particles;
+        [SerializeField] private UnityEngine.VFX.VisualEffect vfx;
 
         [SerializeField] private float _lifeTime = 3f;
         [SerializeField] private bool _disapearOnHit = true;
@@ -38,6 +39,12 @@ namespace PolarityBreach.PolaritySystem
             _spawnTime = Time.time;
 
             if (trail != null) trail.Clear();
+
+            if (vfx != null)
+            {
+                vfx.Reinit();
+                vfx.Play();
+            }
 
             if (particles != null)
             {

@@ -14,6 +14,7 @@ namespace PolarityBreach.Player
         [SerializeField] private Animator animator;
         [SerializeField] private GameMusicController musicController;
         [SerializeField] private MonoBehaviour[] scriptsToDisable;
+        [SerializeField] private VREndTransition endTransition;
 
         [Header("Animation")]
         [SerializeField] private string deathTriggerName = "Death";
@@ -93,6 +94,8 @@ namespace PolarityBreach.Player
             PlayDeathAnimation();
 
             yield return new WaitForSecondsRealtime(deathAnimationDuration + groundHoldDuration);
+
+            if (endTransition != null) yield return endTransition.Play();
 
             GameOverScreen.Show();
         }

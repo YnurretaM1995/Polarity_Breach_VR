@@ -31,8 +31,7 @@ MonoBehaviour:
     isPrompt: 0
     keyboardHint: 
     gamepadHint: 
-  - text: "Keyboard: Hold Left Click, release to fire \nGamepad: Hold Right Trigger
-      (RT), release to fire"
+  - text: Hold Right Trigger (RT), release to fire
     speakerName: 
     leftPortrait: 0
     rightPortrait: 0

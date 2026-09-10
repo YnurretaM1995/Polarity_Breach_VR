@@ -124,6 +124,111 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 520191364533119547, guid: cd855204aa12c124189ffacf02f440d2, type: 3}
   m_PrefabInstance: {fileID: 1138685807}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &15566781
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 15566785}
+  - component: {fileID: 15566784}
+  - component: {fileID: 15566783}
+  - component: {fileID: 15566782}
+  m_Layer: 0
+  m_Name: VRFadeSphere
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &15566782
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 15566781}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4faa034650577de42b2e8b5d62a3fe34, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::VRScreenFade
+  fadeRenderer: {fileID: 0}
+  fadeDuration: 1
+--- !u!23 &15566783
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 15566781}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
+  m_SmallMeshCulling: 1
+  m_ForceMeshLod: -1
+  m_MeshLodSelectionBias: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: 4de58568ab636034cb0961da481fbc6d, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_GlobalIlluminationMeshLod: 0
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_MaskInteraction: 0
+  m_AdditionalVertexStreams: {fileID: 0}
+--- !u!33 &15566784
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 15566781}
+  m_Mesh: {fileID: 10207, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!4 &15566785
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 15566781}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 2, y: 2, z: 2}
+  m_ConstrainProportionsScale: 1
+  m_Children: []
+  m_Father: {fileID: 1045211117}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &16043726
 GameObject:
   m_ObjectHideFlags: 0
@@ -7660,8 +7765,8 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 0.1, y: 0.05, z: 0.15}
-  m_Center: {x: 0, y: 0.015, z: 0.08}
+  m_Size: {x: 0.1, y: 0.1, z: 0.2}
+  m_Center: {x: 0, y: 0.015, z: 0.1}
 --- !u!4 &413574515 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 5725000371507048362, guid: b2452a5c2cd649a4db9eebcd16f7b155, type: 3}
@@ -7966,6 +8071,57 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 438319132}
   m_CullTransparentMesh: 1
+--- !u!1 &439033928
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 439033930}
+  - component: {fileID: 439033929}
+  m_Layer: 0
+  m_Name: VR End Transition
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &439033929
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 439033928}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1cc654f80bb98b84e92aec4c43ac0097, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::VREndTransition
+  screenFade: {fileID: 15566782}
+  playerLocomotion: {fileID: 1981308074}
+  levelObjects:
+  - {fileID: 816700532}
+  - {fileID: 1527290548}
+  - {fileID: 647171938}
+  - {fileID: 1003845653}
+--- !u!4 &439033930
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 439033928}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0.40821788, y: -0.23456968, z: 0.10938163, w: 0.8754261}
+  m_LocalPosition: {x: -300, y: 3, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &443353766
 GameObject:
   m_ObjectHideFlags: 0
@@ -8680,7 +8836,7 @@ Transform:
   m_GameObject: {fileID: 492786223}
   serializedVersion: 2
   m_LocalRotation: {x: -0.5, y: -0.5, z: 0.5, w: -0.5}
-  m_LocalPosition: {x: 0.019, y: 0.067, z: -0.0030535033}
+  m_LocalPosition: {x: 0.019, y: 0, z: -0.0030535033}
   m_LocalScale: {x: 0.01, y: 3.3, z: 0.01}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -15718,8 +15874,8 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 0.1, y: 0.05, z: 0.15}
-  m_Center: {x: 0, y: 0.015, z: 0.08}
+  m_Size: {x: 0.1, y: 0.1, z: 0.2}
+  m_Center: {x: 0, y: 0.015, z: 0.1}
 --- !u!1001 &840332412
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -20753,8 +20909,8 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 0.1, y: 0.06, z: 0.15}
-  m_Center: {x: 0, y: 0.015, z: 0.08}
+  m_Size: {x: 0.1, y: 0.1, z: 0.2}
+  m_Center: {x: 0, y: 0.015, z: 0.1}
 --- !u!4 &861840931 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 3452931867044665262, guid: 32467b8dc355cd04da356b17dbac4f29, type: 3}
@@ -24770,6 +24926,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 315177552105525567, guid: 72b63a56a7d71d14e85fcbd06f1608df, type: 3}
       insertIndex: -1
       addedObject: {fileID: 79354902}
+    - targetCorrespondingSourceObject: {fileID: 4156486236426424256, guid: 72b63a56a7d71d14e85fcbd06f1608df, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 15566785}
     - targetCorrespondingSourceObject: {fileID: 6905014858859158161, guid: 72b63a56a7d71d14e85fcbd06f1608df, type: 3}
       insertIndex: 0
       addedObject: {fileID: 53516368}
@@ -24780,6 +24939,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 228308607683952517, guid: 72b63a56a7d71d14e85fcbd06f1608df, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1045211121}
+    - targetCorrespondingSourceObject: {fileID: 228308607683952517, guid: 72b63a56a7d71d14e85fcbd06f1608df, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1631385449}
   m_SourcePrefab: {fileID: 100100000, guid: 72b63a56a7d71d14e85fcbd06f1608df, type: 3}
 --- !u!4 &1045211115 stripped
 Transform:
@@ -26773,7 +26935,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::VRDialoguePanel
   head: {fileID: 1045211117}
-  distance: 3.25
+  distance: 3.5
   panelHeight: 3
   deadZoneAngle: 45
   followSpeed: 2.5
@@ -27642,7 +27804,7 @@ Transform:
   m_GameObject: {fileID: 1179816715}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0.7071068, z: 0.7071068, w: 0}
-  m_LocalPosition: {x: 0.0014790415, y: 0.067, z: -0.017}
+  m_LocalPosition: {x: 0.0014790415, y: 0, z: -0.017}
   m_LocalScale: {x: 0.01, y: 3.3, z: 0.01}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -30079,7 +30241,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: HOLD SPACE OR A TO SKIP
+  m_text: HOLD A TO SKIP
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -36862,6 +37024,25 @@ MeshRenderer:
   m_CorrespondingSourceObject: {fileID: 1741733105964015184, guid: 72b63a56a7d71d14e85fcbd06f1608df, type: 3}
   m_PrefabInstance: {fileID: 1045211114}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1631385449
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1045211120}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8e1f7d68473b3ce49a263e2f32671212, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::WeaponChargeGlow
+  shooter: {fileID: 1981308062}
+  weaponRenderer: {fileID: 0}
+  invertProperty: _InvertAmount
+  blinkSpeed: 8
+  blinkRange: 0.25
+  vibrationFrequency: 0.5
+  maxAmplitude: 0.6
 --- !u!4 &1637894575 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 7546825811929379479, guid: 1a91b66dee996324fa51df60c547b29d, type: 3}
@@ -40089,6 +40270,10 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5093819952255073565, guid: 9658baaa0a7a7e748b35056f3a191df1, type: 3}
+      propertyPath: godMode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5093819952255073565, guid: 9658baaa0a7a7e748b35056f3a191df1, type: 3}
       propertyPath: dashSpeed
       value: 30
       objectReference: {fileID: 0}
@@ -40121,6 +40306,10 @@ PrefabInstance:
       value: 0.2
       objectReference: {fileID: 0}
     - target: {fileID: 5093819952255073565, guid: 9658baaa0a7a7e748b35056f3a191df1, type: 3}
+      propertyPath: dashUnlocked
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5093819952255073565, guid: 9658baaa0a7a7e748b35056f3a191df1, type: 3}
       propertyPath: movementSpeed
       value: 8
       objectReference: {fileID: 0}
@@ -40130,7 +40319,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5093819952255073565, guid: 9658baaa0a7a7e748b35056f3a191df1, type: 3}
       propertyPath: chargeShotSpeed
-      value: 75
+      value: 15
       objectReference: {fileID: 0}
     - target: {fileID: 5093819952255073565, guid: 9658baaa0a7a7e748b35056f3a191df1, type: 3}
       propertyPath: attackSpeedDelay
@@ -40142,7 +40331,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5093819952255073565, guid: 9658baaa0a7a7e748b35056f3a191df1, type: 3}
       propertyPath: chargeShotUnlocked
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5093819952255073565, guid: 9658baaa0a7a7e748b35056f3a191df1, type: 3}
       propertyPath: polaritySwitchCooldown
@@ -40577,6 +40766,10 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 8300000, guid: e2b58633bad7b754f906f3f3fe6c27cf, type: 3}
     - target: {fileID: 7087308136952612965, guid: 9658baaa0a7a7e748b35056f3a191df1, type: 3}
+      propertyPath: endTransition
+      value: 
+      objectReference: {fileID: 439033929}
+    - target: {fileID: 7087308136952612965, guid: 9658baaa0a7a7e748b35056f3a191df1, type: 3}
       propertyPath: musicController
       value: 
       objectReference: {fileID: 947918515}
@@ -40692,6 +40885,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 6102381678693926401, guid: 9658baaa0a7a7e748b35056f3a191df1, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1981308071}
+    - targetCorrespondingSourceObject: {fileID: 6102381678693926401, guid: 9658baaa0a7a7e748b35056f3a191df1, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1981308082}
   m_SourcePrefab: {fileID: 100100000, guid: 9658baaa0a7a7e748b35056f3a191df1, type: 3}
 --- !u!1 &1817478968 stripped
 GameObject:
@@ -41015,7 +41211,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::VRDialoguePanel
   head: {fileID: 1045211117}
-  distance: 3.25
+  distance: 3.5
   panelHeight: 3
   deadZoneAngle: 45
   followSpeed: 2.5
@@ -41858,19 +42054,19 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1851756374}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: 0, y: 1, z: 0, w: 0}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0, y: 0, z: 0}
-  m_ConstrainProportionsScale: 0
+  m_LocalScale: {x: 0.001, y: 0.001, z: 0.001}
+  m_ConstrainProportionsScale: 1
   m_Children:
   - {fileID: 220548225}
   m_Father: {fileID: 1015451774}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 0}
-  m_Pivot: {x: 0, y: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 180, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 0, y: 0.55}
+  m_SizeDelta: {x: 100, y: 100}
+  m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1851756376
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -41910,7 +42106,7 @@ MonoBehaviour:
   m_FallbackScreenDPI: 96
   m_DefaultSpriteDPI: 96
   m_DynamicPixelsPerUnit: 1
-  m_PresetInfoIsWorld: 0
+  m_PresetInfoIsWorld: 1
 --- !u!223 &1851756378
 Canvas:
   m_ObjectHideFlags: 0
@@ -41920,7 +42116,7 @@ Canvas:
   m_GameObject: {fileID: 1851756374}
   m_Enabled: 1
   serializedVersion: 3
-  m_RenderMode: 0
+  m_RenderMode: 2
   m_Camera: {fileID: 0}
   m_PlaneDistance: 100
   m_PixelPerfect: 0
@@ -42837,6 +43033,7 @@ MonoBehaviour:
   musicController: {fileID: 0}
   deathAnimationDuration: 2
   extraDelay: 1
+  endTransition: {fileID: 439033929}
 --- !u!1 &1902701928
 GameObject:
   m_ObjectHideFlags: 0
@@ -44439,6 +44636,25 @@ MonoBehaviour:
   dashUI: {fileID: 443353770}
   dashSfxSource: {fileID: 1466711692}
   dashSound: {fileID: 8300000, guid: ea7feda3d44ff2444a2f5a2c5f60d4bd, type: 3}
+--- !u!114 &1981308082
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1817478968}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: be9209cc39b28e747bab5b7a71e40a12, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::PolarityBreach.Player.VRHealthHaptics
+  playerHealth: {fileID: 1817478971}
+  startBelowHealthPercent: 0.6
+  minAmplitude: 0.3
+  maxAmplitude: 0.8
+  frequency: 0.3
+  slowPulse: 3
+  fastPulse: 20
 --- !u!1001 &1986030325
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -45321,8 +45537,8 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 0.1, y: 0.05, z: 0.15}
-  m_Center: {x: 0, y: 0.015, z: 0.08}
+  m_Size: {x: 0.1, y: 0.1, z: 0.2}
+  m_Center: {x: 0, y: 0.015, z: 0.1}
 --- !u!114 &2018716257
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -47260,6 +47476,7 @@ SceneRoots:
   m_ObjectHideFlags: 0
   m_Roots:
   - {fileID: 775767572}
+  - {fileID: 439033930}
   - {fileID: 1802182467}
   - {fileID: 1817478967}
   - {fileID: 1491958317}

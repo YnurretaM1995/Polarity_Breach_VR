@@ -2,7 +2,6 @@ using PolarityBreach.Audio;
 using PolarityBreach.Player;
 using PolarityBreach.UI;
 using UnityEngine;
-using UnityEngine.InputSystem;
 
 namespace PolarityBreach.PolaritySystem
 {
@@ -14,7 +13,7 @@ namespace PolarityBreach.PolaritySystem
         [SerializeField] private GameObject _chargedProjectilePrefab;
         [SerializeField] private ProjectilePool _normalProjectilePool;
         [SerializeField] private ProjectilePool _chargedProjectilePool;
-        
+
         [SerializeField] private AudioClip[] shootSounds;
         [SerializeField] private AudioClip shootSound;
         [SerializeField, Range(0f, 1f)] private float shootSoundVolume = 1f;
@@ -32,26 +31,39 @@ namespace PolarityBreach.PolaritySystem
         [SerializeField] private AudioClip chargedShotSound;
         [SerializeField, Range(0f, 1f)] private float chargedShotSoundVolume = 1f;
         [SerializeField] private bool playChargeShotSoundsAs2D = true;
-        
+
+        [Header("Charge")]
+        [Tooltip("Delay de referencia. Con este valor la carga tarda exactamente chargeTime.")]
+        [SerializeField] private float referenceAttackDelay = 0.5f;
+        [SerializeField] private float minChargePitch = 0.7f;
+        [SerializeField] private float maxChargePitch = 2f;
+
+        [Header("Vibración")]
+        [SerializeField, Range(0f, 1f)] private float vibrationFrequency = 0.5f;
+        [SerializeField, Range(0f, 1f)] private float vibrationAmplitude = 0.8f;
+        [SerializeField] private float vibrationDuration = 0.15f;
+
         private bool _isCharging;
         private bool _chargeReady;
         private float _chargeStartTime;
+        private bool _wasPressed;
+
         [SerializeField] private Transform _muzzle;
         private PolarityComponent _polarity;
-        private InputAction _fireAction;
         private float _lastShotTime = float.NegativeInfinity;
-        private Camera _cam;
         private PlayerStatsData _playerStats;
 
         public bool IsCharging => _isCharging;
         public bool ChargeReady => _chargeReady;
+
         public float ChargeProgress
         {
             get
             {
                 if (!_isCharging) return 0f;
-                if (_playerStats.chargeTime <= 0f) return 1f;
-                return Mathf.Clamp01((Time.time - _chargeStartTime) / _playerStats.chargeTime);
+                float required = GetChargeTime();
+                if (required <= 0f) return 1f;
+                return Mathf.Clamp01((Time.time - _chargeStartTime) / required);
             }
         }
 
@@ -59,72 +71,96 @@ namespace PolarityBreach.PolaritySystem
         {
             _polarity = GetComponent<PolarityComponent>();
             _playerStats = GetComponent<PlayerStatsData>();
-            _cam = Camera.main;
-            if (_muzzle == null) 
+
+            if (_muzzle == null)
                 _muzzle = transform;
+
             if (chargeLoopSource == null)
                 chargeLoopSource = CreateLoopSource("Charge Shot Loop Audio");
             if (heldChargeLoopSource == null)
                 heldChargeLoopSource = CreateLoopSource("Held Charge Shot Loop Audio");
-
-            _fireAction = new InputAction("Fire", InputActionType.Button);
-            _fireAction.AddBinding("<Mouse>/leftButton");
-            _fireAction.AddBinding("<Gamepad>/rightTrigger");
         }
 
         private void OnEnable()
-        { 
-            _fireAction.Enable();
+        {
             PauseMenu.OnPauseChanged += HandlePause;
             UIQueue.OnBlockingChanged += HandlePause;
         }
+
         private void OnDisable()
         {
-            _fireAction.Disable();
             PauseMenu.OnPauseChanged -= HandlePause;
             UIQueue.OnBlockingChanged -= HandlePause;
             StopChargeLoop();
             StopHeldChargeLoop();
+            StopVibration();
         }
-        private void OnDestroy() => _fireAction.Dispose();
 
         private void Update()
         {
-            if (UIQueue.IsBlocking || PauseMenu.IsPaused) return;
-            if (_playerStats.chargeShotUnlocked)
+            if (UIQueue.IsBlocking || PauseMenu.IsPaused)
             {
-                if (_fireAction.WasPressedThisFrame())
-                {
-                    StartCharging();
-                    return;
-                }
-
-                if (_fireAction.WasReleasedThisFrame())
-                {
-                    ReleaseCharge();
-                    return;
-                }
-
-                if (_fireAction.IsPressed())
-                {
-                    UpdateCharging();
-                    return;
-                }
+                _wasPressed = false;
+                return;
             }
 
-            AutoFire();
+            float trigger = OVRInput.Get(OVRInput.Axis1D.PrimaryIndexTrigger, OVRInput.Controller.RTouch);
+            bool pressed = trigger >= 0.5f;
+
+            // Gatillo suelto
+            if (!pressed)
+            {
+                if (_isCharging) ReleaseCharge();
+                _wasPressed = false;
+                return;
+            }
+
+            // Primera presión: una bala si el cooldown lo permite
+            if (!_wasPressed)
+            {
+                _wasPressed = true;
+
+                if (Time.time >= _lastShotTime + _playerStats.attackSpeedDelay)
+                {
+                    Shoot();
+
+                    if (_playerStats.chargeShotUnlocked)
+                        StartCharging();
+                }
+
+                return;
+            }
+
+            // Sostenido: carga el especial
+            if (_isCharging) UpdateCharging();
         }
-        
+
         private void HandlePause(bool paused)
         {
             if (paused)
             {
-                _fireAction.Disable();
                 CancelCharge(false);
+                _wasPressed = false;
             }
-            else _fireAction.Enable();
         }
-        
+
+        private float GetChargeTime()
+        {
+            if (referenceAttackDelay <= 0f) return _playerStats.chargeTime;
+            return _playerStats.chargeTime * (_playerStats.attackSpeedDelay / referenceAttackDelay);
+        }
+
+        private float GetChargePitch()
+        {
+            if (chargeSound == null) return 1f;
+
+            float required = GetChargeTime();
+            if (required <= 0f) return maxChargePitch;
+
+            float pitch = chargeSound.length / required;
+            return Mathf.Clamp(pitch, minChargePitch, maxChargePitch);
+        }
+
         private void StartCharging()
         {
             _isCharging = true;
@@ -138,13 +174,25 @@ namespace PolarityBreach.PolaritySystem
         {
             float holdTime = Time.time - _chargeStartTime;
 
-            if (holdTime >= _playerStats.chargeTime && !_chargeReady)
+            if (holdTime >= GetChargeTime() && !_chargeReady)
             {
                 _chargeReady = true;
                 StartHeldChargeLoop();
                 StopChargeLoop();
-                Debug.Log("Charge Shot READY!");
+                StartCoroutine(VibrateReady());
             }
+        }
+
+        private System.Collections.IEnumerator VibrateReady()
+        {
+            OVRInput.SetControllerVibration(vibrationFrequency, vibrationAmplitude, OVRInput.Controller.RTouch);
+            yield return new WaitForSecondsRealtime(vibrationDuration);
+            StopVibration();
+        }
+
+        private void StopVibration()
+        {
+            OVRInput.SetControllerVibration(0f, 0f, OVRInput.Controller.RTouch);
         }
 
         private void ReleaseCharge()
@@ -159,20 +207,20 @@ namespace PolarityBreach.PolaritySystem
             {
                 CancelCharge(true);
             }
-            
+
             _isCharging = false;
             _chargeReady = false;
         }
-        
+
         private void Shoot()
         {
-            ShootFromPool(_normalProjectilePool, 
+            ShootFromPool(_normalProjectilePool,
                 _playerStats.attackSpeed,
                 _playerStats.attackDamage,
                 _playerStats.knockBackPower);
             PlayShootSfx();
         }
-        
+
         private void ChargeShot()
         {
             ShootFromPool(_chargedProjectilePool,
@@ -195,19 +243,6 @@ namespace PolarityBreach.PolaritySystem
             if (bulletPolarity != null) bulletPolarity.SetPolarity(_polarity.CurrentPolarity);
 
             _lastShotTime = Time.time;
-        }
-
-        
-        
-        private void AutoFire()
-        {
-            float trigger = OVRInput.Get(OVRInput.Axis1D.PrimaryIndexTrigger, OVRInput.Controller.RTouch);
-            if (trigger < 0.5f) return;
-
-            if (Time.time >= _lastShotTime + _playerStats.attackSpeedDelay)
-            {
-                Shoot();
-            }
         }
 
         private AudioClip GetRandomShootSound()
@@ -245,6 +280,7 @@ namespace PolarityBreach.PolaritySystem
             chargeLoopSource.loop = true;
             chargeLoopSource.spatialBlend = playChargeShotSoundsAs2D ? 0f : 1f;
             chargeLoopSource.outputAudioMixerGroup = AudioHandler.DefaultSfxMixerGroup;
+            chargeLoopSource.pitch = GetChargePitch();
             chargeLoopSource.Play();
         }
 
@@ -256,6 +292,7 @@ namespace PolarityBreach.PolaritySystem
                 chargeLoopSource.Stop();
 
             chargeLoopSource.loop = false;
+            chargeLoopSource.pitch = 1f;
         }
 
         private void StartHeldChargeLoop()
@@ -289,11 +326,11 @@ namespace PolarityBreach.PolaritySystem
 
             StopChargeLoop();
             StopHeldChargeLoop();
+            StopVibration();
             _lastShotTime = Time.time;
 
             if (playCancelSound)
             {
-                Debug.Log("Charge Shot CANCELLED!");
                 PlayChargeCancelSfx();
             }
 

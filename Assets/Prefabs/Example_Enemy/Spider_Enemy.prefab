@@ -288,7 +288,7 @@ NavMeshAgent:
   m_Acceleration: 12
   avoidancePriority: 50
   m_AngularSpeed: 720
-  m_StoppingDistance: 0
+  m_StoppingDistance: 2
   m_AutoTraverseOffMeshLink: 1
   m_AutoBraking: 1
   m_AutoRepath: 1
@@ -335,8 +335,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::EnemyPursuitAI
   target: {fileID: 0}
-  detectionRadius: 28
-  loseTargetRadius: 30
+  detectionRadius: 45
+  loseTargetRadius: 50
   requireLineOfSight: 1
   obstacleLayers:
     serializedVersion: 2
@@ -344,7 +344,7 @@ MonoBehaviour:
   moveSpeed: 5
   acceleration: 12
   angularSpeed: 720
-  stoppingDistance: 0
+  stoppingDistance: 2
   isRangedEnemy: 1
   preferredDistance: 13
   preferredDistanceBuffer: 1.2

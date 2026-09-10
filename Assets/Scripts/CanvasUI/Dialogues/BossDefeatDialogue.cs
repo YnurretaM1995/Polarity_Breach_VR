@@ -14,6 +14,7 @@ namespace PolarityBreach.UI
         [SerializeField] private GameMusicController musicController;
         [SerializeField] private float deathAnimationDuration = 2f;
         [SerializeField] private float extraDelay = 1f;
+        [SerializeField] private VREndTransition endTransition;
 
         private bool subscribed;
 
@@ -53,6 +54,8 @@ namespace PolarityBreach.UI
             yield return new WaitForSecondsRealtime(deathAnimationDuration + extraDelay);
 
             if (endingDialogue != null) endingDialogue.Play();
+
+            if (endTransition != null) yield return endTransition.Play();
 
             if (gameTimer == null) gameTimer = FindFirstObjectByType<GameTimer>();
             if (gameTimer != null) VictoryScreen.Show(gameTimer.ElapsedTime);

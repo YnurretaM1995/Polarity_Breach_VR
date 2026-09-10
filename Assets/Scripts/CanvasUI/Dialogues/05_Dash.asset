@@ -31,7 +31,7 @@ MonoBehaviour:
     isPrompt: 0
     keyboardHint: 
     gamepadHint: 
-  - text: "Keyboard: Space \nGamepad: B"
+  - text: 'Left Grip : Dash'
     speakerName: 
     leftPortrait: 0
     rightPortrait: 0

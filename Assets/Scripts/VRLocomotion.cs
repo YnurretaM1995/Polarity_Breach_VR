@@ -29,7 +29,7 @@ public class VRLocomotion : MonoBehaviour
         Vector2 input = OVRInput.Get(OVRInput.Axis2D.PrimaryThumbstick);
         lastInput = input;
 
-        if (OVRInput.GetDown(OVRInput.Button.PrimaryThumbstick))
+        if (OVRInput.GetDown(OVRInput.Button.PrimaryHandTrigger))
             TryDash();
 
         Vector3 forward = centerEye.forward;
