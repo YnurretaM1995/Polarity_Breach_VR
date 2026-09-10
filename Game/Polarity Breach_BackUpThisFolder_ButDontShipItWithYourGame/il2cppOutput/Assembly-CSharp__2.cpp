@@ -1,0 +1,10659 @@
+﻿#include "pch-cpp.hpp"
+
+
+
+
+
+template <typename T1>
+struct VirtualActionInvoker1
+{
+	typedef void (*Action)(void*, T1, const RuntimeMethod*);
+
+	static inline void Invoke (Il2CppMethodSlot slot, RuntimeObject* obj, T1 p1)
+	{
+		const VirtualInvokeData& invokeData = il2cpp_codegen_get_virtual_invoke_data(slot, obj);
+		((Action)invokeData.methodPtr)(obj, p1, invokeData.method);
+	}
+};
+template <typename T1>
+struct InterfaceActionInvoker1
+{
+	typedef void (*Action)(void*, T1, const RuntimeMethod*);
+
+	static inline void Invoke (Il2CppMethodSlot slot, RuntimeClass* declaringInterface, RuntimeObject* obj, T1 p1)
+	{
+		const VirtualInvokeData& invokeData = il2cpp_codegen_get_interface_invoke_data(slot, obj, declaringInterface);
+		((Action)invokeData.methodPtr)(obj, p1, invokeData.method);
+	}
+};
+template <typename R>
+struct InterfaceFuncInvoker0
+{
+	typedef R (*Func)(void*, const RuntimeMethod*);
+
+	static inline R Invoke (Il2CppMethodSlot slot, RuntimeClass* declaringInterface, RuntimeObject* obj)
+	{
+		const VirtualInvokeData& invokeData = il2cpp_codegen_get_interface_invoke_data(slot, obj, declaringInterface);
+		return ((Func)invokeData.methodPtr)(obj, invokeData.method);
+	}
+};
+
+struct Action_1_t10DCB0C07D0D3C565CEACADC80D1152B35A45F6C;
+struct Action_1_tC926860F20D428DA3E93D6FBA36420E904DD903B;
+struct Action_1_t6F9EB113EB3F16226AEF811A2744F4111C116C87;
+struct Action_1_t2A685F9B7073D2171BE282EED0EC530989CA03E9;
+struct Action_1_t310F18CB4338A2740CA701F160C62E2C3198E66A;
+struct Action_1_t10D7C827ADC73ED438E0CA8F04465BA6F2BAED7D;
+struct Action_1_tBAC06A706FB1F9A81AEF7EDF6202FC51D1E52C3A;
+struct Action_1_tEB0353AA1A112B6F2D921B58DCC9D9D4C0498E6E;
+struct Action_2_t4195ED8D681728C29103F36BCD591C0F089C9132;
+struct Dictionary_2_tD0F6E1A6898FAF323F2385282111BAF19120C706;
+struct Dictionary_2_t2F20403DB58497079923D9D7097673961FA273B9;
+struct List_1_t2CDCA768E7F493F5EDEBC75AEB200FD621354E35;
+struct List_1_t58F89DEDCD7DABB0CFB009AAD9C0CFE061592252;
+struct List_1_tF0E6D67CA4CA1BA091BEAECF24C92A3E885BFE4A;
+struct List_1_tA239CB83DE5615F348BB0507E45F490F4F7C9A8D;
+struct List_1_t39B0C22BC92BE7FD81CD1D9645F6C63B18866D34;
+struct Queue_1_t8F1B650676E9A121A8787748A0D9F5768D841951;
+struct Action_1U5BU5D_tB846E6FE2326CCD34124D1E5D70117C9D33DEE76;
+struct AudioClipU5BU5D_t916722468F7EDCFA833318C35CD7D41097D75D31;
+struct BossWeakPointU5BU5D_t4460AD89860BFBBEE52812ECA6C3C328F2A36AEC;
+struct CharU5BU5D_t799905CF001DD5F13F7DBB310181FC4D8B7D0AAB;
+struct DelegateU5BU5D_tC5AB7E8F745616680F337909D3A8E6C722CDF771;
+struct EnemyWaveU5BU5D_t984189A64F0383E68A9FF7E9A1D8955B51A29E29;
+struct GameObjectU5BU5D_tFF67550DFCE87096D7A3734EA15B75896B2722CF;
+struct InputBindingU5BU5D_t7E47E87B9CAE12B6F6A0659008B425C58D84BB57;
+struct IntPtrU5BU5D_tFD177F8C806A6921AD7150264CCC62FA00CAD832;
+struct MaterialU5BU5D_t2B1D11C42DB07A4400C0535F92DBB87A2E346D3D;
+struct ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918;
+struct ParticleSystemU5BU5D_tC5E33DA557C9C2064085128B3530C5F04D48F6E6;
+struct RaycastHitU5BU5D_t008B8309DE422FE7567068D743D68054D5EBF1A8;
+struct RendererU5BU5D_t32FDD782F67917B2291EA4FF242719877440A02A;
+struct SelectableU5BU5D_t4160E135F02A40F75A63F787D36F31FEC6FE91A9;
+struct ShootProjectileU5BU5D_tF123F9AA36D3D9C2D5256E19A7CE8041ABA48191;
+struct StackTraceU5BU5D_t32FBCB20930EAF5BAE3F450FF75228E5450DA0DF;
+struct TransformU5BU5D_tBB9C5F5686CAE82E3D97D43DF0F3D68ABF75EC24;
+struct VisualEffectU5BU5D_t046742D1CF935350387F65E34F5726A3E1A72A23;
+struct AbilityUIDisplay_tBEB0E4232773D12192172889050AF5E0D6D5FE4D;
+struct Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07;
+struct AnimationTriggers_tA0DC06F89C5280C6DD972F6F4C8A56D7F4F79074;
+struct AudioClip_t5D272C4EB4F2D3ED49F1C346DEA373CF6D585F20;
+struct AudioHandlerSettings_t957E135EED8BC96029B9862B4A88E0BDC0685B19;
+struct AudioMixerGroup_tD29AC8336F7425DF007944F8195CEABF34FC3311;
+struct AudioSource_t871AC2272F896738252F04EE949AEF5B241D3299;
+struct Behaviour_t01970CFBBA658497AE30F311C447DB0440BAB7FA;
+struct BossHealth_t8B40372B7852023F1AF6C408BAA5BA400317665E;
+struct BossPhaseTwoAttack_tD234421B25EC9CD1A7BBFD338097C4F422DC9D7E;
+struct BossShield_t0CA1B25A12A4CFD773F7060DF191054A955E1B84;
+struct BossWeakPoint_t502A335D841A6A96167C6E10CACA201C9F1BE4BC;
+struct BulletPolarityVisual_tB4F02FB35C4FCAB2A3FA0D36A320DBF9DB4F1FA8;
+struct CancellationTokenSource_tAAE1E0033BCFC233801F8CB4CED5C852B350CB7B;
+struct CanvasGroup_t048C1461B14628CFAEBE6E7353093ADB04EBC094;
+struct CheatMenu_t05298E28B643A1119F80A66C4B5D5B37749C5922;
+struct Collider_t1CC3163924FCD6C4CC2E816373A929C1E3D55E76;
+struct Component_t39FBE53E5EFCF4409111FB22C15FF73717632EC3;
+struct Coroutine_t85EA685566A254C23F3FD77AB5BDFFFF8799596B;
+struct Delegate_t;
+struct DelegateData_t9B286B493293CD2D23A5B2B5EF0E5B1324C2B77E;
+struct Enemy_t53E84C1EB24818AC58E2C5967F6D99841E146263;
+struct EnemyHealth_tBBE8DFA320087F0FED2E699F1A79262CD00C1F6D;
+struct EnemyPool_t3FF71B3C1895973B8497F4E778889D4DE40E84E0;
+struct EnemyWaveSpawner_t8F462F74B7B56D3D3D3637304D5934F06D1F3B88;
+struct GameObject_t76FEDD663AB33C991A9C9A23129337651094216F;
+struct Gradient_tA7FEBE2FDB4929FFF6C997134841046F713DAC1E;
+struct Graphic_tCBFCA4585A19E2B75465AECFEAC43F4016BF7931;
+struct IDamageable_t07050BAA6A48ED40626F1F034CE04E3B015CB4FA;
+struct IDictionary_t6D03155AF1FA9083817AA5B6AD7DEEACC26AB220;
+struct IEnumerator_t7B609C2FFA6EB5167D9C62A0C32A21DE2F666DAA;
+struct IPolarizable_t6E300D7209F9FFC1D210E3DA7E126302B6055191;
+struct Image_tBC1D03F63BF71132E9A5E472B8742F172A011E7E;
+struct InputAction_t1B550AD2B55AF322AFB53CD28DA64081220D01CD;
+struct InputActionAsset_tF217AC5223B4AAA46EBCB44B33E9259FB117417D;
+struct InputActionMap_tFCE82E0E014319D4DED9F8962B06655DD0420A09;
+struct InputActionReference_t64730C6B41271E0983FC21BFB416169F5D6BC4A1;
+struct InputActionState_t780948EA293BAA800AD8699518B58B59FFB8A700;
+struct Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3;
+struct MethodInfo_t;
+struct MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71;
+struct NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A;
+struct Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C;
+struct ParticleSystem_tB19986EE308BD63D36FB6025EEEAFBEDB97C67C1;
+struct PlayerHealth_tA58B949498CB49019A74A16A82B5C084C83C4B73;
+struct PlayerInputActions_t4371BD30BF780546160FC74115946343BB75D694;
+struct PlayerPolarityController_tCFB963493C39DFCBADE47B3DA016DE655279431D;
+struct PlayerPolarityVisual_t2E7592CC4CFD6768A7C9D4CDA5864820C7B4F69B;
+struct PlayerStatsData_t8AB00CC7DF7DB19B96714A2AC9281D6B0A107302;
+struct PolarityComponent_t1FB53DB0BF7CE9A8E59278F3854DC776322BBCA0;
+struct PolarityPostProcessPulse_t05967FEAD321633709B2F7C9DE145D49B3AA0E62;
+struct PolarityVisual_t1B1D8F62D356A95A438AE9480687E4D557617E88;
+struct ProjectilePool_t723C2CD076FE4320E49200C785ACD04FCAA398E8;
+struct RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5;
+struct Renderer_t320575F223BCB177A982E5DDB5DB19FAA89E7FBF;
+struct Rigidbody_t268697F5A994213ED97393309870968BC1C7393C;
+struct SafeSerializationManager_tCBB85B95DFD1634237140CD892E82D06ECB3F5E6;
+struct Selectable_t3251808068A17B8E92FB33590A4C2FA66D456712;
+struct ShootProjectile_t4CAF1E2524313E5908E28A80A256CB9D5047CFA9;
+struct SimpleHealth_t9546BB9FBEC3A98C7645D2EAD6DFAEDEDE048029;
+struct SimpleHpBar_tA92C2F0CF98D9239F685C13D6F81661CFDB50200;
+struct Slider_t87EA570E3D6556CABF57456C2F3873FFD86E652F;
+struct Sprite_tAFF74BC83CD68037494CB0B4F28CBDF8971CAB99;
+struct String_t;
+struct TestShooter_t31886477AD339CA401E8D12EF68BC7D1E9AAD6DE;
+struct TrailRenderer_tF7E185EF383CF4300DFC3E1DE59FA6100B93CA39;
+struct Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1;
+struct VFXEventAttribute_tA764A595356174BA39C782A8A64B47B39FB3F518;
+struct VfxPolarityColor_t9F93A7C64C7606D719A677B3E55156AE06B2A79D;
+struct VisualEffect_t8CF4F0E13AEBF27224BB1323CC103666EDBBCFB0;
+struct Void_t4861ACF8F4594C3437BB48B6E56783494B843915;
+struct Volume_t7CAAEA22D7F13A50FAE114DE7A6986FEAC837377;
+struct VolumeProfile_t9B5F2005F575A710F38A124EF81A6228CCACACE1;
+struct WaitForSeconds_tF179DF251655B8DF044952E70A60DF4B358A3DD3;
+struct WaitForSecondsRealtime_tA8CE0AAB4B0C872B843E7973637037D17682BA01;
+struct PCMReaderCallback_t3396D9613664F0AFF65FB91018FD0F901CC16F1E;
+struct PCMSetPositionCallback_t8D7135A2FB40647CAEC93F5254AD59E18DEB6072;
+struct U3CPhaseTwoLoopU3Ed__21_t420539753AF66924B8D6340BF29FBBE801C1398A;
+struct U3CTransitionRoutineU3Ed__12_t5153C44B39EA4118C415A450776CB41CFB83E6D8;
+struct U3CFadeU3Ed__9_t247AA66A5045BF0D4DACCFEA056E79B04B8A69EF;
+struct U3CPulseU3Ed__8_t402EDF9D8A7ACCD413E5272759DE2CEB956CDF44;
+struct U3CFlashHitRoutineU3Ed__13_t30C53B21A2E865F607C0B768F5D9BF5623151CBC;
+struct SliderEvent_t92A82EF6C62E15AF92B640FE2D960E877E8C6555;
+struct U3CVibrateReadyU3Ed__48_tE2A74AF7171D8E9AF1C56B717DAD214012621AD8;
+
+IL2CPP_EXTERN_C RuntimeClass* Action_1_t10D7C827ADC73ED438E0CA8F04465BA6F2BAED7D_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* Action_1_t10DCB0C07D0D3C565CEACADC80D1152B35A45F6C_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* Action_1_t2A685F9B7073D2171BE282EED0EC530989CA03E9_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* Action_1_t310F18CB4338A2740CA701F160C62E2C3198E66A_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* Action_1_tEB0353AA1A112B6F2D921B58DCC9D9D4C0498E6E_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* Action_2_t4195ED8D681728C29103F36BCD591C0F089C9132_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* AudioHandler_tE052A61F0CA9DC9106F9CDB5CB21D6EC158EED15_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* GameObject_t76FEDD663AB33C991A9C9A23129337651094216F_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* IDamageable_t07050BAA6A48ED40626F1F034CE04E3B015CB4FA_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* IPolarizable_t6E300D7209F9FFC1D210E3DA7E126302B6055191_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* InputAction_t1B550AD2B55AF322AFB53CD28DA64081220D01CD_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* List_1_t39B0C22BC92BE7FD81CD1D9645F6C63B18866D34_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* MaterialU5BU5D_t2B1D11C42DB07A4400C0535F92DBB87A2E346D3D_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* Math_tEB65DE7CA8B083C412C969C92981C030865486CE_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* OVRInput_t759D9CC8F14D8539AD78A0375A2306C39D77100A_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* PauseMenu_t766A7A9211D178C625B0C5F1EBF00502A0DE1CF7_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* Physics_t1244C2983AEAFA149425AFFC3DF53BC91C18ED56_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* PlayerPolarityController_tCFB963493C39DFCBADE47B3DA016DE655279431D_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* U3CFadeU3Ed__9_t247AA66A5045BF0D4DACCFEA056E79B04B8A69EF_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* U3CFlashHitRoutineU3Ed__13_t30C53B21A2E865F607C0B768F5D9BF5623151CBC_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* U3CPulseU3Ed__8_t402EDF9D8A7ACCD413E5272759DE2CEB956CDF44_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* U3CTransitionRoutineU3Ed__12_t5153C44B39EA4118C415A450776CB41CFB83E6D8_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* U3CVibrateReadyU3Ed__48_tE2A74AF7171D8E9AF1C56B717DAD214012621AD8_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* UIQueue_t8AFAA58F4BAAB525F589D653F5937C91555DC1FC_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* WaitForSecondsRealtime_tA8CE0AAB4B0C872B843E7973637037D17682BA01_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* WaitForSeconds_tF179DF251655B8DF044952E70A60DF4B358A3DD3_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C String_t* _stringLiteral071CFAA70B5374F0E1542EC64D66187B410CE054;
+IL2CPP_EXTERN_C String_t* _stringLiteral19B7D722FFCBB1EBCC95DE76FB16F022050F3CC8;
+IL2CPP_EXTERN_C String_t* _stringLiteral22E90655F730F1AA2D41C719EEAA0CE038D2A90C;
+IL2CPP_EXTERN_C String_t* _stringLiteral2A66352C635C8B65B594F1E0AB2C6283B9D8AAAA;
+IL2CPP_EXTERN_C String_t* _stringLiteral2E6103B8284446D3CFB9E3762B096F6C02579271;
+IL2CPP_EXTERN_C String_t* _stringLiteral3356DFFDDC269A0EA7AA876F13ECF12409541416;
+IL2CPP_EXTERN_C String_t* _stringLiteral432742C96286BE781D0BFBB2CA2603BCC18CB2CB;
+IL2CPP_EXTERN_C String_t* _stringLiteral51282E2AAC09AC6EDBC2C1C237C0183F97FEE379;
+IL2CPP_EXTERN_C String_t* _stringLiteral88999A2B0E85BE00BADFABF7426ACF583D5502F4;
+IL2CPP_EXTERN_C String_t* _stringLiteral8DB64DD6FF0DA0F54A6ACD29DD7DE873D80E2F73;
+IL2CPP_EXTERN_C String_t* _stringLiteral9C265A76204CC4AC1829A5B3687E16AE85FC7A8A;
+IL2CPP_EXTERN_C String_t* _stringLiteral9C42CD023F188164C1F7F3BECD44B6C4C4293ADE;
+IL2CPP_EXTERN_C String_t* _stringLiteralDC0F1873BEDF44FDDD035F0A907B592964714EA5;
+IL2CPP_EXTERN_C String_t* _stringLiteralE62631AB732D11EC9272078B346F2A0380DCB365;
+IL2CPP_EXTERN_C String_t* _stringLiteralEB88BC5586B74DA5A924B21E9CCE235251B509C3;
+IL2CPP_EXTERN_C String_t* _stringLiteralF91639CC33E4D1D9D3C0D42942483C77FBB13DFC;
+IL2CPP_EXTERN_C const RuntimeMethod* BulletPolarityVisual_Apply_mC46E94B6F40BC075C95CF3E52DBE05C57706C2BC_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* Component_GetComponentInChildren_TisPolarityPostProcessPulse_t05967FEAD321633709B2F7C9DE145D49B3AA0E62_m53FA4763E09CD33E9B5A13CDD1765E3372511F2D_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* Component_GetComponentInParent_TisBossShield_t0CA1B25A12A4CFD773F7060DF191054A955E1B84_m77CA3D5972E411811F19319E2BDE0C5B8F0708C1_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* Component_GetComponentInParent_TisBossWeakPoint_t502A335D841A6A96167C6E10CACA201C9F1BE4BC_mCD3999ECA7BC1C0661285BED509BEC4B2E7EE6C1_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* Component_GetComponentInParent_TisEnemyHealth_tBBE8DFA320087F0FED2E699F1A79262CD00C1F6D_m7DCD532DF55BBD4BE7EC5C8BE96DA89AF8F2CB4E_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* Component_GetComponentInParent_TisIDamageable_t07050BAA6A48ED40626F1F034CE04E3B015CB4FA_m65E7CD8A96879E8DB82951F748E329F588966D78_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* Component_GetComponentInParent_TisPolarityVisual_t1B1D8F62D356A95A438AE9480687E4D557617E88_m90C8D8EA46CB144E69EDCE051760B72CEF3373A6_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* Component_GetComponent_TisCollider_t1CC3163924FCD6C4CC2E816373A929C1E3D55E76_m820398EDBF1D3766C3166A0C323A127662A29A14_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* Component_GetComponent_TisPlayerStatsData_t8AB00CC7DF7DB19B96714A2AC9281D6B0A107302_m710C3B1E9E695D867C7C5201A3F99828A6D9C7CD_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* Component_GetComponent_TisPolarityComponent_t1FB53DB0BF7CE9A8E59278F3854DC776322BBCA0_m317F7D3130E71487835B00DB1356E893EEF94764_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* Component_GetComponent_TisRigidbody_t268697F5A994213ED97393309870968BC1C7393C_m4B5CAD64B52D153BEA96432633CA9A45FA523DD8_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* Component_GetComponent_TisSlider_t87EA570E3D6556CABF57456C2F3873FFD86E652F_mCE53A354B934E9BDB2E8D3094F4E33EBA8FFAFBA_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* Component_GetComponentsInChildren_TisRenderer_t320575F223BCB177A982E5DDB5DB19FAA89E7FBF_m35AC34F858BD2F34770712CD020AA0518D9409C7_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* Component_GetComponentsInChildren_TisVisualEffect_t8CF4F0E13AEBF27224BB1323CC103666EDBBCFB0_mDCB784FAE6A8621604B589374A38FE7E6990A45A_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* GameObject_AddComponent_TisAudioSource_t871AC2272F896738252F04EE949AEF5B241D3299_m0E8EFDB9B3D8DF1ADE10C56D3168A9C1BA19BF14_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* GameObject_GetComponentInParent_TisIDamageable_t07050BAA6A48ED40626F1F034CE04E3B015CB4FA_m64D2A743167A738B651A42C345F2171415926391_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* GameObject_GetComponentInParent_TisIPolarizable_t6E300D7209F9FFC1D210E3DA7E126302B6055191_mBA66E4F61757933BA5B6F6C9476C7950D6DFA451_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* GameObject_GetComponent_TisIDamageable_t07050BAA6A48ED40626F1F034CE04E3B015CB4FA_mC63F085DACB358C8DFB740F5E685CA5DE87D088B_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* GameObject_GetComponent_TisIPolarizable_t6E300D7209F9FFC1D210E3DA7E126302B6055191_m595158FD90F2B71808E83BD6403F75DD0938B8C8_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* List_1_Add_m6688AAA897C848E232F99AB8A11BDE19E61D1F3C_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* List_1__ctor_m6A99A77FB76A19E57541C3D50E1CFE452F7E5104_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* List_1_get_Count_m67D9FAC15E8A516FAEFDD6D58FD64D918EED8669_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* List_1_get_Item_m4CC914DAD05FB51A71BFC9F2CDCA9C199FC203E5_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* Object_FindFirstObjectByType_TisEnemyPool_t3FF71B3C1895973B8497F4E778889D4DE40E84E0_mD893BDB7B646932233FA9C499CCBEFF0BC2385FC_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* Object_FindFirstObjectByType_TisPolarityPostProcessPulse_t05967FEAD321633709B2F7C9DE145D49B3AA0E62_m785614C46E3FFBA5026D2096DFFDAB6471991951_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* Object_Instantiate_TisShootProjectile_t4CAF1E2524313E5908E28A80A256CB9D5047CFA9_m8D25D307C4AA393577AE650763FE5A8D57C855EF_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* PlayerPolarityController_HandlePause_m23073B30E3A5148DC3E87C74B4085C816162F365_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* PlayerPolarityController_OnSwitchPerformed_mE674A394D11ED725DF8BA4E843C52472BD9A669D_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* PlayerPolarityVisual_Apply_mCE9385AC563ED6833B4F41C8F8BC48E7C24DEB93_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* PolarityVisual_Apply_mCB6CE0338B7E1A0F2F25708653B628FE66207C89_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* SimpleHpBar_UpdateHealthBar_mED92B596FD06EFA6A273D23846530D0A95C9E284_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* TestShooter_HandlePause_m38B02DF4365B21D0FB978E453BD1D3E06F9B3965_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* U3CFadeU3Ed__9_System_Collections_IEnumerator_Reset_mB171D8D47263E609BCBB2E726F27257D7835C6B7_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* U3CFlashHitRoutineU3Ed__13_System_Collections_IEnumerator_Reset_mA868D507B6E2C8FC002F1C1ACE52082BB4CB5162_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* U3CPhaseTwoLoopU3Ed__21_System_Collections_IEnumerator_Reset_m1D36C60E5D328D57ABF22F6DA9C98F8A176DEF51_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* U3CPulseU3Ed__8_System_Collections_IEnumerator_Reset_m2502C68ED36FF81B8828EFE76DC44A6635AC0FC0_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* U3CTransitionRoutineU3Ed__12_System_Collections_IEnumerator_Reset_m650268A5EC812FE3EA1722EB55A2FDD976A2F2B0_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* U3CVibrateReadyU3Ed__48_System_Collections_IEnumerator_Reset_m5AD1AF5FD41AB283F8737BBAE3174A9250789EB9_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* VfxPolarityColor_Apply_m6B3602A619FB72D01A4F326D54BE7B175DECC872_RuntimeMethod_var;
+struct Delegate_t_marshaled_com;
+struct Delegate_t_marshaled_pinvoke;
+struct Exception_t_marshaled_com;
+struct Exception_t_marshaled_pinvoke;
+struct Gradient_tA7FEBE2FDB4929FFF6C997134841046F713DAC1E_marshaled_com;
+
+struct AudioClipU5BU5D_t916722468F7EDCFA833318C35CD7D41097D75D31;
+struct MaterialU5BU5D_t2B1D11C42DB07A4400C0535F92DBB87A2E346D3D;
+struct ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918;
+struct ParticleSystemU5BU5D_tC5E33DA557C9C2064085128B3530C5F04D48F6E6;
+struct RaycastHitU5BU5D_t008B8309DE422FE7567068D743D68054D5EBF1A8;
+struct RendererU5BU5D_t32FDD782F67917B2291EA4FF242719877440A02A;
+struct VisualEffectU5BU5D_t046742D1CF935350387F65E34F5726A3E1A72A23;
+
+IL2CPP_EXTERN_C_BEGIN
+IL2CPP_EXTERN_C_END
+
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+struct List_1_tA239CB83DE5615F348BB0507E45F490F4F7C9A8D  : public RuntimeObject
+{
+	ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* ____items;
+	int32_t ____size;
+	int32_t ____version;
+	RuntimeObject* ____syncRoot;
+};
+struct List_1_t39B0C22BC92BE7FD81CD1D9645F6C63B18866D34  : public RuntimeObject
+{
+	ShootProjectileU5BU5D_tF123F9AA36D3D9C2D5256E19A7CE8041ABA48191* ____items;
+	int32_t ____size;
+	int32_t ____version;
+	RuntimeObject* ____syncRoot;
+};
+struct U3CPrivateImplementationDetailsU3E_t0F5473E849A5A5185A9F4C5246F0C32816C49FCA  : public RuntimeObject
+{
+};
+struct AudioHandler_tE052A61F0CA9DC9106F9CDB5CB21D6EC158EED15  : public RuntimeObject
+{
+};
+struct CustomYieldInstruction_t6B81A50D5D210C1ACAAE247FB53B65CDFFEB7617  : public RuntimeObject
+{
+};
+struct DamageSystem_t1A47783658550C53FEC0E575E6B6C64415036C4F  : public RuntimeObject
+{
+};
+struct PolarityExtensions_t70A12000BB3DB3D4350DD2D9AA2EED901AF63EBB  : public RuntimeObject
+{
+};
+struct String_t  : public RuntimeObject
+{
+	int32_t ____stringLength;
+	Il2CppChar ____firstChar;
+};
+struct ValueType_t6D9B272BD21782F0A9A14F2E41F85A50E97A986F  : public RuntimeObject
+{
+};
+struct ValueType_t6D9B272BD21782F0A9A14F2E41F85A50E97A986F_marshaled_pinvoke
+{
+};
+struct ValueType_t6D9B272BD21782F0A9A14F2E41F85A50E97A986F_marshaled_com
+{
+};
+struct YieldInstruction_tFCE35FD0907950EFEE9BC2890AC664E41C53728D  : public RuntimeObject
+{
+};
+struct YieldInstruction_tFCE35FD0907950EFEE9BC2890AC664E41C53728D_marshaled_pinvoke
+{
+};
+struct YieldInstruction_tFCE35FD0907950EFEE9BC2890AC664E41C53728D_marshaled_com
+{
+};
+struct U3CPhaseTwoLoopU3Ed__21_t420539753AF66924B8D6340BF29FBBE801C1398A  : public RuntimeObject
+{
+	int32_t ___U3CU3E1__state;
+	RuntimeObject* ___U3CU3E2__current;
+	BossPhaseTwoAttack_tD234421B25EC9CD1A7BBFD338097C4F422DC9D7E* ___U3CU3E4__this;
+};
+struct U3CTransitionRoutineU3Ed__12_t5153C44B39EA4118C415A450776CB41CFB83E6D8  : public RuntimeObject
+{
+	int32_t ___U3CU3E1__state;
+	RuntimeObject* ___U3CU3E2__current;
+	PlayerPolarityVisual_t2E7592CC4CFD6768A7C9D4CDA5864820C7B4F69B* ___U3CU3E4__this;
+	float ___target;
+	float ___U3CstartU3E5__2;
+	float ___U3CtU3E5__3;
+};
+struct U3CFadeU3Ed__9_t247AA66A5045BF0D4DACCFEA056E79B04B8A69EF  : public RuntimeObject
+{
+	int32_t ___U3CU3E1__state;
+	RuntimeObject* ___U3CU3E2__current;
+	float ___duration;
+	PolarityPostProcessPulse_t05967FEAD321633709B2F7C9DE145D49B3AA0E62* ___U3CU3E4__this;
+	Volume_t7CAAEA22D7F13A50FAE114DE7A6986FEAC837377* ___volume;
+	float ___endWeight;
+	float ___startWeight;
+	float ___U3CtimerU3E5__2;
+};
+struct U3CPulseU3Ed__8_t402EDF9D8A7ACCD413E5272759DE2CEB956CDF44  : public RuntimeObject
+{
+	int32_t ___U3CU3E1__state;
+	RuntimeObject* ___U3CU3E2__current;
+	PolarityPostProcessPulse_t05967FEAD321633709B2F7C9DE145D49B3AA0E62* ___U3CU3E4__this;
+	Volume_t7CAAEA22D7F13A50FAE114DE7A6986FEAC837377* ___volume;
+};
+struct U3CFlashHitRoutineU3Ed__13_t30C53B21A2E865F607C0B768F5D9BF5623151CBC  : public RuntimeObject
+{
+	int32_t ___U3CU3E1__state;
+	RuntimeObject* ___U3CU3E2__current;
+	PolarityVisual_t1B1D8F62D356A95A438AE9480687E4D557617E88* ___U3CU3E4__this;
+};
+struct U3CVibrateReadyU3Ed__48_tE2A74AF7171D8E9AF1C56B717DAD214012621AD8  : public RuntimeObject
+{
+	int32_t ___U3CU3E1__state;
+	RuntimeObject* ___U3CU3E2__current;
+	TestShooter_t31886477AD339CA401E8D12EF68BC7D1E9AAD6DE* ___U3CU3E4__this;
+};
+struct InlinedArray_1_tC208D319D19C2B3DF550BD9CDC11549F23D8F91B 
+{
+	int32_t ___length;
+	Action_1_tEB0353AA1A112B6F2D921B58DCC9D9D4C0498E6E* ___firstValue;
+	Action_1U5BU5D_tB846E6FE2326CCD34124D1E5D70117C9D33DEE76* ___additionalValues;
+};
+struct Boolean_t09A6377A54BE2F9E6985A8149F19234FD7DDFE22 
+{
+	bool ___m_value;
+};
+struct Color_tD001788D726C3A7F1379BEED0260B9591F440C1F 
+{
+	float ___r;
+	float ___g;
+	float ___b;
+	float ___a;
+};
+struct Double_tE150EF3D1D43DEE85D533810AB4C742307EEDE5F 
+{
+	double ___m_value;
+};
+struct DrivenRectTransformTracker_tFB0706C933E3C68E4F377C204FCEEF091F1EE0B1 
+{
+	union
+	{
+		struct
+		{
+		};
+		uint8_t DrivenRectTransformTracker_tFB0706C933E3C68E4F377C204FCEEF091F1EE0B1__padding[1];
+	};
+};
+struct EntityId_t982FBD037EAC5CA077B1602A7EA40E3523AA0FC8 
+{
+	union
+	{
+		struct
+		{
+			int32_t ___m_Data;
+		};
+		uint8_t EntityId_t982FBD037EAC5CA077B1602A7EA40E3523AA0FC8__padding[4];
+	};
+};
+struct Enum_t2A1A94B24E3B776EEF4E5E485E290BB9D4D072E2  : public ValueType_t6D9B272BD21782F0A9A14F2E41F85A50E97A986F
+{
+};
+struct Enum_t2A1A94B24E3B776EEF4E5E485E290BB9D4D072E2_marshaled_pinvoke
+{
+};
+struct Enum_t2A1A94B24E3B776EEF4E5E485E290BB9D4D072E2_marshaled_com
+{
+};
+struct Int32_t680FF22E76F6EFAD4375103CBBFFA0421349384C 
+{
+	int32_t ___m_value;
+};
+struct IntPtr_t 
+{
+	void* ___m_value;
+};
+struct Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 
+{
+	float ___x;
+	float ___y;
+	float ___z;
+	float ___w;
+};
+struct Single_t4530F2FF86FCB0DC29F35385CA1BD21BE294761C 
+{
+	float ___m_value;
+};
+struct SpriteState_tC8199570BE6337FB5C49347C97892B4222E5AACD 
+{
+	Sprite_tAFF74BC83CD68037494CB0B4F28CBDF8971CAB99* ___m_HighlightedSprite;
+	Sprite_tAFF74BC83CD68037494CB0B4F28CBDF8971CAB99* ___m_PressedSprite;
+	Sprite_tAFF74BC83CD68037494CB0B4F28CBDF8971CAB99* ___m_SelectedSprite;
+	Sprite_tAFF74BC83CD68037494CB0B4F28CBDF8971CAB99* ___m_DisabledSprite;
+};
+struct SpriteState_tC8199570BE6337FB5C49347C97892B4222E5AACD_marshaled_pinvoke
+{
+	Sprite_tAFF74BC83CD68037494CB0B4F28CBDF8971CAB99* ___m_HighlightedSprite;
+	Sprite_tAFF74BC83CD68037494CB0B4F28CBDF8971CAB99* ___m_PressedSprite;
+	Sprite_tAFF74BC83CD68037494CB0B4F28CBDF8971CAB99* ___m_SelectedSprite;
+	Sprite_tAFF74BC83CD68037494CB0B4F28CBDF8971CAB99* ___m_DisabledSprite;
+};
+struct SpriteState_tC8199570BE6337FB5C49347C97892B4222E5AACD_marshaled_com
+{
+	Sprite_tAFF74BC83CD68037494CB0B4F28CBDF8971CAB99* ___m_HighlightedSprite;
+	Sprite_tAFF74BC83CD68037494CB0B4F28CBDF8971CAB99* ___m_PressedSprite;
+	Sprite_tAFF74BC83CD68037494CB0B4F28CBDF8971CAB99* ___m_SelectedSprite;
+	Sprite_tAFF74BC83CD68037494CB0B4F28CBDF8971CAB99* ___m_DisabledSprite;
+};
+struct Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 
+{
+	float ___x;
+	float ___y;
+};
+struct Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 
+{
+	float ___x;
+	float ___y;
+	float ___z;
+};
+struct Vector4_t58B63D32F48C0DBF50DE2C60794C4676C80EDBE3 
+{
+	float ___x;
+	float ___y;
+	float ___z;
+	float ___w;
+};
+struct Void_t4861ACF8F4594C3437BB48B6E56783494B843915 
+{
+	union
+	{
+		struct
+		{
+		};
+		uint8_t Void_t4861ACF8F4594C3437BB48B6E56783494B843915__padding[1];
+	};
+};
+struct WaitForSeconds_tF179DF251655B8DF044952E70A60DF4B358A3DD3  : public YieldInstruction_tFCE35FD0907950EFEE9BC2890AC664E41C53728D
+{
+	float ___m_Seconds;
+};
+struct WaitForSeconds_tF179DF251655B8DF044952E70A60DF4B358A3DD3_marshaled_pinvoke : public YieldInstruction_tFCE35FD0907950EFEE9BC2890AC664E41C53728D_marshaled_pinvoke
+{
+	float ___m_Seconds;
+};
+struct WaitForSeconds_tF179DF251655B8DF044952E70A60DF4B358A3DD3_marshaled_com : public YieldInstruction_tFCE35FD0907950EFEE9BC2890AC664E41C53728D_marshaled_com
+{
+	float ___m_Seconds;
+};
+struct WaitForSecondsRealtime_tA8CE0AAB4B0C872B843E7973637037D17682BA01  : public CustomYieldInstruction_t6B81A50D5D210C1ACAAE247FB53B65CDFFEB7617
+{
+	float ___U3CwaitTimeU3Ek__BackingField;
+	float ___m_WaitUntilTime;
+};
+#pragma pack(push, tp, 1)
+struct __StaticArrayInitTypeSizeU3D4568_tEBC81C30179D65B62C3E70C9F57C572D42D5CCAA 
+{
+	union
+	{
+		struct
+		{
+			union
+			{
+			};
+		};
+		uint8_t __StaticArrayInitTypeSizeU3D4568_tEBC81C30179D65B62C3E70C9F57C572D42D5CCAA__padding[4568];
+	};
+};
+#pragma pack(pop, tp)
+#pragma pack(push, tp, 1)
+struct __StaticArrayInitTypeSizeU3D6075_tDA7A4A9FAA71A0C2C00CDDE8978A74FD87CBAB32 
+{
+	union
+	{
+		struct
+		{
+			union
+			{
+			};
+		};
+		uint8_t __StaticArrayInitTypeSizeU3D6075_tDA7A4A9FAA71A0C2C00CDDE8978A74FD87CBAB32__padding[6075];
+	};
+};
+#pragma pack(pop, tp)
+struct CallbackContext_tB251EE41F509C6E8A6B05EC97C029A45DF4F5FA8 
+{
+	InputActionState_t780948EA293BAA800AD8699518B58B59FFB8A700* ___m_State;
+	int32_t ___m_ActionIndex;
+};
+struct CallbackContext_tB251EE41F509C6E8A6B05EC97C029A45DF4F5FA8_marshaled_pinvoke
+{
+	InputActionState_t780948EA293BAA800AD8699518B58B59FFB8A700* ___m_State;
+	int32_t ___m_ActionIndex;
+};
+struct CallbackContext_tB251EE41F509C6E8A6B05EC97C029A45DF4F5FA8_marshaled_com
+{
+	InputActionState_t780948EA293BAA800AD8699518B58B59FFB8A700* ___m_State;
+	int32_t ___m_ActionIndex;
+};
+struct BindingSyntax_t5FB93D8F3518B4640E42E067ECB15541CD123317 
+{
+	InputActionMap_tFCE82E0E014319D4DED9F8962B06655DD0420A09* ___m_ActionMap;
+	InputAction_t1B550AD2B55AF322AFB53CD28DA64081220D01CD* ___m_Action;
+	int32_t ___m_BindingIndexInMap;
+};
+struct BindingSyntax_t5FB93D8F3518B4640E42E067ECB15541CD123317_marshaled_pinvoke
+{
+	InputActionMap_tFCE82E0E014319D4DED9F8962B06655DD0420A09* ___m_ActionMap;
+	InputAction_t1B550AD2B55AF322AFB53CD28DA64081220D01CD* ___m_Action;
+	int32_t ___m_BindingIndexInMap;
+};
+struct BindingSyntax_t5FB93D8F3518B4640E42E067ECB15541CD123317_marshaled_com
+{
+	InputActionMap_tFCE82E0E014319D4DED9F8962B06655DD0420A09* ___m_ActionMap;
+	InputAction_t1B550AD2B55AF322AFB53CD28DA64081220D01CD* ___m_Action;
+	int32_t ___m_BindingIndexInMap;
+};
+struct MainModule_tC7ECD8330C14B0808478A748048988A6085CE2A9 
+{
+	ParticleSystem_tB19986EE308BD63D36FB6025EEEAFBEDB97C67C1* ___m_ParticleSystem;
+};
+struct MainModule_tC7ECD8330C14B0808478A748048988A6085CE2A9_marshaled_pinvoke
+{
+	ParticleSystem_tB19986EE308BD63D36FB6025EEEAFBEDB97C67C1* ___m_ParticleSystem;
+};
+struct MainModule_tC7ECD8330C14B0808478A748048988A6085CE2A9_marshaled_com
+{
+	ParticleSystem_tB19986EE308BD63D36FB6025EEEAFBEDB97C67C1* ___m_ParticleSystem;
+};
+struct CallbackArray_1_tDFF8C4C6015023B6C2E70BAD26D8BC6BF00D8775 
+{
+	bool ___m_CannotMutateCallbacksArray;
+	InlinedArray_1_tC208D319D19C2B3DF550BD9CDC11549F23D8F91B ___m_Callbacks;
+	InlinedArray_1_tC208D319D19C2B3DF550BD9CDC11549F23D8F91B ___m_CallbacksToAdd;
+	InlinedArray_1_tC208D319D19C2B3DF550BD9CDC11549F23D8F91B ___m_CallbacksToRemove;
+};
+struct ColorBlock_tDD7C62E7AFE442652FC98F8D058CE8AE6BFD7C11 
+{
+	Color_tD001788D726C3A7F1379BEED0260B9591F440C1F ___m_NormalColor;
+	Color_tD001788D726C3A7F1379BEED0260B9591F440C1F ___m_HighlightedColor;
+	Color_tD001788D726C3A7F1379BEED0260B9591F440C1F ___m_PressedColor;
+	Color_tD001788D726C3A7F1379BEED0260B9591F440C1F ___m_SelectedColor;
+	Color_tD001788D726C3A7F1379BEED0260B9591F440C1F ___m_DisabledColor;
+	float ___m_ColorMultiplier;
+	float ___m_FadeDuration;
+};
+struct Coroutine_t85EA685566A254C23F3FD77AB5BDFFFF8799596B  : public YieldInstruction_tFCE35FD0907950EFEE9BC2890AC664E41C53728D
+{
+	intptr_t ___m_Ptr;
+};
+struct Coroutine_t85EA685566A254C23F3FD77AB5BDFFFF8799596B_marshaled_pinvoke : public YieldInstruction_tFCE35FD0907950EFEE9BC2890AC664E41C53728D_marshaled_pinvoke
+{
+	intptr_t ___m_Ptr;
+};
+struct Coroutine_t85EA685566A254C23F3FD77AB5BDFFFF8799596B_marshaled_com : public YieldInstruction_tFCE35FD0907950EFEE9BC2890AC664E41C53728D_marshaled_com
+{
+	intptr_t ___m_Ptr;
+};
+struct Delegate_t  : public RuntimeObject
+{
+	intptr_t ___method_ptr;
+	intptr_t ___invoke_impl;
+	RuntimeObject* ___m_target;
+	intptr_t ___method;
+	intptr_t ___delegate_trampoline;
+	intptr_t ___extra_arg;
+	intptr_t ___method_code;
+	intptr_t ___interp_method;
+	intptr_t ___interp_invoke_impl;
+	MethodInfo_t* ___method_info;
+	MethodInfo_t* ___original_method_info;
+	DelegateData_t9B286B493293CD2D23A5B2B5EF0E5B1324C2B77E* ___data;
+	bool ___method_is_virtual;
+};
+struct Delegate_t_marshaled_pinvoke
+{
+	intptr_t ___method_ptr;
+	intptr_t ___invoke_impl;
+	Il2CppIUnknown* ___m_target;
+	intptr_t ___method;
+	intptr_t ___delegate_trampoline;
+	intptr_t ___extra_arg;
+	intptr_t ___method_code;
+	intptr_t ___interp_method;
+	intptr_t ___interp_invoke_impl;
+	MethodInfo_t* ___method_info;
+	MethodInfo_t* ___original_method_info;
+	DelegateData_t9B286B493293CD2D23A5B2B5EF0E5B1324C2B77E* ___data;
+	int32_t ___method_is_virtual;
+};
+struct Delegate_t_marshaled_com
+{
+	intptr_t ___method_ptr;
+	intptr_t ___invoke_impl;
+	Il2CppIUnknown* ___m_target;
+	intptr_t ___method;
+	intptr_t ___delegate_trampoline;
+	intptr_t ___extra_arg;
+	intptr_t ___method_code;
+	intptr_t ___interp_method;
+	intptr_t ___interp_invoke_impl;
+	MethodInfo_t* ___method_info;
+	MethodInfo_t* ___original_method_info;
+	DelegateData_t9B286B493293CD2D23A5B2B5EF0E5B1324C2B77E* ___data;
+	int32_t ___method_is_virtual;
+};
+struct Exception_t  : public RuntimeObject
+{
+	String_t* ____className;
+	String_t* ____message;
+	RuntimeObject* ____data;
+	Exception_t* ____innerException;
+	String_t* ____helpURL;
+	RuntimeObject* ____stackTrace;
+	String_t* ____stackTraceString;
+	String_t* ____remoteStackTraceString;
+	int32_t ____remoteStackIndex;
+	RuntimeObject* ____dynamicMethods;
+	int32_t ____HResult;
+	String_t* ____source;
+	SafeSerializationManager_tCBB85B95DFD1634237140CD892E82D06ECB3F5E6* ____safeSerializationManager;
+	StackTraceU5BU5D_t32FBCB20930EAF5BAE3F450FF75228E5450DA0DF* ___captured_traces;
+	IntPtrU5BU5D_tFD177F8C806A6921AD7150264CCC62FA00CAD832* ___native_trace_ips;
+	int32_t ___caught_in_unmanaged;
+};
+struct Exception_t_marshaled_pinvoke
+{
+	char* ____className;
+	char* ____message;
+	RuntimeObject* ____data;
+	Exception_t_marshaled_pinvoke* ____innerException;
+	char* ____helpURL;
+	Il2CppIUnknown* ____stackTrace;
+	char* ____stackTraceString;
+	char* ____remoteStackTraceString;
+	int32_t ____remoteStackIndex;
+	Il2CppIUnknown* ____dynamicMethods;
+	int32_t ____HResult;
+	char* ____source;
+	SafeSerializationManager_tCBB85B95DFD1634237140CD892E82D06ECB3F5E6* ____safeSerializationManager;
+	StackTraceU5BU5D_t32FBCB20930EAF5BAE3F450FF75228E5450DA0DF* ___captured_traces;
+	Il2CppSafeArray* ___native_trace_ips;
+	int32_t ___caught_in_unmanaged;
+};
+struct Exception_t_marshaled_com
+{
+	Il2CppChar* ____className;
+	Il2CppChar* ____message;
+	RuntimeObject* ____data;
+	Exception_t_marshaled_com* ____innerException;
+	Il2CppChar* ____helpURL;
+	Il2CppIUnknown* ____stackTrace;
+	Il2CppChar* ____stackTraceString;
+	Il2CppChar* ____remoteStackTraceString;
+	int32_t ____remoteStackIndex;
+	Il2CppIUnknown* ____dynamicMethods;
+	int32_t ____HResult;
+	Il2CppChar* ____source;
+	SafeSerializationManager_tCBB85B95DFD1634237140CD892E82D06ECB3F5E6* ____safeSerializationManager;
+	StackTraceU5BU5D_t32FBCB20930EAF5BAE3F450FF75228E5450DA0DF* ___captured_traces;
+	Il2CppSafeArray* ___native_trace_ips;
+	int32_t ___caught_in_unmanaged;
+};
+struct ForceMode_t603F3ECB085E4FDD30C91273A469047EA64F4459 
+{
+	int32_t ___value__;
+};
+struct Gradient_tA7FEBE2FDB4929FFF6C997134841046F713DAC1E  : public RuntimeObject
+{
+	intptr_t ___m_Ptr;
+	bool ___m_RequiresNativeCleanup;
+};
+struct Gradient_tA7FEBE2FDB4929FFF6C997134841046F713DAC1E_marshaled_pinvoke
+{
+	intptr_t ___m_Ptr;
+	int32_t ___m_RequiresNativeCleanup;
+};
+struct Gradient_tA7FEBE2FDB4929FFF6C997134841046F713DAC1E_marshaled_com
+{
+	intptr_t ___m_Ptr;
+	int32_t ___m_RequiresNativeCleanup;
+};
+struct InputActionType_t7E3615BDDF3C84F39712E5889559D3AD8E773108 
+{
+	int32_t ___value__;
+};
+struct Int32Enum_tCBAC8BA2BFF3A845FA599F303093BBBA374B6F0C 
+{
+	int32_t ___value__;
+};
+struct Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C  : public RuntimeObject
+{
+	intptr_t ___m_CachedPtr;
+};
+struct Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_marshaled_pinvoke
+{
+	intptr_t ___m_CachedPtr;
+};
+struct Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_marshaled_com
+{
+	intptr_t ___m_CachedPtr;
+};
+struct ParticleSystemGradientMode_t5525A27D816AC28297038E5A98856B29095C4C1A 
+{
+	int32_t ___value__;
+};
+struct Polarity_t942E1E70C63398DDDFF5476F0BAAB28A41767C33 
+{
+	int32_t ___value__;
+};
+struct ProfilerMarker_tA256E18DA86EDBC5528CE066FC91C96EE86501AD 
+{
+	intptr_t ___m_Ptr;
+};
+struct QueryTriggerInteraction_t5AA443202C8B671F391534A002B7CF48A1412D23 
+{
+	int32_t ___value__;
+};
+struct RaycastHit_t6F30BD0B38B56401CA833A1B87BD74F2ACD2F2B5 
+{
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___m_Point;
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___m_Normal;
+	uint32_t ___m_FaceID;
+	float ___m_Distance;
+	Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___m_UV;
+	EntityId_t982FBD037EAC5CA077B1602A7EA40E3523AA0FC8 ___m_Collider;
+};
+struct AbilityType_t9EBE505761B7939F665B5B41602378EFFCAA8337 
+{
+	int32_t ___value__;
+};
+struct ActionFlags_t639BD2944E073F8DD263CE2CA581FC62C401AB1E 
+{
+	int32_t ___value__;
+};
+struct Flags_t2ED4EFE461994B03533B3B524C8C2EA71315AAE6 
+{
+	int32_t ___value__;
+};
+struct Mode_t2D49D0E10E2FDA0026278C2400C16033888D0542 
+{
+	int32_t ___value__;
+};
+struct Axis1D_tCD2A64D577CBC508F8F4BEFF29BE0E29D5FECB3E 
+{
+	int32_t ___value__;
+};
+struct Button_tA5F6C329BA19678946F9C1B5827CA5AE3E48A5FB 
+{
+	int32_t ___value__;
+};
+struct Controller_tBCAA59EAD9BFE2381E974A48B203D044B6CE1ECB 
+{
+	int32_t ___value__;
+};
+struct Transition_tF856A77C9FAC6D26EA3CA158CF68B739D35397B3 
+{
+	int32_t ___value__;
+};
+struct Direction_t4C81D17BB6C089A0EC1C4934525B86E75E693EFA 
+{
+	int32_t ___value__;
+};
+struct AudioMixerGroup_tD29AC8336F7425DF007944F8195CEABF34FC3311  : public Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C
+{
+};
+struct AudioResource_t35B84706031E4F08C928B1640B804839F4B6500A  : public Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C
+{
+};
+struct Component_t39FBE53E5EFCF4409111FB22C15FF73717632EC3  : public Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C
+{
+};
+struct GameObject_t76FEDD663AB33C991A9C9A23129337651094216F  : public Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C
+{
+};
+struct InputBinding_t0D75BD1538CF81D29450D568D5C938E111633EC5 
+{
+	String_t* ___m_Name;
+	String_t* ___m_Id;
+	String_t* ___m_Path;
+	String_t* ___m_Interactions;
+	String_t* ___m_Processors;
+	String_t* ___m_Groups;
+	String_t* ___m_Action;
+	int32_t ___m_Flags;
+	String_t* ___m_OverridePath;
+	String_t* ___m_OverrideInteractions;
+	String_t* ___m_OverrideProcessors;
+};
+struct InputBinding_t0D75BD1538CF81D29450D568D5C938E111633EC5_marshaled_pinvoke
+{
+	char* ___m_Name;
+	char* ___m_Id;
+	char* ___m_Path;
+	char* ___m_Interactions;
+	char* ___m_Processors;
+	char* ___m_Groups;
+	char* ___m_Action;
+	int32_t ___m_Flags;
+	char* ___m_OverridePath;
+	char* ___m_OverrideInteractions;
+	char* ___m_OverrideProcessors;
+};
+struct InputBinding_t0D75BD1538CF81D29450D568D5C938E111633EC5_marshaled_com
+{
+	Il2CppChar* ___m_Name;
+	Il2CppChar* ___m_Id;
+	Il2CppChar* ___m_Path;
+	Il2CppChar* ___m_Interactions;
+	Il2CppChar* ___m_Processors;
+	Il2CppChar* ___m_Groups;
+	Il2CppChar* ___m_Action;
+	int32_t ___m_Flags;
+	Il2CppChar* ___m_OverridePath;
+	Il2CppChar* ___m_OverrideInteractions;
+	Il2CppChar* ___m_OverrideProcessors;
+};
+struct Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3  : public Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C
+{
+};
+struct MulticastDelegate_t  : public Delegate_t
+{
+	DelegateU5BU5D_tC5AB7E8F745616680F337909D3A8E6C722CDF771* ___delegates;
+};
+struct MulticastDelegate_t_marshaled_pinvoke : public Delegate_t_marshaled_pinvoke
+{
+	Delegate_t_marshaled_pinvoke** ___delegates;
+};
+struct MulticastDelegate_t_marshaled_com : public Delegate_t_marshaled_com
+{
+	Delegate_t_marshaled_com** ___delegates;
+};
+struct Navigation_t4D2E201D65749CF4E104E8AC1232CF1D6F14795C 
+{
+	int32_t ___m_Mode;
+	bool ___m_WrapAround;
+	Selectable_t3251808068A17B8E92FB33590A4C2FA66D456712* ___m_SelectOnUp;
+	Selectable_t3251808068A17B8E92FB33590A4C2FA66D456712* ___m_SelectOnDown;
+	Selectable_t3251808068A17B8E92FB33590A4C2FA66D456712* ___m_SelectOnLeft;
+	Selectable_t3251808068A17B8E92FB33590A4C2FA66D456712* ___m_SelectOnRight;
+};
+struct Navigation_t4D2E201D65749CF4E104E8AC1232CF1D6F14795C_marshaled_pinvoke
+{
+	int32_t ___m_Mode;
+	int32_t ___m_WrapAround;
+	Selectable_t3251808068A17B8E92FB33590A4C2FA66D456712* ___m_SelectOnUp;
+	Selectable_t3251808068A17B8E92FB33590A4C2FA66D456712* ___m_SelectOnDown;
+	Selectable_t3251808068A17B8E92FB33590A4C2FA66D456712* ___m_SelectOnLeft;
+	Selectable_t3251808068A17B8E92FB33590A4C2FA66D456712* ___m_SelectOnRight;
+};
+struct Navigation_t4D2E201D65749CF4E104E8AC1232CF1D6F14795C_marshaled_com
+{
+	int32_t ___m_Mode;
+	int32_t ___m_WrapAround;
+	Selectable_t3251808068A17B8E92FB33590A4C2FA66D456712* ___m_SelectOnUp;
+	Selectable_t3251808068A17B8E92FB33590A4C2FA66D456712* ___m_SelectOnDown;
+	Selectable_t3251808068A17B8E92FB33590A4C2FA66D456712* ___m_SelectOnLeft;
+	Selectable_t3251808068A17B8E92FB33590A4C2FA66D456712* ___m_SelectOnRight;
+};
+struct ScriptableObject_tB3BFDB921A1B1795B38A5417D3B97A89A140436A  : public Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C
+{
+};
+struct ScriptableObject_tB3BFDB921A1B1795B38A5417D3B97A89A140436A_marshaled_pinvoke : public Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_marshaled_pinvoke
+{
+};
+struct ScriptableObject_tB3BFDB921A1B1795B38A5417D3B97A89A140436A_marshaled_com : public Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_marshaled_com
+{
+};
+struct SystemException_tCC48D868298F4C0705279823E34B00F4FBDB7295  : public Exception_t
+{
+};
+struct MinMaxGradient_tFF31B8EC2855D0074AB86E8B37BEA6609070AC69 
+{
+	int32_t ___m_Mode;
+	Gradient_tA7FEBE2FDB4929FFF6C997134841046F713DAC1E* ___m_GradientMin;
+	Gradient_tA7FEBE2FDB4929FFF6C997134841046F713DAC1E* ___m_GradientMax;
+	Color_tD001788D726C3A7F1379BEED0260B9591F440C1F ___m_ColorMin;
+	Color_tD001788D726C3A7F1379BEED0260B9591F440C1F ___m_ColorMax;
+};
+struct MinMaxGradient_tFF31B8EC2855D0074AB86E8B37BEA6609070AC69_marshaled_pinvoke
+{
+	int32_t ___m_Mode;
+	Gradient_tA7FEBE2FDB4929FFF6C997134841046F713DAC1E_marshaled_pinvoke ___m_GradientMin;
+	Gradient_tA7FEBE2FDB4929FFF6C997134841046F713DAC1E_marshaled_pinvoke ___m_GradientMax;
+	Color_tD001788D726C3A7F1379BEED0260B9591F440C1F ___m_ColorMin;
+	Color_tD001788D726C3A7F1379BEED0260B9591F440C1F ___m_ColorMax;
+};
+struct MinMaxGradient_tFF31B8EC2855D0074AB86E8B37BEA6609070AC69_marshaled_com
+{
+	int32_t ___m_Mode;
+	Gradient_tA7FEBE2FDB4929FFF6C997134841046F713DAC1E_marshaled_com* ___m_GradientMin;
+	Gradient_tA7FEBE2FDB4929FFF6C997134841046F713DAC1E_marshaled_com* ___m_GradientMax;
+	Color_tD001788D726C3A7F1379BEED0260B9591F440C1F ___m_ColorMin;
+	Color_tD001788D726C3A7F1379BEED0260B9591F440C1F ___m_ColorMax;
+};
+struct Action_1_t10DCB0C07D0D3C565CEACADC80D1152B35A45F6C  : public MulticastDelegate_t
+{
+};
+struct Action_1_tC926860F20D428DA3E93D6FBA36420E904DD903B  : public MulticastDelegate_t
+{
+};
+struct Action_1_t6F9EB113EB3F16226AEF811A2744F4111C116C87  : public MulticastDelegate_t
+{
+};
+struct Action_1_t2A685F9B7073D2171BE282EED0EC530989CA03E9  : public MulticastDelegate_t
+{
+};
+struct Action_1_t310F18CB4338A2740CA701F160C62E2C3198E66A  : public MulticastDelegate_t
+{
+};
+struct Action_1_t10D7C827ADC73ED438E0CA8F04465BA6F2BAED7D  : public MulticastDelegate_t
+{
+};
+struct Action_1_tEB0353AA1A112B6F2D921B58DCC9D9D4C0498E6E  : public MulticastDelegate_t
+{
+};
+struct Action_2_t4195ED8D681728C29103F36BCD591C0F089C9132  : public MulticastDelegate_t
+{
+};
+struct Nullable_1_t11786EE914FE65E70B9671129B0DFC4D0DE80C44 
+{
+	bool ___hasValue;
+	InputBinding_t0D75BD1538CF81D29450D568D5C938E111633EC5 ___value;
+};
+struct Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07  : public MulticastDelegate_t
+{
+};
+struct AudioClip_t5D272C4EB4F2D3ED49F1C346DEA373CF6D585F20  : public AudioResource_t35B84706031E4F08C928B1640B804839F4B6500A
+{
+	PCMReaderCallback_t3396D9613664F0AFF65FB91018FD0F901CC16F1E* ___m_PCMReaderCallback;
+	PCMSetPositionCallback_t8D7135A2FB40647CAEC93F5254AD59E18DEB6072* ___m_PCMSetPositionCallback;
+};
+struct Behaviour_t01970CFBBA658497AE30F311C447DB0440BAB7FA  : public Component_t39FBE53E5EFCF4409111FB22C15FF73717632EC3
+{
+};
+struct Collider_t1CC3163924FCD6C4CC2E816373A929C1E3D55E76  : public Component_t39FBE53E5EFCF4409111FB22C15FF73717632EC3
+{
+};
+struct InputActionReference_t64730C6B41271E0983FC21BFB416169F5D6BC4A1  : public ScriptableObject_tB3BFDB921A1B1795B38A5417D3B97A89A140436A
+{
+	InputActionAsset_tF217AC5223B4AAA46EBCB44B33E9259FB117417D* ___m_Asset;
+	String_t* ___m_ActionId;
+	InputAction_t1B550AD2B55AF322AFB53CD28DA64081220D01CD* ___m_Action;
+};
+struct NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A  : public SystemException_tCC48D868298F4C0705279823E34B00F4FBDB7295
+{
+};
+struct ParticleSystem_tB19986EE308BD63D36FB6025EEEAFBEDB97C67C1  : public Component_t39FBE53E5EFCF4409111FB22C15FF73717632EC3
+{
+};
+struct Renderer_t320575F223BCB177A982E5DDB5DB19FAA89E7FBF  : public Component_t39FBE53E5EFCF4409111FB22C15FF73717632EC3
+{
+};
+struct Rigidbody_t268697F5A994213ED97393309870968BC1C7393C  : public Component_t39FBE53E5EFCF4409111FB22C15FF73717632EC3
+{
+};
+struct Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1  : public Component_t39FBE53E5EFCF4409111FB22C15FF73717632EC3
+{
+};
+struct AudioBehaviour_t2DC0BEF7B020C952F3D2DA5AAAC88501C7EEB941  : public Behaviour_t01970CFBBA658497AE30F311C447DB0440BAB7FA
+{
+};
+struct InputAction_t1B550AD2B55AF322AFB53CD28DA64081220D01CD  : public RuntimeObject
+{
+	String_t* ___m_Name;
+	int32_t ___m_Type;
+	String_t* ___m_ExpectedControlType;
+	String_t* ___m_Id;
+	String_t* ___m_Processors;
+	String_t* ___m_Interactions;
+	InputBindingU5BU5D_t7E47E87B9CAE12B6F6A0659008B425C58D84BB57* ___m_SingletonActionBindings;
+	int32_t ___m_Flags;
+	Nullable_1_t11786EE914FE65E70B9671129B0DFC4D0DE80C44 ___m_BindingMask;
+	int32_t ___m_BindingsStartIndex;
+	int32_t ___m_BindingsCount;
+	int32_t ___m_ControlStartIndex;
+	int32_t ___m_ControlCount;
+	int32_t ___m_ActionIndexInState;
+	InputActionMap_tFCE82E0E014319D4DED9F8962B06655DD0420A09* ___m_ActionMap;
+	CallbackArray_1_tDFF8C4C6015023B6C2E70BAD26D8BC6BF00D8775 ___m_OnStarted;
+	CallbackArray_1_tDFF8C4C6015023B6C2E70BAD26D8BC6BF00D8775 ___m_OnCanceled;
+	CallbackArray_1_tDFF8C4C6015023B6C2E70BAD26D8BC6BF00D8775 ___m_OnPerformed;
+};
+struct MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71  : public Behaviour_t01970CFBBA658497AE30F311C447DB0440BAB7FA
+{
+	CancellationTokenSource_tAAE1E0033BCFC233801F8CB4CED5C852B350CB7B* ___m_CancellationTokenSource;
+};
+struct TrailRenderer_tF7E185EF383CF4300DFC3E1DE59FA6100B93CA39  : public Renderer_t320575F223BCB177A982E5DDB5DB19FAA89E7FBF
+{
+};
+struct VisualEffect_t8CF4F0E13AEBF27224BB1323CC103666EDBBCFB0  : public Behaviour_t01970CFBBA658497AE30F311C447DB0440BAB7FA
+{
+	VFXEventAttribute_tA764A595356174BA39C782A8A64B47B39FB3F518* ___m_cachedEventAttribute;
+	Action_1_tBAC06A706FB1F9A81AEF7EDF6202FC51D1E52C3A* ___outputEventReceived;
+};
+struct AbilityUIDisplay_tBEB0E4232773D12192172889050AF5E0D6D5FE4D  : public MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71
+{
+	int32_t ___trackedAbility;
+	PlayerStatsData_t8AB00CC7DF7DB19B96714A2AC9281D6B0A107302* ___statsData;
+	Image_tBC1D03F63BF71132E9A5E472B8742F172A011E7E* ___cooldownOverlay;
+	bool ___hideIconWhenLocked;
+	float ___currentCooldownTimer;
+	bool ___isOnCooldown;
+	CanvasGroup_t048C1461B14628CFAEBE6E7353093ADB04EBC094* ___canvasGroup;
+};
+struct AudioHandlerSettings_t957E135EED8BC96029B9862B4A88E0BDC0685B19  : public MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71
+{
+	AudioMixerGroup_tD29AC8336F7425DF007944F8195CEABF34FC3311* ___defaultSfxMixerGroup;
+};
+struct AudioSource_t871AC2272F896738252F04EE949AEF5B241D3299  : public AudioBehaviour_t2DC0BEF7B020C952F3D2DA5AAAC88501C7EEB941
+{
+};
+struct BossHealth_t8B40372B7852023F1AF6C408BAA5BA400317665E  : public MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71
+{
+	float ___maxHealth;
+	float ___currentHealth;
+	BossWeakPointU5BU5D_t4460AD89860BFBBEE52812ECA6C3C328F2A36AEC* ___weakPoints;
+	bool ___U3CIsShieldedU3Ek__BackingField;
+	bool ___isDead;
+	Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* ___OnDamaged;
+	Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* ___OnDied;
+	Action_1_t310F18CB4338A2740CA701F160C62E2C3198E66A* ___OnHealthPercentChanged;
+	Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* ___OnWeakPointDestroyed;
+	float ___deathAnimationDuration;
+	AudioClipU5BU5D_t916722468F7EDCFA833318C35CD7D41097D75D31* ___bossScreamSounds;
+	AudioClip_t5D272C4EB4F2D3ED49F1C346DEA373CF6D585F20* ___bossScreamSound;
+	float ___bossScreamSoundVolume;
+	AudioClip_t5D272C4EB4F2D3ED49F1C346DEA373CF6D585F20* ___bossDefeatedSound;
+	float ___bossDefeatedSoundVolume;
+	bool ___playBossSoundsAs2D;
+};
+struct BossPhaseTwoAttack_tD234421B25EC9CD1A7BBFD338097C4F422DC9D7E  : public MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71
+{
+	Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* ___beamPivot;
+	GameObjectU5BU5D_tFF67550DFCE87096D7A3734EA15B75896B2722CF* ___beams;
+	GameObjectU5BU5D_tFF67550DFCE87096D7A3734EA15B75896B2722CF* ___warningBeams;
+	float ___warningDuration;
+	float ___beamDuration;
+	float ___timeBetweenBeamAttacks;
+	float ___rotationSpeed;
+	AudioSource_t871AC2272F896738252F04EE949AEF5B241D3299* ___beamSfxSource;
+	AudioClip_t5D272C4EB4F2D3ED49F1C346DEA373CF6D585F20* ___beamAttackSound;
+	float ___beamAttackSoundVolume;
+	bool ___playBeamAttackSoundAs2D;
+	bool ___isActive;
+	Coroutine_t85EA685566A254C23F3FD77AB5BDFFFF8799596B* ___phaseRoutine;
+	float ___rotationDirection;
+	bool ___useCustomRotationSpeed;
+	float ___customRotationSpeed;
+};
+struct BossShield_t0CA1B25A12A4CFD773F7060DF191054A955E1B84  : public MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71
+{
+	float ___maxHealth;
+	EnemyPool_t3FF71B3C1895973B8497F4E778889D4DE40E84E0* ___enemyPool;
+	EnemyWaveSpawner_t8F462F74B7B56D3D3D3637304D5934F06D1F3B88* ___enemyWaveSpawner;
+	AudioClipU5BU5D_t916722468F7EDCFA833318C35CD7D41097D75D31* ___vulnerableHitSounds;
+	AudioClip_t5D272C4EB4F2D3ED49F1C346DEA373CF6D585F20* ___vulnerableHitSound;
+	float ___vulnerableHitSoundVolume;
+	AudioClip_t5D272C4EB4F2D3ED49F1C346DEA373CF6D585F20* ___breakSound;
+	float ___breakSoundVolume;
+	bool ___playShieldSoundsAs2D;
+	float ___currentHealth;
+	Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* ___OnShieldDestroyed;
+};
+struct BossWeakPoint_t502A335D841A6A96167C6E10CACA201C9F1BE4BC  : public MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71
+{
+	Collider_t1CC3163924FCD6C4CC2E816373A929C1E3D55E76* ___weakPointCollider;
+	float ___maxHealth;
+	float ___currentHealth;
+	BossHealth_t8B40372B7852023F1AF6C408BAA5BA400317665E* ___bossHealth;
+	bool ___isDestroyed;
+	Renderer_t320575F223BCB177A982E5DDB5DB19FAA89E7FBF* ___orbRenderer;
+	Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* ___deadMaterial;
+	AudioClip_t5D272C4EB4F2D3ED49F1C346DEA373CF6D585F20* ___destroyedSound;
+	float ___destroyedSoundVolume;
+	bool ___playDestroyedSoundAs2D;
+};
+struct BulletPolarityVisual_tB4F02FB35C4FCAB2A3FA0D36A320DBF9DB4F1FA8  : public MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71
+{
+	RendererU5BU5D_t32FDD782F67917B2291EA4FF242719877440A02A* ___meshRenderers;
+	String_t* ___meshColorProperty;
+	TrailRenderer_tF7E185EF383CF4300DFC3E1DE59FA6100B93CA39* ___trail;
+	String_t* ___trailColorProperty;
+	String_t* ___trailColor2Property;
+	ParticleSystemU5BU5D_tC5E33DA557C9C2064085128B3530C5F04D48F6E6* ___particles;
+	Color_tD001788D726C3A7F1379BEED0260B9591F440C1F ___whiteColor;
+	Color_tD001788D726C3A7F1379BEED0260B9591F440C1F ___blackColor;
+	float ___hdrIntensity;
+	PolarityComponent_t1FB53DB0BF7CE9A8E59278F3854DC776322BBCA0* ___polarity;
+};
+struct EnemyHealth_tBBE8DFA320087F0FED2E699F1A79262CD00C1F6D  : public MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71
+{
+	float ___maxHealth;
+	AudioClipU5BU5D_t916722468F7EDCFA833318C35CD7D41097D75D31* ___deathSounds;
+	AudioClip_t5D272C4EB4F2D3ED49F1C346DEA373CF6D585F20* ___deathSound;
+	float ___deathSoundVolume;
+	bool ___playDeathSoundAs2D;
+	float ___currentHealth;
+	Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* ___OnDied;
+};
+struct EnemyPool_t3FF71B3C1895973B8497F4E778889D4DE40E84E0  : public MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71
+{
+	Enemy_t53E84C1EB24818AC58E2C5967F6D99841E146263* ___enemyPrefab;
+	int32_t ___poolSize;
+	List_1_tF0E6D67CA4CA1BA091BEAECF24C92A3E885BFE4A* ___enemies;
+};
+struct EnemyWaveSpawner_t8F462F74B7B56D3D3D3637304D5934F06D1F3B88  : public MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71
+{
+	Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* ___OnRoomCleared;
+	EnemyPool_t3FF71B3C1895973B8497F4E778889D4DE40E84E0* ___enemyPool;
+	TransformU5BU5D_tBB9C5F5686CAE82E3D97D43DF0F3D68ABF75EC24* ___possibleSpawnPoints;
+	EnemyWaveU5BU5D_t984189A64F0383E68A9FF7E9A1D8955B51A29E29* ___waves;
+	bool ___autoStart;
+	bool ___showWarningBeforeFirstWave;
+	float ___timeBetweenSpawns;
+	float ___timeBetweenWaves;
+	float ___enemySpawnHeight;
+	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___whiteSpawnWarningPrefab;
+	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___blackSpawnWarningPrefab;
+	float ___spawnWarningDuration;
+	AudioClipU5BU5D_t916722468F7EDCFA833318C35CD7D41097D75D31* ___spawnWarningSounds;
+	AudioClip_t5D272C4EB4F2D3ED49F1C346DEA373CF6D585F20* ___spawnWarningSound;
+	float ___spawnWarningSoundVolume;
+	bool ___playSpawnWarningSoundAs2D;
+	bool ___playSpawnWarningSoundOncePerGroup;
+	AudioClipU5BU5D_t916722468F7EDCFA833318C35CD7D41097D75D31* ___appearSounds;
+	AudioClip_t5D272C4EB4F2D3ED49F1C346DEA373CF6D585F20* ___appearSound;
+	float ___appearSoundVolume;
+	bool ___playAppearSoundAs2D;
+	bool ___playAppearSoundOncePerGroup;
+	float ___clusterRadius;
+	List_1_tF0E6D67CA4CA1BA091BEAECF24C92A3E885BFE4A* ___activeEnemies;
+	Dictionary_2_tD0F6E1A6898FAF323F2385282111BAF19120C706* ___enemyPoolsByEnemy;
+	int32_t ___aliveEnemies;
+	int32_t ___spawningEnemies;
+	bool ___isRunning;
+	bool ___roomCleared;
+};
+struct PauseMenu_t766A7A9211D178C625B0C5F1EBF00502A0DE1CF7  : public MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71
+{
+	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___pausePanel;
+	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___cheatPanel;
+	CheatMenu_t05298E28B643A1119F80A66C4B5D5B37749C5922* ___cheatMenu;
+	PlayerStatsData_t8AB00CC7DF7DB19B96714A2AC9281D6B0A107302* ___playerStats;
+	PlayerHealth_tA58B949498CB49019A74A16A82B5C084C83C4B73* ___playerHealth;
+	EnemyWaveSpawner_t8F462F74B7B56D3D3D3637304D5934F06D1F3B88* ___waveSpawner;
+	Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* ___player;
+	Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* ___bossRoomPoint;
+	PlayerInputActions_t4371BD30BF780546160FC74115946343BB75D694* ___controls;
+};
+struct PlayerPolarityController_tCFB963493C39DFCBADE47B3DA016DE655279431D  : public MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71
+{
+	InputActionReference_t64730C6B41271E0983FC21BFB416169F5D6BC4A1* ____switchActionRef;
+	PolarityComponent_t1FB53DB0BF7CE9A8E59278F3854DC776322BBCA0* ____polarity;
+	InputAction_t1B550AD2B55AF322AFB53CD28DA64081220D01CD* ____switchAction;
+	bool ____ownsAction;
+	float ____lastSwitchTime;
+	PlayerStatsData_t8AB00CC7DF7DB19B96714A2AC9281D6B0A107302* ____playerStats;
+	AudioClipU5BU5D_t916722468F7EDCFA833318C35CD7D41097D75D31* ___colorSounds;
+	AudioClip_t5D272C4EB4F2D3ED49F1C346DEA373CF6D585F20* ___colorSound;
+	float ___colorSoundVolume;
+	bool ___playColorSoundAs2D;
+	AudioMixerGroup_tD29AC8336F7425DF007944F8195CEABF34FC3311* ___sfxMixerGroup;
+	AbilityUIDisplay_tBEB0E4232773D12192172889050AF5E0D6D5FE4D* ___polarityUI;
+	PolarityPostProcessPulse_t05967FEAD321633709B2F7C9DE145D49B3AA0E62* ___postProcessPulse;
+	Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* ___OnPolaritySwitched;
+};
+struct PlayerPolarityVisual_t2E7592CC4CFD6768A7C9D4CDA5864820C7B4F69B  : public MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71
+{
+	RendererU5BU5D_t32FDD782F67917B2291EA4FF242719877440A02A* ___renderers;
+	String_t* ___invertProperty;
+	int32_t ___invertedPolarity;
+	float ___transitionDuration;
+	PolarityComponent_t1FB53DB0BF7CE9A8E59278F3854DC776322BBCA0* ___polarity;
+	Coroutine_t85EA685566A254C23F3FD77AB5BDFFFF8799596B* ___transition;
+	float ___currentValue;
+};
+struct PlayerStatsData_t8AB00CC7DF7DB19B96714A2AC9281D6B0A107302  : public MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71
+{
+	float ___movementSpeed;
+	float ___maxHealth;
+	float ___polaritySwitchCooldown;
+	float ___movementSpeedMultiplier;
+	float ___oneMeleeSlowMultiplier;
+	float ___twoMeleeSlowMultiplier;
+	float ___threeMeleeSlowMultiplier;
+	float ___maxMeleeSlowMultiplier;
+	Dictionary_2_t2F20403DB58497079923D9D7097673961FA273B9* ___movementSlowRequests;
+	float ___attackSpeedDelay;
+	float ___attackDamage;
+	float ___attackSpeed;
+	float ___knockBackPower;
+	bool ___dashUnlocked;
+	float ___dashSpeed;
+	float ___dashDuration;
+	float ___dashCooldown;
+	bool ___chargeShotUnlocked;
+	float ___chargeShotDamage;
+	float ___chargeShotSpeed;
+	float ___chargeShotKnockBackPower;
+	float ___chargeTime;
+	bool ___godMode;
+};
+struct PolarityComponent_t1FB53DB0BF7CE9A8E59278F3854DC776322BBCA0  : public MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71
+{
+	int32_t ____polarity;
+	Action_1_t2A685F9B7073D2171BE282EED0EC530989CA03E9* ___OnPolarityChanged;
+};
+struct PolarityPostProcessPulse_t05967FEAD321633709B2F7C9DE145D49B3AA0E62  : public MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71
+{
+	Volume_t7CAAEA22D7F13A50FAE114DE7A6986FEAC837377* ___whiteVolume;
+	Volume_t7CAAEA22D7F13A50FAE114DE7A6986FEAC837377* ___blackVolume;
+	float ___peakWeight;
+	float ___fadeInDuration;
+	float ___fadeOutDuration;
+	Coroutine_t85EA685566A254C23F3FD77AB5BDFFFF8799596B* ___pulseCoroutine;
+};
+struct PolarityVisual_t1B1D8F62D356A95A438AE9480687E4D557617E88  : public MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71
+{
+	RendererU5BU5D_t32FDD782F67917B2291EA4FF242719877440A02A* ____renderers;
+	Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* ____blackMaterial;
+	Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* ____whiteMaterial;
+	Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* ___flashMaterial;
+	float ___flashDuration;
+	PolarityComponent_t1FB53DB0BF7CE9A8E59278F3854DC776322BBCA0* ____polarity;
+};
+struct ProjectilePool_t723C2CD076FE4320E49200C785ACD04FCAA398E8  : public MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71
+{
+	ShootProjectile_t4CAF1E2524313E5908E28A80A256CB9D5047CFA9* ___projectilePrefab;
+	int32_t ___poolSize;
+	List_1_t39B0C22BC92BE7FD81CD1D9645F6C63B18866D34* ___projectiles;
+};
+struct ShootProjectile_t4CAF1E2524313E5908E28A80A256CB9D5047CFA9  : public MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71
+{
+	TrailRenderer_tF7E185EF383CF4300DFC3E1DE59FA6100B93CA39* ___trail;
+	ParticleSystem_tB19986EE308BD63D36FB6025EEEAFBEDB97C67C1* ___particles;
+	VisualEffect_t8CF4F0E13AEBF27224BB1323CC103666EDBBCFB0* ___vfx;
+	float ____lifeTime;
+	bool ____disapearOnHit;
+	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ____impactEffect;
+	AudioClipU5BU5D_t916722468F7EDCFA833318C35CD7D41097D75D31* ____impactSounds;
+	AudioClip_t5D272C4EB4F2D3ED49F1C346DEA373CF6D585F20* ____impactSound;
+	float ____impactSoundVolume;
+	bool ____playImpactSoundAs2D;
+	float ___hitRadius;
+	float ____speed;
+	float ____damage;
+	float ____knockbackForce;
+	PolarityComponent_t1FB53DB0BF7CE9A8E59278F3854DC776322BBCA0* ____polarity;
+	float ____spawnTime;
+};
+struct SimpleHealth_t9546BB9FBEC3A98C7645D2EAD6DFAEDEDE048029  : public MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71
+{
+	float ____maxHealth;
+	float ____current;
+	Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* ___OnDied;
+	Action_2_t4195ED8D681728C29103F36BCD591C0F089C9132* ___OnHealthChanged;
+};
+struct SimpleHpBar_tA92C2F0CF98D9239F685C13D6F81661CFDB50200  : public MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71
+{
+	BossHealth_t8B40372B7852023F1AF6C408BAA5BA400317665E* ___bossHealth;
+	Slider_t87EA570E3D6556CABF57456C2F3873FFD86E652F* ___healthSlider;
+};
+struct TestShooter_t31886477AD339CA401E8D12EF68BC7D1E9AAD6DE  : public MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71
+{
+	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ____projectilePrefab;
+	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ____chargedProjectilePrefab;
+	ProjectilePool_t723C2CD076FE4320E49200C785ACD04FCAA398E8* ____normalProjectilePool;
+	ProjectilePool_t723C2CD076FE4320E49200C785ACD04FCAA398E8* ____chargedProjectilePool;
+	AudioClipU5BU5D_t916722468F7EDCFA833318C35CD7D41097D75D31* ___shootSounds;
+	AudioClip_t5D272C4EB4F2D3ED49F1C346DEA373CF6D585F20* ___shootSound;
+	float ___shootSoundVolume;
+	bool ___playShootSoundAs2D;
+	AudioSource_t871AC2272F896738252F04EE949AEF5B241D3299* ___chargeLoopSource;
+	AudioClip_t5D272C4EB4F2D3ED49F1C346DEA373CF6D585F20* ___chargeSound;
+	float ___chargeSoundVolume;
+	AudioSource_t871AC2272F896738252F04EE949AEF5B241D3299* ___heldChargeLoopSource;
+	AudioClip_t5D272C4EB4F2D3ED49F1C346DEA373CF6D585F20* ___heldChargeSound;
+	float ___heldChargeSoundVolume;
+	AudioClip_t5D272C4EB4F2D3ED49F1C346DEA373CF6D585F20* ___chargeCancelSound;
+	float ___chargeCancelSoundVolume;
+	AudioClip_t5D272C4EB4F2D3ED49F1C346DEA373CF6D585F20* ___chargedShotSound;
+	float ___chargedShotSoundVolume;
+	bool ___playChargeShotSoundsAs2D;
+	float ___referenceAttackDelay;
+	float ___minChargePitch;
+	float ___maxChargePitch;
+	float ___vibrationFrequency;
+	float ___vibrationAmplitude;
+	float ___vibrationDuration;
+	bool ____isCharging;
+	bool ____chargeReady;
+	float ____chargeStartTime;
+	bool ____wasPressed;
+	Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* ____muzzle;
+	PolarityComponent_t1FB53DB0BF7CE9A8E59278F3854DC776322BBCA0* ____polarity;
+	float ____lastShotTime;
+	PlayerStatsData_t8AB00CC7DF7DB19B96714A2AC9281D6B0A107302* ____playerStats;
+};
+struct UIBehaviour_tB9D4295827BD2EEDEF0749200C6CA7090C742A9D  : public MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71
+{
+};
+struct UIQueue_t8AFAA58F4BAAB525F589D653F5937C91555DC1FC  : public MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71
+{
+	Queue_1_t8F1B650676E9A121A8787748A0D9F5768D841951* ___requests;
+	bool ___isProcessing;
+};
+struct VfxPolarityColor_t9F93A7C64C7606D719A677B3E55156AE06B2A79D  : public MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71
+{
+	VisualEffectU5BU5D_t046742D1CF935350387F65E34F5726A3E1A72A23* ___effects;
+	String_t* ___colorProperty;
+	Color_tD001788D726C3A7F1379BEED0260B9591F440C1F ___whiteColor;
+	Color_tD001788D726C3A7F1379BEED0260B9591F440C1F ___blackColor;
+	float ___intensity;
+	PolarityComponent_t1FB53DB0BF7CE9A8E59278F3854DC776322BBCA0* ___polarity;
+};
+struct Volume_t7CAAEA22D7F13A50FAE114DE7A6986FEAC837377  : public MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71
+{
+	bool ___m_IsGlobal;
+	float ___priority;
+	float ___blendDistance;
+	float ___weight;
+	VolumeProfile_t9B5F2005F575A710F38A124EF81A6228CCACACE1* ___sharedProfile;
+	List_1_t58F89DEDCD7DABB0CFB009AAD9C0CFE061592252* ___m_Colliders;
+	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___m_CachedGameObject;
+	int32_t ___m_PreviousLayer;
+	float ___m_PreviousPriority;
+	VolumeProfile_t9B5F2005F575A710F38A124EF81A6228CCACACE1* ___m_InternalProfile;
+};
+struct Selectable_t3251808068A17B8E92FB33590A4C2FA66D456712  : public UIBehaviour_tB9D4295827BD2EEDEF0749200C6CA7090C742A9D
+{
+	bool ___m_EnableCalled;
+	Navigation_t4D2E201D65749CF4E104E8AC1232CF1D6F14795C ___m_Navigation;
+	int32_t ___m_Transition;
+	ColorBlock_tDD7C62E7AFE442652FC98F8D058CE8AE6BFD7C11 ___m_Colors;
+	SpriteState_tC8199570BE6337FB5C49347C97892B4222E5AACD ___m_SpriteState;
+	AnimationTriggers_tA0DC06F89C5280C6DD972F6F4C8A56D7F4F79074* ___m_AnimationTriggers;
+	bool ___m_Interactable;
+	Graphic_tCBFCA4585A19E2B75465AECFEAC43F4016BF7931* ___m_TargetGraphic;
+	bool ___m_GroupsAllowInteraction;
+	int32_t ___m_CurrentIndex;
+	bool ___U3CisPointerInsideU3Ek__BackingField;
+	bool ___U3CisPointerDownU3Ek__BackingField;
+	bool ___U3ChasSelectionU3Ek__BackingField;
+	List_1_t2CDCA768E7F493F5EDEBC75AEB200FD621354E35* ___m_CanvasGroupCache;
+};
+struct Slider_t87EA570E3D6556CABF57456C2F3873FFD86E652F  : public Selectable_t3251808068A17B8E92FB33590A4C2FA66D456712
+{
+	RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* ___m_FillRect;
+	RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* ___m_HandleRect;
+	int32_t ___m_Direction;
+	float ___m_MinValue;
+	float ___m_MaxValue;
+	bool ___m_WholeNumbers;
+	float ___m_Value;
+	SliderEvent_t92A82EF6C62E15AF92B640FE2D960E877E8C6555* ___m_OnValueChanged;
+	Image_tBC1D03F63BF71132E9A5E472B8742F172A011E7E* ___m_FillImage;
+	Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* ___m_FillTransform;
+	RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* ___m_FillContainerRect;
+	Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* ___m_HandleTransform;
+	RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* ___m_HandleContainerRect;
+	Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___m_Offset;
+	DrivenRectTransformTracker_tFB0706C933E3C68E4F377C204FCEEF091F1EE0B1 ___m_Tracker;
+	bool ___m_DelayedUpdateVisuals;
+};
+struct List_1_tA239CB83DE5615F348BB0507E45F490F4F7C9A8D_StaticFields
+{
+	ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* ___s_emptyArray;
+};
+struct List_1_t39B0C22BC92BE7FD81CD1D9645F6C63B18866D34_StaticFields
+{
+	ShootProjectileU5BU5D_tF123F9AA36D3D9C2D5256E19A7CE8041ABA48191* ___s_emptyArray;
+};
+struct U3CPrivateImplementationDetailsU3E_t0F5473E849A5A5185A9F4C5246F0C32816C49FCA_StaticFields
+{
+	__StaticArrayInitTypeSizeU3D4568_tEBC81C30179D65B62C3E70C9F57C572D42D5CCAA ___1C944F8455E3421B04730C2D8DBBFF4AF99A54488559378347942583A71E34FA;
+	__StaticArrayInitTypeSizeU3D6075_tDA7A4A9FAA71A0C2C00CDDE8978A74FD87CBAB32 ___599DDCAE9033E8227DEE1CA3F446E50CDCD9F4700DD0041F799947D92B007676;
+};
+struct AudioHandler_tE052A61F0CA9DC9106F9CDB5CB21D6EC158EED15_StaticFields
+{
+	AudioMixerGroup_tD29AC8336F7425DF007944F8195CEABF34FC3311* ___U3CDefaultSfxMixerGroupU3Ek__BackingField;
+};
+struct String_t_StaticFields
+{
+	String_t* ___Empty;
+};
+struct Boolean_t09A6377A54BE2F9E6985A8149F19234FD7DDFE22_StaticFields
+{
+	String_t* ___TrueString;
+	String_t* ___FalseString;
+};
+struct IntPtr_t_StaticFields
+{
+	intptr_t ___Zero;
+};
+struct Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974_StaticFields
+{
+	Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 ___identityQuaternion;
+};
+struct Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2_StaticFields
+{
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___zeroVector;
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___oneVector;
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___upVector;
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___downVector;
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___leftVector;
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___rightVector;
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___forwardVector;
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___backVector;
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___positiveInfinityVector;
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___negativeInfinityVector;
+};
+struct Vector4_t58B63D32F48C0DBF50DE2C60794C4676C80EDBE3_StaticFields
+{
+	Vector4_t58B63D32F48C0DBF50DE2C60794C4676C80EDBE3 ___zeroVector;
+	Vector4_t58B63D32F48C0DBF50DE2C60794C4676C80EDBE3 ___oneVector;
+	Vector4_t58B63D32F48C0DBF50DE2C60794C4676C80EDBE3 ___positiveInfinityVector;
+	Vector4_t58B63D32F48C0DBF50DE2C60794C4676C80EDBE3 ___negativeInfinityVector;
+};
+struct Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_StaticFields
+{
+	int32_t ___OffsetOfInstanceIDInCPlusPlusObject;
+};
+struct Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3_StaticFields
+{
+	int32_t ___k_ColorId;
+	int32_t ___k_MainTexId;
+};
+struct InputAction_t1B550AD2B55AF322AFB53CD28DA64081220D01CD_StaticFields
+{
+	ProfilerMarker_tA256E18DA86EDBC5528CE066FC91C96EE86501AD ___k_InputActionEnableProfilerMarker;
+	ProfilerMarker_tA256E18DA86EDBC5528CE066FC91C96EE86501AD ___k_InputActionDisableProfilerMarker;
+};
+struct PauseMenu_t766A7A9211D178C625B0C5F1EBF00502A0DE1CF7_StaticFields
+{
+	bool ___U3CIsPausedU3Ek__BackingField;
+	Action_1_t10DCB0C07D0D3C565CEACADC80D1152B35A45F6C* ___OnPauseChanged;
+};
+struct PlayerPolarityController_tCFB963493C39DFCBADE47B3DA016DE655279431D_StaticFields
+{
+	Action_1_t10D7C827ADC73ED438E0CA8F04465BA6F2BAED7D* ___OnAnyPlayerPolaritySwitched;
+};
+struct UIQueue_t8AFAA58F4BAAB525F589D653F5937C91555DC1FC_StaticFields
+{
+	UIQueue_t8AFAA58F4BAAB525F589D653F5937C91555DC1FC* ___U3CInstanceU3Ek__BackingField;
+	bool ___U3CIsBlockingU3Ek__BackingField;
+	Action_1_t10DCB0C07D0D3C565CEACADC80D1152B35A45F6C* ___OnBlockingChanged;
+};
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+struct AudioClipU5BU5D_t916722468F7EDCFA833318C35CD7D41097D75D31  : public RuntimeArray
+{
+	ALIGN_FIELD (8) AudioClip_t5D272C4EB4F2D3ED49F1C346DEA373CF6D585F20* m_Items[1];
+
+	inline AudioClip_t5D272C4EB4F2D3ED49F1C346DEA373CF6D585F20* GetAt(il2cpp_array_size_t index) const
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		return m_Items[index];
+	}
+	inline AudioClip_t5D272C4EB4F2D3ED49F1C346DEA373CF6D585F20** GetAddressAt(il2cpp_array_size_t index)
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		return m_Items + index;
+	}
+	inline void SetAt(il2cpp_array_size_t index, AudioClip_t5D272C4EB4F2D3ED49F1C346DEA373CF6D585F20* value)
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		m_Items[index] = value;
+		Il2CppCodeGenWriteBarrier((void**)m_Items + index, (void*)value);
+	}
+	inline AudioClip_t5D272C4EB4F2D3ED49F1C346DEA373CF6D585F20* GetAtUnchecked(il2cpp_array_size_t index) const
+	{
+		return m_Items[index];
+	}
+	inline AudioClip_t5D272C4EB4F2D3ED49F1C346DEA373CF6D585F20** GetAddressAtUnchecked(il2cpp_array_size_t index)
+	{
+		return m_Items + index;
+	}
+	inline void SetAtUnchecked(il2cpp_array_size_t index, AudioClip_t5D272C4EB4F2D3ED49F1C346DEA373CF6D585F20* value)
+	{
+		m_Items[index] = value;
+		Il2CppCodeGenWriteBarrier((void**)m_Items + index, (void*)value);
+	}
+};
+struct MaterialU5BU5D_t2B1D11C42DB07A4400C0535F92DBB87A2E346D3D  : public RuntimeArray
+{
+	ALIGN_FIELD (8) Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* m_Items[1];
+
+	inline Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* GetAt(il2cpp_array_size_t index) const
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		return m_Items[index];
+	}
+	inline Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3** GetAddressAt(il2cpp_array_size_t index)
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		return m_Items + index;
+	}
+	inline void SetAt(il2cpp_array_size_t index, Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* value)
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		m_Items[index] = value;
+		Il2CppCodeGenWriteBarrier((void**)m_Items + index, (void*)value);
+	}
+	inline Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* GetAtUnchecked(il2cpp_array_size_t index) const
+	{
+		return m_Items[index];
+	}
+	inline Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3** GetAddressAtUnchecked(il2cpp_array_size_t index)
+	{
+		return m_Items + index;
+	}
+	inline void SetAtUnchecked(il2cpp_array_size_t index, Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* value)
+	{
+		m_Items[index] = value;
+		Il2CppCodeGenWriteBarrier((void**)m_Items + index, (void*)value);
+	}
+};
+struct RendererU5BU5D_t32FDD782F67917B2291EA4FF242719877440A02A  : public RuntimeArray
+{
+	ALIGN_FIELD (8) Renderer_t320575F223BCB177A982E5DDB5DB19FAA89E7FBF* m_Items[1];
+
+	inline Renderer_t320575F223BCB177A982E5DDB5DB19FAA89E7FBF* GetAt(il2cpp_array_size_t index) const
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		return m_Items[index];
+	}
+	inline Renderer_t320575F223BCB177A982E5DDB5DB19FAA89E7FBF** GetAddressAt(il2cpp_array_size_t index)
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		return m_Items + index;
+	}
+	inline void SetAt(il2cpp_array_size_t index, Renderer_t320575F223BCB177A982E5DDB5DB19FAA89E7FBF* value)
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		m_Items[index] = value;
+		Il2CppCodeGenWriteBarrier((void**)m_Items + index, (void*)value);
+	}
+	inline Renderer_t320575F223BCB177A982E5DDB5DB19FAA89E7FBF* GetAtUnchecked(il2cpp_array_size_t index) const
+	{
+		return m_Items[index];
+	}
+	inline Renderer_t320575F223BCB177A982E5DDB5DB19FAA89E7FBF** GetAddressAtUnchecked(il2cpp_array_size_t index)
+	{
+		return m_Items + index;
+	}
+	inline void SetAtUnchecked(il2cpp_array_size_t index, Renderer_t320575F223BCB177A982E5DDB5DB19FAA89E7FBF* value)
+	{
+		m_Items[index] = value;
+		Il2CppCodeGenWriteBarrier((void**)m_Items + index, (void*)value);
+	}
+};
+struct ParticleSystemU5BU5D_tC5E33DA557C9C2064085128B3530C5F04D48F6E6  : public RuntimeArray
+{
+	ALIGN_FIELD (8) ParticleSystem_tB19986EE308BD63D36FB6025EEEAFBEDB97C67C1* m_Items[1];
+
+	inline ParticleSystem_tB19986EE308BD63D36FB6025EEEAFBEDB97C67C1* GetAt(il2cpp_array_size_t index) const
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		return m_Items[index];
+	}
+	inline ParticleSystem_tB19986EE308BD63D36FB6025EEEAFBEDB97C67C1** GetAddressAt(il2cpp_array_size_t index)
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		return m_Items + index;
+	}
+	inline void SetAt(il2cpp_array_size_t index, ParticleSystem_tB19986EE308BD63D36FB6025EEEAFBEDB97C67C1* value)
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		m_Items[index] = value;
+		Il2CppCodeGenWriteBarrier((void**)m_Items + index, (void*)value);
+	}
+	inline ParticleSystem_tB19986EE308BD63D36FB6025EEEAFBEDB97C67C1* GetAtUnchecked(il2cpp_array_size_t index) const
+	{
+		return m_Items[index];
+	}
+	inline ParticleSystem_tB19986EE308BD63D36FB6025EEEAFBEDB97C67C1** GetAddressAtUnchecked(il2cpp_array_size_t index)
+	{
+		return m_Items + index;
+	}
+	inline void SetAtUnchecked(il2cpp_array_size_t index, ParticleSystem_tB19986EE308BD63D36FB6025EEEAFBEDB97C67C1* value)
+	{
+		m_Items[index] = value;
+		Il2CppCodeGenWriteBarrier((void**)m_Items + index, (void*)value);
+	}
+};
+struct RaycastHitU5BU5D_t008B8309DE422FE7567068D743D68054D5EBF1A8  : public RuntimeArray
+{
+	ALIGN_FIELD (8) RaycastHit_t6F30BD0B38B56401CA833A1B87BD74F2ACD2F2B5 m_Items[1];
+
+	inline RaycastHit_t6F30BD0B38B56401CA833A1B87BD74F2ACD2F2B5 GetAt(il2cpp_array_size_t index) const
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		return m_Items[index];
+	}
+	inline RaycastHit_t6F30BD0B38B56401CA833A1B87BD74F2ACD2F2B5* GetAddressAt(il2cpp_array_size_t index)
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		return m_Items + index;
+	}
+	inline void SetAt(il2cpp_array_size_t index, RaycastHit_t6F30BD0B38B56401CA833A1B87BD74F2ACD2F2B5 value)
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		m_Items[index] = value;
+	}
+	inline RaycastHit_t6F30BD0B38B56401CA833A1B87BD74F2ACD2F2B5 GetAtUnchecked(il2cpp_array_size_t index) const
+	{
+		return m_Items[index];
+	}
+	inline RaycastHit_t6F30BD0B38B56401CA833A1B87BD74F2ACD2F2B5* GetAddressAtUnchecked(il2cpp_array_size_t index)
+	{
+		return m_Items + index;
+	}
+	inline void SetAtUnchecked(il2cpp_array_size_t index, RaycastHit_t6F30BD0B38B56401CA833A1B87BD74F2ACD2F2B5 value)
+	{
+		m_Items[index] = value;
+	}
+};
+struct ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918  : public RuntimeArray
+{
+	ALIGN_FIELD (8) RuntimeObject* m_Items[1];
+
+	inline RuntimeObject* GetAt(il2cpp_array_size_t index) const
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		return m_Items[index];
+	}
+	inline RuntimeObject** GetAddressAt(il2cpp_array_size_t index)
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		return m_Items + index;
+	}
+	inline void SetAt(il2cpp_array_size_t index, RuntimeObject* value)
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		m_Items[index] = value;
+		Il2CppCodeGenWriteBarrier((void**)m_Items + index, (void*)value);
+	}
+	inline RuntimeObject* GetAtUnchecked(il2cpp_array_size_t index) const
+	{
+		return m_Items[index];
+	}
+	inline RuntimeObject** GetAddressAtUnchecked(il2cpp_array_size_t index)
+	{
+		return m_Items + index;
+	}
+	inline void SetAtUnchecked(il2cpp_array_size_t index, RuntimeObject* value)
+	{
+		m_Items[index] = value;
+		Il2CppCodeGenWriteBarrier((void**)m_Items + index, (void*)value);
+	}
+};
+struct VisualEffectU5BU5D_t046742D1CF935350387F65E34F5726A3E1A72A23  : public RuntimeArray
+{
+	ALIGN_FIELD (8) VisualEffect_t8CF4F0E13AEBF27224BB1323CC103666EDBBCFB0* m_Items[1];
+
+	inline VisualEffect_t8CF4F0E13AEBF27224BB1323CC103666EDBBCFB0* GetAt(il2cpp_array_size_t index) const
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		return m_Items[index];
+	}
+	inline VisualEffect_t8CF4F0E13AEBF27224BB1323CC103666EDBBCFB0** GetAddressAt(il2cpp_array_size_t index)
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		return m_Items + index;
+	}
+	inline void SetAt(il2cpp_array_size_t index, VisualEffect_t8CF4F0E13AEBF27224BB1323CC103666EDBBCFB0* value)
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		m_Items[index] = value;
+		Il2CppCodeGenWriteBarrier((void**)m_Items + index, (void*)value);
+	}
+	inline VisualEffect_t8CF4F0E13AEBF27224BB1323CC103666EDBBCFB0* GetAtUnchecked(il2cpp_array_size_t index) const
+	{
+		return m_Items[index];
+	}
+	inline VisualEffect_t8CF4F0E13AEBF27224BB1323CC103666EDBBCFB0** GetAddressAtUnchecked(il2cpp_array_size_t index)
+	{
+		return m_Items + index;
+	}
+	inline void SetAtUnchecked(il2cpp_array_size_t index, VisualEffect_t8CF4F0E13AEBF27224BB1323CC103666EDBBCFB0* value)
+	{
+		m_Items[index] = value;
+		Il2CppCodeGenWriteBarrier((void**)m_Items + index, (void*)value);
+	}
+};
+
+
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* Object_FindFirstObjectByType_TisRuntimeObject_mC5927319EB5B80095EFBA653D414D6F8AA87DC0A_gshared (const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* Component_GetComponent_TisRuntimeObject_m7181F81CAEC2CF53F5D2BC79B7425C16E1F80D33_gshared (Component_t39FBE53E5EFCF4409111FB22C15FF73717632EC3* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* Component_GetComponentInParent_TisRuntimeObject_m6746D6BB99912B1B509746C993906492F86CD119_gshared (Component_t39FBE53E5EFCF4409111FB22C15FF73717632EC3* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Action_1__ctor_m770CD2F8BB65F2EDA5128CA2F96D71C35B23E859_gshared (Action_1_t310F18CB4338A2740CA701F160C62E2C3198E66A* __this, RuntimeObject* ___0_object, intptr_t ___1_method, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* GameObject_AddComponent_TisRuntimeObject_m69B93700FACCF372F5753371C6E8FB780800B824_gshared (GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Action_1__ctor_m8EDF953DA7FF0E33AE19FB51BD7DBDB7C495CFE0_gshared (Action_1_tC926860F20D428DA3E93D6FBA36420E904DD903B* __this, RuntimeObject* ___0_object, intptr_t ___1_method, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* GameObject_GetComponent_TisRuntimeObject_m6EAED4AA356F0F48288F67899E5958792395563B_gshared (GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* GameObject_GetComponentInParent_TisRuntimeObject_mDD9FD68B12361AC472D4A83310CAD793C02C6654_gshared (GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* Component_GetComponentInChildren_TisRuntimeObject_mE483A27E876DE8E4E6901D6814837F81D7C42F65_gshared (Component_t39FBE53E5EFCF4409111FB22C15FF73717632EC3* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Action_1__ctor_mA763900B34C3394F230AE63708F530CA9A192B57_gshared (Action_1_tEB0353AA1A112B6F2D921B58DCC9D9D4C0498E6E* __this, RuntimeObject* ___0_object, intptr_t ___1_method, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Action_1__ctor_mA8C3AC97D1F076EA5D1D0C10CEE6BD3E94711501_gshared (Action_1_t10DCB0C07D0D3C565CEACADC80D1152B35A45F6C* __this, RuntimeObject* ___0_object, intptr_t ___1_method, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Action_1_Invoke_mF2422B2DD29F74CE66F791C3F68E288EC7C3DB9E_gshared_inline (Action_1_t6F9EB113EB3F16226AEF811A2744F4111C116C87* __this, RuntimeObject* ___0_obj, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* Component_GetComponentsInChildren_TisRuntimeObject_m1F5B6FC0689B07D4FAAC0C605D9B2933A9B32543_gshared (Component_t39FBE53E5EFCF4409111FB22C15FF73717632EC3* __this, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Action_1_Invoke_mBF7DDBCD230E9D28EDF45D3E65F907DE1AE0CCBC_gshared_inline (Action_1_tC926860F20D428DA3E93D6FBA36420E904DD903B* __this, int32_t ___0_obj, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* Object_Instantiate_TisRuntimeObject_m75BF3B0A3747B60491845FA41612FE7F795F0A59_gshared (RuntimeObject* ___0_original, Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* ___1_parent, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void List_1_Add_mEBCF994CC3814631017F46A387B1A192ED6C85C7_gshared_inline (List_1_tA239CB83DE5615F348BB0507E45F490F4F7C9A8D* __this, RuntimeObject* ___0_item, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* List_1_get_Item_m33561245D64798C2AB07584C0EC4F240E4839A38_gshared (List_1_tA239CB83DE5615F348BB0507E45F490F4F7C9A8D* __this, int32_t ___0_index, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t List_1_get_Count_m4407E4C389F22B8CEC282C15D56516658746C383_gshared_inline (List_1_tA239CB83DE5615F348BB0507E45F490F4F7C9A8D* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void List_1__ctor_m7F078BB342729BDF11327FD89D7872265328F690_gshared (List_1_tA239CB83DE5615F348BB0507E45F490F4F7C9A8D* __this, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Action_2_Invoke_m50A62593A87E11ED31B47FE46E633AB3B9A7666C_gshared_inline (Action_2_t4195ED8D681728C29103F36BCD591C0F089C9132* __this, float ___0_arg1, float ___1_arg2, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_NO_INLINE IL2CPP_METHOD_ATTR void List_1_AddWithResize_m79A9BF770BEF9C06BE40D5401E55E375F2726CC4_gshared (List_1_tA239CB83DE5615F348BB0507E45F490F4F7C9A8D* __this, RuntimeObject* ___0_item, const RuntimeMethod* method) ;
+
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2 (RuntimeObject* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void BossPhaseTwoAttack_SetBeamsActive_mB9F2B582AF7418A6E7BE75F2381CFD8BE3F6144B (BossPhaseTwoAttack_tD234421B25EC9CD1A7BBFD338097C4F422DC9D7E* __this, bool ___0_active, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void BossPhaseTwoAttack_SetWarningBeamsActive_m3CD0B0453A2FBC3B736329140C19AA96CB4737BC (BossPhaseTwoAttack_tD234421B25EC9CD1A7BBFD338097C4F422DC9D7E* __this, bool ___0_active, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void WaitForSeconds__ctor_m579F95BADEDBAB4B3A7E302C6EE3995926EF2EFC (WaitForSeconds_tF179DF251655B8DF044952E70A60DF4B358A3DD3* __this, float ___0_seconds, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NotSupportedException__ctor_m1398D0CDE19B36AA3DE9392879738C1EA2439CDF (NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Delegate_t* Delegate_Combine_m1F725AEF318BE6F0426863490691A6F4606E7D00 (Delegate_t* ___0_a, Delegate_t* ___1_b, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Delegate_t* Delegate_Remove_m8B7DD5661308FA972E23CA1CC3FC9CEB355504E3 (Delegate_t* ___0_source, Delegate_t* ___1_value, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* Component_get_gameObject_m57AEFBB14DB39EC476F740BA000E170355DE691B (Component_t39FBE53E5EFCF4409111FB22C15FF73717632EC3* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool GameObject_get_activeInHierarchy_m49250F4F168DCC5388D5BE4F6A5681386907B109 (GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool BossShield_HasEnemiesAlive_mB8A970C1DD19F529ACEB1A0B3883FFCDFD92595C (BossShield_t0CA1B25A12A4CFD773F7060DF191054A955E1B84* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void BossShield_FindEnemyPoolIfMissing_m553E1E54F69DE43A205F1381676365E2820BE3B8 (BossShield_t0CA1B25A12A4CFD773F7060DF191054A955E1B84* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Debug_Log_m87A9A3C761FF5C43ED8A53B16190A53D08F818BB (RuntimeObject* ___0_message, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float Mathf_Max_mF5379E63D2BBAC76D090748695D833934F8AD051_inline (float ___0_a, float ___1_b, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void BossShield_PlayShieldSfx_mA59F57D04998EC15D38674CD98718F7884F4818C (BossShield_t0CA1B25A12A4CFD773F7060DF191054A955E1B84* __this, AudioClip_t5D272C4EB4F2D3ED49F1C346DEA373CF6D585F20* ___0_clip, float ___1_volume, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Action_Invoke_m7126A54DACA72B845424072887B5F3A51FC3808E_inline (Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92 (GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* __this, bool ___0_value, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AudioClip_t5D272C4EB4F2D3ED49F1C346DEA373CF6D585F20* BossShield_GetRandomVulnerableHitSound_m8A4DA1825062E1A3DAB2069A25229CC345A659C3 (BossShield_t0CA1B25A12A4CFD773F7060DF191054A955E1B84* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AudioHandler_Play2DSound_mFD8282050D03848109B843C87EEC28565AB80327 (AudioClip_t5D272C4EB4F2D3ED49F1C346DEA373CF6D585F20* ___0_clip, float ___1_volume, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* Component_get_transform_m2919A1D81931E6932C7F06D4C2F0AB8DDA9A5371 (Component_t39FBE53E5EFCF4409111FB22C15FF73717632EC3* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 Transform_get_position_m69CD5FA214FDAE7BB701552943674846C220FDE1 (Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AudioHandler_Play3DSound_mD6D9E86A34606D63F1BF14A480A8F6C4E8388181 (AudioClip_t5D272C4EB4F2D3ED49F1C346DEA373CF6D585F20* ___0_clip, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___1_position, float ___2_volume, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Random_Range_m6763D9767F033357F88B6637F048F4ACA4123B68 (int32_t ___0_minInclusive, int32_t ___1_maxExclusive, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Object_op_Inequality_mD0BE578448EAA61948F25C32F8DD55AB1F778602 (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C* ___0_x, Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C* ___1_y, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool EnemyWaveSpawner_get_HasEnemiesRemaining_m00238904A19D5FEE83888B9E43362BC3817856E3 (EnemyWaveSpawner_t8F462F74B7B56D3D3D3637304D5934F06D1F3B88* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool EnemyPool_get_HasActiveEnemies_mAA7FF8F8E8484B6BBB1DA1B855CF1F68998ECC34 (EnemyPool_t3FF71B3C1895973B8497F4E778889D4DE40E84E0* __this, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR EnemyPool_t3FF71B3C1895973B8497F4E778889D4DE40E84E0* EnemyWaveSpawner_get_Pool_mD92B60D5B53D165B102904EED629D61900BAA114_inline (EnemyWaveSpawner_t8F462F74B7B56D3D3D3637304D5934F06D1F3B88* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Object_op_Equality_mB6120F782D83091EF56A198FCEBCF066DB4A9605 (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C* ___0_x, Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C* ___1_y, const RuntimeMethod* method) ;
+inline EnemyPool_t3FF71B3C1895973B8497F4E778889D4DE40E84E0* Object_FindFirstObjectByType_TisEnemyPool_t3FF71B3C1895973B8497F4E778889D4DE40E84E0_mD893BDB7B646932233FA9C499CCBEFF0BC2385FC (const RuntimeMethod* method)
+{
+	return ((  EnemyPool_t3FF71B3C1895973B8497F4E778889D4DE40E84E0* (*) (const RuntimeMethod*))Object_FindFirstObjectByType_TisRuntimeObject_mC5927319EB5B80095EFBA653D414D6F8AA87DC0A_gshared)(method);
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MonoBehaviour__ctor_m592DB0105CA0BC97AA1C5F4AD27B12D68A3B7C1E (MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71* __this, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool BossHealth_get_IsShielded_mCADCB3DC3CA7064E33DA8712CA7725BB5403837D_inline (BossHealth_t8B40372B7852023F1AF6C408BAA5BA400317665E* __this, const RuntimeMethod* method) ;
+inline Collider_t1CC3163924FCD6C4CC2E816373A929C1E3D55E76* Component_GetComponent_TisCollider_t1CC3163924FCD6C4CC2E816373A929C1E3D55E76_m820398EDBF1D3766C3166A0C323A127662A29A14 (Component_t39FBE53E5EFCF4409111FB22C15FF73717632EC3* __this, const RuntimeMethod* method)
+{
+	return ((  Collider_t1CC3163924FCD6C4CC2E816373A929C1E3D55E76* (*) (Component_t39FBE53E5EFCF4409111FB22C15FF73717632EC3*, const RuntimeMethod*))Component_GetComponent_TisRuntimeObject_m7181F81CAEC2CF53F5D2BC79B7425C16E1F80D33_gshared)(__this, method);
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Collider_set_enabled_m8D5C3B5047592D227A52560FC9723D176E209F70 (Collider_t1CC3163924FCD6C4CC2E816373A929C1E3D55E76* __this, bool ___0_value, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void BossHealth_NotifyDamaged_m26DA2F5155C3E60EF779203CFEE34B0B174D469B (BossHealth_t8B40372B7852023F1AF6C408BAA5BA400317665E* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void BossHealth_RefreshHealth_mA46215E10DF5B2F00DE46E3373EA94F732E7C4B0 (BossHealth_t8B40372B7852023F1AF6C408BAA5BA400317665E* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void BossWeakPoint_DestroyWeakPoint_mCA16F84499CBDD135EC127F53347A5613FA030D5 (BossWeakPoint_t502A335D841A6A96167C6E10CACA201C9F1BE4BC* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void BossWeakPoint_PlayDestroyedSfx_m9920DF9A0F8235247210E6253C06EDF73BE9A2DF (BossWeakPoint_t502A335D841A6A96167C6E10CACA201C9F1BE4BC* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void BossWeakPoint_SetOrbDead_m95F92D1BFAC45D6696D63213254F1051F1D00634 (BossWeakPoint_t502A335D841A6A96167C6E10CACA201C9F1BE4BC* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void BossHealth_WeakPointDestroyed_m5C90AACC5D360B27FC904B321615AE8A5DE71B98 (BossHealth_t8B40372B7852023F1AF6C408BAA5BA400317665E* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* Object_get_name_mAC2F6B897CF1303BA4249B4CB55271AFACBB6392 (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* String_Concat_m9E3155FB84015C823606188F53B47CB44C444991 (String_t* ___0_str0, String_t* ___1_str1, const RuntimeMethod* method) ;
+inline PolarityVisual_t1B1D8F62D356A95A438AE9480687E4D557617E88* Component_GetComponentInParent_TisPolarityVisual_t1B1D8F62D356A95A438AE9480687E4D557617E88_m90C8D8EA46CB144E69EDCE051760B72CEF3373A6 (Component_t39FBE53E5EFCF4409111FB22C15FF73717632EC3* __this, const RuntimeMethod* method)
+{
+	return ((  PolarityVisual_t1B1D8F62D356A95A438AE9480687E4D557617E88* (*) (Component_t39FBE53E5EFCF4409111FB22C15FF73717632EC3*, const RuntimeMethod*))Component_GetComponentInParent_TisRuntimeObject_m6746D6BB99912B1B509746C993906492F86CD119_gshared)(__this, method);
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Behaviour_set_enabled_mF1DCFE60EB09E0529FE9476CA804A3AA2D72B16A (Behaviour_t01970CFBBA658497AE30F311C447DB0440BAB7FA* __this, bool ___0_value, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR MaterialU5BU5D_t2B1D11C42DB07A4400C0535F92DBB87A2E346D3D* Renderer_get_sharedMaterials_m0B61AFD8EDA35A70C796FFB2F28BB62380051ABF (Renderer_t320575F223BCB177A982E5DDB5DB19FAA89E7FBF* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Renderer_set_materials_mAB0270CEB5AF2F6A8D21A012E77440DBFCBF9001 (Renderer_t320575F223BCB177A982E5DDB5DB19FAA89E7FBF* __this, MaterialU5BU5D_t2B1D11C42DB07A4400C0535F92DBB87A2E346D3D* ___0_value, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* Renderer_get_material_m5BA2A00816C4CC66580D4B2E409CF10718C15656 (Renderer_t320575F223BCB177A982E5DDB5DB19FAA89E7FBF* __this, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Color_tD001788D726C3A7F1379BEED0260B9591F440C1F Color_get_red_mA2E53E7173FDC97E68E335049AB0FAAEE43A844D_inline (const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Material_set_color_m5C32DEBB215FF9EE35E7B575297D8C2F29CC2A2D (Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* __this, Color_tD001788D726C3A7F1379BEED0260B9591F440C1F ___0_value, const RuntimeMethod* method) ;
+inline Slider_t87EA570E3D6556CABF57456C2F3873FFD86E652F* Component_GetComponent_TisSlider_t87EA570E3D6556CABF57456C2F3873FFD86E652F_mCE53A354B934E9BDB2E8D3094F4E33EBA8FFAFBA (Component_t39FBE53E5EFCF4409111FB22C15FF73717632EC3* __this, const RuntimeMethod* method)
+{
+	return ((  Slider_t87EA570E3D6556CABF57456C2F3873FFD86E652F* (*) (Component_t39FBE53E5EFCF4409111FB22C15FF73717632EC3*, const RuntimeMethod*))Component_GetComponent_TisRuntimeObject_m7181F81CAEC2CF53F5D2BC79B7425C16E1F80D33_gshared)(__this, method);
+}
+inline void Action_1__ctor_m770CD2F8BB65F2EDA5128CA2F96D71C35B23E859 (Action_1_t310F18CB4338A2740CA701F160C62E2C3198E66A* __this, RuntimeObject* ___0_object, intptr_t ___1_method, const RuntimeMethod* method)
+{
+	((  void (*) (Action_1_t310F18CB4338A2740CA701F160C62E2C3198E66A*, RuntimeObject*, intptr_t, const RuntimeMethod*))Action_1__ctor_m770CD2F8BB65F2EDA5128CA2F96D71C35B23E859_gshared)(__this, ___0_object, ___1_method, method);
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void BossHealth_add_OnHealthPercentChanged_mCEC42D8562C2CD57DCE82D41DD9D55E6888286F6 (BossHealth_t8B40372B7852023F1AF6C408BAA5BA400317665E* __this, Action_1_t310F18CB4338A2740CA701F160C62E2C3198E66A* ___0_value, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void BossHealth_remove_OnHealthPercentChanged_m9D91623393D0B90BE4FC3F2740429C4FC0FABED4 (BossHealth_t8B40372B7852023F1AF6C408BAA5BA400317665E* __this, Action_1_t310F18CB4338A2740CA701F160C62E2C3198E66A* ___0_value, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SimpleHpBar_UpdateHealthBar_mED92B596FD06EFA6A273D23846530D0A95C9E284 (SimpleHpBar_tA92C2F0CF98D9239F685C13D6F81661CFDB50200* __this, float ___0_healthPercent, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void AudioHandler_set_DefaultSfxMixerGroup_m5018A21EBA1556FC3DE783DD31F67962A3B9A4B6_inline (AudioMixerGroup_tD29AC8336F7425DF007944F8195CEABF34FC3311* ___0_value, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR AudioMixerGroup_tD29AC8336F7425DF007944F8195CEABF34FC3311* AudioHandler_get_DefaultSfxMixerGroup_m9DA83D716071C3EC05EA24B09F2E98CF9C98FC16_inline (const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AudioHandler_Play3DSound_mF1F770DF7C7CD00E549E5CF0BB41A419AB020D58 (AudioClip_t5D272C4EB4F2D3ED49F1C346DEA373CF6D585F20* ___0_clip, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___1_position, float ___2_volume, AudioMixerGroup_tD29AC8336F7425DF007944F8195CEABF34FC3311* ___3_mixerGroup, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float Mathf_Clamp01_mA7E048DBDA832D399A581BE4D6DED9FA44CE0F14_inline (float ___0_value, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AudioSource_PlayClipAtPoint_mF9D129487C356127ADA3AB5C0A67C7D00F26E3DD (AudioClip_t5D272C4EB4F2D3ED49F1C346DEA373CF6D585F20* ___0_clip, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___1_position, float ___2_volume, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GameObject__ctor_m37D512B05D292F954792225E6C6EEE95293A9B88 (GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* __this, String_t* ___0_name, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* GameObject_get_transform_m0BC10ADFA1632166AE5544BDF9038A2650C2AE56 (GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Transform_set_position_mA1A817124BB41B685043DED2A9BA48CDF37C4156 (Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* __this, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___0_value, const RuntimeMethod* method) ;
+inline AudioSource_t871AC2272F896738252F04EE949AEF5B241D3299* GameObject_AddComponent_TisAudioSource_t871AC2272F896738252F04EE949AEF5B241D3299_m0E8EFDB9B3D8DF1ADE10C56D3168A9C1BA19BF14 (GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* __this, const RuntimeMethod* method)
+{
+	return ((  AudioSource_t871AC2272F896738252F04EE949AEF5B241D3299* (*) (GameObject_t76FEDD663AB33C991A9C9A23129337651094216F*, const RuntimeMethod*))GameObject_AddComponent_TisRuntimeObject_m69B93700FACCF372F5753371C6E8FB780800B824_gshared)(__this, method);
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AudioSource_set_clip_mFF441895E274286C88D9C75ED5CA1B1B39528D70 (AudioSource_t871AC2272F896738252F04EE949AEF5B241D3299* __this, AudioClip_t5D272C4EB4F2D3ED49F1C346DEA373CF6D585F20* ___0_value, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AudioSource_set_volume_mD902BBDBBDE0E3C148609BF3C05096148E90F2C0 (AudioSource_t871AC2272F896738252F04EE949AEF5B241D3299* __this, float ___0_value, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AudioSource_set_spatialBlend_mCEE7A3E87A8C146E048B2CA3413FDC7BDB7BE001 (AudioSource_t871AC2272F896738252F04EE949AEF5B241D3299* __this, float ___0_value, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AudioSource_set_outputAudioMixerGroup_m10D0A0EAE270424CD2F3BB960CFAA158D9FC24CF (AudioSource_t871AC2272F896738252F04EE949AEF5B241D3299* __this, AudioMixerGroup_tD29AC8336F7425DF007944F8195CEABF34FC3311* ___0_value, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AudioSource_Play_m95DF07111C61D0E0F00257A00384D31531D590C3 (AudioSource_t871AC2272F896738252F04EE949AEF5B241D3299* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float AudioClip_get_length_m6102CB29AF65988797452E4D6E43D4788303873D (AudioClip_t5D272C4EB4F2D3ED49F1C346DEA373CF6D585F20* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Object_Destroy_m064F2A066491D2DC4FFCFBDBE5FCFFB807A04436 (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C* ___0_obj, float ___1_t, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AudioHandler_Play2DSound_mA2BA3F4F70EE1AC195D6614E57736DA438CE5DC4 (AudioClip_t5D272C4EB4F2D3ED49F1C346DEA373CF6D585F20* ___0_clip, float ___1_volume, AudioMixerGroup_tD29AC8336F7425DF007944F8195CEABF34FC3311* ___2_mixerGroup, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AudioHandler_SetDefaultSfxMixerGroup_mE10415AD173D93340362E9EF2021F7C6F4E3CFB2 (AudioMixerGroup_tD29AC8336F7425DF007944F8195CEABF34FC3311* ___0_mixerGroup, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AudioHandler_ClearDefaultSfxMixerGroup_m4DEDC8BE5646F23E7E7AA40AEAEF461ABD8E7610 (AudioMixerGroup_tD29AC8336F7425DF007944F8195CEABF34FC3311* ___0_mixerGroup, const RuntimeMethod* method) ;
+inline PolarityComponent_t1FB53DB0BF7CE9A8E59278F3854DC776322BBCA0* Component_GetComponent_TisPolarityComponent_t1FB53DB0BF7CE9A8E59278F3854DC776322BBCA0_m317F7D3130E71487835B00DB1356E893EEF94764 (Component_t39FBE53E5EFCF4409111FB22C15FF73717632EC3* __this, const RuntimeMethod* method)
+{
+	return ((  PolarityComponent_t1FB53DB0BF7CE9A8E59278F3854DC776322BBCA0* (*) (Component_t39FBE53E5EFCF4409111FB22C15FF73717632EC3*, const RuntimeMethod*))Component_GetComponent_TisRuntimeObject_m7181F81CAEC2CF53F5D2BC79B7425C16E1F80D33_gshared)(__this, method);
+}
+inline void Action_1__ctor_m2A215C2B00BBAD929AE9298F40164012A7FB2063 (Action_1_t2A685F9B7073D2171BE282EED0EC530989CA03E9* __this, RuntimeObject* ___0_object, intptr_t ___1_method, const RuntimeMethod* method)
+{
+	((  void (*) (Action_1_t2A685F9B7073D2171BE282EED0EC530989CA03E9*, RuntimeObject*, intptr_t, const RuntimeMethod*))Action_1__ctor_m8EDF953DA7FF0E33AE19FB51BD7DBDB7C495CFE0_gshared)(__this, ___0_object, ___1_method, method);
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PolarityComponent_add_OnPolarityChanged_m2E91C6D657C078F3EF9ABEDFF9A50277F9605AF9 (PolarityComponent_t1FB53DB0BF7CE9A8E59278F3854DC776322BBCA0* __this, Action_1_t2A685F9B7073D2171BE282EED0EC530989CA03E9* ___0_value, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t PolarityComponent_get_CurrentPolarity_mEFF48D62986084A923894FAE9EDD5CC9061A76B0_inline (PolarityComponent_t1FB53DB0BF7CE9A8E59278F3854DC776322BBCA0* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void BulletPolarityVisual_Apply_mC46E94B6F40BC075C95CF3E52DBE05C57706C2BC (BulletPolarityVisual_tB4F02FB35C4FCAB2A3FA0D36A320DBF9DB4F1FA8* __this, int32_t ___0_value, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PolarityComponent_remove_OnPolarityChanged_mE62B5E429C533F83EF7175AB1C0EE11D0EA9980D (PolarityComponent_t1FB53DB0BF7CE9A8E59278F3854DC776322BBCA0* __this, Action_1_t2A685F9B7073D2171BE282EED0EC530989CA03E9* ___0_value, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Color_tD001788D726C3A7F1379BEED0260B9591F440C1F Color_op_Multiply_m379B20A820266ACF82A21425B9CAE8DCD773CFBB_inline (Color_tD001788D726C3A7F1379BEED0260B9591F440C1F ___0_a, float ___1_b, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void BulletPolarityVisual_ApplyToMesh_m0D6D0308829C4221E9789ECF6C7FA05027294ADE (BulletPolarityVisual_tB4F02FB35C4FCAB2A3FA0D36A320DBF9DB4F1FA8* __this, Color_tD001788D726C3A7F1379BEED0260B9591F440C1F ___0_color, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void BulletPolarityVisual_ApplyToTrail_mD2F493906C3BB84B63D17C07BBEE6FE25DE7D250 (BulletPolarityVisual_tB4F02FB35C4FCAB2A3FA0D36A320DBF9DB4F1FA8* __this, Color_tD001788D726C3A7F1379BEED0260B9591F440C1F ___0_color, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void BulletPolarityVisual_ApplyToParticles_m15B12257BAF027678FF245FA0B7AA9CF57BEB9CF (BulletPolarityVisual_tB4F02FB35C4FCAB2A3FA0D36A320DBF9DB4F1FA8* __this, Color_tD001788D726C3A7F1379BEED0260B9591F440C1F ___0_color, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR MaterialU5BU5D_t2B1D11C42DB07A4400C0535F92DBB87A2E346D3D* Renderer_get_materials_m43D33328432700524EAEAB093C67AE5689976118 (Renderer_t320575F223BCB177A982E5DDB5DB19FAA89E7FBF* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Material_HasProperty_mC09A83B44E368A217F606DD4954FA080CC03EC6C (Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* __this, String_t* ___0_name, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Material_SetColor_mFAB32FAA44461E46FD707B34184EC080CBB3539F (Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* __this, String_t* ___0_name, Color_tD001788D726C3A7F1379BEED0260B9591F440C1F ___1_value, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR MainModule_tC7ECD8330C14B0808478A748048988A6085CE2A9 ParticleSystem_get_main_mD86DFCD96150E2CE760CD2F37052BB3BCA33C189 (ParticleSystem_tB19986EE308BD63D36FB6025EEEAFBEDB97C67C1* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR MinMaxGradient_tFF31B8EC2855D0074AB86E8B37BEA6609070AC69 MinMaxGradient_op_Implicit_mAA6154D6644E72BBA49EB34DC957538EE929DE02 (Color_tD001788D726C3A7F1379BEED0260B9591F440C1F ___0_color, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MainModule_set_startColor_m504911284CAC53A7C1B97B5D01BBDD2FA67D0E7A (MainModule_tC7ECD8330C14B0808478A748048988A6085CE2A9* __this, MinMaxGradient_tFF31B8EC2855D0074AB86E8B37BEA6609070AC69 ___0_value, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Color_tD001788D726C3A7F1379BEED0260B9591F440C1F Color_get_white_m068F5AF879B0FCA584E3693F762EA41BB65532C6_inline (const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Color_tD001788D726C3A7F1379BEED0260B9591F440C1F Color_get_black_mB50217951591A045844C61E7FF31EEE3FEF16737_inline (const RuntimeMethod* method) ;
+inline RuntimeObject* GameObject_GetComponent_TisIPolarizable_t6E300D7209F9FFC1D210E3DA7E126302B6055191_m595158FD90F2B71808E83BD6403F75DD0938B8C8 (GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* __this, const RuntimeMethod* method)
+{
+	return ((  RuntimeObject* (*) (GameObject_t76FEDD663AB33C991A9C9A23129337651094216F*, const RuntimeMethod*))GameObject_GetComponent_TisRuntimeObject_m6EAED4AA356F0F48288F67899E5958792395563B_gshared)(__this, method);
+}
+inline RuntimeObject* GameObject_GetComponentInParent_TisIPolarizable_t6E300D7209F9FFC1D210E3DA7E126302B6055191_mBA66E4F61757933BA5B6F6C9476C7950D6DFA451 (GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* __this, const RuntimeMethod* method)
+{
+	return ((  RuntimeObject* (*) (GameObject_t76FEDD663AB33C991A9C9A23129337651094216F*, const RuntimeMethod*))GameObject_GetComponentInParent_TisRuntimeObject_mDD9FD68B12361AC472D4A83310CAD793C02C6654_gshared)(__this, method);
+}
+inline RuntimeObject* GameObject_GetComponent_TisIDamageable_t07050BAA6A48ED40626F1F034CE04E3B015CB4FA_mC63F085DACB358C8DFB740F5E685CA5DE87D088B (GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* __this, const RuntimeMethod* method)
+{
+	return ((  RuntimeObject* (*) (GameObject_t76FEDD663AB33C991A9C9A23129337651094216F*, const RuntimeMethod*))GameObject_GetComponent_TisRuntimeObject_m6EAED4AA356F0F48288F67899E5958792395563B_gshared)(__this, method);
+}
+inline RuntimeObject* GameObject_GetComponentInParent_TisIDamageable_t07050BAA6A48ED40626F1F034CE04E3B015CB4FA_m64D2A743167A738B651A42C345F2171415926391 (GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* __this, const RuntimeMethod* method)
+{
+	return ((  RuntimeObject* (*) (GameObject_t76FEDD663AB33C991A9C9A23129337651094216F*, const RuntimeMethod*))GameObject_GetComponentInParent_TisRuntimeObject_mDD9FD68B12361AC472D4A83310CAD793C02C6654_gshared)(__this, method);
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool DamageSystem_TryApplyDamage_m84AFF8A0F826543A4C45B0684D9A52C5341CCEA7 (int32_t ___0_sourcePolarity, RuntimeObject* ___1_targetPolarity, RuntimeObject* ___2_damageable, float ___3_amount, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool DamageSystem_DealsDamage_m2FCC8E24633AC37D001D8775A27C574EA1BC7395 (int32_t ___0_attacker, int32_t ___1_target, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float Time_get_time_m3A271BB1B20041144AC5B7863B71AB1F0150374B (const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PlayerPolarityController_GetComponents_m47A607890ED3DE888733B31093248DBEC2D146E4 (PlayerPolarityController_tCFB963493C39DFCBADE47B3DA016DE655279431D* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PlayerPolarityController_RefToSwitchAction_mB51F1764A65709596A206E2A9DACD2BEC9A9379A (PlayerPolarityController_tCFB963493C39DFCBADE47B3DA016DE655279431D* __this, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool UIQueue_get_IsBlocking_m6B2BCD297AA3050728F60F53EA389653911E0134_inline (const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool PauseMenu_get_IsPaused_mD104EA82FBC4D985AEA9F223CFA038687136944E_inline (const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool OVRInput_GetDown_mEC4F71AEC93D3AF1A041934CA4C61680C6DB9AC7 (int32_t ___0_virtualMask, int32_t ___1_controllerMask, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool PlayerPolarityController_TrySwitch_m8F2544AFBB18027B8AA693C427BC7F74786E557E (PlayerPolarityController_tCFB963493C39DFCBADE47B3DA016DE655279431D* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR InputAction_t1B550AD2B55AF322AFB53CD28DA64081220D01CD* InputActionReference_get_action_m395EDEA6A93B54555D22323FDA6E1B1E931CE6EF (InputActionReference_t64730C6B41271E0983FC21BFB416169F5D6BC4A1* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void InputAction__ctor_mD042AD3CC86AEDEB5FB1F8CD9E834FE35F9060B9 (InputAction_t1B550AD2B55AF322AFB53CD28DA64081220D01CD* __this, String_t* ___0_name, int32_t ___1_type, String_t* ___2_binding, String_t* ___3_interactions, String_t* ___4_processors, String_t* ___5_expectedControlType, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR BindingSyntax_t5FB93D8F3518B4640E42E067ECB15541CD123317 InputActionSetupExtensions_AddBinding_m22E4A437A2AD06C6326D8BEB45114B5DBD2F7168 (InputAction_t1B550AD2B55AF322AFB53CD28DA64081220D01CD* ___0_action, String_t* ___1_path, String_t* ___2_interactions, String_t* ___3_processors, String_t* ___4_groups, const RuntimeMethod* method) ;
+inline PlayerStatsData_t8AB00CC7DF7DB19B96714A2AC9281D6B0A107302* Component_GetComponent_TisPlayerStatsData_t8AB00CC7DF7DB19B96714A2AC9281D6B0A107302_m710C3B1E9E695D867C7C5201A3F99828A6D9C7CD (Component_t39FBE53E5EFCF4409111FB22C15FF73717632EC3* __this, const RuntimeMethod* method)
+{
+	return ((  PlayerStatsData_t8AB00CC7DF7DB19B96714A2AC9281D6B0A107302* (*) (Component_t39FBE53E5EFCF4409111FB22C15FF73717632EC3*, const RuntimeMethod*))Component_GetComponent_TisRuntimeObject_m7181F81CAEC2CF53F5D2BC79B7425C16E1F80D33_gshared)(__this, method);
+}
+inline PolarityPostProcessPulse_t05967FEAD321633709B2F7C9DE145D49B3AA0E62* Component_GetComponentInChildren_TisPolarityPostProcessPulse_t05967FEAD321633709B2F7C9DE145D49B3AA0E62_m53FA4763E09CD33E9B5A13CDD1765E3372511F2D (Component_t39FBE53E5EFCF4409111FB22C15FF73717632EC3* __this, const RuntimeMethod* method)
+{
+	return ((  PolarityPostProcessPulse_t05967FEAD321633709B2F7C9DE145D49B3AA0E62* (*) (Component_t39FBE53E5EFCF4409111FB22C15FF73717632EC3*, const RuntimeMethod*))Component_GetComponentInChildren_TisRuntimeObject_mE483A27E876DE8E4E6901D6814837F81D7C42F65_gshared)(__this, method);
+}
+inline PolarityPostProcessPulse_t05967FEAD321633709B2F7C9DE145D49B3AA0E62* Object_FindFirstObjectByType_TisPolarityPostProcessPulse_t05967FEAD321633709B2F7C9DE145D49B3AA0E62_m785614C46E3FFBA5026D2096DFFDAB6471991951 (const RuntimeMethod* method)
+{
+	return ((  PolarityPostProcessPulse_t05967FEAD321633709B2F7C9DE145D49B3AA0E62* (*) (const RuntimeMethod*))Object_FindFirstObjectByType_TisRuntimeObject_mC5927319EB5B80095EFBA653D414D6F8AA87DC0A_gshared)(method);
+}
+inline void Action_1__ctor_mA763900B34C3394F230AE63708F530CA9A192B57 (Action_1_tEB0353AA1A112B6F2D921B58DCC9D9D4C0498E6E* __this, RuntimeObject* ___0_object, intptr_t ___1_method, const RuntimeMethod* method)
+{
+	((  void (*) (Action_1_tEB0353AA1A112B6F2D921B58DCC9D9D4C0498E6E*, RuntimeObject*, intptr_t, const RuntimeMethod*))Action_1__ctor_mA763900B34C3394F230AE63708F530CA9A192B57_gshared)(__this, ___0_object, ___1_method, method);
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void InputAction_add_performed_m0337FFA16EBEF7AE365C3B558CFDFF7BB9747B54 (InputAction_t1B550AD2B55AF322AFB53CD28DA64081220D01CD* __this, Action_1_tEB0353AA1A112B6F2D921B58DCC9D9D4C0498E6E* ___0_value, const RuntimeMethod* method) ;
+inline void Action_1__ctor_mA8C3AC97D1F076EA5D1D0C10CEE6BD3E94711501 (Action_1_t10DCB0C07D0D3C565CEACADC80D1152B35A45F6C* __this, RuntimeObject* ___0_object, intptr_t ___1_method, const RuntimeMethod* method)
+{
+	((  void (*) (Action_1_t10DCB0C07D0D3C565CEACADC80D1152B35A45F6C*, RuntimeObject*, intptr_t, const RuntimeMethod*))Action_1__ctor_mA8C3AC97D1F076EA5D1D0C10CEE6BD3E94711501_gshared)(__this, ___0_object, ___1_method, method);
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PauseMenu_add_OnPauseChanged_m68F3154EEF37F50EFBB31D7C1548ECAF6F6C965E (Action_1_t10DCB0C07D0D3C565CEACADC80D1152B35A45F6C* ___0_value, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void InputAction_Enable_mB3897C0741409C033656E4566EC49135C3C8BC68 (InputAction_t1B550AD2B55AF322AFB53CD28DA64081220D01CD* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UIQueue_add_OnBlockingChanged_mB6F17F101D7A5B87F987827DEB0E80B6F16B31B4 (Action_1_t10DCB0C07D0D3C565CEACADC80D1152B35A45F6C* ___0_value, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void InputAction_remove_performed_m1BE84CED38F11F17C825FA782B35C92D708E6E44 (InputAction_t1B550AD2B55AF322AFB53CD28DA64081220D01CD* __this, Action_1_tEB0353AA1A112B6F2D921B58DCC9D9D4C0498E6E* ___0_value, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PauseMenu_remove_OnPauseChanged_mC6E3B56C26155EBF5CD6E0009E926F1411135145 (Action_1_t10DCB0C07D0D3C565CEACADC80D1152B35A45F6C* ___0_value, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void InputAction_Disable_m72D1982F82457C6E003440BADD06989D399BDE50 (InputAction_t1B550AD2B55AF322AFB53CD28DA64081220D01CD* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UIQueue_remove_OnBlockingChanged_m420E117375CFF4D62D83E4F6CCCC7E46A4DF6764 (Action_1_t10DCB0C07D0D3C565CEACADC80D1152B35A45F6C* ___0_value, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void InputAction_Dispose_m7016314CC572110D567AD474D188A13026EA7CAC (InputAction_t1B550AD2B55AF322AFB53CD28DA64081220D01CD* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool PlayerPolarityController_get_CanSwitch_m1208D3B83721FD035CC25286D4EA9F23C8A97D4F (PlayerPolarityController_tCFB963493C39DFCBADE47B3DA016DE655279431D* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PolarityComponent_Toggle_mE50AD45D52FAEBAAA74E2AFF6B8A9F882ECC70EA (PolarityComponent_t1FB53DB0BF7CE9A8E59278F3854DC776322BBCA0* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PolarityPostProcessPulse_Play_mA8FF0DAB31D46A292295AB06EC7383EDB9024362 (PolarityPostProcessPulse_t05967FEAD321633709B2F7C9DE145D49B3AA0E62* __this, int32_t ___0_polarity, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PlayerPolarityController_PlaySwitchSfx_mDE9BA7D6A5F11C6CE20AF8030624BDDC1E59C8B3 (PlayerPolarityController_tCFB963493C39DFCBADE47B3DA016DE655279431D* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AbilityUIDisplay_StartCooldownUI_m00FE25D3FA0C43F7DEE3DC60B69B6CF954F48939 (AbilityUIDisplay_tBEB0E4232773D12192172889050AF5E0D6D5FE4D* __this, const RuntimeMethod* method) ;
+inline void Action_1_Invoke_mC4804BC714747F815506CC787400EB84BA024D68_inline (Action_1_t10D7C827ADC73ED438E0CA8F04465BA6F2BAED7D* __this, Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* ___0_obj, const RuntimeMethod* method)
+{
+	((  void (*) (Action_1_t10D7C827ADC73ED438E0CA8F04465BA6F2BAED7D*, Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1*, const RuntimeMethod*))Action_1_Invoke_mF2422B2DD29F74CE66F791C3F68E288EC7C3DB9E_gshared_inline)(__this, ___0_obj, method);
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AudioClip_t5D272C4EB4F2D3ED49F1C346DEA373CF6D585F20* PlayerPolarityController_GetRandomSwitchSound_m3451943F9BC2ED869C699605EFBDF810098B73B2 (PlayerPolarityController_tCFB963493C39DFCBADE47B3DA016DE655279431D* __this, const RuntimeMethod* method) ;
+inline RendererU5BU5D_t32FDD782F67917B2291EA4FF242719877440A02A* Component_GetComponentsInChildren_TisRenderer_t320575F223BCB177A982E5DDB5DB19FAA89E7FBF_m35AC34F858BD2F34770712CD020AA0518D9409C7 (Component_t39FBE53E5EFCF4409111FB22C15FF73717632EC3* __this, const RuntimeMethod* method)
+{
+	return ((  RendererU5BU5D_t32FDD782F67917B2291EA4FF242719877440A02A* (*) (Component_t39FBE53E5EFCF4409111FB22C15FF73717632EC3*, const RuntimeMethod*))Component_GetComponentsInChildren_TisRuntimeObject_m1F5B6FC0689B07D4FAAC0C605D9B2933A9B32543_gshared)(__this, method);
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float PlayerPolarityVisual_GetTarget_m499374253EB3E1218931FA69CA62A6D5153432C8 (PlayerPolarityVisual_t2E7592CC4CFD6768A7C9D4CDA5864820C7B4F69B* __this, int32_t ___0_value, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PlayerPolarityVisual_SetInvert_mB08FA3DAC5658FC7D6FC56F127D938A9B89C8EED (PlayerPolarityVisual_t2E7592CC4CFD6768A7C9D4CDA5864820C7B4F69B* __this, float ___0_value, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MonoBehaviour_StopCoroutine_mB0FC91BE84203BD8E360B3FBAE5B958B4C5ED22A (MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71* __this, Coroutine_t85EA685566A254C23F3FD77AB5BDFFFF8799596B* ___0_routine, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* PlayerPolarityVisual_TransitionRoutine_m5A73E067EB05AC42617C6330DAE21FBA1F548B58 (PlayerPolarityVisual_t2E7592CC4CFD6768A7C9D4CDA5864820C7B4F69B* __this, float ___0_target, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Coroutine_t85EA685566A254C23F3FD77AB5BDFFFF8799596B* MonoBehaviour_StartCoroutine_m4CAFF732AA28CD3BDC5363B44A863575530EC812 (MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71* __this, RuntimeObject* ___0_routine, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CTransitionRoutineU3Ed__12__ctor_m9412A98B4820F5AB5D8BD1ED1A394E3A06533738 (U3CTransitionRoutineU3Ed__12_t5153C44B39EA4118C415A450776CB41CFB83E6D8* __this, int32_t ___0_U3CU3E1__state, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Material_SetFloat_m879CF81D740BAE6F23C9822400679F4D16365836 (Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* __this, String_t* ___0_name, float ___1_value, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float Time_get_deltaTime_mC3195000401F0FD167DD2F948FD2BC58330D0865 (const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float Mathf_Lerp_m47EF2FFB7647BD0A1FDC26DC03E28B19812139B5_inline (float ___0_a, float ___1_b, float ___2_t, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t PolarityExtensions_Opposite_m1225CD632E146AFB1F6D72692466F2779827E2AD (int32_t ___0_polarity, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PolarityComponent_SetPolarity_mE4E146F210CE7D1D99678A13A5E179DA910C8BFA (PolarityComponent_t1FB53DB0BF7CE9A8E59278F3854DC776322BBCA0* __this, int32_t ___0_newPolarity, const RuntimeMethod* method) ;
+inline void Action_1_Invoke_mDE5C2BAE577D61B72E945CAC1942702B1048D9D1_inline (Action_1_t2A685F9B7073D2171BE282EED0EC530989CA03E9* __this, int32_t ___0_obj, const RuntimeMethod* method)
+{
+	((  void (*) (Action_1_t2A685F9B7073D2171BE282EED0EC530989CA03E9*, int32_t, const RuntimeMethod*))Action_1_Invoke_mBF7DDBCD230E9D28EDF45D3E65F907DE1AE0CCBC_gshared_inline)(__this, ___0_obj, method);
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PolarityPostProcessPulse_SetWeight_m5F63A95F8B00AB4C36698D84247BFE345EFC43E7 (PolarityPostProcessPulse_t05967FEAD321633709B2F7C9DE145D49B3AA0E62* __this, Volume_t7CAAEA22D7F13A50FAE114DE7A6986FEAC837377* ___0_volume, float ___1_weight, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* PolarityPostProcessPulse_Pulse_m06E3A938E0C0BEF00B8684DF6893DAE169E06EDD (PolarityPostProcessPulse_t05967FEAD321633709B2F7C9DE145D49B3AA0E62* __this, Volume_t7CAAEA22D7F13A50FAE114DE7A6986FEAC837377* ___0_volume, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CPulseU3Ed__8__ctor_m4CFBC58402D341FBA95B8C58ABA8452002E70A66 (U3CPulseU3Ed__8_t402EDF9D8A7ACCD413E5272759DE2CEB956CDF44* __this, int32_t ___0_U3CU3E1__state, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CFadeU3Ed__9__ctor_m2367C521F00A7378F6B2C68F07E42D930AD21DB7 (U3CFadeU3Ed__9_t247AA66A5045BF0D4DACCFEA056E79B04B8A69EF* __this, int32_t ___0_U3CU3E1__state, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float Time_get_unscaledDeltaTime_mF057EECA857E5C0F90A3F910D26D3EE59F27C4B5 (const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* PolarityPostProcessPulse_Fade_mFABEC1C46D3497CEF4B799D70839A37CBC912B2B (PolarityPostProcessPulse_t05967FEAD321633709B2F7C9DE145D49B3AA0E62* __this, Volume_t7CAAEA22D7F13A50FAE114DE7A6986FEAC837377* ___0_volume, float ___1_startWeight, float ___2_endWeight, float ___3_duration, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PolarityVisual_GetComponents_m983207157F5BE037E9108661BD7C0ECACCA6C53E (PolarityVisual_t1B1D8F62D356A95A438AE9480687E4D557617E88* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PolarityVisual_Apply_mCB6CE0338B7E1A0F2F25708653B628FE66207C89 (PolarityVisual_t1B1D8F62D356A95A438AE9480687E4D557617E88* __this, int32_t ___0_polarity, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PolarityVisual_SetMaterial_m21BDAA772E4564440A7882FEED58CE6BF9B0B9E5 (PolarityVisual_t1B1D8F62D356A95A438AE9480687E4D557617E88* __this, Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* ___0_material, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* PolarityVisual_FlashHitRoutine_m5AA4D622FAE1BE6C9A5C772D03A6F5866FFA700D (PolarityVisual_t1B1D8F62D356A95A438AE9480687E4D557617E88* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CFlashHitRoutineU3Ed__13__ctor_m7006E3DFEAE7A35E237879F5602D805AF37BA6C7 (U3CFlashHitRoutineU3Ed__13_t30C53B21A2E865F607C0B768F5D9BF5623151CBC* __this, int32_t ___0_U3CU3E1__state, const RuntimeMethod* method) ;
+inline ShootProjectile_t4CAF1E2524313E5908E28A80A256CB9D5047CFA9* Object_Instantiate_TisShootProjectile_t4CAF1E2524313E5908E28A80A256CB9D5047CFA9_m8D25D307C4AA393577AE650763FE5A8D57C855EF (ShootProjectile_t4CAF1E2524313E5908E28A80A256CB9D5047CFA9* ___0_original, Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* ___1_parent, const RuntimeMethod* method)
+{
+	return ((  ShootProjectile_t4CAF1E2524313E5908E28A80A256CB9D5047CFA9* (*) (ShootProjectile_t4CAF1E2524313E5908E28A80A256CB9D5047CFA9*, Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1*, const RuntimeMethod*))Object_Instantiate_TisRuntimeObject_m75BF3B0A3747B60491845FA41612FE7F795F0A59_gshared)(___0_original, ___1_parent, method);
+}
+inline void List_1_Add_m6688AAA897C848E232F99AB8A11BDE19E61D1F3C_inline (List_1_t39B0C22BC92BE7FD81CD1D9645F6C63B18866D34* __this, ShootProjectile_t4CAF1E2524313E5908E28A80A256CB9D5047CFA9* ___0_item, const RuntimeMethod* method)
+{
+	((  void (*) (List_1_t39B0C22BC92BE7FD81CD1D9645F6C63B18866D34*, ShootProjectile_t4CAF1E2524313E5908E28A80A256CB9D5047CFA9*, const RuntimeMethod*))List_1_Add_mEBCF994CC3814631017F46A387B1A192ED6C85C7_gshared_inline)(__this, ___0_item, method);
+}
+inline ShootProjectile_t4CAF1E2524313E5908E28A80A256CB9D5047CFA9* List_1_get_Item_m4CC914DAD05FB51A71BFC9F2CDCA9C199FC203E5 (List_1_t39B0C22BC92BE7FD81CD1D9645F6C63B18866D34* __this, int32_t ___0_index, const RuntimeMethod* method)
+{
+	return ((  ShootProjectile_t4CAF1E2524313E5908E28A80A256CB9D5047CFA9* (*) (List_1_t39B0C22BC92BE7FD81CD1D9645F6C63B18866D34*, int32_t, const RuntimeMethod*))List_1_get_Item_m33561245D64798C2AB07584C0EC4F240E4839A38_gshared)(__this, ___0_index, method);
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Transform_SetPositionAndRotation_m418859BF59086EEAA084FFD6F258A43FAB408F5A (Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* __this, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___0_position, Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 ___1_rotation, const RuntimeMethod* method) ;
+inline int32_t List_1_get_Count_m67D9FAC15E8A516FAEFDD6D58FD64D918EED8669_inline (List_1_t39B0C22BC92BE7FD81CD1D9645F6C63B18866D34* __this, const RuntimeMethod* method)
+{
+	return ((  int32_t (*) (List_1_t39B0C22BC92BE7FD81CD1D9645F6C63B18866D34*, const RuntimeMethod*))List_1_get_Count_m4407E4C389F22B8CEC282C15D56516658746C383_gshared_inline)(__this, method);
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Debug_LogWarning_m33EF1B897E0C7C6FF538989610BFAFFEF4628CA9 (RuntimeObject* ___0_message, const RuntimeMethod* method) ;
+inline void List_1__ctor_m6A99A77FB76A19E57541C3D50E1CFE452F7E5104 (List_1_t39B0C22BC92BE7FD81CD1D9645F6C63B18866D34* __this, const RuntimeMethod* method)
+{
+	((  void (*) (List_1_t39B0C22BC92BE7FD81CD1D9645F6C63B18866D34*, const RuntimeMethod*))List_1__ctor_m7F078BB342729BDF11327FD89D7872265328F690_gshared)(__this, method);
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TrailRenderer_Clear_m52593FE681F7171649479A57A2AFCA89C508413F (TrailRenderer_tF7E185EF383CF4300DFC3E1DE59FA6100B93CA39* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void VisualEffect_Reinit_m6156FD4BF32F28CA875E23B3CEF8CF187016A042 (VisualEffect_t8CF4F0E13AEBF27224BB1323CC103666EDBBCFB0* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void VisualEffect_Play_m3A49E82BEE9A6F1ED48156A12908F9D13AADEE1F (VisualEffect_t8CF4F0E13AEBF27224BB1323CC103666EDBBCFB0* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParticleSystem_Clear_mE026AF9610248EB560530CD292FEED0F7571F732 (ParticleSystem_tB19986EE308BD63D36FB6025EEEAFBEDB97C67C1* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParticleSystem_Play_mD943E601BFE16CB9BB5D1F5E6AED5C36F5F11EF5 (ParticleSystem_tB19986EE308BD63D36FB6025EEEAFBEDB97C67C1* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 Transform_get_forward_mFCFACF7165FDAB21E80E384C494DF278386CEE2F (Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* __this, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 Vector3_op_Multiply_m87BA7C578F96C8E49BB07088DAAC4649F83B0353_inline (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___0_a, float ___1_d, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 Vector3_op_Addition_m78C0EC70CB66E8DCAC225743D82B268DAEE92067_inline (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___0_a, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___1_b, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RaycastHitU5BU5D_t008B8309DE422FE7567068D743D68054D5EBF1A8* Physics_SphereCastAll_mE651DDBD29BBBBC4E3D33BBDE3C9C082ACFCB91C (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___0_origin, float ___1_radius, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___2_direction, float ___3_maxDistance, int32_t ___4_layerMask, int32_t ___5_queryTriggerInteraction, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Collider_t1CC3163924FCD6C4CC2E816373A929C1E3D55E76* RaycastHit_get_collider_m84B160439BBEAB6D9E94B799F720E25C9E2D444D (RaycastHit_t6F30BD0B38B56401CA833A1B87BD74F2ACD2F2B5* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Transform_IsChildOf_mFE071BE1E775E825401FE0A9B9BE49E39D256CEA (Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* __this, Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* ___0_parent, const RuntimeMethod* method) ;
+inline RuntimeObject* Component_GetComponentInParent_TisIDamageable_t07050BAA6A48ED40626F1F034CE04E3B015CB4FA_m65E7CD8A96879E8DB82951F748E329F588966D78 (Component_t39FBE53E5EFCF4409111FB22C15FF73717632EC3* __this, const RuntimeMethod* method)
+{
+	return ((  RuntimeObject* (*) (Component_t39FBE53E5EFCF4409111FB22C15FF73717632EC3*, const RuntimeMethod*))Component_GetComponentInParent_TisRuntimeObject_m6746D6BB99912B1B509746C993906492F86CD119_gshared)(__this, method);
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ShootProjectile_HandleHit_m0E577AB12CDE4017E80E2D17428BD30E778727F8 (ShootProjectile_t4CAF1E2524313E5908E28A80A256CB9D5047CFA9* __this, Collider_t1CC3163924FCD6C4CC2E816373A929C1E3D55E76* ___0_other, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool GameObject_get_activeSelf_m4F3E5240E138B66AAA080EA30759A3D0517DA368 (GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* __this, const RuntimeMethod* method) ;
+inline BossShield_t0CA1B25A12A4CFD773F7060DF191054A955E1B84* Component_GetComponentInParent_TisBossShield_t0CA1B25A12A4CFD773F7060DF191054A955E1B84_m77CA3D5972E411811F19319E2BDE0C5B8F0708C1 (Component_t39FBE53E5EFCF4409111FB22C15FF73717632EC3* __this, const RuntimeMethod* method)
+{
+	return ((  BossShield_t0CA1B25A12A4CFD773F7060DF191054A955E1B84* (*) (Component_t39FBE53E5EFCF4409111FB22C15FF73717632EC3*, const RuntimeMethod*))Component_GetComponentInParent_TisRuntimeObject_m6746D6BB99912B1B509746C993906492F86CD119_gshared)(__this, method);
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool BossShield_get_IsInvulnerable_m65A751E16B03E874D6C6E63CCFD257E8B4A742FB (BossShield_t0CA1B25A12A4CFD773F7060DF191054A955E1B84* __this, const RuntimeMethod* method) ;
+inline BossWeakPoint_t502A335D841A6A96167C6E10CACA201C9F1BE4BC* Component_GetComponentInParent_TisBossWeakPoint_t502A335D841A6A96167C6E10CACA201C9F1BE4BC_mCD3999ECA7BC1C0661285BED509BEC4B2E7EE6C1 (Component_t39FBE53E5EFCF4409111FB22C15FF73717632EC3* __this, const RuntimeMethod* method)
+{
+	return ((  BossWeakPoint_t502A335D841A6A96167C6E10CACA201C9F1BE4BC* (*) (Component_t39FBE53E5EFCF4409111FB22C15FF73717632EC3*, const RuntimeMethod*))Component_GetComponentInParent_TisRuntimeObject_m6746D6BB99912B1B509746C993906492F86CD119_gshared)(__this, method);
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool BossWeakPoint_get_CanTakeDamage_m7B680DFB89374BCA31320B9E44E8158C7B0B680B (BossWeakPoint_t502A335D841A6A96167C6E10CACA201C9F1BE4BC* __this, const RuntimeMethod* method) ;
+inline EnemyHealth_tBBE8DFA320087F0FED2E699F1A79262CD00C1F6D* Component_GetComponentInParent_TisEnemyHealth_tBBE8DFA320087F0FED2E699F1A79262CD00C1F6D_m7DCD532DF55BBD4BE7EC5C8BE96DA89AF8F2CB4E (Component_t39FBE53E5EFCF4409111FB22C15FF73717632EC3* __this, const RuntimeMethod* method)
+{
+	return ((  EnemyHealth_tBBE8DFA320087F0FED2E699F1A79262CD00C1F6D* (*) (Component_t39FBE53E5EFCF4409111FB22C15FF73717632EC3*, const RuntimeMethod*))Component_GetComponentInParent_TisRuntimeObject_m6746D6BB99912B1B509746C993906492F86CD119_gshared)(__this, method);
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool DamageSystem_TryApplyDamage_m3E64B29A17605B7DBDB9172CB768E4024DF25E1F (RuntimeObject* ___0_source, GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___1_target, float ___2_amount, const RuntimeMethod* method) ;
+inline Rigidbody_t268697F5A994213ED97393309870968BC1C7393C* Component_GetComponent_TisRigidbody_t268697F5A994213ED97393309870968BC1C7393C_m4B5CAD64B52D153BEA96432633CA9A45FA523DD8 (Component_t39FBE53E5EFCF4409111FB22C15FF73717632EC3* __this, const RuntimeMethod* method)
+{
+	return ((  Rigidbody_t268697F5A994213ED97393309870968BC1C7393C* (*) (Component_t39FBE53E5EFCF4409111FB22C15FF73717632EC3*, const RuntimeMethod*))Component_GetComponent_TisRuntimeObject_m7181F81CAEC2CF53F5D2BC79B7425C16E1F80D33_gshared)(__this, method);
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FeedbackHandler_SpawnParticles_mC9B78CAA4927D45676AA6CB70495E7BF64ACCFD9 (GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___0_prefab, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___1_position, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___2_impactNormal, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool EnemyHealth_get_IsDead_mC48625E00B4AF7C7D94281E53575A88D0D078AC1 (EnemyHealth_tBBE8DFA320087F0FED2E699F1A79262CD00C1F6D* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ShootProjectile_PlayImpactSfx_mB5A778E2D29071BE793A6C7595AD95EE4792D0A5 (ShootProjectile_t4CAF1E2524313E5908E28A80A256CB9D5047CFA9* __this, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Vector3_Normalize_mC749B887A4C74BA0A2E13E6377F17CCAEB0AADA8_inline (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Rigidbody_AddForce_mBDBC288D0E266BC1B62E3649B4FCE46E7EA9CCBC (Rigidbody_t268697F5A994213ED97393309870968BC1C7393C* __this, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___0_force, int32_t ___1_mode, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PolarityVisual_FlashHit_m60653A3A8BB38F8DFBAACC832F4BF478B1052310 (PolarityVisual_t1B1D8F62D356A95A438AE9480687E4D557617E88* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AudioClip_t5D272C4EB4F2D3ED49F1C346DEA373CF6D585F20* ShootProjectile_GetRandomImpactSound_m20E72E4537F683EF3E21CD871EA5F757B76A3890 (ShootProjectile_t4CAF1E2524313E5908E28A80A256CB9D5047CFA9* __this, const RuntimeMethod* method) ;
+inline void Action_2_Invoke_m50A62593A87E11ED31B47FE46E633AB3B9A7666C_inline (Action_2_t4195ED8D681728C29103F36BCD591C0F089C9132* __this, float ___0_arg1, float ___1_arg2, const RuntimeMethod* method)
+{
+	((  void (*) (Action_2_t4195ED8D681728C29103F36BCD591C0F089C9132*, float, float, const RuntimeMethod*))Action_2_Invoke_m50A62593A87E11ED31B47FE46E633AB3B9A7666C_gshared_inline)(__this, ___0_arg1, ___1_arg2, method);
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* String_Format_m918500C1EFB475181349A79989BB79BB36102894 (String_t* ___0_format, ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* ___1_args, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float TestShooter_GetChargeTime_m9E5516B8C132A93B1F1CE903B3783FCD5915FD38 (TestShooter_t31886477AD339CA401E8D12EF68BC7D1E9AAD6DE* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AudioSource_t871AC2272F896738252F04EE949AEF5B241D3299* TestShooter_CreateLoopSource_m451775E0789373660DBA1015DEC6DB1D871663E2 (TestShooter_t31886477AD339CA401E8D12EF68BC7D1E9AAD6DE* __this, String_t* ___0_sourceName, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TestShooter_StopChargeLoop_mDB1FC580B8E28F95414ACB913A15A6315379B55B (TestShooter_t31886477AD339CA401E8D12EF68BC7D1E9AAD6DE* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TestShooter_StopHeldChargeLoop_m30EA02507D58ECC7FA46F3FA3DBFC0016BFAB601 (TestShooter_t31886477AD339CA401E8D12EF68BC7D1E9AAD6DE* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TestShooter_StopVibration_m635EE4097D5260FBA1304E0405923CDEC70F755F (TestShooter_t31886477AD339CA401E8D12EF68BC7D1E9AAD6DE* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float OVRInput_Get_m1FD85568F358C43019E09E48A7BEBD6CD7F7E5D8 (int32_t ___0_virtualMask, int32_t ___1_controllerMask, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TestShooter_ReleaseCharge_mF746FAA28A8582F2BDDBA8C9EDC2658AEC95CDBE (TestShooter_t31886477AD339CA401E8D12EF68BC7D1E9AAD6DE* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TestShooter_Shoot_mE9F9C6ACD89B4151973BF8FE19C564ED5D4DE99D (TestShooter_t31886477AD339CA401E8D12EF68BC7D1E9AAD6DE* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TestShooter_StartCharging_mD8DA049FE38D19CD937E24A8FE23205E8726698B (TestShooter_t31886477AD339CA401E8D12EF68BC7D1E9AAD6DE* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TestShooter_UpdateCharging_m96B6E84F147396DCBDF057A7D5D632A629BDB5B1 (TestShooter_t31886477AD339CA401E8D12EF68BC7D1E9AAD6DE* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TestShooter_CancelCharge_m6DD785FFBB4561C0CF0CF03D9EFA2AB8D7D2BC6C (TestShooter_t31886477AD339CA401E8D12EF68BC7D1E9AAD6DE* __this, bool ___0_playCancelSound, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float Mathf_Clamp_mEB9AEA827D27D20FCC787F7375156AF46BB12BBF_inline (float ___0_value, float ___1_min, float ___2_max, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TestShooter_StartChargeLoop_mFE822B3250C64BAB1398AE03C2D9D5083691F201 (TestShooter_t31886477AD339CA401E8D12EF68BC7D1E9AAD6DE* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TestShooter_StartHeldChargeLoop_mA7FDCE543E52FDFE296FE1640B0C111AB68B1A82 (TestShooter_t31886477AD339CA401E8D12EF68BC7D1E9AAD6DE* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* TestShooter_VibrateReady_m47D7BDD72D15E2F0D2C0F30DA4B81C05FC17BF73 (TestShooter_t31886477AD339CA401E8D12EF68BC7D1E9AAD6DE* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CVibrateReadyU3Ed__48__ctor_m230F1619E21C2CF0380096D865CDF6C499B04B42 (U3CVibrateReadyU3Ed__48_tE2A74AF7171D8E9AF1C56B717DAD214012621AD8* __this, int32_t ___0_U3CU3E1__state, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void OVRInput_SetControllerVibration_m7DE7256047DAAB0F6F5E327250A23B9D7074871E (float ___0_frequency, float ___1_amplitude, int32_t ___2_controllerMask, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TestShooter_ChargeShot_mD5B47047718DBD7B9A3AC01017D23836E424DFC4 (TestShooter_t31886477AD339CA401E8D12EF68BC7D1E9AAD6DE* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TestShooter_ShootFromPool_m4159151CCFC09563D8A6AD7C476DA924EFA36C07 (TestShooter_t31886477AD339CA401E8D12EF68BC7D1E9AAD6DE* __this, ProjectilePool_t723C2CD076FE4320E49200C785ACD04FCAA398E8* ___0_pool, float ___1_speed, float ___2_damage, float ___3_knockbackForce, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TestShooter_PlayShootSfx_m461A9E4217F61E0F0D8ED8A454847D44EA7B1753 (TestShooter_t31886477AD339CA401E8D12EF68BC7D1E9AAD6DE* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TestShooter_PlayChargeShotSfx_m91430B4EE9E9839D9C868B654544AC1AAC86CBC9 (TestShooter_t31886477AD339CA401E8D12EF68BC7D1E9AAD6DE* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 Transform_get_rotation_m32AF40CA0D50C797DA639A696F8EAEC7524C179C (Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR ShootProjectile_t4CAF1E2524313E5908E28A80A256CB9D5047CFA9* ProjectilePool_GetProjectile_m9B8B795E755E8380935E670DBD82E66946357D1F (ProjectilePool_t723C2CD076FE4320E49200C785ACD04FCAA398E8* __this, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___0_position, Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 ___1_rotation, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ShootProjectile_SetStats_mA68F4675602CE78450584EC5BC11C8425FC73882 (ShootProjectile_t4CAF1E2524313E5908E28A80A256CB9D5047CFA9* __this, float ___0_speed, float ___1_damage, float ___2_knockbackForce, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AudioClip_t5D272C4EB4F2D3ED49F1C346DEA373CF6D585F20* TestShooter_GetRandomShootSound_m56E303EBE8B16FEB400F6F79F1E9D1835CB032A4 (TestShooter_t31886477AD339CA401E8D12EF68BC7D1E9AAD6DE* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AudioSource_set_loop_m834A590939D8456008C0F897FD80B0ECFFB7FE56 (AudioSource_t871AC2272F896738252F04EE949AEF5B241D3299* __this, bool ___0_value, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float TestShooter_GetChargePitch_m493115F1439369768A04930004F83227B854FADB (TestShooter_t31886477AD339CA401E8D12EF68BC7D1E9AAD6DE* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AudioSource_set_pitch_mD14631FC99BF38AAFB356D9C45546BC16CF9E811 (AudioSource_t871AC2272F896738252F04EE949AEF5B241D3299* __this, float ___0_value, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool AudioSource_get_isPlaying_mC203303F2F7146B2C056CB47B9391463FDF408FC (AudioSource_t871AC2272F896738252F04EE949AEF5B241D3299* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AudioClip_t5D272C4EB4F2D3ED49F1C346DEA373CF6D585F20* AudioSource_get_clip_m4F5027066F9FC44B44192713142B0C277BB418FE (AudioSource_t871AC2272F896738252F04EE949AEF5B241D3299* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AudioSource_Stop_m318F17F17A147C77FF6E0A5A7A6BE057DB90F537 (AudioSource_t871AC2272F896738252F04EE949AEF5B241D3299* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TestShooter_PlayChargeCancelSfx_mB9DE5C9589E875655E6C5F9827DF6F6D89540734 (TestShooter_t31886477AD339CA401E8D12EF68BC7D1E9AAD6DE* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Transform_SetParent_m6677538B60246D958DD91F931C50F969CCBB5250 (Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* __this, Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* ___0_p, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 Vector3_get_zero_m0C1249C3F25B1C70EAD3CC8B31259975A457AE39_inline (const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Transform_set_localPosition_mDE1C997F7D79C0885210B7732B4BA50EE7D73134 (Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* __this, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___0_value, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AudioSource_set_playOnAwake_m7EACC6ECEF12D7BA86A4E5A53603F1C8F9E11949 (AudioSource_t871AC2272F896738252F04EE949AEF5B241D3299* __this, bool ___0_value, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void WaitForSecondsRealtime__ctor_mBFC1E4F0E042D5EC6E7EEB211A2FE5193A8F6D6F (WaitForSecondsRealtime_tA8CE0AAB4B0C872B843E7973637037D17682BA01* __this, float ___0_time, const RuntimeMethod* method) ;
+inline VisualEffectU5BU5D_t046742D1CF935350387F65E34F5726A3E1A72A23* Component_GetComponentsInChildren_TisVisualEffect_t8CF4F0E13AEBF27224BB1323CC103666EDBBCFB0_mDCB784FAE6A8621604B589374A38FE7E6990A45A (Component_t39FBE53E5EFCF4409111FB22C15FF73717632EC3* __this, const RuntimeMethod* method)
+{
+	return ((  VisualEffectU5BU5D_t046742D1CF935350387F65E34F5726A3E1A72A23* (*) (Component_t39FBE53E5EFCF4409111FB22C15FF73717632EC3*, const RuntimeMethod*))Component_GetComponentsInChildren_TisRuntimeObject_m1F5B6FC0689B07D4FAAC0C605D9B2933A9B32543_gshared)(__this, method);
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void VfxPolarityColor_Apply_m6B3602A619FB72D01A4F326D54BE7B175DECC872 (VfxPolarityColor_t9F93A7C64C7606D719A677B3E55156AE06B2A79D* __this, int32_t ___0_value, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool VisualEffect_HasVector4_m9BD809A0E57D0083CC65C3F8240FF3A55F866811 (VisualEffect_t8CF4F0E13AEBF27224BB1323CC103666EDBBCFB0* __this, String_t* ___0_name, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector4_t58B63D32F48C0DBF50DE2C60794C4676C80EDBE3 Color_op_Implicit_m9B3228DAFA8DC57A75DE00CBBF13ED4F1E7B01FF_inline (Color_tD001788D726C3A7F1379BEED0260B9591F440C1F ___0_c, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void VisualEffect_SetVector4_m2689F7AA23636CA94447027AFE213A03F51B261C (VisualEffect_t8CF4F0E13AEBF27224BB1323CC103666EDBBCFB0* __this, String_t* ___0_name, Vector4_t58B63D32F48C0DBF50DE2C60794C4676C80EDBE3 ___1_v, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Color__ctor_m3786F0D6E510D9CFA544523A955870BD2A514C8C_inline (Color_tD001788D726C3A7F1379BEED0260B9591F440C1F* __this, float ___0_r, float ___1_g, float ___2_b, float ___3_a, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float Vector3_get_magnitude_mF0D6017E90B345F1F52D1CC564C640F1A847AF2D_inline (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2* __this, const RuntimeMethod* method) ;
+inline void List_1_AddWithResize_m79A9BF770BEF9C06BE40D5401E55E375F2726CC4 (List_1_tA239CB83DE5615F348BB0507E45F490F4F7C9A8D* __this, RuntimeObject* ___0_item, const RuntimeMethod* method)
+{
+	((  void (*) (List_1_tA239CB83DE5615F348BB0507E45F490F4F7C9A8D*, RuntimeObject*, const RuntimeMethod*))List_1_AddWithResize_m79A9BF770BEF9C06BE40D5401E55E375F2726CC4_gshared)(__this, ___0_item, method);
+}
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// Method Definition Index: 90216
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CPhaseTwoLoopU3Ed__21__ctor_mE9FC8A6B7AEAC38AEFFC5A4AE062A16F57987F88 (U3CPhaseTwoLoopU3Ed__21_t420539753AF66924B8D6340BF29FBBE801C1398A* __this, int32_t ___0_U3CU3E1__state, const RuntimeMethod* method) 
+{
+	//<source_info:<no-source>:1>
+	{
+		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2(__this, NULL);
+		int32_t L_0 = ___0_U3CU3E1__state;
+		__this->___U3CU3E1__state = L_0;
+		return;
+	}
+}
+// Method Definition Index: 90217
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CPhaseTwoLoopU3Ed__21_System_IDisposable_Dispose_m219B90F384F727E0A532CE786D39D629A62D89BB (U3CPhaseTwoLoopU3Ed__21_t420539753AF66924B8D6340BF29FBBE801C1398A* __this, const RuntimeMethod* method) 
+{
+	//<source_info:<no-source>:1>
+	{
+		return;
+	}
+}
+// Method Definition Index: 90218
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool U3CPhaseTwoLoopU3Ed__21_MoveNext_mD07A1A75E8D3A620C2717B7C15AC9858B3A08679 (U3CPhaseTwoLoopU3Ed__21_t420539753AF66924B8D6340BF29FBBE801C1398A* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&WaitForSeconds_tF179DF251655B8DF044952E70A60DF4B358A3DD3_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	int32_t V_0 = 0;
+	BossPhaseTwoAttack_tD234421B25EC9CD1A7BBFD338097C4F422DC9D7E* V_1 = NULL;
+	{
+		int32_t L_0 = __this->___U3CU3E1__state;
+		V_0 = L_0;
+		BossPhaseTwoAttack_tD234421B25EC9CD1A7BBFD338097C4F422DC9D7E* L_1 = __this->___U3CU3E4__this;
+		V_1 = L_1;
+		int32_t L_2 = V_0;
+		switch (L_2)
+		{
+			case 0:
+			{
+				goto IL_0026;
+			}
+			case 1:
+			{
+				goto IL_005c;
+			}
+			case 2:
+			{
+				goto IL_0092;
+			}
+			case 3:
+			{
+				goto IL_00d3;
+			}
+		}
+	}
+	{
+		return (bool)0;
+	}
+
+IL_0026:
+	{
+		__this->___U3CU3E1__state = (-1);
+	}
+
+IL_002d:
+	{
+		//<source_info:C:/Users/mynur/OneDrive/Documentos/GitHub/Polarity_Breach_VR/Assets/Scripts/Boss/BossPhaseTwoAttack.cs:79>
+		BossPhaseTwoAttack_tD234421B25EC9CD1A7BBFD338097C4F422DC9D7E* L_3 = V_1;
+		NullCheck(L_3);
+		L_3->___isActive = (bool)0;
+		//<source_info:C:/Users/mynur/OneDrive/Documentos/GitHub/Polarity_Breach_VR/Assets/Scripts/Boss/BossPhaseTwoAttack.cs:80>
+		BossPhaseTwoAttack_tD234421B25EC9CD1A7BBFD338097C4F422DC9D7E* L_4 = V_1;
+		NullCheck(L_4);
+		BossPhaseTwoAttack_SetBeamsActive_mB9F2B582AF7418A6E7BE75F2381CFD8BE3F6144B(L_4, (bool)0, NULL);
+		//<source_info:C:/Users/mynur/OneDrive/Documentos/GitHub/Polarity_Breach_VR/Assets/Scripts/Boss/BossPhaseTwoAttack.cs:81>
+		BossPhaseTwoAttack_tD234421B25EC9CD1A7BBFD338097C4F422DC9D7E* L_5 = V_1;
+		NullCheck(L_5);
+		BossPhaseTwoAttack_SetWarningBeamsActive_m3CD0B0453A2FBC3B736329140C19AA96CB4737BC(L_5, (bool)1, NULL);
+		//<source_info:C:/Users/mynur/OneDrive/Documentos/GitHub/Polarity_Breach_VR/Assets/Scripts/Boss/BossPhaseTwoAttack.cs:83>
+		BossPhaseTwoAttack_tD234421B25EC9CD1A7BBFD338097C4F422DC9D7E* L_6 = V_1;
+		NullCheck(L_6);
+		float L_7 = L_6->___warningDuration;
+		WaitForSeconds_tF179DF251655B8DF044952E70A60DF4B358A3DD3* L_8 = (WaitForSeconds_tF179DF251655B8DF044952E70A60DF4B358A3DD3*)il2cpp_codegen_object_new(WaitForSeconds_tF179DF251655B8DF044952E70A60DF4B358A3DD3_il2cpp_TypeInfo_var);
+		WaitForSeconds__ctor_m579F95BADEDBAB4B3A7E302C6EE3995926EF2EFC(L_8, L_7, NULL);
+		__this->___U3CU3E2__current = L_8;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CU3E2__current), (void*)L_8);
+		__this->___U3CU3E1__state = 1;
+		return (bool)1;
+	}
+
+IL_005c:
+	{
+		__this->___U3CU3E1__state = (-1);
+		//<source_info:C:/Users/mynur/OneDrive/Documentos/GitHub/Polarity_Breach_VR/Assets/Scripts/Boss/BossPhaseTwoAttack.cs:85>
+		BossPhaseTwoAttack_tD234421B25EC9CD1A7BBFD338097C4F422DC9D7E* L_9 = V_1;
+		NullCheck(L_9);
+		BossPhaseTwoAttack_SetWarningBeamsActive_m3CD0B0453A2FBC3B736329140C19AA96CB4737BC(L_9, (bool)0, NULL);
+		//<source_info:C:/Users/mynur/OneDrive/Documentos/GitHub/Polarity_Breach_VR/Assets/Scripts/Boss/BossPhaseTwoAttack.cs:86>
+		BossPhaseTwoAttack_tD234421B25EC9CD1A7BBFD338097C4F422DC9D7E* L_10 = V_1;
+		NullCheck(L_10);
+		BossPhaseTwoAttack_SetBeamsActive_mB9F2B582AF7418A6E7BE75F2381CFD8BE3F6144B(L_10, (bool)1, NULL);
+		//<source_info:C:/Users/mynur/OneDrive/Documentos/GitHub/Polarity_Breach_VR/Assets/Scripts/Boss/BossPhaseTwoAttack.cs:87>
+		BossPhaseTwoAttack_tD234421B25EC9CD1A7BBFD338097C4F422DC9D7E* L_11 = V_1;
+		NullCheck(L_11);
+		L_11->___isActive = (bool)1;
+		//<source_info:C:/Users/mynur/OneDrive/Documentos/GitHub/Polarity_Breach_VR/Assets/Scripts/Boss/BossPhaseTwoAttack.cs:89>
+		BossPhaseTwoAttack_tD234421B25EC9CD1A7BBFD338097C4F422DC9D7E* L_12 = V_1;
+		NullCheck(L_12);
+		float L_13 = L_12->___beamDuration;
+		WaitForSeconds_tF179DF251655B8DF044952E70A60DF4B358A3DD3* L_14 = (WaitForSeconds_tF179DF251655B8DF044952E70A60DF4B358A3DD3*)il2cpp_codegen_object_new(WaitForSeconds_tF179DF251655B8DF044952E70A60DF4B358A3DD3_il2cpp_TypeInfo_var);
+		WaitForSeconds__ctor_m579F95BADEDBAB4B3A7E302C6EE3995926EF2EFC(L_14, L_13, NULL);
+		__this->___U3CU3E2__current = L_14;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CU3E2__current), (void*)L_14);
+		__this->___U3CU3E1__state = 2;
+		return (bool)1;
+	}
+
+IL_0092:
+	{
+		__this->___U3CU3E1__state = (-1);
+		//<source_info:C:/Users/mynur/OneDrive/Documentos/GitHub/Polarity_Breach_VR/Assets/Scripts/Boss/BossPhaseTwoAttack.cs:91>
+		BossPhaseTwoAttack_tD234421B25EC9CD1A7BBFD338097C4F422DC9D7E* L_15 = V_1;
+		NullCheck(L_15);
+		L_15->___isActive = (bool)0;
+		//<source_info:C:/Users/mynur/OneDrive/Documentos/GitHub/Polarity_Breach_VR/Assets/Scripts/Boss/BossPhaseTwoAttack.cs:92>
+		BossPhaseTwoAttack_tD234421B25EC9CD1A7BBFD338097C4F422DC9D7E* L_16 = V_1;
+		NullCheck(L_16);
+		BossPhaseTwoAttack_SetBeamsActive_mB9F2B582AF7418A6E7BE75F2381CFD8BE3F6144B(L_16, (bool)0, NULL);
+		//<source_info:C:/Users/mynur/OneDrive/Documentos/GitHub/Polarity_Breach_VR/Assets/Scripts/Boss/BossPhaseTwoAttack.cs:93>
+		BossPhaseTwoAttack_tD234421B25EC9CD1A7BBFD338097C4F422DC9D7E* L_17 = V_1;
+		BossPhaseTwoAttack_tD234421B25EC9CD1A7BBFD338097C4F422DC9D7E* L_18 = V_1;
+		NullCheck(L_18);
+		float L_19 = L_18->___rotationDirection;
+		NullCheck(L_17);
+		L_17->___rotationDirection = ((float)il2cpp_codegen_multiply(L_19, (-1.0f)));
+		//<source_info:C:/Users/mynur/OneDrive/Documentos/GitHub/Polarity_Breach_VR/Assets/Scripts/Boss/BossPhaseTwoAttack.cs:95>
+		BossPhaseTwoAttack_tD234421B25EC9CD1A7BBFD338097C4F422DC9D7E* L_20 = V_1;
+		NullCheck(L_20);
+		float L_21 = L_20->___timeBetweenBeamAttacks;
+		WaitForSeconds_tF179DF251655B8DF044952E70A60DF4B358A3DD3* L_22 = (WaitForSeconds_tF179DF251655B8DF044952E70A60DF4B358A3DD3*)il2cpp_codegen_object_new(WaitForSeconds_tF179DF251655B8DF044952E70A60DF4B358A3DD3_il2cpp_TypeInfo_var);
+		WaitForSeconds__ctor_m579F95BADEDBAB4B3A7E302C6EE3995926EF2EFC(L_22, L_21, NULL);
+		__this->___U3CU3E2__current = L_22;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CU3E2__current), (void*)L_22);
+		__this->___U3CU3E1__state = 3;
+		return (bool)1;
+	}
+
+IL_00d3:
+	{
+		__this->___U3CU3E1__state = (-1);
+		//<source_info:C:/Users/mynur/OneDrive/Documentos/GitHub/Polarity_Breach_VR/Assets/Scripts/Boss/BossPhaseTwoAttack.cs:77>
+		goto IL_002d;
+	}
+}
+// Method Definition Index: 90219
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CPhaseTwoLoopU3Ed__21_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_m6207736C3E4120E8BEB4A62C850D2AE137EB5BC4 (U3CPhaseTwoLoopU3Ed__21_t420539753AF66924B8D6340BF29FBBE801C1398A* __this, const RuntimeMethod* method) 
+{
+	//<source_info:<no-source>:1>
+	{
+		RuntimeObject* L_0 = __this->___U3CU3E2__current;
+		return L_0;
+	}
+}
+// Method Definition Index: 90220
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CPhaseTwoLoopU3Ed__21_System_Collections_IEnumerator_Reset_m1D36C60E5D328D57ABF22F6DA9C98F8A176DEF51 (U3CPhaseTwoLoopU3Ed__21_t420539753AF66924B8D6340BF29FBBE801C1398A* __this, const RuntimeMethod* method) 
+{
+	//<source_info:<no-source>:1>
+	{
+		NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A* L_0 = (NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A_il2cpp_TypeInfo_var)));
+		NotSupportedException__ctor_m1398D0CDE19B36AA3DE9392879738C1EA2439CDF(L_0, NULL);
+		IL2CPP_RAISE_MANAGED_EXCEPTION(L_0, ((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&U3CPhaseTwoLoopU3Ed__21_System_Collections_IEnumerator_Reset_m1D36C60E5D328D57ABF22F6DA9C98F8A176DEF51_RuntimeMethod_var)));
+	}
+}
+// Method Definition Index: 90221
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CPhaseTwoLoopU3Ed__21_System_Collections_IEnumerator_get_Current_m2FB9A5F77E412899185351974413469BF98230C7 (U3CPhaseTwoLoopU3Ed__21_t420539753AF66924B8D6340BF29FBBE801C1398A* __this, const RuntimeMethod* method) 
+{
+	//<source_info:<no-source>:1>
+	{
+		RuntimeObject* L_0 = __this->___U3CU3E2__current;
+		return L_0;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// Method Definition Index: 90222
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void BossShield_add_OnShieldDestroyed_mF57EF832A08C3E25602DCF7DF8963D022017AFB1 (BossShield_t0CA1B25A12A4CFD773F7060DF191054A955E1B84* __this, Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* ___0_value, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	//<source_info:<no-source>:1>
+	Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* V_0 = NULL;
+	Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* V_1 = NULL;
+	Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* V_2 = NULL;
+	{
+		Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* L_0 = __this->___OnShieldDestroyed;
+		V_0 = L_0;
+	}
+
+IL_0007:
+	{
+		Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* L_1 = V_0;
+		V_1 = L_1;
+		Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* L_2 = V_1;
+		Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* L_3 = ___0_value;
+		Delegate_t* L_4;
+		L_4 = Delegate_Combine_m1F725AEF318BE6F0426863490691A6F4606E7D00(L_2, L_3, NULL);
+		V_2 = ((Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07*)CastclassSealed((RuntimeObject*)L_4, Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07_il2cpp_TypeInfo_var));
+		Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07** L_5 = (Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07**)(&__this->___OnShieldDestroyed);
+		Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* L_6 = V_2;
+		Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* L_7 = V_1;
+		Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* L_8;
+		L_8 = InterlockedCompareExchangeImpl<Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07*>(L_5, L_6, L_7);
+		V_0 = L_8;
+		Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* L_9 = V_0;
+		Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* L_10 = V_1;
+		if ((!(((RuntimeObject*)(Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07*)L_9) == ((RuntimeObject*)(Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07*)L_10))))
+		{
+			goto IL_0007;
+		}
+	}
+	{
+		return;
+	}
+}
+// Method Definition Index: 90223
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void BossShield_remove_OnShieldDestroyed_m69A16264E8083A0B8F3A6CA29B96FE9E683AA44E (BossShield_t0CA1B25A12A4CFD773F7060DF191054A955E1B84* __this, Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* ___0_value, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	//<source_info:<no-source>:1>
+	Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* V_0 = NULL;
+	Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* V_1 = NULL;
+	Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* V_2 = NULL;
+	{
+		Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* L_0 = __this->___OnShieldDestroyed;
+		V_0 = L_0;
+	}
+
+IL_0007:
+	{
+		Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* L_1 = V_0;
+		V_1 = L_1;
+		Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* L_2 = V_1;
+		Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* L_3 = ___0_value;
+		Delegate_t* L_4;
+		L_4 = Delegate_Remove_m8B7DD5661308FA972E23CA1CC3FC9CEB355504E3(L_2, L_3, NULL);
+		V_2 = ((Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07*)CastclassSealed((RuntimeObject*)L_4, Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07_il2cpp_TypeInfo_var));
+		Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07** L_5 = (Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07**)(&__this->___OnShieldDestroyed);
+		Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* L_6 = V_2;
+		Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* L_7 = V_1;
+		Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* L_8;
+		L_8 = InterlockedCompareExchangeImpl<Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07*>(L_5, L_6, L_7);
+		V_0 = L_8;
+		Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* L_9 = V_0;
+		Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* L_10 = V_1;
+		if ((!(((RuntimeObject*)(Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07*)L_9) == ((RuntimeObject*)(Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07*)L_10))))
+		{
+			goto IL_0007;
+		}
+	}
+	{
+		return;
+	}
+}
+// Method Definition Index: 90224
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool BossShield_get_IsActive_mA2D1BC5D9CE33D2CC4DEE550A62688DEF172689D (BossShield_t0CA1B25A12A4CFD773F7060DF191054A955E1B84* __this, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:C:/Users/mynur/OneDrive/Documentos/GitHub/Polarity_Breach_VR/Assets/Scripts/Boss/BossShield.cs:27>
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_0;
+		L_0 = Component_get_gameObject_m57AEFBB14DB39EC476F740BA000E170355DE691B(__this, NULL);
+		NullCheck(L_0);
+		bool L_1;
+		L_1 = GameObject_get_activeInHierarchy_m49250F4F168DCC5388D5BE4F6A5681386907B109(L_0, NULL);
+		return L_1;
+	}
+}
+// Method Definition Index: 90225
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool BossShield_get_IsInvulnerable_m65A751E16B03E874D6C6E63CCFD257E8B4A742FB (BossShield_t0CA1B25A12A4CFD773F7060DF191054A955E1B84* __this, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:C:/Users/mynur/OneDrive/Documentos/GitHub/Polarity_Breach_VR/Assets/Scripts/Boss/BossShield.cs:28>
+		bool L_0;
+		L_0 = BossShield_HasEnemiesAlive_mB8A970C1DD19F529ACEB1A0B3883FFCDFD92595C(__this, NULL);
+		return L_0;
+	}
+}
+// Method Definition Index: 90226
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void BossShield_Awake_mEBD7846011B468E7436A5D16AC95CD7FB9368AFA (BossShield_t0CA1B25A12A4CFD773F7060DF191054A955E1B84* __this, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:C:/Users/mynur/OneDrive/Documentos/GitHub/Polarity_Breach_VR/Assets/Scripts/Boss/BossShield.cs:32>
+		BossShield_FindEnemyPoolIfMissing_m553E1E54F69DE43A205F1381676365E2820BE3B8(__this, NULL);
+		//<source_info:C:/Users/mynur/OneDrive/Documentos/GitHub/Polarity_Breach_VR/Assets/Scripts/Boss/BossShield.cs:33>
+		return;
+	}
+}
+// Method Definition Index: 90227
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void BossShield_OnEnable_mB26B09691A7253704C79A6578EAA4FCC8BD40937 (BossShield_t0CA1B25A12A4CFD773F7060DF191054A955E1B84* __this, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:C:/Users/mynur/OneDrive/Documentos/GitHub/Polarity_Breach_VR/Assets/Scripts/Boss/BossShield.cs:37>
+		float L_0 = __this->___maxHealth;
+		__this->___currentHealth = L_0;
+		//<source_info:C:/Users/mynur/OneDrive/Documentos/GitHub/Polarity_Breach_VR/Assets/Scripts/Boss/BossShield.cs:38>
+		BossShield_FindEnemyPoolIfMissing_m553E1E54F69DE43A205F1381676365E2820BE3B8(__this, NULL);
+		//<source_info:C:/Users/mynur/OneDrive/Documentos/GitHub/Polarity_Breach_VR/Assets/Scripts/Boss/BossShield.cs:39>
+		return;
+	}
+}
+// Method Definition Index: 90228
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void BossShield_TakeDamage_mDEF8CF15677BBA5C85F2EAD1F7EBBF1633E1D934 (BossShield_t0CA1B25A12A4CFD773F7060DF191054A955E1B84* __this, float ___0_amount, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral3356DFFDDC269A0EA7AA876F13ECF12409541416);
+		s_Il2CppMethodInitialized = true;
+	}
+	Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* G_B5_0 = NULL;
+	Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* G_B4_0 = NULL;
+	{
+		//<source_info:C:/Users/mynur/OneDrive/Documentos/GitHub/Polarity_Breach_VR/Assets/Scripts/Boss/BossShield.cs:43>
+		bool L_0;
+		L_0 = BossShield_HasEnemiesAlive_mB8A970C1DD19F529ACEB1A0B3883FFCDFD92595C(__this, NULL);
+		if (!L_0)
+		{
+			goto IL_0013;
+		}
+	}
+	{
+		//<source_info:C:/Users/mynur/OneDrive/Documentos/GitHub/Polarity_Breach_VR/Assets/Scripts/Boss/BossShield.cs:45>
+		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
+		Debug_Log_m87A9A3C761FF5C43ED8A53B16190A53D08F818BB(_stringLiteral3356DFFDDC269A0EA7AA876F13ECF12409541416, NULL);
+		//<source_info:C:/Users/mynur/OneDrive/Documentos/GitHub/Polarity_Breach_VR/Assets/Scripts/Boss/BossShield.cs:46>
+		return;
+	}
+
+IL_0013:
+	{
+		//<source_info:C:/Users/mynur/OneDrive/Documentos/GitHub/Polarity_Breach_VR/Assets/Scripts/Boss/BossShield.cs:49>
+		float L_1 = __this->___currentHealth;
+		float L_2 = ___0_amount;
+		__this->___currentHealth = ((float)il2cpp_codegen_subtract(L_1, L_2));
+		//<source_info:C:/Users/mynur/OneDrive/Documentos/GitHub/Polarity_Breach_VR/Assets/Scripts/Boss/BossShield.cs:50>
+		float L_3 = __this->___currentHealth;
+		float L_4;
+		L_4 = Mathf_Max_mF5379E63D2BBAC76D090748695D833934F8AD051_inline(L_3, (0.0f), NULL);
+		__this->___currentHealth = L_4;
+		//<source_info:C:/Users/mynur/OneDrive/Documentos/GitHub/Polarity_Breach_VR/Assets/Scripts/Boss/BossShield.cs:52>
+		float L_5 = __this->___currentHealth;
+		if ((!(((float)L_5) <= ((float)(0.0f)))))
+		{
+			goto IL_0074;
+		}
+	}
+	{
+		//<source_info:C:/Users/mynur/OneDrive/Documentos/GitHub/Polarity_Breach_VR/Assets/Scripts/Boss/BossShield.cs:54>
+		AudioClip_t5D272C4EB4F2D3ED49F1C346DEA373CF6D585F20* L_6 = __this->___breakSound;
+		float L_7 = __this->___breakSoundVolume;
+		BossShield_PlayShieldSfx_mA59F57D04998EC15D38674CD98718F7884F4818C(__this, L_6, L_7, NULL);
+		//<source_info:C:/Users/mynur/OneDrive/Documentos/GitHub/Polarity_Breach_VR/Assets/Scripts/Boss/BossShield.cs:55>
+		Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* L_8 = __this->___OnShieldDestroyed;
+		Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* L_9 = L_8;
+		if (L_9)
+		{
+			G_B5_0 = L_9;
+			goto IL_0062;
+		}
+		G_B4_0 = L_9;
+	}
+	{
+		goto IL_0067;
+	}
+
+IL_0062:
+	{
+		NullCheck(G_B5_0);
+		Action_Invoke_m7126A54DACA72B845424072887B5F3A51FC3808E_inline(G_B5_0, NULL);
+	}
+
+IL_0067:
+	{
+		//<source_info:C:/Users/mynur/OneDrive/Documentos/GitHub/Polarity_Breach_VR/Assets/Scripts/Boss/BossShield.cs:56>
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_10;
+		L_10 = Component_get_gameObject_m57AEFBB14DB39EC476F740BA000E170355DE691B(__this, NULL);
+		NullCheck(L_10);
+		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_10, (bool)0, NULL);
+		//<source_info:C:/Users/mynur/OneDrive/Documentos/GitHub/Polarity_Breach_VR/Assets/Scripts/Boss/BossShield.cs:57>
+		return;
+	}
+
+IL_0074:
+	{
+		//<source_info:C:/Users/mynur/OneDrive/Documentos/GitHub/Polarity_Breach_VR/Assets/Scripts/Boss/BossShield.cs:60>
+		AudioClip_t5D272C4EB4F2D3ED49F1C346DEA373CF6D585F20* L_11;
+		L_11 = BossShield_GetRandomVulnerableHitSound_m8A4DA1825062E1A3DAB2069A25229CC345A659C3(__this, NULL);
+		float L_12 = __this->___vulnerableHitSoundVolume;
+		BossShield_PlayShieldSfx_mA59F57D04998EC15D38674CD98718F7884F4818C(__this, L_11, L_12, NULL);
+		//<source_info:C:/Users/mynur/OneDrive/Documentos/GitHub/Polarity_Breach_VR/Assets/Scripts/Boss/BossShield.cs:61>
+		return;
+	}
+}
+// Method Definition Index: 90229
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void BossShield_PlayShieldSfx_mA59F57D04998EC15D38674CD98718F7884F4818C (BossShield_t0CA1B25A12A4CFD773F7060DF191054A955E1B84* __this, AudioClip_t5D272C4EB4F2D3ED49F1C346DEA373CF6D585F20* ___0_clip, float ___1_volume, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:C:/Users/mynur/OneDrive/Documentos/GitHub/Polarity_Breach_VR/Assets/Scripts/Boss/BossShield.cs:65>
+		bool L_0 = __this->___playShieldSoundsAs2D;
+		if (!L_0)
+		{
+			goto IL_0010;
+		}
+	}
+	{
+		//<source_info:C:/Users/mynur/OneDrive/Documentos/GitHub/Polarity_Breach_VR/Assets/Scripts/Boss/BossShield.cs:67>
+		AudioClip_t5D272C4EB4F2D3ED49F1C346DEA373CF6D585F20* L_1 = ___0_clip;
+		float L_2 = ___1_volume;
+		AudioHandler_Play2DSound_mFD8282050D03848109B843C87EEC28565AB80327(L_1, L_2, NULL);
+		return;
+	}
+
+IL_0010:
+	{
+		//<source_info:C:/Users/mynur/OneDrive/Documentos/GitHub/Polarity_Breach_VR/Assets/Scripts/Boss/BossShield.cs:71>
+		AudioClip_t5D272C4EB4F2D3ED49F1C346DEA373CF6D585F20* L_3 = ___0_clip;
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_4;
+		L_4 = Component_get_transform_m2919A1D81931E6932C7F06D4C2F0AB8DDA9A5371(__this, NULL);
+		NullCheck(L_4);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_5;
+		L_5 = Transform_get_position_m69CD5FA214FDAE7BB701552943674846C220FDE1(L_4, NULL);
+		float L_6 = ___1_volume;
+		AudioHandler_Play3DSound_mD6D9E86A34606D63F1BF14A480A8F6C4E8388181(L_3, L_5, L_6, NULL);
+		//<source_info:C:/Users/mynur/OneDrive/Documentos/GitHub/Polarity_Breach_VR/Assets/Scripts/Boss/BossShield.cs:73>
+		return;
+	}
+}
+// Method Definition Index: 90230
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AudioClip_t5D272C4EB4F2D3ED49F1C346DEA373CF6D585F20* BossShield_GetRandomVulnerableHitSound_m8A4DA1825062E1A3DAB2069A25229CC345A659C3 (BossShield_t0CA1B25A12A4CFD773F7060DF191054A955E1B84* __this, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:C:/Users/mynur/OneDrive/Documentos/GitHub/Polarity_Breach_VR/Assets/Scripts/Boss/BossShield.cs:77>
+		AudioClipU5BU5D_t916722468F7EDCFA833318C35CD7D41097D75D31* L_0 = __this->___vulnerableHitSounds;
+		if (!L_0)
+		{
+			goto IL_0027;
+		}
+	}
+	{
+		AudioClipU5BU5D_t916722468F7EDCFA833318C35CD7D41097D75D31* L_1 = __this->___vulnerableHitSounds;
+		NullCheck(L_1);
+		if (!(((RuntimeArray*)L_1)->max_length))
+		{
+			goto IL_0027;
+		}
+	}
+	{
+		//<source_info:C:/Users/mynur/OneDrive/Documentos/GitHub/Polarity_Breach_VR/Assets/Scripts/Boss/BossShield.cs:79>
+		AudioClipU5BU5D_t916722468F7EDCFA833318C35CD7D41097D75D31* L_2 = __this->___vulnerableHitSounds;
+		AudioClipU5BU5D_t916722468F7EDCFA833318C35CD7D41097D75D31* L_3 = __this->___vulnerableHitSounds;
+		NullCheck(L_3);
+		int32_t L_4;
+		L_4 = Random_Range_m6763D9767F033357F88B6637F048F4ACA4123B68(0, ((int32_t)(((RuntimeArray*)L_3)->max_length)), NULL);
+		NullCheck(L_2);
+		int32_t L_5 = L_4;
+		AudioClip_t5D272C4EB4F2D3ED49F1C346DEA373CF6D585F20* L_6 = (L_2)->GetAt(static_cast<il2cpp_array_size_t>(L_5));
+		return L_6;
+	}
+
+IL_0027:
+	{
+		//<source_info:C:/Users/mynur/OneDrive/Documentos/GitHub/Polarity_Breach_VR/Assets/Scripts/Boss/BossShield.cs:82>
+		AudioClip_t5D272C4EB4F2D3ED49F1C346DEA373CF6D585F20* L_7 = __this->___vulnerableHitSound;
+		return L_7;
+	}
+}
+// Method Definition Index: 90231
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool BossShield_HasEnemiesAlive_mB8A970C1DD19F529ACEB1A0B3883FFCDFD92595C (BossShield_t0CA1B25A12A4CFD773F7060DF191054A955E1B84* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		//<source_info:C:/Users/mynur/OneDrive/Documentos/GitHub/Polarity_Breach_VR/Assets/Scripts/Boss/BossShield.cs:87>
+		EnemyWaveSpawner_t8F462F74B7B56D3D3D3637304D5934F06D1F3B88* L_0 = __this->___enemyWaveSpawner;
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		bool L_1;
+		L_1 = Object_op_Inequality_mD0BE578448EAA61948F25C32F8DD55AB1F778602(L_0, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
+		if (!L_1)
+		{
+			goto IL_001a;
+		}
+	}
+	{
+		//<source_info:C:/Users/mynur/OneDrive/Documentos/GitHub/Polarity_Breach_VR/Assets/Scripts/Boss/BossShield.cs:88>
+		EnemyWaveSpawner_t8F462F74B7B56D3D3D3637304D5934F06D1F3B88* L_2 = __this->___enemyWaveSpawner;
+		NullCheck(L_2);
+		bool L_3;
+		L_3 = EnemyWaveSpawner_get_HasEnemiesRemaining_m00238904A19D5FEE83888B9E43362BC3817856E3(L_2, NULL);
+		return L_3;
+	}
+
+IL_001a:
+	{
+		//<source_info:C:/Users/mynur/OneDrive/Documentos/GitHub/Polarity_Breach_VR/Assets/Scripts/Boss/BossShield.cs:90>
+		BossShield_FindEnemyPoolIfMissing_m553E1E54F69DE43A205F1381676365E2820BE3B8(__this, NULL);
+		//<source_info:C:/Users/mynur/OneDrive/Documentos/GitHub/Polarity_Breach_VR/Assets/Scripts/Boss/BossShield.cs:92>
+		EnemyPool_t3FF71B3C1895973B8497F4E778889D4DE40E84E0* L_4 = __this->___enemyPool;
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		bool L_5;
+		L_5 = Object_op_Inequality_mD0BE578448EAA61948F25C32F8DD55AB1F778602(L_4, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
+		if (!L_5)
+		{
+			goto IL_003a;
+		}
+	}
+	{
+		//<source_info:C:/Users/mynur/OneDrive/Documentos/GitHub/Polarity_Breach_VR/Assets/Scripts/Boss/BossShield.cs:93>
+		EnemyPool_t3FF71B3C1895973B8497F4E778889D4DE40E84E0* L_6 = __this->___enemyPool;
+		NullCheck(L_6);
+		bool L_7;
+		L_7 = EnemyPool_get_HasActiveEnemies_mAA7FF8F8E8484B6BBB1DA1B855CF1F68998ECC34(L_6, NULL);
+		return L_7;
+	}
+
+IL_003a:
+	{
+		//<source_info:C:/Users/mynur/OneDrive/Documentos/GitHub/Polarity_Breach_VR/Assets/Scripts/Boss/BossShield.cs:95>
+		return (bool)0;
+	}
+}
+// Method Definition Index: 90232
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void BossShield_FindEnemyPoolIfMissing_m553E1E54F69DE43A205F1381676365E2820BE3B8 (BossShield_t0CA1B25A12A4CFD773F7060DF191054A955E1B84* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Object_FindFirstObjectByType_TisEnemyPool_t3FF71B3C1895973B8497F4E778889D4DE40E84E0_mD893BDB7B646932233FA9C499CCBEFF0BC2385FC_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		//<source_info:C:/Users/mynur/OneDrive/Documentos/GitHub/Polarity_Breach_VR/Assets/Scripts/Boss/BossShield.cs:100>
+		EnemyPool_t3FF71B3C1895973B8497F4E778889D4DE40E84E0* L_0 = __this->___enemyPool;
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		bool L_1;
+		L_1 = Object_op_Inequality_mD0BE578448EAA61948F25C32F8DD55AB1F778602(L_0, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
+		if (!L_1)
+		{
+			goto IL_000f;
+		}
+	}
+	{
+		//<source_info:C:/Users/mynur/OneDrive/Documentos/GitHub/Polarity_Breach_VR/Assets/Scripts/Boss/BossShield.cs:100>
+		return;
+	}
+
+IL_000f:
+	{
+		//<source_info:C:/Users/mynur/OneDrive/Documentos/GitHub/Polarity_Breach_VR/Assets/Scripts/Boss/BossShield.cs:102>
+		EnemyWaveSpawner_t8F462F74B7B56D3D3D3637304D5934F06D1F3B88* L_2 = __this->___enemyWaveSpawner;
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		bool L_3;
+		L_3 = Object_op_Inequality_mD0BE578448EAA61948F25C32F8DD55AB1F778602(L_2, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
+		if (!L_3)
+		{
+			goto IL_002e;
+		}
+	}
+	{
+		//<source_info:C:/Users/mynur/OneDrive/Documentos/GitHub/Polarity_Breach_VR/Assets/Scripts/Boss/BossShield.cs:104>
+		EnemyWaveSpawner_t8F462F74B7B56D3D3D3637304D5934F06D1F3B88* L_4 = __this->___enemyWaveSpawner;
+		NullCheck(L_4);
+		EnemyPool_t3FF71B3C1895973B8497F4E778889D4DE40E84E0* L_5;
+		L_5 = EnemyWaveSpawner_get_Pool_mD92B60D5B53D165B102904EED629D61900BAA114_inline(L_4, NULL);
+		__this->___enemyPool = L_5;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___enemyPool), (void*)L_5);
+	}
+
+IL_002e:
+	{
+		//<source_info:C:/Users/mynur/OneDrive/Documentos/GitHub/Polarity_Breach_VR/Assets/Scripts/Boss/BossShield.cs:107>
+		EnemyPool_t3FF71B3C1895973B8497F4E778889D4DE40E84E0* L_6 = __this->___enemyPool;
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		bool L_7;
+		L_7 = Object_op_Equality_mB6120F782D83091EF56A198FCEBCF066DB4A9605(L_6, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
+		if (!L_7)
+		{
+			goto IL_0047;
+		}
+	}
+	{
+		//<source_info:C:/Users/mynur/OneDrive/Documentos/GitHub/Polarity_Breach_VR/Assets/Scripts/Boss/BossShield.cs:109>
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		EnemyPool_t3FF71B3C1895973B8497F4E778889D4DE40E84E0* L_8;
+		L_8 = Object_FindFirstObjectByType_TisEnemyPool_t3FF71B3C1895973B8497F4E778889D4DE40E84E0_mD893BDB7B646932233FA9C499CCBEFF0BC2385FC(Object_FindFirstObjectByType_TisEnemyPool_t3FF71B3C1895973B8497F4E778889D4DE40E84E0_mD893BDB7B646932233FA9C499CCBEFF0BC2385FC_RuntimeMethod_var);
+		__this->___enemyPool = L_8;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___enemyPool), (void*)L_8);
+	}
+
+IL_0047:
+	{
+		//<source_info:C:/Users/mynur/OneDrive/Documentos/GitHub/Polarity_Breach_VR/Assets/Scripts/Boss/BossShield.cs:111>
+		return;
+	}
+}
+// Method Definition Index: 90233
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void BossShield__ctor_m013F74016A8CA3D260D4D9DA4D7F3C9A7EF557BC (BossShield_t0CA1B25A12A4CFD773F7060DF191054A955E1B84* __this, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:C:/Users/mynur/OneDrive/Documentos/GitHub/Polarity_Breach_VR/Assets/Scripts/Boss/BossShield.cs:11>
+		__this->___maxHealth = (100.0f);
+		//<source_info:C:/Users/mynur/OneDrive/Documentos/GitHub/Polarity_Breach_VR/Assets/Scripts/Boss/BossShield.cs:18>
+		__this->___vulnerableHitSoundVolume = (1.0f);
+		//<source_info:C:/Users/mynur/OneDrive/Documentos/GitHub/Polarity_Breach_VR/Assets/Scripts/Boss/BossShield.cs:20>
+		__this->___breakSoundVolume = (1.0f);
+		MonoBehaviour__ctor_m592DB0105CA0BC97AA1C5F4AD27B12D68A3B7C1E(__this, NULL);
+		return;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// Method Definition Index: 90234
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float BossWeakPoint_get_CurrentHealth_m3AA0A8A12D8BBF074D25F0A8FEC0B164A3D761F7 (BossWeakPoint_t502A335D841A6A96167C6E10CACA201C9F1BE4BC* __this, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:C:/Users/mynur/OneDrive/Documentos/GitHub/Polarity_Breach_VR/Assets/Scripts/Boss/BossWeakPoint.cs:20>
+		float L_0 = __this->___currentHealth;
+		return L_0;
+	}
+}
+// Method Definition Index: 90235
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float BossWeakPoint_get_MaxHealth_m0F8ABBEA18D21E7FD40FE3E7842A6F66F8B46F83 (BossWeakPoint_t502A335D841A6A96167C6E10CACA201C9F1BE4BC* __this, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:C:/Users/mynur/OneDrive/Documentos/GitHub/Polarity_Breach_VR/Assets/Scripts/Boss/BossWeakPoint.cs:21>
+		float L_0 = __this->___maxHealth;
+		return L_0;
+	}
+}
+// Method Definition Index: 90236
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool BossWeakPoint_get_IsDestroyed_m8F274B97E346A88B937F31DADD73516E5564887C (BossWeakPoint_t502A335D841A6A96167C6E10CACA201C9F1BE4BC* __this, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:C:/Users/mynur/OneDrive/Documentos/GitHub/Polarity_Breach_VR/Assets/Scripts/Boss/BossWeakPoint.cs:22>
+		bool L_0 = __this->___isDestroyed;
+		return L_0;
+	}
+}
+// Method Definition Index: 90237
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool BossWeakPoint_get_CanTakeDamage_m7B680DFB89374BCA31320B9E44E8158C7B0B680B (BossWeakPoint_t502A335D841A6A96167C6E10CACA201C9F1BE4BC* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		//<source_info:C:/Users/mynur/OneDrive/Documentos/GitHub/Polarity_Breach_VR/Assets/Scripts/Boss/BossWeakPoint.cs:23>
+		bool L_0 = __this->___isDestroyed;
+		if (L_0)
+		{
+			goto IL_0025;
+		}
+	}
+	{
+		BossHealth_t8B40372B7852023F1AF6C408BAA5BA400317665E* L_1 = __this->___bossHealth;
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		bool L_2;
+		L_2 = Object_op_Inequality_mD0BE578448EAA61948F25C32F8DD55AB1F778602(L_1, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
+		if (!L_2)
+		{
+			goto IL_0025;
+		}
+	}
+	{
+		BossHealth_t8B40372B7852023F1AF6C408BAA5BA400317665E* L_3 = __this->___bossHealth;
+		NullCheck(L_3);
+		bool L_4;
+		L_4 = BossHealth_get_IsShielded_mCADCB3DC3CA7064E33DA8712CA7725BB5403837D_inline(L_3, NULL);
+		return (bool)((((int32_t)L_4) == ((int32_t)0))? 1 : 0);
+	}
+
+IL_0025:
+	{
+		return (bool)0;
+	}
+}
+// Method Definition Index: 90238
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void BossWeakPoint_Awake_mC2C3670ABEF663D6BA6BC7B66D31561F6E8E94D2 (BossWeakPoint_t502A335D841A6A96167C6E10CACA201C9F1BE4BC* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Component_GetComponent_TisCollider_t1CC3163924FCD6C4CC2E816373A929C1E3D55E76_m820398EDBF1D3766C3166A0C323A127662A29A14_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		//<source_info:C:/Users/mynur/OneDrive/Documentos/GitHub/Polarity_Breach_VR/Assets/Scripts/Boss/BossWeakPoint.cs:36>
+		Collider_t1CC3163924FCD6C4CC2E816373A929C1E3D55E76* L_0 = __this->___weakPointCollider;
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		bool L_1;
+		L_1 = Object_op_Equality_mB6120F782D83091EF56A198FCEBCF066DB4A9605(L_0, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
+		if (!L_1)
+		{
+			goto IL_001a;
+		}
+	}
+	{
+		//<source_info:C:/Users/mynur/OneDrive/Documentos/GitHub/Polarity_Breach_VR/Assets/Scripts/Boss/BossWeakPoint.cs:38>
+		Collider_t1CC3163924FCD6C4CC2E816373A929C1E3D55E76* L_2;
+		L_2 = Component_GetComponent_TisCollider_t1CC3163924FCD6C4CC2E816373A929C1E3D55E76_m820398EDBF1D3766C3166A0C323A127662A29A14(__this, Component_GetComponent_TisCollider_t1CC3163924FCD6C4CC2E816373A929C1E3D55E76_m820398EDBF1D3766C3166A0C323A127662A29A14_RuntimeMethod_var);
+		__this->___weakPointCollider = L_2;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___weakPointCollider), (void*)L_2);
+	}
+
+IL_001a:
+	{
+		//<source_info:C:/Users/mynur/OneDrive/Documentos/GitHub/Polarity_Breach_VR/Assets/Scripts/Boss/BossWeakPoint.cs:40>
+		return;
+	}
+}
+// Method Definition Index: 90239
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void BossWeakPoint_Initialize_m3AE940DAEE24183266B97064665EE914B0769A8A (BossWeakPoint_t502A335D841A6A96167C6E10CACA201C9F1BE4BC* __this, BossHealth_t8B40372B7852023F1AF6C408BAA5BA400317665E* ___0_owner, float ___1_healthAmount, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		//<source_info:C:/Users/mynur/OneDrive/Documentos/GitHub/Polarity_Breach_VR/Assets/Scripts/Boss/BossWeakPoint.cs:44>
+		BossHealth_t8B40372B7852023F1AF6C408BAA5BA400317665E* L_0 = ___0_owner;
+		__this->___bossHealth = L_0;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___bossHealth), (void*)L_0);
+		//<source_info:C:/Users/mynur/OneDrive/Documentos/GitHub/Polarity_Breach_VR/Assets/Scripts/Boss/BossWeakPoint.cs:45>
+		float L_1 = ___1_healthAmount;
+		__this->___maxHealth = L_1;
+		//<source_info:C:/Users/mynur/OneDrive/Documentos/GitHub/Polarity_Breach_VR/Assets/Scripts/Boss/BossWeakPoint.cs:46>
+		float L_2 = __this->___maxHealth;
+		__this->___currentHealth = L_2;
+		//<source_info:C:/Users/mynur/OneDrive/Documentos/GitHub/Polarity_Breach_VR/Assets/Scripts/Boss/BossWeakPoint.cs:47>
+		__this->___isDestroyed = (bool)0;
+		//<source_info:C:/Users/mynur/OneDrive/Documentos/GitHub/Polarity_Breach_VR/Assets/Scripts/Boss/BossWeakPoint.cs:49>
+		Collider_t1CC3163924FCD6C4CC2E816373A929C1E3D55E76* L_3 = __this->___weakPointCollider;
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		bool L_4;
+		L_4 = Object_op_Inequality_mD0BE578448EAA61948F25C32F8DD55AB1F778602(L_3, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
+		if (!L_4)
+		{
+			goto IL_003b;
+		}
+	}
+	{
+		//<source_info:C:/Users/mynur/OneDrive/Documentos/GitHub/Polarity_Breach_VR/Assets/Scripts/Boss/BossWeakPoint.cs:51>
+		Collider_t1CC3163924FCD6C4CC2E816373A929C1E3D55E76* L_5 = __this->___weakPointCollider;
+		NullCheck(L_5);
+		Collider_set_enabled_m8D5C3B5047592D227A52560FC9723D176E209F70(L_5, (bool)1, NULL);
+	}
+
+IL_003b:
+	{
+		//<source_info:C:/Users/mynur/OneDrive/Documentos/GitHub/Polarity_Breach_VR/Assets/Scripts/Boss/BossWeakPoint.cs:53>
+		return;
+	}
+}
+// Method Definition Index: 90240
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void BossWeakPoint_TakeDamage_m569A9C6D9D8A7E3C5D7DC4E5763777A593A05BDE (BossWeakPoint_t502A335D841A6A96167C6E10CACA201C9F1BE4BC* __this, float ___0_amount, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:C:/Users/mynur/OneDrive/Documentos/GitHub/Polarity_Breach_VR/Assets/Scripts/Boss/BossWeakPoint.cs:57>
+		bool L_0 = __this->___isDestroyed;
+		if (!L_0)
+		{
+			goto IL_0009;
+		}
+	}
+	{
+		//<source_info:C:/Users/mynur/OneDrive/Documentos/GitHub/Polarity_Breach_VR/Assets/Scripts/Boss/BossWeakPoint.cs:57>
+		return;
+	}
+
+IL_0009:
+	{
+		//<source_info:C:/Users/mynur/OneDrive/Documentos/GitHub/Polarity_Breach_VR/Assets/Scripts/Boss/BossWeakPoint.cs:58>
+		BossHealth_t8B40372B7852023F1AF6C408BAA5BA400317665E* L_1 = __this->___bossHealth;
+		NullCheck(L_1);
+		bool L_2;
+		L_2 = BossHealth_get_IsShielded_mCADCB3DC3CA7064E33DA8712CA7725BB5403837D_inline(L_1, NULL);
+		if (!L_2)
+		{
+			goto IL_0017;
+		}
+	}
+	{
+		//<source_info:C:/Users/mynur/OneDrive/Documentos/GitHub/Polarity_Breach_VR/Assets/Scripts/Boss/BossWeakPoint.cs:58>
+		return;
+	}
+
+IL_0017:
+	{
+		//<source_info:C:/Users/mynur/OneDrive/Documentos/GitHub/Polarity_Breach_VR/Assets/Scripts/Boss/BossWeakPoint.cs:60>
+		float L_3 = __this->___currentHealth;
+		float L_4 = ___0_amount;
+		__this->___currentHealth = ((float)il2cpp_codegen_subtract(L_3, L_4));
+		//<source_info:C:/Users/mynur/OneDrive/Documentos/GitHub/Polarity_Breach_VR/Assets/Scripts/Boss/BossWeakPoint.cs:61>
+		float L_5 = __this->___currentHealth;
+		float L_6;
+		L_6 = Mathf_Max_mF5379E63D2BBAC76D090748695D833934F8AD051_inline(L_5, (0.0f), NULL);
+		__this->___currentHealth = L_6;
+		//<source_info:C:/Users/mynur/OneDrive/Documentos/GitHub/Polarity_Breach_VR/Assets/Scripts/Boss/BossWeakPoint.cs:63>
+		BossHealth_t8B40372B7852023F1AF6C408BAA5BA400317665E* L_7 = __this->___bossHealth;
+		NullCheck(L_7);
+		BossHealth_NotifyDamaged_m26DA2F5155C3E60EF779203CFEE34B0B174D469B(L_7, NULL);
+		//<source_info:C:/Users/mynur/OneDrive/Documentos/GitHub/Polarity_Breach_VR/Assets/Scripts/Boss/BossWeakPoint.cs:64>
+		BossHealth_t8B40372B7852023F1AF6C408BAA5BA400317665E* L_8 = __this->___bossHealth;
+		NullCheck(L_8);
+		BossHealth_RefreshHealth_mA46215E10DF5B2F00DE46E3373EA94F732E7C4B0(L_8, NULL);
+		//<source_info:C:/Users/mynur/OneDrive/Documentos/GitHub/Polarity_Breach_VR/Assets/Scripts/Boss/BossWeakPoint.cs:66>
+		float L_9 = __this->___currentHealth;
+		if ((!(((float)L_9) <= ((float)(0.0f)))))
+		{
+			goto IL_0064;
+		}
+	}
+	{
+		//<source_info:C:/Users/mynur/OneDrive/Documentos/GitHub/Polarity_Breach_VR/Assets/Scripts/Boss/BossWeakPoint.cs:68>
+		BossWeakPoint_DestroyWeakPoint_mCA16F84499CBDD135EC127F53347A5613FA030D5(__this, NULL);
+	}
+
+IL_0064:
+	{
+		//<source_info:C:/Users/mynur/OneDrive/Documentos/GitHub/Polarity_Breach_VR/Assets/Scripts/Boss/BossWeakPoint.cs:70>
+		return;
+	}
+}
+// Method Definition Index: 90241
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void BossWeakPoint_DestroyWeakPoint_mCA16F84499CBDD135EC127F53347A5613FA030D5 (BossWeakPoint_t502A335D841A6A96167C6E10CACA201C9F1BE4BC* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralE62631AB732D11EC9272078B346F2A0380DCB365);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		//<source_info:C:/Users/mynur/OneDrive/Documentos/GitHub/Polarity_Breach_VR/Assets/Scripts/Boss/BossWeakPoint.cs:74>
+		__this->___isDestroyed = (bool)1;
+		//<source_info:C:/Users/mynur/OneDrive/Documentos/GitHub/Polarity_Breach_VR/Assets/Scripts/Boss/BossWeakPoint.cs:75>
+		BossWeakPoint_PlayDestroyedSfx_m9920DF9A0F8235247210E6253C06EDF73BE9A2DF(__this, NULL);
+		//<source_info:C:/Users/mynur/OneDrive/Documentos/GitHub/Polarity_Breach_VR/Assets/Scripts/Boss/BossWeakPoint.cs:77>
+		Collider_t1CC3163924FCD6C4CC2E816373A929C1E3D55E76* L_0 = __this->___weakPointCollider;
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		bool L_1;
+		L_1 = Object_op_Inequality_mD0BE578448EAA61948F25C32F8DD55AB1F778602(L_0, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
+		if (!L_1)
+		{
+			goto IL_0027;
+		}
+	}
+	{
+		//<source_info:C:/Users/mynur/OneDrive/Documentos/GitHub/Polarity_Breach_VR/Assets/Scripts/Boss/BossWeakPoint.cs:79>
+		Collider_t1CC3163924FCD6C4CC2E816373A929C1E3D55E76* L_2 = __this->___weakPointCollider;
+		NullCheck(L_2);
+		Collider_set_enabled_m8D5C3B5047592D227A52560FC9723D176E209F70(L_2, (bool)0, NULL);
+	}
+
+IL_0027:
+	{
+		//<source_info:C:/Users/mynur/OneDrive/Documentos/GitHub/Polarity_Breach_VR/Assets/Scripts/Boss/BossWeakPoint.cs:82>
+		BossWeakPoint_SetOrbDead_m95F92D1BFAC45D6696D63213254F1051F1D00634(__this, NULL);
+		//<source_info:C:/Users/mynur/OneDrive/Documentos/GitHub/Polarity_Breach_VR/Assets/Scripts/Boss/BossWeakPoint.cs:83>
+		BossHealth_t8B40372B7852023F1AF6C408BAA5BA400317665E* L_3 = __this->___bossHealth;
+		NullCheck(L_3);
+		BossHealth_WeakPointDestroyed_m5C90AACC5D360B27FC904B321615AE8A5DE71B98(L_3, NULL);
+		//<source_info:C:/Users/mynur/OneDrive/Documentos/GitHub/Polarity_Breach_VR/Assets/Scripts/Boss/BossWeakPoint.cs:85>
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_4;
+		L_4 = Component_get_gameObject_m57AEFBB14DB39EC476F740BA000E170355DE691B(__this, NULL);
+		NullCheck(L_4);
+		String_t* L_5;
+		L_5 = Object_get_name_mAC2F6B897CF1303BA4249B4CB55271AFACBB6392(L_4, NULL);
+		String_t* L_6;
+		L_6 = String_Concat_m9E3155FB84015C823606188F53B47CB44C444991(L_5, _stringLiteralE62631AB732D11EC9272078B346F2A0380DCB365, NULL);
+		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
+		Debug_Log_m87A9A3C761FF5C43ED8A53B16190A53D08F818BB(L_6, NULL);
+		//<source_info:C:/Users/mynur/OneDrive/Documentos/GitHub/Polarity_Breach_VR/Assets/Scripts/Boss/BossWeakPoint.cs:86>
+		return;
+	}
+}
+// Method Definition Index: 90242
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void BossWeakPoint_PlayDestroyedSfx_m9920DF9A0F8235247210E6253C06EDF73BE9A2DF (BossWeakPoint_t502A335D841A6A96167C6E10CACA201C9F1BE4BC* __this, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:C:/Users/mynur/OneDrive/Documentos/GitHub/Polarity_Breach_VR/Assets/Scripts/Boss/BossWeakPoint.cs:90>
+		bool L_0 = __this->___playDestroyedSoundAs2D;
+		if (!L_0)
+		{
+			goto IL_001a;
+		}
+	}
+	{
+		//<source_info:C:/Users/mynur/OneDrive/Documentos/GitHub/Polarity_Breach_VR/Assets/Scripts/Boss/BossWeakPoint.cs:92>
+		AudioClip_t5D272C4EB4F2D3ED49F1C346DEA373CF6D585F20* L_1 = __this->___destroyedSound;
+		float L_2 = __this->___destroyedSoundVolume;
+		AudioHandler_Play2DSound_mFD8282050D03848109B843C87EEC28565AB80327(L_1, L_2, NULL);
+		return;
+	}
+
+IL_001a:
+	{
+		//<source_info:C:/Users/mynur/OneDrive/Documentos/GitHub/Polarity_Breach_VR/Assets/Scripts/Boss/BossWeakPoint.cs:96>
+		AudioClip_t5D272C4EB4F2D3ED49F1C346DEA373CF6D585F20* L_3 = __this->___destroyedSound;
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_4;
+		L_4 = Component_get_transform_m2919A1D81931E6932C7F06D4C2F0AB8DDA9A5371(__this, NULL);
+		NullCheck(L_4);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_5;
+		L_5 = Transform_get_position_m69CD5FA214FDAE7BB701552943674846C220FDE1(L_4, NULL);
+		float L_6 = __this->___destroyedSoundVolume;
+		AudioHandler_Play3DSound_mD6D9E86A34606D63F1BF14A480A8F6C4E8388181(L_3, L_5, L_6, NULL);
+		//<source_info:C:/Users/mynur/OneDrive/Documentos/GitHub/Polarity_Breach_VR/Assets/Scripts/Boss/BossWeakPoint.cs:98>
+		return;
+	}
+}
+// Method Definition Index: 90243
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void BossWeakPoint_SetOrbDead_m95F92D1BFAC45D6696D63213254F1051F1D00634 (BossWeakPoint_t502A335D841A6A96167C6E10CACA201C9F1BE4BC* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Component_GetComponentInParent_TisPolarityVisual_t1B1D8F62D356A95A438AE9480687E4D557617E88_m90C8D8EA46CB144E69EDCE051760B72CEF3373A6_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&MaterialU5BU5D_t2B1D11C42DB07A4400C0535F92DBB87A2E346D3D_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	PolarityVisual_t1B1D8F62D356A95A438AE9480687E4D557617E88* V_0 = NULL;
+	MaterialU5BU5D_t2B1D11C42DB07A4400C0535F92DBB87A2E346D3D* V_1 = NULL;
+	int32_t V_2 = 0;
+	{
+		//<source_info:C:/Users/mynur/OneDrive/Documentos/GitHub/Polarity_Breach_VR/Assets/Scripts/Boss/BossWeakPoint.cs:102>
+		Renderer_t320575F223BCB177A982E5DDB5DB19FAA89E7FBF* L_0 = __this->___orbRenderer;
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		bool L_1;
+		L_1 = Object_op_Equality_mB6120F782D83091EF56A198FCEBCF066DB4A9605(L_0, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
+		if (!L_1)
+		{
+			goto IL_000f;
+		}
+	}
+	{
+		//<source_info:C:/Users/mynur/OneDrive/Documentos/GitHub/Polarity_Breach_VR/Assets/Scripts/Boss/BossWeakPoint.cs:102>
+		return;
+	}
+
+IL_000f:
+	{
+		//<source_info:C:/Users/mynur/OneDrive/Documentos/GitHub/Polarity_Breach_VR/Assets/Scripts/Boss/BossWeakPoint.cs:104>
+		Renderer_t320575F223BCB177A982E5DDB5DB19FAA89E7FBF* L_2 = __this->___orbRenderer;
+		NullCheck(L_2);
+		PolarityVisual_t1B1D8F62D356A95A438AE9480687E4D557617E88* L_3;
+		L_3 = Component_GetComponentInParent_TisPolarityVisual_t1B1D8F62D356A95A438AE9480687E4D557617E88_m90C8D8EA46CB144E69EDCE051760B72CEF3373A6(L_2, Component_GetComponentInParent_TisPolarityVisual_t1B1D8F62D356A95A438AE9480687E4D557617E88_m90C8D8EA46CB144E69EDCE051760B72CEF3373A6_RuntimeMethod_var);
+		V_0 = L_3;
+		//<source_info:C:/Users/mynur/OneDrive/Documentos/GitHub/Polarity_Breach_VR/Assets/Scripts/Boss/BossWeakPoint.cs:105>
+		PolarityVisual_t1B1D8F62D356A95A438AE9480687E4D557617E88* L_4 = V_0;
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		bool L_5;
+		L_5 = Object_op_Inequality_mD0BE578448EAA61948F25C32F8DD55AB1F778602(L_4, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
+		if (!L_5)
+		{
+			goto IL_002b;
+		}
+	}
+	{
+		//<source_info:C:/Users/mynur/OneDrive/Documentos/GitHub/Polarity_Breach_VR/Assets/Scripts/Boss/BossWeakPoint.cs:105>
+		PolarityVisual_t1B1D8F62D356A95A438AE9480687E4D557617E88* L_6 = V_0;
+		NullCheck(L_6);
+		Behaviour_set_enabled_mF1DCFE60EB09E0529FE9476CA804A3AA2D72B16A(L_6, (bool)0, NULL);
+	}
+
+IL_002b:
+	{
+		//<source_info:C:/Users/mynur/OneDrive/Documentos/GitHub/Polarity_Breach_VR/Assets/Scripts/Boss/BossWeakPoint.cs:107>
+		Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* L_7 = __this->___deadMaterial;
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		bool L_8;
+		L_8 = Object_op_Inequality_mD0BE578448EAA61948F25C32F8DD55AB1F778602(L_7, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
+		if (!L_8)
+		{
+			goto IL_0070;
+		}
+	}
+	{
+		//<source_info:C:/Users/mynur/OneDrive/Documentos/GitHub/Polarity_Breach_VR/Assets/Scripts/Boss/BossWeakPoint.cs:109>
+		Renderer_t320575F223BCB177A982E5DDB5DB19FAA89E7FBF* L_9 = __this->___orbRenderer;
+		NullCheck(L_9);
+		MaterialU5BU5D_t2B1D11C42DB07A4400C0535F92DBB87A2E346D3D* L_10;
+		L_10 = Renderer_get_sharedMaterials_m0B61AFD8EDA35A70C796FFB2F28BB62380051ABF(L_9, NULL);
+		NullCheck(L_10);
+		MaterialU5BU5D_t2B1D11C42DB07A4400C0535F92DBB87A2E346D3D* L_11 = (MaterialU5BU5D_t2B1D11C42DB07A4400C0535F92DBB87A2E346D3D*)(MaterialU5BU5D_t2B1D11C42DB07A4400C0535F92DBB87A2E346D3D*)SZArrayNew(MaterialU5BU5D_t2B1D11C42DB07A4400C0535F92DBB87A2E346D3D_il2cpp_TypeInfo_var, (uint32_t)((int32_t)(((RuntimeArray*)L_10)->max_length)));
+		V_1 = L_11;
+		//<source_info:C:/Users/mynur/OneDrive/Documentos/GitHub/Polarity_Breach_VR/Assets/Scripts/Boss/BossWeakPoint.cs:110>
+		V_2 = 0;
+		goto IL_005d;
+	}
+
+IL_0050:
+	{
+		//<source_info:C:/Users/mynur/OneDrive/Documentos/GitHub/Polarity_Breach_VR/Assets/Scripts/Boss/BossWeakPoint.cs:110>
+		MaterialU5BU5D_t2B1D11C42DB07A4400C0535F92DBB87A2E346D3D* L_12 = V_1;
+		int32_t L_13 = V_2;
+		Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* L_14 = __this->___deadMaterial;
+		NullCheck(L_12);
+		ArrayElementTypeCheck (L_12, L_14);
+		(L_12)->SetAt(static_cast<il2cpp_array_size_t>(L_13), (Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3*)L_14);
+		//<source_info:C:/Users/mynur/OneDrive/Documentos/GitHub/Polarity_Breach_VR/Assets/Scripts/Boss/BossWeakPoint.cs:110>
+		int32_t L_15 = V_2;
+		V_2 = ((int32_t)il2cpp_codegen_add(L_15, 1));
+	}
+
+IL_005d:
+	{
+		//<source_info:C:/Users/mynur/OneDrive/Documentos/GitHub/Polarity_Breach_VR/Assets/Scripts/Boss/BossWeakPoint.cs:110>
+		int32_t L_16 = V_2;
+		MaterialU5BU5D_t2B1D11C42DB07A4400C0535F92DBB87A2E346D3D* L_17 = V_1;
+		NullCheck(L_17);
+		if ((((int32_t)L_16) < ((int32_t)((int32_t)(((RuntimeArray*)L_17)->max_length)))))
+		{
+			goto IL_0050;
+		}
+	}
+	{
+		//<source_info:C:/Users/mynur/OneDrive/Documentos/GitHub/Polarity_Breach_VR/Assets/Scripts/Boss/BossWeakPoint.cs:111>
+		Renderer_t320575F223BCB177A982E5DDB5DB19FAA89E7FBF* L_18 = __this->___orbRenderer;
+		MaterialU5BU5D_t2B1D11C42DB07A4400C0535F92DBB87A2E346D3D* L_19 = V_1;
+		NullCheck(L_18);
+		Renderer_set_materials_mAB0270CEB5AF2F6A8D21A012E77440DBFCBF9001(L_18, L_19, NULL);
+		return;
+	}
+
+IL_0070:
+	{
+		//<source_info:C:/Users/mynur/OneDrive/Documentos/GitHub/Polarity_Breach_VR/Assets/Scripts/Boss/BossWeakPoint.cs:115>
+		Renderer_t320575F223BCB177A982E5DDB5DB19FAA89E7FBF* L_20 = __this->___orbRenderer;
+		NullCheck(L_20);
+		Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* L_21;
+		L_21 = Renderer_get_material_m5BA2A00816C4CC66580D4B2E409CF10718C15656(L_20, NULL);
+		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_22;
+		L_22 = Color_get_red_mA2E53E7173FDC97E68E335049AB0FAAEE43A844D_inline(NULL);
+		NullCheck(L_21);
+		Material_set_color_m5C32DEBB215FF9EE35E7B575297D8C2F29CC2A2D(L_21, L_22, NULL);
+		//<source_info:C:/Users/mynur/OneDrive/Documentos/GitHub/Polarity_Breach_VR/Assets/Scripts/Boss/BossWeakPoint.cs:117>
+		return;
+	}
+}
+// Method Definition Index: 90244
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void BossWeakPoint__ctor_m8B67951927C76B88DAC4EFDF52D845A02C2BBA58 (BossWeakPoint_t502A335D841A6A96167C6E10CACA201C9F1BE4BC* __this, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:C:/Users/mynur/OneDrive/Documentos/GitHub/Polarity_Breach_VR/Assets/Scripts/Boss/BossWeakPoint.cs:31>
+		__this->___destroyedSoundVolume = (1.0f);
+		MonoBehaviour__ctor_m592DB0105CA0BC97AA1C5F4AD27B12D68A3B7C1E(__this, NULL);
+		return;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// Method Definition Index: 90245
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SimpleHpBar_Awake_m7E889CF734D8F5B91C4AA0DACB8F0BB873EE65D8 (SimpleHpBar_tA92C2F0CF98D9239F685C13D6F81661CFDB50200* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Component_GetComponent_TisSlider_t87EA570E3D6556CABF57456C2F3873FFD86E652F_mCE53A354B934E9BDB2E8D3094F4E33EBA8FFAFBA_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		//<source_info:C:/Users/mynur/OneDrive/Documentos/GitHub/Polarity_Breach_VR/Assets/Scripts/Boss/SimpleHpBar.cs:14>
+		Slider_t87EA570E3D6556CABF57456C2F3873FFD86E652F* L_0 = __this->___healthSlider;
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		bool L_1;
+		L_1 = Object_op_Equality_mB6120F782D83091EF56A198FCEBCF066DB4A9605(L_0, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
+		if (!L_1)
+		{
+			goto IL_001a;
+		}
+	}
+	{
+		//<source_info:C:/Users/mynur/OneDrive/Documentos/GitHub/Polarity_Breach_VR/Assets/Scripts/Boss/SimpleHpBar.cs:16>
+		Slider_t87EA570E3D6556CABF57456C2F3873FFD86E652F* L_2;
+		L_2 = Component_GetComponent_TisSlider_t87EA570E3D6556CABF57456C2F3873FFD86E652F_mCE53A354B934E9BDB2E8D3094F4E33EBA8FFAFBA(__this, Component_GetComponent_TisSlider_t87EA570E3D6556CABF57456C2F3873FFD86E652F_mCE53A354B934E9BDB2E8D3094F4E33EBA8FFAFBA_RuntimeMethod_var);
+		__this->___healthSlider = L_2;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___healthSlider), (void*)L_2);
+	}
+
+IL_001a:
+	{
+		//<source_info:C:/Users/mynur/OneDrive/Documentos/GitHub/Polarity_Breach_VR/Assets/Scripts/Boss/SimpleHpBar.cs:18>
+		return;
+	}
+}
+// Method Definition Index: 90246
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SimpleHpBar_OnEnable_m4F932A4FDE76006AD22689743A01C932ACA0CE3E (SimpleHpBar_tA92C2F0CF98D9239F685C13D6F81661CFDB50200* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Action_1_t310F18CB4338A2740CA701F160C62E2C3198E66A_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&SimpleHpBar_UpdateHealthBar_mED92B596FD06EFA6A273D23846530D0A95C9E284_RuntimeMethod_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		//<source_info:C:/Users/mynur/OneDrive/Documentos/GitHub/Polarity_Breach_VR/Assets/Scripts/Boss/SimpleHpBar.cs:22>
+		BossHealth_t8B40372B7852023F1AF6C408BAA5BA400317665E* L_0 = __this->___bossHealth;
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		bool L_1;
+		L_1 = Object_op_Inequality_mD0BE578448EAA61948F25C32F8DD55AB1F778602(L_0, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
+		if (!L_1)
+		{
+			goto IL_0025;
+		}
+	}
+	{
+		//<source_info:C:/Users/mynur/OneDrive/Documentos/GitHub/Polarity_Breach_VR/Assets/Scripts/Boss/SimpleHpBar.cs:24>
+		BossHealth_t8B40372B7852023F1AF6C408BAA5BA400317665E* L_2 = __this->___bossHealth;
+		Action_1_t310F18CB4338A2740CA701F160C62E2C3198E66A* L_3 = (Action_1_t310F18CB4338A2740CA701F160C62E2C3198E66A*)il2cpp_codegen_object_new(Action_1_t310F18CB4338A2740CA701F160C62E2C3198E66A_il2cpp_TypeInfo_var);
+		Action_1__ctor_m770CD2F8BB65F2EDA5128CA2F96D71C35B23E859(L_3, __this, (intptr_t)((void*)SimpleHpBar_UpdateHealthBar_mED92B596FD06EFA6A273D23846530D0A95C9E284_RuntimeMethod_var), NULL);
+		NullCheck(L_2);
+		BossHealth_add_OnHealthPercentChanged_mCEC42D8562C2CD57DCE82D41DD9D55E6888286F6(L_2, L_3, NULL);
+	}
+
+IL_0025:
+	{
+		//<source_info:C:/Users/mynur/OneDrive/Documentos/GitHub/Polarity_Breach_VR/Assets/Scripts/Boss/SimpleHpBar.cs:26>
+		return;
+	}
+}
+// Method Definition Index: 90247
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SimpleHpBar_OnDisable_mFF95D2A069AF3460BEB8D88684E0F0AF4E451ACC (SimpleHpBar_tA92C2F0CF98D9239F685C13D6F81661CFDB50200* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Action_1_t310F18CB4338A2740CA701F160C62E2C3198E66A_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&SimpleHpBar_UpdateHealthBar_mED92B596FD06EFA6A273D23846530D0A95C9E284_RuntimeMethod_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		//<source_info:C:/Users/mynur/OneDrive/Documentos/GitHub/Polarity_Breach_VR/Assets/Scripts/Boss/SimpleHpBar.cs:30>
+		BossHealth_t8B40372B7852023F1AF6C408BAA5BA400317665E* L_0 = __this->___bossHealth;
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		bool L_1;
+		L_1 = Object_op_Inequality_mD0BE578448EAA61948F25C32F8DD55AB1F778602(L_0, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
+		if (!L_1)
+		{
+			goto IL_0025;
+		}
+	}
+	{
+		//<source_info:C:/Users/mynur/OneDrive/Documentos/GitHub/Polarity_Breach_VR/Assets/Scripts/Boss/SimpleHpBar.cs:32>
+		BossHealth_t8B40372B7852023F1AF6C408BAA5BA400317665E* L_2 = __this->___bossHealth;
+		Action_1_t310F18CB4338A2740CA701F160C62E2C3198E66A* L_3 = (Action_1_t310F18CB4338A2740CA701F160C62E2C3198E66A*)il2cpp_codegen_object_new(Action_1_t310F18CB4338A2740CA701F160C62E2C3198E66A_il2cpp_TypeInfo_var);
+		Action_1__ctor_m770CD2F8BB65F2EDA5128CA2F96D71C35B23E859(L_3, __this, (intptr_t)((void*)SimpleHpBar_UpdateHealthBar_mED92B596FD06EFA6A273D23846530D0A95C9E284_RuntimeMethod_var), NULL);
+		NullCheck(L_2);
+		BossHealth_remove_OnHealthPercentChanged_m9D91623393D0B90BE4FC3F2740429C4FC0FABED4(L_2, L_3, NULL);
+	}
+
+IL_0025:
+	{
+		//<source_info:C:/Users/mynur/OneDrive/Documentos/GitHub/Polarity_Breach_VR/Assets/Scripts/Boss/SimpleHpBar.cs:34>
+		return;
+	}
+}
+// Method Definition Index: 90248
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SimpleHpBar_Start_m902C4B6418BC2B7DE8B2618A9649CAA25486A5DE (SimpleHpBar_tA92C2F0CF98D9239F685C13D6F81661CFDB50200* __this, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:C:/Users/mynur/OneDrive/Documentos/GitHub/Polarity_Breach_VR/Assets/Scripts/Boss/SimpleHpBar.cs:38>
+		SimpleHpBar_UpdateHealthBar_mED92B596FD06EFA6A273D23846530D0A95C9E284(__this, (1.0f), NULL);
+		//<source_info:C:/Users/mynur/OneDrive/Documentos/GitHub/Polarity_Breach_VR/Assets/Scripts/Boss/SimpleHpBar.cs:39>
+		return;
+	}
+}
+// Method Definition Index: 90249
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SimpleHpBar_UpdateHealthBar_mED92B596FD06EFA6A273D23846530D0A95C9E284 (SimpleHpBar_tA92C2F0CF98D9239F685C13D6F81661CFDB50200* __this, float ___0_healthPercent, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:C:/Users/mynur/OneDrive/Documentos/GitHub/Polarity_Breach_VR/Assets/Scripts/Boss/SimpleHpBar.cs:43>
+		Slider_t87EA570E3D6556CABF57456C2F3873FFD86E652F* L_0 = __this->___healthSlider;
+		float L_1 = ___0_healthPercent;
+		NullCheck(L_0);
+		VirtualActionInvoker1< float >::Invoke(47, L_0, L_1);
+		//<source_info:C:/Users/mynur/OneDrive/Documentos/GitHub/Polarity_Breach_VR/Assets/Scripts/Boss/SimpleHpBar.cs:44>
+		return;
+	}
+}
+// Method Definition Index: 90250
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SimpleHpBar__ctor_mDD474CFECA5E84AFCA721B6CAEA50A7EA37D680F (SimpleHpBar_tA92C2F0CF98D9239F685C13D6F81661CFDB50200* __this, const RuntimeMethod* method) 
+{
+	//<source_info:<no-source>:1>
+	{
+		MonoBehaviour__ctor_m592DB0105CA0BC97AA1C5F4AD27B12D68A3B7C1E(__this, NULL);
+		return;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// Method Definition Index: 90251
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AudioMixerGroup_tD29AC8336F7425DF007944F8195CEABF34FC3311* AudioHandler_get_DefaultSfxMixerGroup_m9DA83D716071C3EC05EA24B09F2E98CF9C98FC16 (const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&AudioHandler_tE052A61F0CA9DC9106F9CDB5CB21D6EC158EED15_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		//<source_info:C:/Users/mynur/OneDrive/Documentos/GitHub/Polarity_Breach_VR/Assets/Scripts/Audio/AudioHandler.cs:8>
+		AudioMixerGroup_tD29AC8336F7425DF007944F8195CEABF34FC3311* L_0 = ((AudioHandler_tE052A61F0CA9DC9106F9CDB5CB21D6EC158EED15_StaticFields*)il2cpp_codegen_static_fields_for(AudioHandler_tE052A61F0CA9DC9106F9CDB5CB21D6EC158EED15_il2cpp_TypeInfo_var))->___U3CDefaultSfxMixerGroupU3Ek__BackingField;
+		return L_0;
+	}
+}
+// Method Definition Index: 90252
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AudioHandler_set_DefaultSfxMixerGroup_m5018A21EBA1556FC3DE783DD31F67962A3B9A4B6 (AudioMixerGroup_tD29AC8336F7425DF007944F8195CEABF34FC3311* ___0_value, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&AudioHandler_tE052A61F0CA9DC9106F9CDB5CB21D6EC158EED15_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		//<source_info:C:/Users/mynur/OneDrive/Documentos/GitHub/Polarity_Breach_VR/Assets/Scripts/Audio/AudioHandler.cs:8>
+		AudioMixerGroup_tD29AC8336F7425DF007944F8195CEABF34FC3311* L_0 = ___0_value;
+		((AudioHandler_tE052A61F0CA9DC9106F9CDB5CB21D6EC158EED15_StaticFields*)il2cpp_codegen_static_fields_for(AudioHandler_tE052A61F0CA9DC9106F9CDB5CB21D6EC158EED15_il2cpp_TypeInfo_var))->___U3CDefaultSfxMixerGroupU3Ek__BackingField = L_0;
+		Il2CppCodeGenWriteBarrier((void**)(&((AudioHandler_tE052A61F0CA9DC9106F9CDB5CB21D6EC158EED15_StaticFields*)il2cpp_codegen_static_fields_for(AudioHandler_tE052A61F0CA9DC9106F9CDB5CB21D6EC158EED15_il2cpp_TypeInfo_var))->___U3CDefaultSfxMixerGroupU3Ek__BackingField), (void*)L_0);
+		return;
+	}
+}
+// Method Definition Index: 90253
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AudioHandler_SetDefaultSfxMixerGroup_mE10415AD173D93340362E9EF2021F7C6F4E3CFB2 (AudioMixerGroup_tD29AC8336F7425DF007944F8195CEABF34FC3311* ___0_mixerGroup, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:C:/Users/mynur/OneDrive/Documentos/GitHub/Polarity_Breach_VR/Assets/Scripts/Audio/AudioHandler.cs:12>
+		AudioMixerGroup_tD29AC8336F7425DF007944F8195CEABF34FC3311* L_0 = ___0_mixerGroup;
+		AudioHandler_set_DefaultSfxMixerGroup_m5018A21EBA1556FC3DE783DD31F67962A3B9A4B6_inline(L_0, NULL);
+		//<source_info:C:/Users/mynur/OneDrive/Documentos/GitHub/Polarity_Breach_VR/Assets/Scripts/Audio/AudioHandler.cs:13>
+		return;
+	}
+}
+// Method Definition Index: 90254
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AudioHandler_ClearDefaultSfxMixerGroup_m4DEDC8BE5646F23E7E7AA40AEAEF461ABD8E7610 (AudioMixerGroup_tD29AC8336F7425DF007944F8195CEABF34FC3311* ___0_mixerGroup, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		//<source_info:C:/Users/mynur/OneDrive/Documentos/GitHub/Polarity_Breach_VR/Assets/Scripts/Audio/AudioHandler.cs:17>
+		AudioMixerGroup_tD29AC8336F7425DF007944F8195CEABF34FC3311* L_0;
+		L_0 = AudioHandler_get_DefaultSfxMixerGroup_m9DA83D716071C3EC05EA24B09F2E98CF9C98FC16_inline(NULL);
+		AudioMixerGroup_tD29AC8336F7425DF007944F8195CEABF34FC3311* L_1 = ___0_mixerGroup;
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		bool L_2;
+		L_2 = Object_op_Equality_mB6120F782D83091EF56A198FCEBCF066DB4A9605(L_0, L_1, NULL);
+		if (!L_2)
+		{
+			goto IL_0013;
+		}
+	}
+	{
+		//<source_info:C:/Users/mynur/OneDrive/Documentos/GitHub/Polarity_Breach_VR/Assets/Scripts/Audio/AudioHandler.cs:19>
+		AudioHandler_set_DefaultSfxMixerGroup_m5018A21EBA1556FC3DE783DD31F67962A3B9A4B6_inline((AudioMixerGroup_tD29AC8336F7425DF007944F8195CEABF34FC3311*)NULL, NULL);
+	}
+
+IL_0013:
+	{
+		//<source_info:C:/Users/mynur/OneDrive/Documentos/GitHub/Polarity_Breach_VR/Assets/Scripts/Audio/AudioHandler.cs:21>
+		return;
+	}
+}
+// Method Definition Index: 90255
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AudioHandler_Play3DSound_m32BEBDC34446DD9B29F6D2792F20C113DDDF1BEA (AudioClip_t5D272C4EB4F2D3ED49F1C346DEA373CF6D585F20* ___0_clip, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___1_position, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:C:/Users/mynur/OneDrive/Documentos/GitHub/Polarity_Breach_VR/Assets/Scripts/Audio/AudioHandler.cs:25>
+		AudioClip_t5D272C4EB4F2D3ED49F1C346DEA373CF6D585F20* L_0 = ___0_clip;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_1 = ___1_position;
+		AudioHandler_Play3DSound_mD6D9E86A34606D63F1BF14A480A8F6C4E8388181(L_0, L_1, (1.0f), NULL);
+		//<source_info:C:/Users/mynur/OneDrive/Documentos/GitHub/Polarity_Breach_VR/Assets/Scripts/Audio/AudioHandler.cs:26>
+		return;
+	}
+}
+// Method Definition Index: 90256
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AudioHandler_Play3DSound_mD6D9E86A34606D63F1BF14A480A8F6C4E8388181 (AudioClip_t5D272C4EB4F2D3ED49F1C346DEA373CF6D585F20* ___0_clip, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___1_position, float ___2_volume, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:C:/Users/mynur/OneDrive/Documentos/GitHub/Polarity_Breach_VR/Assets/Scripts/Audio/AudioHandler.cs:30>
+		AudioClip_t5D272C4EB4F2D3ED49F1C346DEA373CF6D585F20* L_0 = ___0_clip;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_1 = ___1_position;
+		float L_2 = ___2_volume;
+		AudioMixerGroup_tD29AC8336F7425DF007944F8195CEABF34FC3311* L_3;
+		L_3 = AudioHandler_get_DefaultSfxMixerGroup_m9DA83D716071C3EC05EA24B09F2E98CF9C98FC16_inline(NULL);
+		AudioHandler_Play3DSound_mF1F770DF7C7CD00E549E5CF0BB41A419AB020D58(L_0, L_1, L_2, L_3, NULL);
+		//<source_info:C:/Users/mynur/OneDrive/Documentos/GitHub/Polarity_Breach_VR/Assets/Scripts/Audio/AudioHandler.cs:31>
+		return;
+	}
+}
+// Method Definition Index: 90257
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AudioHandler_Play3DSound_mF1F770DF7C7CD00E549E5CF0BB41A419AB020D58 (AudioClip_t5D272C4EB4F2D3ED49F1C346DEA373CF6D585F20* ___0_clip, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___1_position, float ___2_volume, AudioMixerGroup_tD29AC8336F7425DF007944F8195CEABF34FC3311* ___3_mixerGroup, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&GameObject_AddComponent_TisAudioSource_t871AC2272F896738252F04EE949AEF5B241D3299_m0E8EFDB9B3D8DF1ADE10C56D3168A9C1BA19BF14_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&GameObject_t76FEDD663AB33C991A9C9A23129337651094216F_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral2E6103B8284446D3CFB9E3762B096F6C02579271);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		//<source_info:C:/Users/mynur/OneDrive/Documentos/GitHub/Polarity_Breach_VR/Assets/Scripts/Audio/AudioHandler.cs:35>
+		AudioClip_t5D272C4EB4F2D3ED49F1C346DEA373CF6D585F20* L_0 = ___0_clip;
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		bool L_1;
+		L_1 = Object_op_Equality_mB6120F782D83091EF56A198FCEBCF066DB4A9605(L_0, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
+		if (!L_1)
+		{
+			goto IL_000a;
+		}
+	}
+	{
+		//<source_info:C:/Users/mynur/OneDrive/Documentos/GitHub/Polarity_Breach_VR/Assets/Scripts/Audio/AudioHandler.cs:35>
+		return;
+	}
+
+IL_000a:
+	{
+		//<source_info:C:/Users/mynur/OneDrive/Documentos/GitHub/Polarity_Breach_VR/Assets/Scripts/Audio/AudioHandler.cs:37>
+		AudioMixerGroup_tD29AC8336F7425DF007944F8195CEABF34FC3311* L_2 = ___3_mixerGroup;
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		bool L_3;
+		L_3 = Object_op_Equality_mB6120F782D83091EF56A198FCEBCF066DB4A9605(L_2, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
+		if (!L_3)
+		{
+			goto IL_0021;
+		}
+	}
+	{
+		//<source_info:C:/Users/mynur/OneDrive/Documentos/GitHub/Polarity_Breach_VR/Assets/Scripts/Audio/AudioHandler.cs:39>
+		AudioClip_t5D272C4EB4F2D3ED49F1C346DEA373CF6D585F20* L_4 = ___0_clip;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_5 = ___1_position;
+		float L_6 = ___2_volume;
+		float L_7;
+		L_7 = Mathf_Clamp01_mA7E048DBDA832D399A581BE4D6DED9FA44CE0F14_inline(L_6, NULL);
+		AudioSource_PlayClipAtPoint_mF9D129487C356127ADA3AB5C0A67C7D00F26E3DD(L_4, L_5, L_7, NULL);
+		//<source_info:C:/Users/mynur/OneDrive/Documentos/GitHub/Polarity_Breach_VR/Assets/Scripts/Audio/AudioHandler.cs:40>
+		return;
+	}
+
+IL_0021:
+	{
+		//<source_info:C:/Users/mynur/OneDrive/Documentos/GitHub/Polarity_Breach_VR/Assets/Scripts/Audio/AudioHandler.cs:43>
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_8 = (GameObject_t76FEDD663AB33C991A9C9A23129337651094216F*)il2cpp_codegen_object_new(GameObject_t76FEDD663AB33C991A9C9A23129337651094216F_il2cpp_TypeInfo_var);
+		GameObject__ctor_m37D512B05D292F954792225E6C6EEE95293A9B88(L_8, _stringLiteral2E6103B8284446D3CFB9E3762B096F6C02579271, NULL);
+		//<source_info:C:/Users/mynur/OneDrive/Documentos/GitHub/Polarity_Breach_VR/Assets/Scripts/Audio/AudioHandler.cs:44>
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_9 = L_8;
+		NullCheck(L_9);
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_10;
+		L_10 = GameObject_get_transform_m0BC10ADFA1632166AE5544BDF9038A2650C2AE56(L_9, NULL);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_11 = ___1_position;
+		NullCheck(L_10);
+		Transform_set_position_mA1A817124BB41B685043DED2A9BA48CDF37C4156(L_10, L_11, NULL);
+		//<source_info:C:/Users/mynur/OneDrive/Documentos/GitHub/Polarity_Breach_VR/Assets/Scripts/Audio/AudioHandler.cs:45>
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_12 = L_9;
+		NullCheck(L_12);
+		AudioSource_t871AC2272F896738252F04EE949AEF5B241D3299* L_13;
+		L_13 = GameObject_AddComponent_TisAudioSource_t871AC2272F896738252F04EE949AEF5B241D3299_m0E8EFDB9B3D8DF1ADE10C56D3168A9C1BA19BF14(L_12, GameObject_AddComponent_TisAudioSource_t871AC2272F896738252F04EE949AEF5B241D3299_m0E8EFDB9B3D8DF1ADE10C56D3168A9C1BA19BF14_RuntimeMethod_var);
+		//<source_info:C:/Users/mynur/OneDrive/Documentos/GitHub/Polarity_Breach_VR/Assets/Scripts/Audio/AudioHandler.cs:46>
+		AudioSource_t871AC2272F896738252F04EE949AEF5B241D3299* L_14 = L_13;
+		AudioClip_t5D272C4EB4F2D3ED49F1C346DEA373CF6D585F20* L_15 = ___0_clip;
+		NullCheck(L_14);
+		AudioSource_set_clip_mFF441895E274286C88D9C75ED5CA1B1B39528D70(L_14, L_15, NULL);
+		//<source_info:C:/Users/mynur/OneDrive/Documentos/GitHub/Polarity_Breach_VR/Assets/Scripts/Audio/AudioHandler.cs:47>
+		AudioSource_t871AC2272F896738252F04EE949AEF5B241D3299* L_16 = L_14;
+		float L_17 = ___2_volume;
+		float L_18;
+		L_18 = Mathf_Clamp01_mA7E048DBDA832D399A581BE4D6DED9FA44CE0F14_inline(L_17, NULL);
+		NullCheck(L_16);
+		AudioSource_set_volume_mD902BBDBBDE0E3C148609BF3C05096148E90F2C0(L_16, L_18, NULL);
+		//<source_info:C:/Users/mynur/OneDrive/Documentos/GitHub/Polarity_Breach_VR/Assets/Scripts/Audio/AudioHandler.cs:48>
+		AudioSource_t871AC2272F896738252F04EE949AEF5B241D3299* L_19 = L_16;
+		NullCheck(L_19);
+		AudioSource_set_spatialBlend_mCEE7A3E87A8C146E048B2CA3413FDC7BDB7BE001(L_19, (1.0f), NULL);
+		//<source_info:C:/Users/mynur/OneDrive/Documentos/GitHub/Polarity_Breach_VR/Assets/Scripts/Audio/AudioHandler.cs:49>
+		AudioSource_t871AC2272F896738252F04EE949AEF5B241D3299* L_20 = L_19;
+		AudioMixerGroup_tD29AC8336F7425DF007944F8195CEABF34FC3311* L_21 = ___3_mixerGroup;
+		NullCheck(L_20);
+		AudioSource_set_outputAudioMixerGroup_m10D0A0EAE270424CD2F3BB960CFAA158D9FC24CF(L_20, L_21, NULL);
+		//<source_info:C:/Users/mynur/OneDrive/Documentos/GitHub/Polarity_Breach_VR/Assets/Scripts/Audio/AudioHandler.cs:50>
+		NullCheck(L_20);
+		AudioSource_Play_m95DF07111C61D0E0F00257A00384D31531D590C3(L_20, NULL);
+		//<source_info:C:/Users/mynur/OneDrive/Documentos/GitHub/Polarity_Breach_VR/Assets/Scripts/Audio/AudioHandler.cs:52>
+		AudioClip_t5D272C4EB4F2D3ED49F1C346DEA373CF6D585F20* L_22 = ___0_clip;
+		NullCheck(L_22);
+		float L_23;
+		L_23 = AudioClip_get_length_m6102CB29AF65988797452E4D6E43D4788303873D(L_22, NULL);
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		Object_Destroy_m064F2A066491D2DC4FFCFBDBE5FCFFB807A04436(L_12, L_23, NULL);
+		//<source_info:C:/Users/mynur/OneDrive/Documentos/GitHub/Polarity_Breach_VR/Assets/Scripts/Audio/AudioHandler.cs:53>
+		return;
+	}
+}
+// Method Definition Index: 90258
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AudioHandler_Play2DSound_mFD8282050D03848109B843C87EEC28565AB80327 (AudioClip_t5D272C4EB4F2D3ED49F1C346DEA373CF6D585F20* ___0_clip, float ___1_volume, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:C:/Users/mynur/OneDrive/Documentos/GitHub/Polarity_Breach_VR/Assets/Scripts/Audio/AudioHandler.cs:57>
+		AudioClip_t5D272C4EB4F2D3ED49F1C346DEA373CF6D585F20* L_0 = ___0_clip;
+		float L_1 = ___1_volume;
+		AudioMixerGroup_tD29AC8336F7425DF007944F8195CEABF34FC3311* L_2;
+		L_2 = AudioHandler_get_DefaultSfxMixerGroup_m9DA83D716071C3EC05EA24B09F2E98CF9C98FC16_inline(NULL);
+		AudioHandler_Play2DSound_mA2BA3F4F70EE1AC195D6614E57736DA438CE5DC4(L_0, L_1, L_2, NULL);
+		//<source_info:C:/Users/mynur/OneDrive/Documentos/GitHub/Polarity_Breach_VR/Assets/Scripts/Audio/AudioHandler.cs:58>
+		return;
+	}
+}
+// Method Definition Index: 90259
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AudioHandler_Play2DSound_mA2BA3F4F70EE1AC195D6614E57736DA438CE5DC4 (AudioClip_t5D272C4EB4F2D3ED49F1C346DEA373CF6D585F20* ___0_clip, float ___1_volume, AudioMixerGroup_tD29AC8336F7425DF007944F8195CEABF34FC3311* ___2_mixerGroup, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&GameObject_AddComponent_TisAudioSource_t871AC2272F896738252F04EE949AEF5B241D3299_m0E8EFDB9B3D8DF1ADE10C56D3168A9C1BA19BF14_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&GameObject_t76FEDD663AB33C991A9C9A23129337651094216F_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralEB88BC5586B74DA5A924B21E9CCE235251B509C3);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		//<source_info:C:/Users/mynur/OneDrive/Documentos/GitHub/Polarity_Breach_VR/Assets/Scripts/Audio/AudioHandler.cs:62>
+		AudioClip_t5D272C4EB4F2D3ED49F1C346DEA373CF6D585F20* L_0 = ___0_clip;
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		bool L_1;
+		L_1 = Object_op_Equality_mB6120F782D83091EF56A198FCEBCF066DB4A9605(L_0, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
+		if (!L_1)
+		{
+			goto IL_000a;
+		}
+	}
+	{
+		//<source_info:C:/Users/mynur/OneDrive/Documentos/GitHub/Polarity_Breach_VR/Assets/Scripts/Audio/AudioHandler.cs:62>
+		return;
+	}
+
+IL_000a:
+	{
+		//<source_info:C:/Users/mynur/OneDrive/Documentos/GitHub/Polarity_Breach_VR/Assets/Scripts/Audio/AudioHandler.cs:64>
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_2 = (GameObject_t76FEDD663AB33C991A9C9A23129337651094216F*)il2cpp_codegen_object_new(GameObject_t76FEDD663AB33C991A9C9A23129337651094216F_il2cpp_TypeInfo_var);
+		GameObject__ctor_m37D512B05D292F954792225E6C6EEE95293A9B88(L_2, _stringLiteralEB88BC5586B74DA5A924B21E9CCE235251B509C3, NULL);
+		//<source_info:C:/Users/mynur/OneDrive/Documentos/GitHub/Polarity_Breach_VR/Assets/Scripts/Audio/AudioHandler.cs:65>
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_3 = L_2;
+		NullCheck(L_3);
+		AudioSource_t871AC2272F896738252F04EE949AEF5B241D3299* L_4;
+		L_4 = GameObject_AddComponent_TisAudioSource_t871AC2272F896738252F04EE949AEF5B241D3299_m0E8EFDB9B3D8DF1ADE10C56D3168A9C1BA19BF14(L_3, GameObject_AddComponent_TisAudioSource_t871AC2272F896738252F04EE949AEF5B241D3299_m0E8EFDB9B3D8DF1ADE10C56D3168A9C1BA19BF14_RuntimeMethod_var);
+		//<source_info:C:/Users/mynur/OneDrive/Documentos/GitHub/Polarity_Breach_VR/Assets/Scripts/Audio/AudioHandler.cs:66>
+		AudioSource_t871AC2272F896738252F04EE949AEF5B241D3299* L_5 = L_4;
+		AudioClip_t5D272C4EB4F2D3ED49F1C346DEA373CF6D585F20* L_6 = ___0_clip;
+		NullCheck(L_5);
+		AudioSource_set_clip_mFF441895E274286C88D9C75ED5CA1B1B39528D70(L_5, L_6, NULL);
+		//<source_info:C:/Users/mynur/OneDrive/Documentos/GitHub/Polarity_Breach_VR/Assets/Scripts/Audio/AudioHandler.cs:67>
+		AudioSource_t871AC2272F896738252F04EE949AEF5B241D3299* L_7 = L_5;
+		float L_8 = ___1_volume;
+		float L_9;
+		L_9 = Mathf_Clamp01_mA7E048DBDA832D399A581BE4D6DED9FA44CE0F14_inline(L_8, NULL);
+		NullCheck(L_7);
+		AudioSource_set_volume_mD902BBDBBDE0E3C148609BF3C05096148E90F2C0(L_7, L_9, NULL);
+		//<source_info:C:/Users/mynur/OneDrive/Documentos/GitHub/Polarity_Breach_VR/Assets/Scripts/Audio/AudioHandler.cs:68>
+		AudioSource_t871AC2272F896738252F04EE949AEF5B241D3299* L_10 = L_7;
+		NullCheck(L_10);
+		AudioSource_set_spatialBlend_mCEE7A3E87A8C146E048B2CA3413FDC7BDB7BE001(L_10, (0.0f), NULL);
+		//<source_info:C:/Users/mynur/OneDrive/Documentos/GitHub/Polarity_Breach_VR/Assets/Scripts/Audio/AudioHandler.cs:69>
+		AudioSource_t871AC2272F896738252F04EE949AEF5B241D3299* L_11 = L_10;
+		AudioMixerGroup_tD29AC8336F7425DF007944F8195CEABF34FC3311* L_12 = ___2_mixerGroup;
+		NullCheck(L_11);
+		AudioSource_set_outputAudioMixerGroup_m10D0A0EAE270424CD2F3BB960CFAA158D9FC24CF(L_11, L_12, NULL);
+		//<source_info:C:/Users/mynur/OneDrive/Documentos/GitHub/Polarity_Breach_VR/Assets/Scripts/Audio/AudioHandler.cs:70>
+		NullCheck(L_11);
+		AudioSource_Play_m95DF07111C61D0E0F00257A00384D31531D590C3(L_11, NULL);
+		//<source_info:C:/Users/mynur/OneDrive/Documentos/GitHub/Polarity_Breach_VR/Assets/Scripts/Audio/AudioHandler.cs:72>
+		AudioClip_t5D272C4EB4F2D3ED49F1C346DEA373CF6D585F20* L_13 = ___0_clip;
+		NullCheck(L_13);
+		float L_14;
+		L_14 = AudioClip_get_length_m6102CB29AF65988797452E4D6E43D4788303873D(L_13, NULL);
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		Object_Destroy_m064F2A066491D2DC4FFCFBDBE5FCFFB807A04436(L_3, L_14, NULL);
+		//<source_info:C:/Users/mynur/OneDrive/Documentos/GitHub/Polarity_Breach_VR/Assets/Scripts/Audio/AudioHandler.cs:73>
+		return;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// Method Definition Index: 90260
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AudioHandlerSettings_Awake_mED3716A27565349BC6B0D3166CF73EF3783EDFD5 (AudioHandlerSettings_t957E135EED8BC96029B9862B4A88E0BDC0685B19* __this, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:C:/Users/mynur/OneDrive/Documentos/GitHub/Polarity_Breach_VR/Assets/Scripts/Audio/AudioHandlerSettings.cs:13>
+		AudioMixerGroup_tD29AC8336F7425DF007944F8195CEABF34FC3311* L_0 = __this->___defaultSfxMixerGroup;
+		AudioHandler_SetDefaultSfxMixerGroup_mE10415AD173D93340362E9EF2021F7C6F4E3CFB2(L_0, NULL);
+		//<source_info:C:/Users/mynur/OneDrive/Documentos/GitHub/Polarity_Breach_VR/Assets/Scripts/Audio/AudioHandlerSettings.cs:14>
+		return;
+	}
+}
+// Method Definition Index: 90261
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AudioHandlerSettings_OnDisable_m6EDA3FDD1F7D10B23FAFA92CAD81852050F9EA9D (AudioHandlerSettings_t957E135EED8BC96029B9862B4A88E0BDC0685B19* __this, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:C:/Users/mynur/OneDrive/Documentos/GitHub/Polarity_Breach_VR/Assets/Scripts/Audio/AudioHandlerSettings.cs:18>
+		AudioMixerGroup_tD29AC8336F7425DF007944F8195CEABF34FC3311* L_0 = __this->___defaultSfxMixerGroup;
+		AudioHandler_ClearDefaultSfxMixerGroup_m4DEDC8BE5646F23E7E7AA40AEAEF461ABD8E7610(L_0, NULL);
+		//<source_info:C:/Users/mynur/OneDrive/Documentos/GitHub/Polarity_Breach_VR/Assets/Scripts/Audio/AudioHandlerSettings.cs:19>
+		return;
+	}
+}
+// Method Definition Index: 90262
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AudioHandlerSettings__ctor_mE55DC3CBC9373A71795D668826BF23724A843E0A (AudioHandlerSettings_t957E135EED8BC96029B9862B4A88E0BDC0685B19* __this, const RuntimeMethod* method) 
+{
+	//<source_info:<no-source>:1>
+	{
+		MonoBehaviour__ctor_m592DB0105CA0BC97AA1C5F4AD27B12D68A3B7C1E(__this, NULL);
+		return;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// Method Definition Index: 90263
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void BulletPolarityVisual_Awake_m3C0B8CC8EDA3600CDD86BF772BDD14AAACF68830 (BulletPolarityVisual_tB4F02FB35C4FCAB2A3FA0D36A320DBF9DB4F1FA8* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Component_GetComponent_TisPolarityComponent_t1FB53DB0BF7CE9A8E59278F3854DC776322BBCA0_m317F7D3130E71487835B00DB1356E893EEF94764_RuntimeMethod_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		//<source_info:C:/Users/mynur/OneDrive/Documentos/GitHub/Polarity_Breach_VR/Assets/Materials/ShaderGraph/TrailTutorial/BulletPolarityVisual.cs:29>
+		PolarityComponent_t1FB53DB0BF7CE9A8E59278F3854DC776322BBCA0* L_0;
+		L_0 = Component_GetComponent_TisPolarityComponent_t1FB53DB0BF7CE9A8E59278F3854DC776322BBCA0_m317F7D3130E71487835B00DB1356E893EEF94764(__this, Component_GetComponent_TisPolarityComponent_t1FB53DB0BF7CE9A8E59278F3854DC776322BBCA0_m317F7D3130E71487835B00DB1356E893EEF94764_RuntimeMethod_var);
+		__this->___polarity = L_0;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___polarity), (void*)L_0);
+		//<source_info:C:/Users/mynur/OneDrive/Documentos/GitHub/Polarity_Breach_VR/Assets/Materials/ShaderGraph/TrailTutorial/BulletPolarityVisual.cs:30>
+		return;
+	}
+}
+// Method Definition Index: 90264
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void BulletPolarityVisual_OnEnable_m8EF8EFCE0C09E60DB41EACA735B8334062DCE8B6 (BulletPolarityVisual_tB4F02FB35C4FCAB2A3FA0D36A320DBF9DB4F1FA8* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Action_1_t2A685F9B7073D2171BE282EED0EC530989CA03E9_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&BulletPolarityVisual_Apply_mC46E94B6F40BC075C95CF3E52DBE05C57706C2BC_RuntimeMethod_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		//<source_info:C:/Users/mynur/OneDrive/Documentos/GitHub/Polarity_Breach_VR/Assets/Materials/ShaderGraph/TrailTutorial/BulletPolarityVisual.cs:34>
+		PolarityComponent_t1FB53DB0BF7CE9A8E59278F3854DC776322BBCA0* L_0 = __this->___polarity;
+		Action_1_t2A685F9B7073D2171BE282EED0EC530989CA03E9* L_1 = (Action_1_t2A685F9B7073D2171BE282EED0EC530989CA03E9*)il2cpp_codegen_object_new(Action_1_t2A685F9B7073D2171BE282EED0EC530989CA03E9_il2cpp_TypeInfo_var);
+		Action_1__ctor_m2A215C2B00BBAD929AE9298F40164012A7FB2063(L_1, __this, (intptr_t)((void*)BulletPolarityVisual_Apply_mC46E94B6F40BC075C95CF3E52DBE05C57706C2BC_RuntimeMethod_var), NULL);
+		NullCheck(L_0);
+		PolarityComponent_add_OnPolarityChanged_m2E91C6D657C078F3EF9ABEDFF9A50277F9605AF9(L_0, L_1, NULL);
+		//<source_info:C:/Users/mynur/OneDrive/Documentos/GitHub/Polarity_Breach_VR/Assets/Materials/ShaderGraph/TrailTutorial/BulletPolarityVisual.cs:35>
+		PolarityComponent_t1FB53DB0BF7CE9A8E59278F3854DC776322BBCA0* L_2 = __this->___polarity;
+		NullCheck(L_2);
+		int32_t L_3;
+		L_3 = PolarityComponent_get_CurrentPolarity_mEFF48D62986084A923894FAE9EDD5CC9061A76B0_inline(L_2, NULL);
+		BulletPolarityVisual_Apply_mC46E94B6F40BC075C95CF3E52DBE05C57706C2BC(__this, L_3, NULL);
+		//<source_info:C:/Users/mynur/OneDrive/Documentos/GitHub/Polarity_Breach_VR/Assets/Materials/ShaderGraph/TrailTutorial/BulletPolarityVisual.cs:36>
+		return;
+	}
+}
+// Method Definition Index: 90265
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void BulletPolarityVisual_OnDisable_m6BCFCB4C419D3DABBF6BDD3338DA10A117193342 (BulletPolarityVisual_tB4F02FB35C4FCAB2A3FA0D36A320DBF9DB4F1FA8* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Action_1_t2A685F9B7073D2171BE282EED0EC530989CA03E9_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&BulletPolarityVisual_Apply_mC46E94B6F40BC075C95CF3E52DBE05C57706C2BC_RuntimeMethod_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		//<source_info:C:/Users/mynur/OneDrive/Documentos/GitHub/Polarity_Breach_VR/Assets/Materials/ShaderGraph/TrailTutorial/BulletPolarityVisual.cs:40>
+		PolarityComponent_t1FB53DB0BF7CE9A8E59278F3854DC776322BBCA0* L_0 = __this->___polarity;
+		Action_1_t2A685F9B7073D2171BE282EED0EC530989CA03E9* L_1 = (Action_1_t2A685F9B7073D2171BE282EED0EC530989CA03E9*)il2cpp_codegen_object_new(Action_1_t2A685F9B7073D2171BE282EED0EC530989CA03E9_il2cpp_TypeInfo_var);
+		Action_1__ctor_m2A215C2B00BBAD929AE9298F40164012A7FB2063(L_1, __this, (intptr_t)((void*)BulletPolarityVisual_Apply_mC46E94B6F40BC075C95CF3E52DBE05C57706C2BC_RuntimeMethod_var), NULL);
+		NullCheck(L_0);
+		PolarityComponent_remove_OnPolarityChanged_mE62B5E429C533F83EF7175AB1C0EE11D0EA9980D(L_0, L_1, NULL);
+		//<source_info:C:/Users/mynur/OneDrive/Documentos/GitHub/Polarity_Breach_VR/Assets/Materials/ShaderGraph/TrailTutorial/BulletPolarityVisual.cs:41>
+		return;
+	}
+}
+// Method Definition Index: 90266
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void BulletPolarityVisual_Apply_mC46E94B6F40BC075C95CF3E52DBE05C57706C2BC (BulletPolarityVisual_tB4F02FB35C4FCAB2A3FA0D36A320DBF9DB4F1FA8* __this, int32_t ___0_value, const RuntimeMethod* method) 
+{
+	Color_tD001788D726C3A7F1379BEED0260B9591F440C1F V_0;
+	memset((&V_0), 0, sizeof(V_0));
+	Color_tD001788D726C3A7F1379BEED0260B9591F440C1F V_1;
+	memset((&V_1), 0, sizeof(V_1));
+	Color_tD001788D726C3A7F1379BEED0260B9591F440C1F G_B3_0;
+	memset((&G_B3_0), 0, sizeof(G_B3_0));
+	{
+		//<source_info:C:/Users/mynur/OneDrive/Documentos/GitHub/Polarity_Breach_VR/Assets/Materials/ShaderGraph/TrailTutorial/BulletPolarityVisual.cs:45>
+		int32_t L_0 = ___0_value;
+		if (!L_0)
+		{
+			goto IL_000b;
+		}
+	}
+	{
+		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_1 = __this->___whiteColor;
+		G_B3_0 = L_1;
+		goto IL_0011;
+	}
+
+IL_000b:
+	{
+		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_2 = __this->___blackColor;
+		G_B3_0 = L_2;
+	}
+
+IL_0011:
+	{
+		V_0 = G_B3_0;
+		//<source_info:C:/Users/mynur/OneDrive/Documentos/GitHub/Polarity_Breach_VR/Assets/Materials/ShaderGraph/TrailTutorial/BulletPolarityVisual.cs:46>
+		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_3 = V_0;
+		float L_4 = __this->___hdrIntensity;
+		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_5;
+		L_5 = Color_op_Multiply_m379B20A820266ACF82A21425B9CAE8DCD773CFBB_inline(L_3, L_4, NULL);
+		V_1 = L_5;
+		//<source_info:C:/Users/mynur/OneDrive/Documentos/GitHub/Polarity_Breach_VR/Assets/Materials/ShaderGraph/TrailTutorial/BulletPolarityVisual.cs:48>
+		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_6 = V_0;
+		BulletPolarityVisual_ApplyToMesh_m0D6D0308829C4221E9789ECF6C7FA05027294ADE(__this, L_6, NULL);
+		//<source_info:C:/Users/mynur/OneDrive/Documentos/GitHub/Polarity_Breach_VR/Assets/Materials/ShaderGraph/TrailTutorial/BulletPolarityVisual.cs:49>
+		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_7 = V_1;
+		BulletPolarityVisual_ApplyToTrail_mD2F493906C3BB84B63D17C07BBEE6FE25DE7D250(__this, L_7, NULL);
+		//<source_info:C:/Users/mynur/OneDrive/Documentos/GitHub/Polarity_Breach_VR/Assets/Materials/ShaderGraph/TrailTutorial/BulletPolarityVisual.cs:50>
+		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_8 = V_0;
+		BulletPolarityVisual_ApplyToParticles_m15B12257BAF027678FF245FA0B7AA9CF57BEB9CF(__this, L_8, NULL);
+		//<source_info:C:/Users/mynur/OneDrive/Documentos/GitHub/Polarity_Breach_VR/Assets/Materials/ShaderGraph/TrailTutorial/BulletPolarityVisual.cs:51>
+		return;
+	}
+}
+// Method Definition Index: 90267
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void BulletPolarityVisual_ApplyToMesh_m0D6D0308829C4221E9789ECF6C7FA05027294ADE (BulletPolarityVisual_tB4F02FB35C4FCAB2A3FA0D36A320DBF9DB4F1FA8* __this, Color_tD001788D726C3A7F1379BEED0260B9591F440C1F ___0_color, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	int32_t V_0 = 0;
+	MaterialU5BU5D_t2B1D11C42DB07A4400C0535F92DBB87A2E346D3D* V_1 = NULL;
+	int32_t V_2 = 0;
+	{
+		//<source_info:C:/Users/mynur/OneDrive/Documentos/GitHub/Polarity_Breach_VR/Assets/Materials/ShaderGraph/TrailTutorial/BulletPolarityVisual.cs:55>
+		RendererU5BU5D_t32FDD782F67917B2291EA4FF242719877440A02A* L_0 = __this->___meshRenderers;
+		if (L_0)
+		{
+			goto IL_0009;
+		}
+	}
+	{
+		//<source_info:C:/Users/mynur/OneDrive/Documentos/GitHub/Polarity_Breach_VR/Assets/Materials/ShaderGraph/TrailTutorial/BulletPolarityVisual.cs:55>
+		return;
+	}
+
+IL_0009:
+	{
+		//<source_info:C:/Users/mynur/OneDrive/Documentos/GitHub/Polarity_Breach_VR/Assets/Materials/ShaderGraph/TrailTutorial/BulletPolarityVisual.cs:57>
+		V_0 = 0;
+		goto IL_005c;
+	}
+
+IL_000d:
+	{
+		//<source_info:C:/Users/mynur/OneDrive/Documentos/GitHub/Polarity_Breach_VR/Assets/Materials/ShaderGraph/TrailTutorial/BulletPolarityVisual.cs:59>
+		RendererU5BU5D_t32FDD782F67917B2291EA4FF242719877440A02A* L_1 = __this->___meshRenderers;
+		int32_t L_2 = V_0;
+		NullCheck(L_1);
+		int32_t L_3 = L_2;
+		Renderer_t320575F223BCB177A982E5DDB5DB19FAA89E7FBF* L_4 = (L_1)->GetAt(static_cast<il2cpp_array_size_t>(L_3));
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		bool L_5;
+		L_5 = Object_op_Equality_mB6120F782D83091EF56A198FCEBCF066DB4A9605(L_4, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
+		if (L_5)
+		{
+			goto IL_0058;
+		}
+	}
+	{
+		//<source_info:C:/Users/mynur/OneDrive/Documentos/GitHub/Polarity_Breach_VR/Assets/Materials/ShaderGraph/TrailTutorial/BulletPolarityVisual.cs:61>
+		RendererU5BU5D_t32FDD782F67917B2291EA4FF242719877440A02A* L_6 = __this->___meshRenderers;
+		int32_t L_7 = V_0;
+		NullCheck(L_6);
+		int32_t L_8 = L_7;
+		Renderer_t320575F223BCB177A982E5DDB5DB19FAA89E7FBF* L_9 = (L_6)->GetAt(static_cast<il2cpp_array_size_t>(L_8));
+		NullCheck(L_9);
+		MaterialU5BU5D_t2B1D11C42DB07A4400C0535F92DBB87A2E346D3D* L_10;
+		L_10 = Renderer_get_materials_m43D33328432700524EAEAB093C67AE5689976118(L_9, NULL);
+		V_1 = L_10;
+		//<source_info:C:/Users/mynur/OneDrive/Documentos/GitHub/Polarity_Breach_VR/Assets/Materials/ShaderGraph/TrailTutorial/BulletPolarityVisual.cs:62>
+		V_2 = 0;
+		goto IL_0052;
+	}
+
+IL_002f:
+	{
+		//<source_info:C:/Users/mynur/OneDrive/Documentos/GitHub/Polarity_Breach_VR/Assets/Materials/ShaderGraph/TrailTutorial/BulletPolarityVisual.cs:64>
+		MaterialU5BU5D_t2B1D11C42DB07A4400C0535F92DBB87A2E346D3D* L_11 = V_1;
+		int32_t L_12 = V_2;
+		NullCheck(L_11);
+		int32_t L_13 = L_12;
+		Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* L_14 = (L_11)->GetAt(static_cast<il2cpp_array_size_t>(L_13));
+		String_t* L_15 = __this->___meshColorProperty;
+		NullCheck(L_14);
+		bool L_16;
+		L_16 = Material_HasProperty_mC09A83B44E368A217F606DD4954FA080CC03EC6C(L_14, L_15, NULL);
+		if (!L_16)
+		{
+			goto IL_004e;
+		}
+	}
+	{
+		//<source_info:C:/Users/mynur/OneDrive/Documentos/GitHub/Polarity_Breach_VR/Assets/Materials/ShaderGraph/TrailTutorial/BulletPolarityVisual.cs:65>
+		MaterialU5BU5D_t2B1D11C42DB07A4400C0535F92DBB87A2E346D3D* L_17 = V_1;
+		int32_t L_18 = V_2;
+		NullCheck(L_17);
+		int32_t L_19 = L_18;
+		Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* L_20 = (L_17)->GetAt(static_cast<il2cpp_array_size_t>(L_19));
+		String_t* L_21 = __this->___meshColorProperty;
+		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_22 = ___0_color;
+		NullCheck(L_20);
+		Material_SetColor_mFAB32FAA44461E46FD707B34184EC080CBB3539F(L_20, L_21, L_22, NULL);
+	}
+
+IL_004e:
+	{
+		//<source_info:C:/Users/mynur/OneDrive/Documentos/GitHub/Polarity_Breach_VR/Assets/Materials/ShaderGraph/TrailTutorial/BulletPolarityVisual.cs:62>
+		int32_t L_23 = V_2;
+		V_2 = ((int32_t)il2cpp_codegen_add(L_23, 1));
+	}
+
+IL_0052:
+	{
+		//<source_info:C:/Users/mynur/OneDrive/Documentos/GitHub/Polarity_Breach_VR/Assets/Materials/ShaderGraph/TrailTutorial/BulletPolarityVisual.cs:62>
+		int32_t L_24 = V_2;
+		MaterialU5BU5D_t2B1D11C42DB07A4400C0535F92DBB87A2E346D3D* L_25 = V_1;
+		NullCheck(L_25);
+		if ((((int32_t)L_24) < ((int32_t)((int32_t)(((RuntimeArray*)L_25)->max_length)))))
+		{
+			goto IL_002f;
+		}
+	}
+
+IL_0058:
+	{
+		//<source_info:C:/Users/mynur/OneDrive/Documentos/GitHub/Polarity_Breach_VR/Assets/Materials/ShaderGraph/TrailTutorial/BulletPolarityVisual.cs:57>
+		int32_t L_26 = V_0;
+		V_0 = ((int32_t)il2cpp_codegen_add(L_26, 1));
+	}
+
+IL_005c:
+	{
+		//<source_info:C:/Users/mynur/OneDrive/Documentos/GitHub/Polarity_Breach_VR/Assets/Materials/ShaderGraph/TrailTutorial/BulletPolarityVisual.cs:57>
+		int32_t L_27 = V_0;
+		RendererU5BU5D_t32FDD782F67917B2291EA4FF242719877440A02A* L_28 = __this->___meshRenderers;
+		NullCheck(L_28);
+		if ((((int32_t)L_27) < ((int32_t)((int32_t)(((RuntimeArray*)L_28)->max_length)))))
+		{
+			goto IL_000d;
+		}
+	}
+	{
+		//<source_info:C:/Users/mynur/OneDrive/Documentos/GitHub/Polarity_Breach_VR/Assets/Materials/ShaderGraph/TrailTutorial/BulletPolarityVisual.cs:68>
+		return;
+	}
+}
+// Method Definition Index: 90268
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void BulletPolarityVisual_ApplyToTrail_mD2F493906C3BB84B63D17C07BBEE6FE25DE7D250 (BulletPolarityVisual_tB4F02FB35C4FCAB2A3FA0D36A320DBF9DB4F1FA8* __this, Color_tD001788D726C3A7F1379BEED0260B9591F440C1F ___0_color, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* V_0 = NULL;
+	{
+		//<source_info:C:/Users/mynur/OneDrive/Documentos/GitHub/Polarity_Breach_VR/Assets/Materials/ShaderGraph/TrailTutorial/BulletPolarityVisual.cs:72>
+		TrailRenderer_tF7E185EF383CF4300DFC3E1DE59FA6100B93CA39* L_0 = __this->___trail;
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		bool L_1;
+		L_1 = Object_op_Equality_mB6120F782D83091EF56A198FCEBCF066DB4A9605(L_0, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
+		if (!L_1)
+		{
+			goto IL_000f;
+		}
+	}
+	{
+		//<source_info:C:/Users/mynur/OneDrive/Documentos/GitHub/Polarity_Breach_VR/Assets/Materials/ShaderGraph/TrailTutorial/BulletPolarityVisual.cs:72>
+		return;
+	}
+
+IL_000f:
+	{
+		//<source_info:C:/Users/mynur/OneDrive/Documentos/GitHub/Polarity_Breach_VR/Assets/Materials/ShaderGraph/TrailTutorial/BulletPolarityVisual.cs:74>
+		TrailRenderer_tF7E185EF383CF4300DFC3E1DE59FA6100B93CA39* L_2 = __this->___trail;
+		NullCheck(L_2);
+		Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* L_3;
+		L_3 = Renderer_get_material_m5BA2A00816C4CC66580D4B2E409CF10718C15656(L_2, NULL);
+		V_0 = L_3;
+		//<source_info:C:/Users/mynur/OneDrive/Documentos/GitHub/Polarity_Breach_VR/Assets/Materials/ShaderGraph/TrailTutorial/BulletPolarityVisual.cs:76>
+		Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* L_4 = V_0;
+		String_t* L_5 = __this->___trailColorProperty;
+		NullCheck(L_4);
+		bool L_6;
+		L_6 = Material_HasProperty_mC09A83B44E368A217F606DD4954FA080CC03EC6C(L_4, L_5, NULL);
+		if (!L_6)
+		{
+			goto IL_0036;
+		}
+	}
+	{
+		//<source_info:C:/Users/mynur/OneDrive/Documentos/GitHub/Polarity_Breach_VR/Assets/Materials/ShaderGraph/TrailTutorial/BulletPolarityVisual.cs:77>
+		Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* L_7 = V_0;
+		String_t* L_8 = __this->___trailColorProperty;
+		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_9 = ___0_color;
+		NullCheck(L_7);
+		Material_SetColor_mFAB32FAA44461E46FD707B34184EC080CBB3539F(L_7, L_8, L_9, NULL);
+	}
+
+IL_0036:
+	{
+		//<source_info:C:/Users/mynur/OneDrive/Documentos/GitHub/Polarity_Breach_VR/Assets/Materials/ShaderGraph/TrailTutorial/BulletPolarityVisual.cs:79>
+		Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* L_10 = V_0;
+		String_t* L_11 = __this->___trailColor2Property;
+		NullCheck(L_10);
+		bool L_12;
+		L_12 = Material_HasProperty_mC09A83B44E368A217F606DD4954FA080CC03EC6C(L_10, L_11, NULL);
+		if (!L_12)
+		{
+			goto IL_0051;
+		}
+	}
+	{
+		//<source_info:C:/Users/mynur/OneDrive/Documentos/GitHub/Polarity_Breach_VR/Assets/Materials/ShaderGraph/TrailTutorial/BulletPolarityVisual.cs:80>
+		Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* L_13 = V_0;
+		String_t* L_14 = __this->___trailColor2Property;
+		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_15 = ___0_color;
+		NullCheck(L_13);
+		Material_SetColor_mFAB32FAA44461E46FD707B34184EC080CBB3539F(L_13, L_14, L_15, NULL);
+	}
+
+IL_0051:
+	{
+		//<source_info:C:/Users/mynur/OneDrive/Documentos/GitHub/Polarity_Breach_VR/Assets/Materials/ShaderGraph/TrailTutorial/BulletPolarityVisual.cs:81>
+		return;
+	}
+}
+// Method Definition Index: 90269
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void BulletPolarityVisual_ApplyToParticles_m15B12257BAF027678FF245FA0B7AA9CF57BEB9CF (BulletPolarityVisual_tB4F02FB35C4FCAB2A3FA0D36A320DBF9DB4F1FA8* __this, Color_tD001788D726C3A7F1379BEED0260B9591F440C1F ___0_color, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	int32_t V_0 = 0;
+	MainModule_tC7ECD8330C14B0808478A748048988A6085CE2A9 V_1;
+	memset((&V_1), 0, sizeof(V_1));
+	{
+		//<source_info:C:/Users/mynur/OneDrive/Documentos/GitHub/Polarity_Breach_VR/Assets/Materials/ShaderGraph/TrailTutorial/BulletPolarityVisual.cs:85>
+		ParticleSystemU5BU5D_tC5E33DA557C9C2064085128B3530C5F04D48F6E6* L_0 = __this->___particles;
+		if (L_0)
+		{
+			goto IL_0009;
+		}
+	}
+	{
+		//<source_info:C:/Users/mynur/OneDrive/Documentos/GitHub/Polarity_Breach_VR/Assets/Materials/ShaderGraph/TrailTutorial/BulletPolarityVisual.cs:85>
+		return;
+	}
+
+IL_0009:
+	{
+		//<source_info:C:/Users/mynur/OneDrive/Documentos/GitHub/Polarity_Breach_VR/Assets/Materials/ShaderGraph/TrailTutorial/BulletPolarityVisual.cs:87>
+		V_0 = 0;
+		goto IL_003c;
+	}
+
+IL_000d:
+	{
+		//<source_info:C:/Users/mynur/OneDrive/Documentos/GitHub/Polarity_Breach_VR/Assets/Materials/ShaderGraph/TrailTutorial/BulletPolarityVisual.cs:89>
+		ParticleSystemU5BU5D_tC5E33DA557C9C2064085128B3530C5F04D48F6E6* L_1 = __this->___particles;
+		int32_t L_2 = V_0;
+		NullCheck(L_1);
+		int32_t L_3 = L_2;
+		ParticleSystem_tB19986EE308BD63D36FB6025EEEAFBEDB97C67C1* L_4 = (L_1)->GetAt(static_cast<il2cpp_array_size_t>(L_3));
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		bool L_5;
+		L_5 = Object_op_Equality_mB6120F782D83091EF56A198FCEBCF066DB4A9605(L_4, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
+		if (L_5)
+		{
+			goto IL_0038;
+		}
+	}
+	{
+		//<source_info:C:/Users/mynur/OneDrive/Documentos/GitHub/Polarity_Breach_VR/Assets/Materials/ShaderGraph/TrailTutorial/BulletPolarityVisual.cs:91>
+		ParticleSystemU5BU5D_tC5E33DA557C9C2064085128B3530C5F04D48F6E6* L_6 = __this->___particles;
+		int32_t L_7 = V_0;
+		NullCheck(L_6);
+		int32_t L_8 = L_7;
+		ParticleSystem_tB19986EE308BD63D36FB6025EEEAFBEDB97C67C1* L_9 = (L_6)->GetAt(static_cast<il2cpp_array_size_t>(L_8));
+		NullCheck(L_9);
+		MainModule_tC7ECD8330C14B0808478A748048988A6085CE2A9 L_10;
+		L_10 = ParticleSystem_get_main_mD86DFCD96150E2CE760CD2F37052BB3BCA33C189(L_9, NULL);
+		V_1 = L_10;
+		//<source_info:C:/Users/mynur/OneDrive/Documentos/GitHub/Polarity_Breach_VR/Assets/Materials/ShaderGraph/TrailTutorial/BulletPolarityVisual.cs:92>
+		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_11 = ___0_color;
+		MinMaxGradient_tFF31B8EC2855D0074AB86E8B37BEA6609070AC69 L_12;
+		L_12 = MinMaxGradient_op_Implicit_mAA6154D6644E72BBA49EB34DC957538EE929DE02(L_11, NULL);
+		MainModule_set_startColor_m504911284CAC53A7C1B97B5D01BBDD2FA67D0E7A((&V_1), L_12, NULL);
+	}
+
+IL_0038:
+	{
+		//<source_info:C:/Users/mynur/OneDrive/Documentos/GitHub/Polarity_Breach_VR/Assets/Materials/ShaderGraph/TrailTutorial/BulletPolarityVisual.cs:87>
+		int32_t L_13 = V_0;
+		V_0 = ((int32_t)il2cpp_codegen_add(L_13, 1));
+	}
+
+IL_003c:
+	{
+		//<source_info:C:/Users/mynur/OneDrive/Documentos/GitHub/Polarity_Breach_VR/Assets/Materials/ShaderGraph/TrailTutorial/BulletPolarityVisual.cs:87>
+		int32_t L_14 = V_0;
+		ParticleSystemU5BU5D_tC5E33DA557C9C2064085128B3530C5F04D48F6E6* L_15 = __this->___particles;
+		NullCheck(L_15);
+		if ((((int32_t)L_14) < ((int32_t)((int32_t)(((RuntimeArray*)L_15)->max_length)))))
+		{
+			goto IL_000d;
+		}
+	}
+	{
+		//<source_info:C:/Users/mynur/OneDrive/Documentos/GitHub/Polarity_Breach_VR/Assets/Materials/ShaderGraph/TrailTutorial/BulletPolarityVisual.cs:94>
+		return;
+	}
+}
+// Method Definition Index: 90270
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void BulletPolarityVisual__ctor_mAFF1E5EF3F1D68EF0138F0BA6B4C6E909BA9ECE5 (BulletPolarityVisual_tB4F02FB35C4FCAB2A3FA0D36A320DBF9DB4F1FA8* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral19B7D722FFCBB1EBCC95DE76FB16F022050F3CC8);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral51282E2AAC09AC6EDBC2C1C237C0183F97FEE379);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral8DB64DD6FF0DA0F54A6ACD29DD7DE873D80E2F73);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		//<source_info:C:/Users/mynur/OneDrive/Documentos/GitHub/Polarity_Breach_VR/Assets/Materials/ShaderGraph/TrailTutorial/BulletPolarityVisual.cs:10>
+		__this->___meshColorProperty = _stringLiteral51282E2AAC09AC6EDBC2C1C237C0183F97FEE379;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___meshColorProperty), (void*)_stringLiteral51282E2AAC09AC6EDBC2C1C237C0183F97FEE379);
+		//<source_info:C:/Users/mynur/OneDrive/Documentos/GitHub/Polarity_Breach_VR/Assets/Materials/ShaderGraph/TrailTutorial/BulletPolarityVisual.cs:14>
+		__this->___trailColorProperty = _stringLiteral19B7D722FFCBB1EBCC95DE76FB16F022050F3CC8;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___trailColorProperty), (void*)_stringLiteral19B7D722FFCBB1EBCC95DE76FB16F022050F3CC8);
+		//<source_info:C:/Users/mynur/OneDrive/Documentos/GitHub/Polarity_Breach_VR/Assets/Materials/ShaderGraph/TrailTutorial/BulletPolarityVisual.cs:15>
+		__this->___trailColor2Property = _stringLiteral8DB64DD6FF0DA0F54A6ACD29DD7DE873D80E2F73;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___trailColor2Property), (void*)_stringLiteral8DB64DD6FF0DA0F54A6ACD29DD7DE873D80E2F73);
+		//<source_info:C:/Users/mynur/OneDrive/Documentos/GitHub/Polarity_Breach_VR/Assets/Materials/ShaderGraph/TrailTutorial/BulletPolarityVisual.cs:21>
+		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_0;
+		L_0 = Color_get_white_m068F5AF879B0FCA584E3693F762EA41BB65532C6_inline(NULL);
+		__this->___whiteColor = L_0;
+		//<source_info:C:/Users/mynur/OneDrive/Documentos/GitHub/Polarity_Breach_VR/Assets/Materials/ShaderGraph/TrailTutorial/BulletPolarityVisual.cs:22>
+		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_1;
+		L_1 = Color_get_black_mB50217951591A045844C61E7FF31EEE3FEF16737_inline(NULL);
+		__this->___blackColor = L_1;
+		//<source_info:C:/Users/mynur/OneDrive/Documentos/GitHub/Polarity_Breach_VR/Assets/Materials/ShaderGraph/TrailTutorial/BulletPolarityVisual.cs:23>
+		__this->___hdrIntensity = (2.0f);
+		MonoBehaviour__ctor_m592DB0105CA0BC97AA1C5F4AD27B12D68A3B7C1E(__this, NULL);
+		return;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// Method Definition Index: 90271
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool DamageSystem_DealsDamage_m2FCC8E24633AC37D001D8775A27C574EA1BC7395 (int32_t ___0_attacker, int32_t ___1_target, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:C:/Users/mynur/OneDrive/Documentos/GitHub/Polarity_Breach_VR/Assets/Scripts/PolaritySystem/DamageSystem.cs:10>
+		int32_t L_0 = ___0_attacker;
+		int32_t L_1 = ___1_target;
+		return (bool)((((int32_t)((((int32_t)L_0) == ((int32_t)L_1))? 1 : 0)) == ((int32_t)0))? 1 : 0);
+	}
+}
+// Method Definition Index: 90272
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool DamageSystem_TryApplyDamage_m3E64B29A17605B7DBDB9172CB768E4024DF25E1F (RuntimeObject* ___0_source, GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___1_target, float ___2_amount, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&GameObject_GetComponentInParent_TisIDamageable_t07050BAA6A48ED40626F1F034CE04E3B015CB4FA_m64D2A743167A738B651A42C345F2171415926391_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&GameObject_GetComponentInParent_TisIPolarizable_t6E300D7209F9FFC1D210E3DA7E126302B6055191_mBA66E4F61757933BA5B6F6C9476C7950D6DFA451_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&GameObject_GetComponent_TisIDamageable_t07050BAA6A48ED40626F1F034CE04E3B015CB4FA_mC63F085DACB358C8DFB740F5E685CA5DE87D088B_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&GameObject_GetComponent_TisIPolarizable_t6E300D7209F9FFC1D210E3DA7E126302B6055191_m595158FD90F2B71808E83BD6403F75DD0938B8C8_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&IPolarizable_t6E300D7209F9FFC1D210E3DA7E126302B6055191_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	RuntimeObject* V_0 = NULL;
+	RuntimeObject* V_1 = NULL;
+	RuntimeObject* G_B5_0 = NULL;
+	RuntimeObject* G_B4_0 = NULL;
+	RuntimeObject* G_B7_0 = NULL;
+	RuntimeObject* G_B6_0 = NULL;
+	{
+		//<source_info:C:/Users/mynur/OneDrive/Documentos/GitHub/Polarity_Breach_VR/Assets/Scripts/PolaritySystem/DamageSystem.cs:15>
+		RuntimeObject* L_0 = ___0_source;
+		if (!L_0)
+		{
+			goto IL_000c;
+		}
+	}
+	{
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_1 = ___1_target;
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		bool L_2;
+		L_2 = Object_op_Equality_mB6120F782D83091EF56A198FCEBCF066DB4A9605(L_1, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
+		if (!L_2)
+		{
+			goto IL_000e;
+		}
+	}
+
+IL_000c:
+	{
+		//<source_info:C:/Users/mynur/OneDrive/Documentos/GitHub/Polarity_Breach_VR/Assets/Scripts/PolaritySystem/DamageSystem.cs:15>
+		return (bool)0;
+	}
+
+IL_000e:
+	{
+		//<source_info:C:/Users/mynur/OneDrive/Documentos/GitHub/Polarity_Breach_VR/Assets/Scripts/PolaritySystem/DamageSystem.cs:17>
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_3 = ___1_target;
+		NullCheck(L_3);
+		RuntimeObject* L_4;
+		L_4 = GameObject_GetComponent_TisIPolarizable_t6E300D7209F9FFC1D210E3DA7E126302B6055191_m595158FD90F2B71808E83BD6403F75DD0938B8C8(L_3, GameObject_GetComponent_TisIPolarizable_t6E300D7209F9FFC1D210E3DA7E126302B6055191_m595158FD90F2B71808E83BD6403F75DD0938B8C8_RuntimeMethod_var);
+		RuntimeObject* L_5 = L_4;
+		if (L_5)
+		{
+			G_B5_0 = L_5;
+			goto IL_001e;
+		}
+		G_B4_0 = L_5;
+	}
+	{
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_6 = ___1_target;
+		NullCheck(L_6);
+		RuntimeObject* L_7;
+		L_7 = GameObject_GetComponentInParent_TisIPolarizable_t6E300D7209F9FFC1D210E3DA7E126302B6055191_mBA66E4F61757933BA5B6F6C9476C7950D6DFA451(L_6, GameObject_GetComponentInParent_TisIPolarizable_t6E300D7209F9FFC1D210E3DA7E126302B6055191_mBA66E4F61757933BA5B6F6C9476C7950D6DFA451_RuntimeMethod_var);
+		G_B5_0 = L_7;
+	}
+
+IL_001e:
+	{
+		V_0 = G_B5_0;
+		//<source_info:C:/Users/mynur/OneDrive/Documentos/GitHub/Polarity_Breach_VR/Assets/Scripts/PolaritySystem/DamageSystem.cs:18>
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_8 = ___1_target;
+		NullCheck(L_8);
+		RuntimeObject* L_9;
+		L_9 = GameObject_GetComponent_TisIDamageable_t07050BAA6A48ED40626F1F034CE04E3B015CB4FA_mC63F085DACB358C8DFB740F5E685CA5DE87D088B(L_8, GameObject_GetComponent_TisIDamageable_t07050BAA6A48ED40626F1F034CE04E3B015CB4FA_mC63F085DACB358C8DFB740F5E685CA5DE87D088B_RuntimeMethod_var);
+		RuntimeObject* L_10 = L_9;
+		if (L_10)
+		{
+			G_B7_0 = L_10;
+			goto IL_002f;
+		}
+		G_B6_0 = L_10;
+	}
+	{
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_11 = ___1_target;
+		NullCheck(L_11);
+		RuntimeObject* L_12;
+		L_12 = GameObject_GetComponentInParent_TisIDamageable_t07050BAA6A48ED40626F1F034CE04E3B015CB4FA_m64D2A743167A738B651A42C345F2171415926391(L_11, GameObject_GetComponentInParent_TisIDamageable_t07050BAA6A48ED40626F1F034CE04E3B015CB4FA_m64D2A743167A738B651A42C345F2171415926391_RuntimeMethod_var);
+		G_B7_0 = L_12;
+	}
+
+IL_002f:
+	{
+		V_1 = G_B7_0;
+		//<source_info:C:/Users/mynur/OneDrive/Documentos/GitHub/Polarity_Breach_VR/Assets/Scripts/PolaritySystem/DamageSystem.cs:19>
+		RuntimeObject* L_13 = V_0;
+		if (!L_13)
+		{
+			goto IL_0036;
+		}
+	}
+	{
+		RuntimeObject* L_14 = V_1;
+		if (L_14)
+		{
+			goto IL_0038;
+		}
+	}
+
+IL_0036:
+	{
+		//<source_info:C:/Users/mynur/OneDrive/Documentos/GitHub/Polarity_Breach_VR/Assets/Scripts/PolaritySystem/DamageSystem.cs:19>
+		return (bool)0;
+	}
+
+IL_0038:
+	{
+		//<source_info:C:/Users/mynur/OneDrive/Documentos/GitHub/Polarity_Breach_VR/Assets/Scripts/PolaritySystem/DamageSystem.cs:21>
+		RuntimeObject* L_15 = ___0_source;
+		NullCheck(L_15);
+		int32_t L_16;
+		L_16 = InterfaceFuncInvoker0< int32_t >::Invoke(0, IPolarizable_t6E300D7209F9FFC1D210E3DA7E126302B6055191_il2cpp_TypeInfo_var, L_15);
+		RuntimeObject* L_17 = V_0;
+		RuntimeObject* L_18 = V_1;
+		float L_19 = ___2_amount;
+		bool L_20;
+		L_20 = DamageSystem_TryApplyDamage_m84AFF8A0F826543A4C45B0684D9A52C5341CCEA7(L_16, L_17, L_18, L_19, NULL);
+		return L_20;
+	}
+}
+// Method Definition Index: 90273
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool DamageSystem_TryApplyDamage_m84AFF8A0F826543A4C45B0684D9A52C5341CCEA7 (int32_t ___0_sourcePolarity, RuntimeObject* ___1_targetPolarity, RuntimeObject* ___2_damageable, float ___3_amount, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&IDamageable_t07050BAA6A48ED40626F1F034CE04E3B015CB4FA_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&IPolarizable_t6E300D7209F9FFC1D210E3DA7E126302B6055191_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		//<source_info:C:/Users/mynur/OneDrive/Documentos/GitHub/Polarity_Breach_VR/Assets/Scripts/PolaritySystem/DamageSystem.cs:27>
+		RuntimeObject* L_0 = ___1_targetPolarity;
+		if (!L_0)
+		{
+			goto IL_0006;
+		}
+	}
+	{
+		RuntimeObject* L_1 = ___2_damageable;
+		if (L_1)
+		{
+			goto IL_0008;
+		}
+	}
+
+IL_0006:
+	{
+		//<source_info:C:/Users/mynur/OneDrive/Documentos/GitHub/Polarity_Breach_VR/Assets/Scripts/PolaritySystem/DamageSystem.cs:27>
+		return (bool)0;
+	}
+
+IL_0008:
+	{
+		//<source_info:C:/Users/mynur/OneDrive/Documentos/GitHub/Polarity_Breach_VR/Assets/Scripts/PolaritySystem/DamageSystem.cs:28>
+		int32_t L_2 = ___0_sourcePolarity;
+		RuntimeObject* L_3 = ___1_targetPolarity;
+		NullCheck(L_3);
+		int32_t L_4;
+		L_4 = InterfaceFuncInvoker0< int32_t >::Invoke(0, IPolarizable_t6E300D7209F9FFC1D210E3DA7E126302B6055191_il2cpp_TypeInfo_var, L_3);
+		bool L_5;
+		L_5 = DamageSystem_DealsDamage_m2FCC8E24633AC37D001D8775A27C574EA1BC7395(L_2, L_4, NULL);
+		if (L_5)
+		{
+			goto IL_0018;
+		}
+	}
+	{
+		//<source_info:C:/Users/mynur/OneDrive/Documentos/GitHub/Polarity_Breach_VR/Assets/Scripts/PolaritySystem/DamageSystem.cs:29>
+		return (bool)0;
+	}
+
+IL_0018:
+	{
+		//<source_info:C:/Users/mynur/OneDrive/Documentos/GitHub/Polarity_Breach_VR/Assets/Scripts/PolaritySystem/DamageSystem.cs:31>
+		RuntimeObject* L_6 = ___2_damageable;
+		float L_7 = ___3_amount;
+		NullCheck(L_6);
+		InterfaceActionInvoker1< float >::Invoke(0, IDamageable_t07050BAA6A48ED40626F1F034CE04E3B015CB4FA_il2cpp_TypeInfo_var, L_6, L_7);
+		//<source_info:C:/Users/mynur/OneDrive/Documentos/GitHub/Polarity_Breach_VR/Assets/Scripts/PolaritySystem/DamageSystem.cs:32>
+		return (bool)1;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// Method Definition Index: 90274
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PlayerPolarityController_add_OnPolaritySwitched_mE7E84E726D433C1DD6141F68596B3299297EC67F (PlayerPolarityController_tCFB963493C39DFCBADE47B3DA016DE655279431D* __this, Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* ___0_value, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	//<source_info:<no-source>:1>
+	Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* V_0 = NULL;
+	Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* V_1 = NULL;
+	Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* V_2 = NULL;
+	{
+		Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* L_0 = __this->___OnPolaritySwitched;
+		V_0 = L_0;
+	}
+
+IL_0007:
+	{
+		Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* L_1 = V_0;
+		V_1 = L_1;
+		Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* L_2 = V_1;
+		Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* L_3 = ___0_value;
+		Delegate_t* L_4;
+		L_4 = Delegate_Combine_m1F725AEF318BE6F0426863490691A6F4606E7D00(L_2, L_3, NULL);
+		V_2 = ((Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07*)CastclassSealed((RuntimeObject*)L_4, Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07_il2cpp_TypeInfo_var));
+		Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07** L_5 = (Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07**)(&__this->___OnPolaritySwitched);
+		Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* L_6 = V_2;
+		Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* L_7 = V_1;
+		Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* L_8;
+		L_8 = InterlockedCompareExchangeImpl<Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07*>(L_5, L_6, L_7);
+		V_0 = L_8;
+		Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* L_9 = V_0;
+		Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* L_10 = V_1;
+		if ((!(((RuntimeObject*)(Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07*)L_9) == ((RuntimeObject*)(Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07*)L_10))))
+		{
+			goto IL_0007;
+		}
+	}
+	{
+		return;
+	}
+}
+// Method Definition Index: 90275
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PlayerPolarityController_remove_OnPolaritySwitched_mB65193B94EDA430ADF893A02982B66DD2223A0E1 (PlayerPolarityController_tCFB963493C39DFCBADE47B3DA016DE655279431D* __this, Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* ___0_value, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	//<source_info:<no-source>:1>
+	Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* V_0 = NULL;
+	Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* V_1 = NULL;
+	Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* V_2 = NULL;
+	{
+		Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* L_0 = __this->___OnPolaritySwitched;
+		V_0 = L_0;
+	}
+
+IL_0007:
+	{
+		Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* L_1 = V_0;
+		V_1 = L_1;
+		Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* L_2 = V_1;
+		Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* L_3 = ___0_value;
+		Delegate_t* L_4;
+		L_4 = Delegate_Remove_m8B7DD5661308FA972E23CA1CC3FC9CEB355504E3(L_2, L_3, NULL);
+		V_2 = ((Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07*)CastclassSealed((RuntimeObject*)L_4, Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07_il2cpp_TypeInfo_var));
+		Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07** L_5 = (Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07**)(&__this->___OnPolaritySwitched);
+		Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* L_6 = V_2;
+		Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* L_7 = V_1;
+		Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* L_8;
+		L_8 = InterlockedCompareExchangeImpl<Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07*>(L_5, L_6, L_7);
+		V_0 = L_8;
+		Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* L_9 = V_0;
+		Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* L_10 = V_1;
+		if ((!(((RuntimeObject*)(Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07*)L_9) == ((RuntimeObject*)(Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07*)L_10))))
+		{
+			goto IL_0007;
+		}
+	}
+	{
+		return;
+	}
+}
+// Method Definition Index: 90276
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PlayerPolarityController_add_OnAnyPlayerPolaritySwitched_m830BBE84EEDD265F2982F53D23B2DE8D4B97920F (Action_1_t10D7C827ADC73ED438E0CA8F04465BA6F2BAED7D* ___0_value, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Action_1_t10D7C827ADC73ED438E0CA8F04465BA6F2BAED7D_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&PlayerPolarityController_tCFB963493C39DFCBADE47B3DA016DE655279431D_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	//<source_info:<no-source>:1>
+	Action_1_t10D7C827ADC73ED438E0CA8F04465BA6F2BAED7D* V_0 = NULL;
+	Action_1_t10D7C827ADC73ED438E0CA8F04465BA6F2BAED7D* V_1 = NULL;
+	Action_1_t10D7C827ADC73ED438E0CA8F04465BA6F2BAED7D* V_2 = NULL;
+	{
+		Action_1_t10D7C827ADC73ED438E0CA8F04465BA6F2BAED7D* L_0 = ((PlayerPolarityController_tCFB963493C39DFCBADE47B3DA016DE655279431D_StaticFields*)il2cpp_codegen_static_fields_for(PlayerPolarityController_tCFB963493C39DFCBADE47B3DA016DE655279431D_il2cpp_TypeInfo_var))->___OnAnyPlayerPolaritySwitched;
+		V_0 = L_0;
+	}
+
+IL_0006:
+	{
+		Action_1_t10D7C827ADC73ED438E0CA8F04465BA6F2BAED7D* L_1 = V_0;
+		V_1 = L_1;
+		Action_1_t10D7C827ADC73ED438E0CA8F04465BA6F2BAED7D* L_2 = V_1;
+		Action_1_t10D7C827ADC73ED438E0CA8F04465BA6F2BAED7D* L_3 = ___0_value;
+		Delegate_t* L_4;
+		L_4 = Delegate_Combine_m1F725AEF318BE6F0426863490691A6F4606E7D00(L_2, L_3, NULL);
+		V_2 = ((Action_1_t10D7C827ADC73ED438E0CA8F04465BA6F2BAED7D*)Castclass((RuntimeObject*)L_4, Action_1_t10D7C827ADC73ED438E0CA8F04465BA6F2BAED7D_il2cpp_TypeInfo_var));
+		Action_1_t10D7C827ADC73ED438E0CA8F04465BA6F2BAED7D* L_5 = V_2;
+		Action_1_t10D7C827ADC73ED438E0CA8F04465BA6F2BAED7D* L_6 = V_1;
+		Action_1_t10D7C827ADC73ED438E0CA8F04465BA6F2BAED7D* L_7;
+		L_7 = InterlockedCompareExchangeImpl<Action_1_t10D7C827ADC73ED438E0CA8F04465BA6F2BAED7D*>((&((PlayerPolarityController_tCFB963493C39DFCBADE47B3DA016DE655279431D_StaticFields*)il2cpp_codegen_static_fields_for(PlayerPolarityController_tCFB963493C39DFCBADE47B3DA016DE655279431D_il2cpp_TypeInfo_var))->___OnAnyPlayerPolaritySwitched), L_5, L_6);
+		V_0 = L_7;
+		Action_1_t10D7C827ADC73ED438E0CA8F04465BA6F2BAED7D* L_8 = V_0;
+		Action_1_t10D7C827ADC73ED438E0CA8F04465BA6F2BAED7D* L_9 = V_1;
+		if ((!(((RuntimeObject*)(Action_1_t10D7C827ADC73ED438E0CA8F04465BA6F2BAED7D*)L_8) == ((RuntimeObject*)(Action_1_t10D7C827ADC73ED438E0CA8F04465BA6F2BAED7D*)L_9))))
+		{
+			goto IL_0006;
+		}
+	}
+	{
+		return;
+	}
+}
+// Method Definition Index: 90277
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PlayerPolarityController_remove_OnAnyPlayerPolaritySwitched_m634B1BB4A3247BD60F20E0A9FB6B4113FD334EEA (Action_1_t10D7C827ADC73ED438E0CA8F04465BA6F2BAED7D* ___0_value, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Action_1_t10D7C827ADC73ED438E0CA8F04465BA6F2BAED7D_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&PlayerPolarityController_tCFB963493C39DFCBADE47B3DA016DE655279431D_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	//<source_info:<no-source>:1>
+	Action_1_t10D7C827ADC73ED438E0CA8F04465BA6F2BAED7D* V_0 = NULL;
+	Action_1_t10D7C827ADC73ED438E0CA8F04465BA6F2BAED7D* V_1 = NULL;
+	Action_1_t10D7C827ADC73ED438E0CA8F04465BA6F2BAED7D* V_2 = NULL;
+	{
+		Action_1_t10D7C827ADC73ED438E0CA8F04465BA6F2BAED7D* L_0 = ((PlayerPolarityController_tCFB963493C39DFCBADE47B3DA016DE655279431D_StaticFields*)il2cpp_codegen_static_fields_for(PlayerPolarityController_tCFB963493C39DFCBADE47B3DA016DE655279431D_il2cpp_TypeInfo_var))->___OnAnyPlayerPolaritySwitched;
+		V_0 = L_0;
+	}
+
+IL_0006:
+	{
+		Action_1_t10D7C827ADC73ED438E0CA8F04465BA6F2BAED7D* L_1 = V_0;
+		V_1 = L_1;
+		Action_1_t10D7C827ADC73ED438E0CA8F04465BA6F2BAED7D* L_2 = V_1;
+		Action_1_t10D7C827ADC73ED438E0CA8F04465BA6F2BAED7D* L_3 = ___0_value;
+		Delegate_t* L_4;
+		L_4 = Delegate_Remove_m8B7DD5661308FA972E23CA1CC3FC9CEB355504E3(L_2, L_3, NULL);
+		V_2 = ((Action_1_t10D7C827ADC73ED438E0CA8F04465BA6F2BAED7D*)Castclass((RuntimeObject*)L_4, Action_1_t10D7C827ADC73ED438E0CA8F04465BA6F2BAED7D_il2cpp_TypeInfo_var));
+		Action_1_t10D7C827ADC73ED438E0CA8F04465BA6F2BAED7D* L_5 = V_2;
+		Action_1_t10D7C827ADC73ED438E0CA8F04465BA6F2BAED7D* L_6 = V_1;
+		Action_1_t10D7C827ADC73ED438E0CA8F04465BA6F2BAED7D* L_7;
+		L_7 = InterlockedCompareExchangeImpl<Action_1_t10D7C827ADC73ED438E0CA8F04465BA6F2BAED7D*>((&((PlayerPolarityController_tCFB963493C39DFCBADE47B3DA016DE655279431D_StaticFields*)il2cpp_codegen_static_fields_for(PlayerPolarityController_tCFB963493C39DFCBADE47B3DA016DE655279431D_il2cpp_TypeInfo_var))->___OnAnyPlayerPolaritySwitched), L_5, L_6);
+		V_0 = L_7;
+		Action_1_t10D7C827ADC73ED438E0CA8F04465BA6F2BAED7D* L_8 = V_0;
+		Action_1_t10D7C827ADC73ED438E0CA8F04465BA6F2BAED7D* L_9 = V_1;
+		if ((!(((RuntimeObject*)(Action_1_t10D7C827ADC73ED438E0CA8F04465BA6F2BAED7D*)L_8) == ((RuntimeObject*)(Action_1_t10D7C827ADC73ED438E0CA8F04465BA6F2BAED7D*)L_9))))
+		{
+			goto IL_0006;
+		}
+	}
+	{
+		return;
+	}
+}
+// Method Definition Index: 90278
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float PlayerPolarityController_get_SwitchCooldown_m8E9BB130378045C6ABEED85330C245BA849F03FE (PlayerPolarityController_tCFB963493C39DFCBADE47B3DA016DE655279431D* __this, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:C:/Users/mynur/OneDrive/Documentos/GitHub/Polarity_Breach_VR/Assets/Scripts/PolaritySystem/PlayerPolarityController.cs:37>
+		PlayerStatsData_t8AB00CC7DF7DB19B96714A2AC9281D6B0A107302* L_0 = __this->____playerStats;
+		NullCheck(L_0);
+		float L_1 = L_0->___polaritySwitchCooldown;
+		return L_1;
+	}
+}
+// Method Definition Index: 90279
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PlayerPolarityController_set_SwitchCooldown_mD6D84185D15E50E40041B4C97A59D57EFA43CB8B (PlayerPolarityController_tCFB963493C39DFCBADE47B3DA016DE655279431D* __this, float ___0_value, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:C:/Users/mynur/OneDrive/Documentos/GitHub/Polarity_Breach_VR/Assets/Scripts/PolaritySystem/PlayerPolarityController.cs:38>
+		PlayerStatsData_t8AB00CC7DF7DB19B96714A2AC9281D6B0A107302* L_0 = __this->____playerStats;
+		float L_1 = ___0_value;
+		float L_2;
+		L_2 = Mathf_Max_mF5379E63D2BBAC76D090748695D833934F8AD051_inline((0.0f), L_1, NULL);
+		NullCheck(L_0);
+		L_0->___polaritySwitchCooldown = L_2;
+		return;
+	}
+}
+// Method Definition Index: 90280
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float PlayerPolarityController_get_CooldownRemaining_m167157E728BD90AB825CD1222A3BB4CE7C4517CD (PlayerPolarityController_tCFB963493C39DFCBADE47B3DA016DE655279431D* __this, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:C:/Users/mynur/OneDrive/Documentos/GitHub/Polarity_Breach_VR/Assets/Scripts/PolaritySystem/PlayerPolarityController.cs:41>
+		float L_0 = __this->____lastSwitchTime;
+		PlayerStatsData_t8AB00CC7DF7DB19B96714A2AC9281D6B0A107302* L_1 = __this->____playerStats;
+		NullCheck(L_1);
+		float L_2 = L_1->___polaritySwitchCooldown;
+		float L_3;
+		L_3 = Time_get_time_m3A271BB1B20041144AC5B7863B71AB1F0150374B(NULL);
+		float L_4;
+		L_4 = Mathf_Max_mF5379E63D2BBAC76D090748695D833934F8AD051_inline((0.0f), ((float)il2cpp_codegen_subtract(((float)il2cpp_codegen_add(L_0, L_2)), L_3)), NULL);
+		return L_4;
+	}
+}
+// Method Definition Index: 90281
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool PlayerPolarityController_get_CanSwitch_m1208D3B83721FD035CC25286D4EA9F23C8A97D4F (PlayerPolarityController_tCFB963493C39DFCBADE47B3DA016DE655279431D* __this, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:C:/Users/mynur/OneDrive/Documentos/GitHub/Polarity_Breach_VR/Assets/Scripts/PolaritySystem/PlayerPolarityController.cs:42>
+		float L_0;
+		L_0 = Time_get_time_m3A271BB1B20041144AC5B7863B71AB1F0150374B(NULL);
+		float L_1 = __this->____lastSwitchTime;
+		PlayerStatsData_t8AB00CC7DF7DB19B96714A2AC9281D6B0A107302* L_2 = __this->____playerStats;
+		NullCheck(L_2);
+		float L_3 = L_2->___polaritySwitchCooldown;
+		return (bool)((((int32_t)((!(((float)L_0) >= ((float)((float)il2cpp_codegen_add(L_1, L_3)))))? 1 : 0)) == ((int32_t)0))? 1 : 0);
+	}
+}
+// Method Definition Index: 90282
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PlayerPolarityController_Awake_m96317E8FFD857D0ED4D3EEF667B0D11A973488A1 (PlayerPolarityController_tCFB963493C39DFCBADE47B3DA016DE655279431D* __this, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:C:/Users/mynur/OneDrive/Documentos/GitHub/Polarity_Breach_VR/Assets/Scripts/PolaritySystem/PlayerPolarityController.cs:46>
+		PlayerPolarityController_GetComponents_m47A607890ED3DE888733B31093248DBEC2D146E4(__this, NULL);
+		//<source_info:C:/Users/mynur/OneDrive/Documentos/GitHub/Polarity_Breach_VR/Assets/Scripts/PolaritySystem/PlayerPolarityController.cs:47>
+		PlayerPolarityController_RefToSwitchAction_mB51F1764A65709596A206E2A9DACD2BEC9A9379A(__this, NULL);
+		//<source_info:C:/Users/mynur/OneDrive/Documentos/GitHub/Polarity_Breach_VR/Assets/Scripts/PolaritySystem/PlayerPolarityController.cs:48>
+		return;
+	}
+}
+// Method Definition Index: 90283
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PlayerPolarityController_Update_mB1DB3A3CFCEA772FFBE858D38C69F6AA061D43FC (PlayerPolarityController_tCFB963493C39DFCBADE47B3DA016DE655279431D* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&OVRInput_t759D9CC8F14D8539AD78A0375A2306C39D77100A_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		//<source_info:C:/Users/mynur/OneDrive/Documentos/GitHub/Polarity_Breach_VR/Assets/Scripts/PolaritySystem/PlayerPolarityController.cs:52>
+		bool L_0;
+		L_0 = UIQueue_get_IsBlocking_m6B2BCD297AA3050728F60F53EA389653911E0134_inline(NULL);
+		if (L_0)
+		{
+			goto IL_000e;
+		}
+	}
+	{
+		bool L_1;
+		L_1 = PauseMenu_get_IsPaused_mD104EA82FBC4D985AEA9F223CFA038687136944E_inline(NULL);
+		if (!L_1)
+		{
+			goto IL_000f;
+		}
+	}
+
+IL_000e:
+	{
+		//<source_info:C:/Users/mynur/OneDrive/Documentos/GitHub/Polarity_Breach_VR/Assets/Scripts/PolaritySystem/PlayerPolarityController.cs:52>
+		return;
+	}
+
+IL_000f:
+	{
+		//<source_info:C:/Users/mynur/OneDrive/Documentos/GitHub/Polarity_Breach_VR/Assets/Scripts/PolaritySystem/PlayerPolarityController.cs:54>
+		il2cpp_codegen_runtime_class_init_inline(OVRInput_t759D9CC8F14D8539AD78A0375A2306C39D77100A_il2cpp_TypeInfo_var);
+		bool L_2;
+		L_2 = OVRInput_GetDown_mEC4F71AEC93D3AF1A041934CA4C61680C6DB9AC7(((int32_t)8192), ((int32_t)-2147483648LL), NULL);
+		if (!L_2)
+		{
+			goto IL_0027;
+		}
+	}
+	{
+		//<source_info:C:/Users/mynur/OneDrive/Documentos/GitHub/Polarity_Breach_VR/Assets/Scripts/PolaritySystem/PlayerPolarityController.cs:56>
+		bool L_3;
+		L_3 = PlayerPolarityController_TrySwitch_m8F2544AFBB18027B8AA693C427BC7F74786E557E(__this, NULL);
+	}
+
+IL_0027:
+	{
+		//<source_info:C:/Users/mynur/OneDrive/Documentos/GitHub/Polarity_Breach_VR/Assets/Scripts/PolaritySystem/PlayerPolarityController.cs:58>
+		return;
+	}
+}
+// Method Definition Index: 90284
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PlayerPolarityController_RefToSwitchAction_mB51F1764A65709596A206E2A9DACD2BEC9A9379A (PlayerPolarityController_tCFB963493C39DFCBADE47B3DA016DE655279431D* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&InputAction_t1B550AD2B55AF322AFB53CD28DA64081220D01CD_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral071CFAA70B5374F0E1542EC64D66187B410CE054);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral432742C96286BE781D0BFBB2CA2603BCC18CB2CB);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralF91639CC33E4D1D9D3C0D42942483C77FBB13DFC);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		//<source_info:C:/Users/mynur/OneDrive/Documentos/GitHub/Polarity_Breach_VR/Assets/Scripts/PolaritySystem/PlayerPolarityController.cs:62>
+		InputActionReference_t64730C6B41271E0983FC21BFB416169F5D6BC4A1* L_0 = __this->____switchActionRef;
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		bool L_1;
+		L_1 = Object_op_Inequality_mD0BE578448EAA61948F25C32F8DD55AB1F778602(L_0, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
+		if (!L_1)
+		{
+			goto IL_0020;
+		}
+	}
+	{
+		//<source_info:C:/Users/mynur/OneDrive/Documentos/GitHub/Polarity_Breach_VR/Assets/Scripts/PolaritySystem/PlayerPolarityController.cs:64>
+		InputActionReference_t64730C6B41271E0983FC21BFB416169F5D6BC4A1* L_2 = __this->____switchActionRef;
+		NullCheck(L_2);
+		InputAction_t1B550AD2B55AF322AFB53CD28DA64081220D01CD* L_3;
+		L_3 = InputActionReference_get_action_m395EDEA6A93B54555D22323FDA6E1B1E931CE6EF(L_2, NULL);
+		__this->____switchAction = L_3;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->____switchAction), (void*)L_3);
+		return;
+	}
+
+IL_0020:
+	{
+		//<source_info:C:/Users/mynur/OneDrive/Documentos/GitHub/Polarity_Breach_VR/Assets/Scripts/PolaritySystem/PlayerPolarityController.cs:68>
+		InputAction_t1B550AD2B55AF322AFB53CD28DA64081220D01CD* L_4 = (InputAction_t1B550AD2B55AF322AFB53CD28DA64081220D01CD*)il2cpp_codegen_object_new(InputAction_t1B550AD2B55AF322AFB53CD28DA64081220D01CD_il2cpp_TypeInfo_var);
+		InputAction__ctor_mD042AD3CC86AEDEB5FB1F8CD9E834FE35F9060B9(L_4, _stringLiteralF91639CC33E4D1D9D3C0D42942483C77FBB13DFC, 1, (String_t*)NULL, (String_t*)NULL, (String_t*)NULL, (String_t*)NULL, NULL);
+		__this->____switchAction = L_4;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->____switchAction), (void*)L_4);
+		//<source_info:C:/Users/mynur/OneDrive/Documentos/GitHub/Polarity_Breach_VR/Assets/Scripts/PolaritySystem/PlayerPolarityController.cs:69>
+		InputAction_t1B550AD2B55AF322AFB53CD28DA64081220D01CD* L_5 = __this->____switchAction;
+		BindingSyntax_t5FB93D8F3518B4640E42E067ECB15541CD123317 L_6;
+		L_6 = InputActionSetupExtensions_AddBinding_m22E4A437A2AD06C6326D8BEB45114B5DBD2F7168(L_5, _stringLiteral432742C96286BE781D0BFBB2CA2603BCC18CB2CB, (String_t*)NULL, (String_t*)NULL, (String_t*)NULL, NULL);
+		//<source_info:C:/Users/mynur/OneDrive/Documentos/GitHub/Polarity_Breach_VR/Assets/Scripts/PolaritySystem/PlayerPolarityController.cs:70>
+		InputAction_t1B550AD2B55AF322AFB53CD28DA64081220D01CD* L_7 = __this->____switchAction;
+		BindingSyntax_t5FB93D8F3518B4640E42E067ECB15541CD123317 L_8;
+		L_8 = InputActionSetupExtensions_AddBinding_m22E4A437A2AD06C6326D8BEB45114B5DBD2F7168(L_7, _stringLiteral071CFAA70B5374F0E1542EC64D66187B410CE054, (String_t*)NULL, (String_t*)NULL, (String_t*)NULL, NULL);
+		//<source_info:C:/Users/mynur/OneDrive/Documentos/GitHub/Polarity_Breach_VR/Assets/Scripts/PolaritySystem/PlayerPolarityController.cs:71>
+		__this->____ownsAction = (bool)1;
+		//<source_info:C:/Users/mynur/OneDrive/Documentos/GitHub/Polarity_Breach_VR/Assets/Scripts/PolaritySystem/PlayerPolarityController.cs:73>
+		return;
+	}
+}
+// Method Definition Index: 90285
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PlayerPolarityController_GetComponents_m47A607890ED3DE888733B31093248DBEC2D146E4 (PlayerPolarityController_tCFB963493C39DFCBADE47B3DA016DE655279431D* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Component_GetComponentInChildren_TisPolarityPostProcessPulse_t05967FEAD321633709B2F7C9DE145D49B3AA0E62_m53FA4763E09CD33E9B5A13CDD1765E3372511F2D_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Component_GetComponent_TisPlayerStatsData_t8AB00CC7DF7DB19B96714A2AC9281D6B0A107302_m710C3B1E9E695D867C7C5201A3F99828A6D9C7CD_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Component_GetComponent_TisPolarityComponent_t1FB53DB0BF7CE9A8E59278F3854DC776322BBCA0_m317F7D3130E71487835B00DB1356E893EEF94764_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Object_FindFirstObjectByType_TisPolarityPostProcessPulse_t05967FEAD321633709B2F7C9DE145D49B3AA0E62_m785614C46E3FFBA5026D2096DFFDAB6471991951_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		//<source_info:C:/Users/mynur/OneDrive/Documentos/GitHub/Polarity_Breach_VR/Assets/Scripts/PolaritySystem/PlayerPolarityController.cs:77>
+		PolarityComponent_t1FB53DB0BF7CE9A8E59278F3854DC776322BBCA0* L_0;
+		L_0 = Component_GetComponent_TisPolarityComponent_t1FB53DB0BF7CE9A8E59278F3854DC776322BBCA0_m317F7D3130E71487835B00DB1356E893EEF94764(__this, Component_GetComponent_TisPolarityComponent_t1FB53DB0BF7CE9A8E59278F3854DC776322BBCA0_m317F7D3130E71487835B00DB1356E893EEF94764_RuntimeMethod_var);
+		__this->____polarity = L_0;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->____polarity), (void*)L_0);
+		//<source_info:C:/Users/mynur/OneDrive/Documentos/GitHub/Polarity_Breach_VR/Assets/Scripts/PolaritySystem/PlayerPolarityController.cs:78>
+		PlayerStatsData_t8AB00CC7DF7DB19B96714A2AC9281D6B0A107302* L_1;
+		L_1 = Component_GetComponent_TisPlayerStatsData_t8AB00CC7DF7DB19B96714A2AC9281D6B0A107302_m710C3B1E9E695D867C7C5201A3F99828A6D9C7CD(__this, Component_GetComponent_TisPlayerStatsData_t8AB00CC7DF7DB19B96714A2AC9281D6B0A107302_m710C3B1E9E695D867C7C5201A3F99828A6D9C7CD_RuntimeMethod_var);
+		__this->____playerStats = L_1;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->____playerStats), (void*)L_1);
+		//<source_info:C:/Users/mynur/OneDrive/Documentos/GitHub/Polarity_Breach_VR/Assets/Scripts/PolaritySystem/PlayerPolarityController.cs:80>
+		PolarityPostProcessPulse_t05967FEAD321633709B2F7C9DE145D49B3AA0E62* L_2 = __this->___postProcessPulse;
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		bool L_3;
+		L_3 = Object_op_Equality_mB6120F782D83091EF56A198FCEBCF066DB4A9605(L_2, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
+		if (!L_3)
+		{
+			goto IL_0032;
+		}
+	}
+	{
+		//<source_info:C:/Users/mynur/OneDrive/Documentos/GitHub/Polarity_Breach_VR/Assets/Scripts/PolaritySystem/PlayerPolarityController.cs:82>
+		PolarityPostProcessPulse_t05967FEAD321633709B2F7C9DE145D49B3AA0E62* L_4;
+		L_4 = Component_GetComponentInChildren_TisPolarityPostProcessPulse_t05967FEAD321633709B2F7C9DE145D49B3AA0E62_m53FA4763E09CD33E9B5A13CDD1765E3372511F2D(__this, Component_GetComponentInChildren_TisPolarityPostProcessPulse_t05967FEAD321633709B2F7C9DE145D49B3AA0E62_m53FA4763E09CD33E9B5A13CDD1765E3372511F2D_RuntimeMethod_var);
+		__this->___postProcessPulse = L_4;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___postProcessPulse), (void*)L_4);
+	}
+
+IL_0032:
+	{
+		//<source_info:C:/Users/mynur/OneDrive/Documentos/GitHub/Polarity_Breach_VR/Assets/Scripts/PolaritySystem/PlayerPolarityController.cs:85>
+		PolarityPostProcessPulse_t05967FEAD321633709B2F7C9DE145D49B3AA0E62* L_5 = __this->___postProcessPulse;
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		bool L_6;
+		L_6 = Object_op_Equality_mB6120F782D83091EF56A198FCEBCF066DB4A9605(L_5, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
+		if (!L_6)
+		{
+			goto IL_004b;
+		}
+	}
+	{
+		//<source_info:C:/Users/mynur/OneDrive/Documentos/GitHub/Polarity_Breach_VR/Assets/Scripts/PolaritySystem/PlayerPolarityController.cs:87>
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		PolarityPostProcessPulse_t05967FEAD321633709B2F7C9DE145D49B3AA0E62* L_7;
+		L_7 = Object_FindFirstObjectByType_TisPolarityPostProcessPulse_t05967FEAD321633709B2F7C9DE145D49B3AA0E62_m785614C46E3FFBA5026D2096DFFDAB6471991951(Object_FindFirstObjectByType_TisPolarityPostProcessPulse_t05967FEAD321633709B2F7C9DE145D49B3AA0E62_m785614C46E3FFBA5026D2096DFFDAB6471991951_RuntimeMethod_var);
+		__this->___postProcessPulse = L_7;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___postProcessPulse), (void*)L_7);
+	}
+
+IL_004b:
+	{
+		//<source_info:C:/Users/mynur/OneDrive/Documentos/GitHub/Polarity_Breach_VR/Assets/Scripts/PolaritySystem/PlayerPolarityController.cs:89>
+		return;
+	}
+}
+// Method Definition Index: 90286
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PlayerPolarityController_OnEnable_m0AD4412EEECC755F755C596977ACAA2AA6AA7589 (PlayerPolarityController_tCFB963493C39DFCBADE47B3DA016DE655279431D* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Action_1_t10DCB0C07D0D3C565CEACADC80D1152B35A45F6C_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Action_1_tEB0353AA1A112B6F2D921B58DCC9D9D4C0498E6E_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&PlayerPolarityController_HandlePause_m23073B30E3A5148DC3E87C74B4085C816162F365_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&PlayerPolarityController_OnSwitchPerformed_mE674A394D11ED725DF8BA4E843C52472BD9A669D_RuntimeMethod_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		//<source_info:C:/Users/mynur/OneDrive/Documentos/GitHub/Polarity_Breach_VR/Assets/Scripts/PolaritySystem/PlayerPolarityController.cs:93>
+		InputAction_t1B550AD2B55AF322AFB53CD28DA64081220D01CD* L_0 = __this->____switchAction;
+		Action_1_tEB0353AA1A112B6F2D921B58DCC9D9D4C0498E6E* L_1 = (Action_1_tEB0353AA1A112B6F2D921B58DCC9D9D4C0498E6E*)il2cpp_codegen_object_new(Action_1_tEB0353AA1A112B6F2D921B58DCC9D9D4C0498E6E_il2cpp_TypeInfo_var);
+		Action_1__ctor_mA763900B34C3394F230AE63708F530CA9A192B57(L_1, __this, (intptr_t)((void*)PlayerPolarityController_OnSwitchPerformed_mE674A394D11ED725DF8BA4E843C52472BD9A669D_RuntimeMethod_var), NULL);
+		NullCheck(L_0);
+		InputAction_add_performed_m0337FFA16EBEF7AE365C3B558CFDFF7BB9747B54(L_0, L_1, NULL);
+		//<source_info:C:/Users/mynur/OneDrive/Documentos/GitHub/Polarity_Breach_VR/Assets/Scripts/PolaritySystem/PlayerPolarityController.cs:94>
+		Action_1_t10DCB0C07D0D3C565CEACADC80D1152B35A45F6C* L_2 = (Action_1_t10DCB0C07D0D3C565CEACADC80D1152B35A45F6C*)il2cpp_codegen_object_new(Action_1_t10DCB0C07D0D3C565CEACADC80D1152B35A45F6C_il2cpp_TypeInfo_var);
+		Action_1__ctor_mA8C3AC97D1F076EA5D1D0C10CEE6BD3E94711501(L_2, __this, (intptr_t)((void*)PlayerPolarityController_HandlePause_m23073B30E3A5148DC3E87C74B4085C816162F365_RuntimeMethod_var), NULL);
+		PauseMenu_add_OnPauseChanged_m68F3154EEF37F50EFBB31D7C1548ECAF6F6C965E(L_2, NULL);
+		//<source_info:C:/Users/mynur/OneDrive/Documentos/GitHub/Polarity_Breach_VR/Assets/Scripts/PolaritySystem/PlayerPolarityController.cs:95>
+		InputAction_t1B550AD2B55AF322AFB53CD28DA64081220D01CD* L_3 = __this->____switchAction;
+		NullCheck(L_3);
+		InputAction_Enable_mB3897C0741409C033656E4566EC49135C3C8BC68(L_3, NULL);
+		//<source_info:C:/Users/mynur/OneDrive/Documentos/GitHub/Polarity_Breach_VR/Assets/Scripts/PolaritySystem/PlayerPolarityController.cs:96>
+		Action_1_t10DCB0C07D0D3C565CEACADC80D1152B35A45F6C* L_4 = (Action_1_t10DCB0C07D0D3C565CEACADC80D1152B35A45F6C*)il2cpp_codegen_object_new(Action_1_t10DCB0C07D0D3C565CEACADC80D1152B35A45F6C_il2cpp_TypeInfo_var);
+		Action_1__ctor_mA8C3AC97D1F076EA5D1D0C10CEE6BD3E94711501(L_4, __this, (intptr_t)((void*)PlayerPolarityController_HandlePause_m23073B30E3A5148DC3E87C74B4085C816162F365_RuntimeMethod_var), NULL);
+		UIQueue_add_OnBlockingChanged_mB6F17F101D7A5B87F987827DEB0E80B6F16B31B4(L_4, NULL);
+		//<source_info:C:/Users/mynur/OneDrive/Documentos/GitHub/Polarity_Breach_VR/Assets/Scripts/PolaritySystem/PlayerPolarityController.cs:97>
+		return;
+	}
+}
+// Method Definition Index: 90287
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PlayerPolarityController_OnDisable_mFEE859D9351731562ED5851817B1075AF42A5A9C (PlayerPolarityController_tCFB963493C39DFCBADE47B3DA016DE655279431D* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Action_1_t10DCB0C07D0D3C565CEACADC80D1152B35A45F6C_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Action_1_tEB0353AA1A112B6F2D921B58DCC9D9D4C0498E6E_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&PlayerPolarityController_HandlePause_m23073B30E3A5148DC3E87C74B4085C816162F365_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&PlayerPolarityController_OnSwitchPerformed_mE674A394D11ED725DF8BA4E843C52472BD9A669D_RuntimeMethod_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		//<source_info:C:/Users/mynur/OneDrive/Documentos/GitHub/Polarity_Breach_VR/Assets/Scripts/PolaritySystem/PlayerPolarityController.cs:101>
+		InputAction_t1B550AD2B55AF322AFB53CD28DA64081220D01CD* L_0 = __this->____switchAction;
+		Action_1_tEB0353AA1A112B6F2D921B58DCC9D9D4C0498E6E* L_1 = (Action_1_tEB0353AA1A112B6F2D921B58DCC9D9D4C0498E6E*)il2cpp_codegen_object_new(Action_1_tEB0353AA1A112B6F2D921B58DCC9D9D4C0498E6E_il2cpp_TypeInfo_var);
+		Action_1__ctor_mA763900B34C3394F230AE63708F530CA9A192B57(L_1, __this, (intptr_t)((void*)PlayerPolarityController_OnSwitchPerformed_mE674A394D11ED725DF8BA4E843C52472BD9A669D_RuntimeMethod_var), NULL);
+		NullCheck(L_0);
+		InputAction_remove_performed_m1BE84CED38F11F17C825FA782B35C92D708E6E44(L_0, L_1, NULL);
+		//<source_info:C:/Users/mynur/OneDrive/Documentos/GitHub/Polarity_Breach_VR/Assets/Scripts/PolaritySystem/PlayerPolarityController.cs:102>
+		Action_1_t10DCB0C07D0D3C565CEACADC80D1152B35A45F6C* L_2 = (Action_1_t10DCB0C07D0D3C565CEACADC80D1152B35A45F6C*)il2cpp_codegen_object_new(Action_1_t10DCB0C07D0D3C565CEACADC80D1152B35A45F6C_il2cpp_TypeInfo_var);
+		Action_1__ctor_mA8C3AC97D1F076EA5D1D0C10CEE6BD3E94711501(L_2, __this, (intptr_t)((void*)PlayerPolarityController_HandlePause_m23073B30E3A5148DC3E87C74B4085C816162F365_RuntimeMethod_var), NULL);
+		PauseMenu_remove_OnPauseChanged_mC6E3B56C26155EBF5CD6E0009E926F1411135145(L_2, NULL);
+		//<source_info:C:/Users/mynur/OneDrive/Documentos/GitHub/Polarity_Breach_VR/Assets/Scripts/PolaritySystem/PlayerPolarityController.cs:103>
+		bool L_3 = __this->____ownsAction;
+		if (!L_3)
+		{
+			goto IL_003b;
+		}
+	}
+	{
+		//<source_info:C:/Users/mynur/OneDrive/Documentos/GitHub/Polarity_Breach_VR/Assets/Scripts/PolaritySystem/PlayerPolarityController.cs:103>
+		InputAction_t1B550AD2B55AF322AFB53CD28DA64081220D01CD* L_4 = __this->____switchAction;
+		NullCheck(L_4);
+		InputAction_Disable_m72D1982F82457C6E003440BADD06989D399BDE50(L_4, NULL);
+	}
+
+IL_003b:
+	{
+		//<source_info:C:/Users/mynur/OneDrive/Documentos/GitHub/Polarity_Breach_VR/Assets/Scripts/PolaritySystem/PlayerPolarityController.cs:104>
+		Action_1_t10DCB0C07D0D3C565CEACADC80D1152B35A45F6C* L_5 = (Action_1_t10DCB0C07D0D3C565CEACADC80D1152B35A45F6C*)il2cpp_codegen_object_new(Action_1_t10DCB0C07D0D3C565CEACADC80D1152B35A45F6C_il2cpp_TypeInfo_var);
+		Action_1__ctor_mA8C3AC97D1F076EA5D1D0C10CEE6BD3E94711501(L_5, __this, (intptr_t)((void*)PlayerPolarityController_HandlePause_m23073B30E3A5148DC3E87C74B4085C816162F365_RuntimeMethod_var), NULL);
+		UIQueue_remove_OnBlockingChanged_m420E117375CFF4D62D83E4F6CCCC7E46A4DF6764(L_5, NULL);
+		//<source_info:C:/Users/mynur/OneDrive/Documentos/GitHub/Polarity_Breach_VR/Assets/Scripts/PolaritySystem/PlayerPolarityController.cs:105>
+		return;
+	}
+}
+// Method Definition Index: 90288
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PlayerPolarityController_OnDestroy_m716E302CAA19EE8619291ED51D113034F3021E59 (PlayerPolarityController_tCFB963493C39DFCBADE47B3DA016DE655279431D* __this, const RuntimeMethod* method) 
+{
+	InputAction_t1B550AD2B55AF322AFB53CD28DA64081220D01CD* G_B3_0 = NULL;
+	InputAction_t1B550AD2B55AF322AFB53CD28DA64081220D01CD* G_B2_0 = NULL;
+	{
+		//<source_info:C:/Users/mynur/OneDrive/Documentos/GitHub/Polarity_Breach_VR/Assets/Scripts/PolaritySystem/PlayerPolarityController.cs:109>
+		bool L_0 = __this->____ownsAction;
+		if (!L_0)
+		{
+			goto IL_0018;
+		}
+	}
+	{
+		//<source_info:C:/Users/mynur/OneDrive/Documentos/GitHub/Polarity_Breach_VR/Assets/Scripts/PolaritySystem/PlayerPolarityController.cs:109>
+		InputAction_t1B550AD2B55AF322AFB53CD28DA64081220D01CD* L_1 = __this->____switchAction;
+		InputAction_t1B550AD2B55AF322AFB53CD28DA64081220D01CD* L_2 = L_1;
+		if (L_2)
+		{
+			G_B3_0 = L_2;
+			goto IL_0013;
+		}
+		G_B2_0 = L_2;
+	}
+	{
+		return;
+	}
+
+IL_0013:
+	{
+		NullCheck(G_B3_0);
+		InputAction_Dispose_m7016314CC572110D567AD474D188A13026EA7CAC(G_B3_0, NULL);
+	}
+
+IL_0018:
+	{
+		//<source_info:C:/Users/mynur/OneDrive/Documentos/GitHub/Polarity_Breach_VR/Assets/Scripts/PolaritySystem/PlayerPolarityController.cs:110>
+		return;
+	}
+}
+// Method Definition Index: 90289
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PlayerPolarityController_OnSwitchPerformed_mE674A394D11ED725DF8BA4E843C52472BD9A669D (PlayerPolarityController_tCFB963493C39DFCBADE47B3DA016DE655279431D* __this, CallbackContext_tB251EE41F509C6E8A6B05EC97C029A45DF4F5FA8 ___0_context, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:C:/Users/mynur/OneDrive/Documentos/GitHub/Polarity_Breach_VR/Assets/Scripts/PolaritySystem/PlayerPolarityController.cs:112>
+		bool L_0;
+		L_0 = PlayerPolarityController_TrySwitch_m8F2544AFBB18027B8AA693C427BC7F74786E557E(__this, NULL);
+		return;
+	}
+}
+// Method Definition Index: 90290
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool PlayerPolarityController_TrySwitch_m8F2544AFBB18027B8AA693C427BC7F74786E557E (PlayerPolarityController_tCFB963493C39DFCBADE47B3DA016DE655279431D* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&PlayerPolarityController_tCFB963493C39DFCBADE47B3DA016DE655279431D_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	PolarityPostProcessPulse_t05967FEAD321633709B2F7C9DE145D49B3AA0E62* G_B4_0 = NULL;
+	PolarityPostProcessPulse_t05967FEAD321633709B2F7C9DE145D49B3AA0E62* G_B3_0 = NULL;
+	Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* G_B7_0 = NULL;
+	Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* G_B6_0 = NULL;
+	Action_1_t10D7C827ADC73ED438E0CA8F04465BA6F2BAED7D* G_B10_0 = NULL;
+	Action_1_t10D7C827ADC73ED438E0CA8F04465BA6F2BAED7D* G_B9_0 = NULL;
+	{
+		//<source_info:C:/Users/mynur/OneDrive/Documentos/GitHub/Polarity_Breach_VR/Assets/Scripts/PolaritySystem/PlayerPolarityController.cs:116>
+		bool L_0;
+		L_0 = PlayerPolarityController_get_CanSwitch_m1208D3B83721FD035CC25286D4EA9F23C8A97D4F(__this, NULL);
+		if (L_0)
+		{
+			goto IL_000a;
+		}
+	}
+	{
+		//<source_info:C:/Users/mynur/OneDrive/Documentos/GitHub/Polarity_Breach_VR/Assets/Scripts/PolaritySystem/PlayerPolarityController.cs:116>
+		return (bool)0;
+	}
+
+IL_000a:
+	{
+		//<source_info:C:/Users/mynur/OneDrive/Documentos/GitHub/Polarity_Breach_VR/Assets/Scripts/PolaritySystem/PlayerPolarityController.cs:117>
+		PolarityComponent_t1FB53DB0BF7CE9A8E59278F3854DC776322BBCA0* L_1 = __this->____polarity;
+		NullCheck(L_1);
+		PolarityComponent_Toggle_mE50AD45D52FAEBAAA74E2AFF6B8A9F882ECC70EA(L_1, NULL);
+		//<source_info:C:/Users/mynur/OneDrive/Documentos/GitHub/Polarity_Breach_VR/Assets/Scripts/PolaritySystem/PlayerPolarityController.cs:118>
+		PolarityPostProcessPulse_t05967FEAD321633709B2F7C9DE145D49B3AA0E62* L_2 = __this->___postProcessPulse;
+		PolarityPostProcessPulse_t05967FEAD321633709B2F7C9DE145D49B3AA0E62* L_3 = L_2;
+		if (L_3)
+		{
+			G_B4_0 = L_3;
+			goto IL_0021;
+		}
+		G_B3_0 = L_3;
+	}
+	{
+		goto IL_0031;
+	}
+
+IL_0021:
+	{
+		PolarityComponent_t1FB53DB0BF7CE9A8E59278F3854DC776322BBCA0* L_4 = __this->____polarity;
+		NullCheck(L_4);
+		int32_t L_5;
+		L_5 = PolarityComponent_get_CurrentPolarity_mEFF48D62986084A923894FAE9EDD5CC9061A76B0_inline(L_4, NULL);
+		NullCheck(G_B4_0);
+		PolarityPostProcessPulse_Play_mA8FF0DAB31D46A292295AB06EC7383EDB9024362(G_B4_0, L_5, NULL);
+	}
+
+IL_0031:
+	{
+		//<source_info:C:/Users/mynur/OneDrive/Documentos/GitHub/Polarity_Breach_VR/Assets/Scripts/PolaritySystem/PlayerPolarityController.cs:119>
+		float L_6;
+		L_6 = Time_get_time_m3A271BB1B20041144AC5B7863B71AB1F0150374B(NULL);
+		__this->____lastSwitchTime = L_6;
+		//<source_info:C:/Users/mynur/OneDrive/Documentos/GitHub/Polarity_Breach_VR/Assets/Scripts/PolaritySystem/PlayerPolarityController.cs:120>
+		PlayerPolarityController_PlaySwitchSfx_mDE9BA7D6A5F11C6CE20AF8030624BDDC1E59C8B3(__this, NULL);
+		//<source_info:C:/Users/mynur/OneDrive/Documentos/GitHub/Polarity_Breach_VR/Assets/Scripts/PolaritySystem/PlayerPolarityController.cs:121>
+		AbilityUIDisplay_tBEB0E4232773D12192172889050AF5E0D6D5FE4D* L_7 = __this->___polarityUI;
+		NullCheck(L_7);
+		AbilityUIDisplay_StartCooldownUI_m00FE25D3FA0C43F7DEE3DC60B69B6CF954F48939(L_7, NULL);
+		//<source_info:C:/Users/mynur/OneDrive/Documentos/GitHub/Polarity_Breach_VR/Assets/Scripts/PolaritySystem/PlayerPolarityController.cs:122>
+		Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* L_8 = __this->___OnPolaritySwitched;
+		Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* L_9 = L_8;
+		if (L_9)
+		{
+			G_B7_0 = L_9;
+			goto IL_0059;
+		}
+		G_B6_0 = L_9;
+	}
+	{
+		goto IL_005e;
+	}
+
+IL_0059:
+	{
+		NullCheck(G_B7_0);
+		Action_Invoke_m7126A54DACA72B845424072887B5F3A51FC3808E_inline(G_B7_0, NULL);
+	}
+
+IL_005e:
+	{
+		//<source_info:C:/Users/mynur/OneDrive/Documentos/GitHub/Polarity_Breach_VR/Assets/Scripts/PolaritySystem/PlayerPolarityController.cs:123>
+		Action_1_t10D7C827ADC73ED438E0CA8F04465BA6F2BAED7D* L_10 = ((PlayerPolarityController_tCFB963493C39DFCBADE47B3DA016DE655279431D_StaticFields*)il2cpp_codegen_static_fields_for(PlayerPolarityController_tCFB963493C39DFCBADE47B3DA016DE655279431D_il2cpp_TypeInfo_var))->___OnAnyPlayerPolaritySwitched;
+		Action_1_t10D7C827ADC73ED438E0CA8F04465BA6F2BAED7D* L_11 = L_10;
+		if (L_11)
+		{
+			G_B10_0 = L_11;
+			goto IL_0069;
+		}
+		G_B9_0 = L_11;
+	}
+	{
+		goto IL_0074;
+	}
+
+IL_0069:
+	{
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_12;
+		L_12 = Component_get_transform_m2919A1D81931E6932C7F06D4C2F0AB8DDA9A5371(__this, NULL);
+		NullCheck(G_B10_0);
+		Action_1_Invoke_mC4804BC714747F815506CC787400EB84BA024D68_inline(G_B10_0, L_12, NULL);
+	}
+
+IL_0074:
+	{
+		//<source_info:C:/Users/mynur/OneDrive/Documentos/GitHub/Polarity_Breach_VR/Assets/Scripts/PolaritySystem/PlayerPolarityController.cs:124>
+		return (bool)1;
+	}
+}
+// Method Definition Index: 90291
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PlayerPolarityController_PlaySwitchSfx_mDE9BA7D6A5F11C6CE20AF8030624BDDC1E59C8B3 (PlayerPolarityController_tCFB963493C39DFCBADE47B3DA016DE655279431D* __this, const RuntimeMethod* method) 
+{
+	AudioClip_t5D272C4EB4F2D3ED49F1C346DEA373CF6D585F20* V_0 = NULL;
+	{
+		//<source_info:C:/Users/mynur/OneDrive/Documentos/GitHub/Polarity_Breach_VR/Assets/Scripts/PolaritySystem/PlayerPolarityController.cs:129>
+		AudioClip_t5D272C4EB4F2D3ED49F1C346DEA373CF6D585F20* L_0;
+		L_0 = PlayerPolarityController_GetRandomSwitchSound_m3451943F9BC2ED869C699605EFBDF810098B73B2(__this, NULL);
+		V_0 = L_0;
+		//<source_info:C:/Users/mynur/OneDrive/Documentos/GitHub/Polarity_Breach_VR/Assets/Scripts/PolaritySystem/PlayerPolarityController.cs:131>
+		bool L_1 = __this->___playColorSoundAs2D;
+		if (!L_1)
+		{
+			goto IL_0022;
+		}
+	}
+	{
+		//<source_info:C:/Users/mynur/OneDrive/Documentos/GitHub/Polarity_Breach_VR/Assets/Scripts/PolaritySystem/PlayerPolarityController.cs:133>
+		AudioClip_t5D272C4EB4F2D3ED49F1C346DEA373CF6D585F20* L_2 = V_0;
+		float L_3 = __this->___colorSoundVolume;
+		AudioMixerGroup_tD29AC8336F7425DF007944F8195CEABF34FC3311* L_4 = __this->___sfxMixerGroup;
+		AudioHandler_Play2DSound_mA2BA3F4F70EE1AC195D6614E57736DA438CE5DC4(L_2, L_3, L_4, NULL);
+		//<source_info:C:/Users/mynur/OneDrive/Documentos/GitHub/Polarity_Breach_VR/Assets/Scripts/PolaritySystem/PlayerPolarityController.cs:134>
+		return;
+	}
+
+IL_0022:
+	{
+		//<source_info:C:/Users/mynur/OneDrive/Documentos/GitHub/Polarity_Breach_VR/Assets/Scripts/PolaritySystem/PlayerPolarityController.cs:137>
+		AudioClip_t5D272C4EB4F2D3ED49F1C346DEA373CF6D585F20* L_5 = V_0;
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_6;
+		L_6 = Component_get_transform_m2919A1D81931E6932C7F06D4C2F0AB8DDA9A5371(__this, NULL);
+		NullCheck(L_6);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_7;
+		L_7 = Transform_get_position_m69CD5FA214FDAE7BB701552943674846C220FDE1(L_6, NULL);
+		float L_8 = __this->___colorSoundVolume;
+		AudioMixerGroup_tD29AC8336F7425DF007944F8195CEABF34FC3311* L_9 = __this->___sfxMixerGroup;
+		AudioHandler_Play3DSound_mF1F770DF7C7CD00E549E5CF0BB41A419AB020D58(L_5, L_7, L_8, L_9, NULL);
+		//<source_info:C:/Users/mynur/OneDrive/Documentos/GitHub/Polarity_Breach_VR/Assets/Scripts/PolaritySystem/PlayerPolarityController.cs:138>
+		return;
+	}
+}
+// Method Definition Index: 90292
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AudioClip_t5D272C4EB4F2D3ED49F1C346DEA373CF6D585F20* PlayerPolarityController_GetRandomSwitchSound_m3451943F9BC2ED869C699605EFBDF810098B73B2 (PlayerPolarityController_tCFB963493C39DFCBADE47B3DA016DE655279431D* __this, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:C:/Users/mynur/OneDrive/Documentos/GitHub/Polarity_Breach_VR/Assets/Scripts/PolaritySystem/PlayerPolarityController.cs:142>
+		AudioClipU5BU5D_t916722468F7EDCFA833318C35CD7D41097D75D31* L_0 = __this->___colorSounds;
+		if (!L_0)
+		{
+			goto IL_0027;
+		}
+	}
+	{
+		AudioClipU5BU5D_t916722468F7EDCFA833318C35CD7D41097D75D31* L_1 = __this->___colorSounds;
+		NullCheck(L_1);
+		if (!(((RuntimeArray*)L_1)->max_length))
+		{
+			goto IL_0027;
+		}
+	}
+	{
+		//<source_info:C:/Users/mynur/OneDrive/Documentos/GitHub/Polarity_Breach_VR/Assets/Scripts/PolaritySystem/PlayerPolarityController.cs:144>
+		AudioClipU5BU5D_t916722468F7EDCFA833318C35CD7D41097D75D31* L_2 = __this->___colorSounds;
+		AudioClipU5BU5D_t916722468F7EDCFA833318C35CD7D41097D75D31* L_3 = __this->___colorSounds;
+		NullCheck(L_3);
+		int32_t L_4;
+		L_4 = Random_Range_m6763D9767F033357F88B6637F048F4ACA4123B68(0, ((int32_t)(((RuntimeArray*)L_3)->max_length)), NULL);
+		NullCheck(L_2);
+		int32_t L_5 = L_4;
+		AudioClip_t5D272C4EB4F2D3ED49F1C346DEA373CF6D585F20* L_6 = (L_2)->GetAt(static_cast<il2cpp_array_size_t>(L_5));
+		return L_6;
+	}
+
+IL_0027:
+	{
+		//<source_info:C:/Users/mynur/OneDrive/Documentos/GitHub/Polarity_Breach_VR/Assets/Scripts/PolaritySystem/PlayerPolarityController.cs:147>
+		AudioClip_t5D272C4EB4F2D3ED49F1C346DEA373CF6D585F20* L_7 = __this->___colorSound;
+		return L_7;
+	}
+}
+// Method Definition Index: 90293
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PlayerPolarityController_HandlePause_m23073B30E3A5148DC3E87C74B4085C816162F365 (PlayerPolarityController_tCFB963493C39DFCBADE47B3DA016DE655279431D* __this, bool ___0_paused, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:C:/Users/mynur/OneDrive/Documentos/GitHub/Polarity_Breach_VR/Assets/Scripts/PolaritySystem/PlayerPolarityController.cs:152>
+		bool L_0 = ___0_paused;
+		if (!L_0)
+		{
+			goto IL_000f;
+		}
+	}
+	{
+		//<source_info:C:/Users/mynur/OneDrive/Documentos/GitHub/Polarity_Breach_VR/Assets/Scripts/PolaritySystem/PlayerPolarityController.cs:152>
+		InputAction_t1B550AD2B55AF322AFB53CD28DA64081220D01CD* L_1 = __this->____switchAction;
+		NullCheck(L_1);
+		InputAction_Disable_m72D1982F82457C6E003440BADD06989D399BDE50(L_1, NULL);
+		return;
+	}
+
+IL_000f:
+	{
+		//<source_info:C:/Users/mynur/OneDrive/Documentos/GitHub/Polarity_Breach_VR/Assets/Scripts/PolaritySystem/PlayerPolarityController.cs:153>
+		InputAction_t1B550AD2B55AF322AFB53CD28DA64081220D01CD* L_2 = __this->____switchAction;
+		NullCheck(L_2);
+		InputAction_Enable_mB3897C0741409C033656E4566EC49135C3C8BC68(L_2, NULL);
+		//<source_info:C:/Users/mynur/OneDrive/Documentos/GitHub/Polarity_Breach_VR/Assets/Scripts/PolaritySystem/PlayerPolarityController.cs:154>
+		return;
+	}
+}
+// Method Definition Index: 90294
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PlayerPolarityController__ctor_m8B48D63C81FBD8C9622D50D0D0A0F014DFA1B9AF (PlayerPolarityController_tCFB963493C39DFCBADE47B3DA016DE655279431D* __this, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:C:/Users/mynur/OneDrive/Documentos/GitHub/Polarity_Breach_VR/Assets/Scripts/PolaritySystem/PlayerPolarityController.cs:20>
+		__this->____lastSwitchTime = (-std::numeric_limits<float>::infinity());
+		//<source_info:C:/Users/mynur/OneDrive/Documentos/GitHub/Polarity_Breach_VR/Assets/Scripts/PolaritySystem/PlayerPolarityController.cs:26>
+		__this->___colorSoundVolume = (1.0f);
+		//<source_info:C:/Users/mynur/OneDrive/Documentos/GitHub/Polarity_Breach_VR/Assets/Scripts/PolaritySystem/PlayerPolarityController.cs:27>
+		__this->___playColorSoundAs2D = (bool)1;
+		MonoBehaviour__ctor_m592DB0105CA0BC97AA1C5F4AD27B12D68A3B7C1E(__this, NULL);
+		return;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// Method Definition Index: 90295
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PlayerPolarityVisual_Awake_m3A7F483CDEA7A423C3120CCEE9C3B7B7D2E5190F (PlayerPolarityVisual_t2E7592CC4CFD6768A7C9D4CDA5864820C7B4F69B* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Component_GetComponent_TisPolarityComponent_t1FB53DB0BF7CE9A8E59278F3854DC776322BBCA0_m317F7D3130E71487835B00DB1356E893EEF94764_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Component_GetComponentsInChildren_TisRenderer_t320575F223BCB177A982E5DDB5DB19FAA89E7FBF_m35AC34F858BD2F34770712CD020AA0518D9409C7_RuntimeMethod_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		//<source_info:C:/Users/mynur/OneDrive/Documentos/GitHub/Polarity_Breach_VR/Assets/Scripts/PolaritySystem/PlayerPolarityVisual.cs:20>
+		PolarityComponent_t1FB53DB0BF7CE9A8E59278F3854DC776322BBCA0* L_0;
+		L_0 = Component_GetComponent_TisPolarityComponent_t1FB53DB0BF7CE9A8E59278F3854DC776322BBCA0_m317F7D3130E71487835B00DB1356E893EEF94764(__this, Component_GetComponent_TisPolarityComponent_t1FB53DB0BF7CE9A8E59278F3854DC776322BBCA0_m317F7D3130E71487835B00DB1356E893EEF94764_RuntimeMethod_var);
+		__this->___polarity = L_0;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___polarity), (void*)L_0);
+		//<source_info:C:/Users/mynur/OneDrive/Documentos/GitHub/Polarity_Breach_VR/Assets/Scripts/PolaritySystem/PlayerPolarityVisual.cs:22>
+		RendererU5BU5D_t32FDD782F67917B2291EA4FF242719877440A02A* L_1 = __this->___renderers;
+		if (!L_1)
+		{
+			goto IL_001d;
+		}
+	}
+	{
+		RendererU5BU5D_t32FDD782F67917B2291EA4FF242719877440A02A* L_2 = __this->___renderers;
+		NullCheck(L_2);
+		if ((((RuntimeArray*)L_2)->max_length))
+		{
+			goto IL_0029;
+		}
+	}
+
+IL_001d:
+	{
+		//<source_info:C:/Users/mynur/OneDrive/Documentos/GitHub/Polarity_Breach_VR/Assets/Scripts/PolaritySystem/PlayerPolarityVisual.cs:23>
+		RendererU5BU5D_t32FDD782F67917B2291EA4FF242719877440A02A* L_3;
+		L_3 = Component_GetComponentsInChildren_TisRenderer_t320575F223BCB177A982E5DDB5DB19FAA89E7FBF_m35AC34F858BD2F34770712CD020AA0518D9409C7(__this, Component_GetComponentsInChildren_TisRenderer_t320575F223BCB177A982E5DDB5DB19FAA89E7FBF_m35AC34F858BD2F34770712CD020AA0518D9409C7_RuntimeMethod_var);
+		__this->___renderers = L_3;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___renderers), (void*)L_3);
+	}
+
+IL_0029:
+	{
+		//<source_info:C:/Users/mynur/OneDrive/Documentos/GitHub/Polarity_Breach_VR/Assets/Scripts/PolaritySystem/PlayerPolarityVisual.cs:24>
+		return;
+	}
+}
+// Method Definition Index: 90296
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PlayerPolarityVisual_OnEnable_mCD8A660BB6300CA73F3BDBD45E09325204A049BA (PlayerPolarityVisual_t2E7592CC4CFD6768A7C9D4CDA5864820C7B4F69B* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Action_1_t2A685F9B7073D2171BE282EED0EC530989CA03E9_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&PlayerPolarityVisual_Apply_mCE9385AC563ED6833B4F41C8F8BC48E7C24DEB93_RuntimeMethod_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		//<source_info:C:/Users/mynur/OneDrive/Documentos/GitHub/Polarity_Breach_VR/Assets/Scripts/PolaritySystem/PlayerPolarityVisual.cs:28>
+		PolarityComponent_t1FB53DB0BF7CE9A8E59278F3854DC776322BBCA0* L_0 = __this->___polarity;
+		Action_1_t2A685F9B7073D2171BE282EED0EC530989CA03E9* L_1 = (Action_1_t2A685F9B7073D2171BE282EED0EC530989CA03E9*)il2cpp_codegen_object_new(Action_1_t2A685F9B7073D2171BE282EED0EC530989CA03E9_il2cpp_TypeInfo_var);
+		Action_1__ctor_m2A215C2B00BBAD929AE9298F40164012A7FB2063(L_1, __this, (intptr_t)((void*)PlayerPolarityVisual_Apply_mCE9385AC563ED6833B4F41C8F8BC48E7C24DEB93_RuntimeMethod_var), NULL);
+		NullCheck(L_0);
+		PolarityComponent_add_OnPolarityChanged_m2E91C6D657C078F3EF9ABEDFF9A50277F9605AF9(L_0, L_1, NULL);
+		//<source_info:C:/Users/mynur/OneDrive/Documentos/GitHub/Polarity_Breach_VR/Assets/Scripts/PolaritySystem/PlayerPolarityVisual.cs:30>
+		PolarityComponent_t1FB53DB0BF7CE9A8E59278F3854DC776322BBCA0* L_2 = __this->___polarity;
+		NullCheck(L_2);
+		int32_t L_3;
+		L_3 = PolarityComponent_get_CurrentPolarity_mEFF48D62986084A923894FAE9EDD5CC9061A76B0_inline(L_2, NULL);
+		float L_4;
+		L_4 = PlayerPolarityVisual_GetTarget_m499374253EB3E1218931FA69CA62A6D5153432C8(__this, L_3, NULL);
+		__this->___currentValue = L_4;
+		//<source_info:C:/Users/mynur/OneDrive/Documentos/GitHub/Polarity_Breach_VR/Assets/Scripts/PolaritySystem/PlayerPolarityVisual.cs:31>
+		float L_5 = __this->___currentValue;
+		PlayerPolarityVisual_SetInvert_mB08FA3DAC5658FC7D6FC56F127D938A9B89C8EED(__this, L_5, NULL);
+		//<source_info:C:/Users/mynur/OneDrive/Documentos/GitHub/Polarity_Breach_VR/Assets/Scripts/PolaritySystem/PlayerPolarityVisual.cs:32>
+		return;
+	}
+}
+// Method Definition Index: 90297
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PlayerPolarityVisual_OnDisable_m79EF232910D03EBAD02766CD7AA05A7D1B2FB4C7 (PlayerPolarityVisual_t2E7592CC4CFD6768A7C9D4CDA5864820C7B4F69B* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Action_1_t2A685F9B7073D2171BE282EED0EC530989CA03E9_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&PlayerPolarityVisual_Apply_mCE9385AC563ED6833B4F41C8F8BC48E7C24DEB93_RuntimeMethod_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		//<source_info:C:/Users/mynur/OneDrive/Documentos/GitHub/Polarity_Breach_VR/Assets/Scripts/PolaritySystem/PlayerPolarityVisual.cs:36>
+		PolarityComponent_t1FB53DB0BF7CE9A8E59278F3854DC776322BBCA0* L_0 = __this->___polarity;
+		Action_1_t2A685F9B7073D2171BE282EED0EC530989CA03E9* L_1 = (Action_1_t2A685F9B7073D2171BE282EED0EC530989CA03E9*)il2cpp_codegen_object_new(Action_1_t2A685F9B7073D2171BE282EED0EC530989CA03E9_il2cpp_TypeInfo_var);
+		Action_1__ctor_m2A215C2B00BBAD929AE9298F40164012A7FB2063(L_1, __this, (intptr_t)((void*)PlayerPolarityVisual_Apply_mCE9385AC563ED6833B4F41C8F8BC48E7C24DEB93_RuntimeMethod_var), NULL);
+		NullCheck(L_0);
+		PolarityComponent_remove_OnPolarityChanged_mE62B5E429C533F83EF7175AB1C0EE11D0EA9980D(L_0, L_1, NULL);
+		//<source_info:C:/Users/mynur/OneDrive/Documentos/GitHub/Polarity_Breach_VR/Assets/Scripts/PolaritySystem/PlayerPolarityVisual.cs:37>
+		return;
+	}
+}
+// Method Definition Index: 90298
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PlayerPolarityVisual_Apply_mCE9385AC563ED6833B4F41C8F8BC48E7C24DEB93 (PlayerPolarityVisual_t2E7592CC4CFD6768A7C9D4CDA5864820C7B4F69B* __this, int32_t ___0_newPolarity, const RuntimeMethod* method) 
+{
+	float V_0 = 0.0f;
+	{
+		//<source_info:C:/Users/mynur/OneDrive/Documentos/GitHub/Polarity_Breach_VR/Assets/Scripts/PolaritySystem/PlayerPolarityVisual.cs:41>
+		int32_t L_0 = ___0_newPolarity;
+		float L_1;
+		L_1 = PlayerPolarityVisual_GetTarget_m499374253EB3E1218931FA69CA62A6D5153432C8(__this, L_0, NULL);
+		V_0 = L_1;
+		//<source_info:C:/Users/mynur/OneDrive/Documentos/GitHub/Polarity_Breach_VR/Assets/Scripts/PolaritySystem/PlayerPolarityVisual.cs:43>
+		Coroutine_t85EA685566A254C23F3FD77AB5BDFFFF8799596B* L_2 = __this->___transition;
+		if (!L_2)
+		{
+			goto IL_001c;
+		}
+	}
+	{
+		//<source_info:C:/Users/mynur/OneDrive/Documentos/GitHub/Polarity_Breach_VR/Assets/Scripts/PolaritySystem/PlayerPolarityVisual.cs:43>
+		Coroutine_t85EA685566A254C23F3FD77AB5BDFFFF8799596B* L_3 = __this->___transition;
+		MonoBehaviour_StopCoroutine_mB0FC91BE84203BD8E360B3FBAE5B958B4C5ED22A(__this, L_3, NULL);
+	}
+
+IL_001c:
+	{
+		//<source_info:C:/Users/mynur/OneDrive/Documentos/GitHub/Polarity_Breach_VR/Assets/Scripts/PolaritySystem/PlayerPolarityVisual.cs:45>
+		float L_4 = __this->___transitionDuration;
+		if ((!(((float)L_4) <= ((float)(0.0f)))))
+		{
+			goto IL_0038;
+		}
+	}
+	{
+		//<source_info:C:/Users/mynur/OneDrive/Documentos/GitHub/Polarity_Breach_VR/Assets/Scripts/PolaritySystem/PlayerPolarityVisual.cs:47>
+		float L_5 = V_0;
+		__this->___currentValue = L_5;
+		//<source_info:C:/Users/mynur/OneDrive/Documentos/GitHub/Polarity_Breach_VR/Assets/Scripts/PolaritySystem/PlayerPolarityVisual.cs:48>
+		float L_6 = V_0;
+		PlayerPolarityVisual_SetInvert_mB08FA3DAC5658FC7D6FC56F127D938A9B89C8EED(__this, L_6, NULL);
+		//<source_info:C:/Users/mynur/OneDrive/Documentos/GitHub/Polarity_Breach_VR/Assets/Scripts/PolaritySystem/PlayerPolarityVisual.cs:49>
+		return;
+	}
+
+IL_0038:
+	{
+		//<source_info:C:/Users/mynur/OneDrive/Documentos/GitHub/Polarity_Breach_VR/Assets/Scripts/PolaritySystem/PlayerPolarityVisual.cs:52>
+		float L_7 = V_0;
+		RuntimeObject* L_8;
+		L_8 = PlayerPolarityVisual_TransitionRoutine_m5A73E067EB05AC42617C6330DAE21FBA1F548B58(__this, L_7, NULL);
+		Coroutine_t85EA685566A254C23F3FD77AB5BDFFFF8799596B* L_9;
+		L_9 = MonoBehaviour_StartCoroutine_m4CAFF732AA28CD3BDC5363B44A863575530EC812(__this, L_8, NULL);
+		__this->___transition = L_9;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___transition), (void*)L_9);
+		//<source_info:C:/Users/mynur/OneDrive/Documentos/GitHub/Polarity_Breach_VR/Assets/Scripts/PolaritySystem/PlayerPolarityVisual.cs:53>
+		return;
+	}
+}
+// Method Definition Index: 90299
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float PlayerPolarityVisual_GetTarget_m499374253EB3E1218931FA69CA62A6D5153432C8 (PlayerPolarityVisual_t2E7592CC4CFD6768A7C9D4CDA5864820C7B4F69B* __this, int32_t ___0_value, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:C:/Users/mynur/OneDrive/Documentos/GitHub/Polarity_Breach_VR/Assets/Scripts/PolaritySystem/PlayerPolarityVisual.cs:57>
+		int32_t L_0 = ___0_value;
+		int32_t L_1 = __this->___invertedPolarity;
+		if ((((int32_t)L_0) == ((int32_t)L_1)))
+		{
+			goto IL_000f;
+		}
+	}
+	{
+		return (0.0f);
+	}
+
+IL_000f:
+	{
+		return (1.0f);
+	}
+}
+// Method Definition Index: 90300
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* PlayerPolarityVisual_TransitionRoutine_m5A73E067EB05AC42617C6330DAE21FBA1F548B58 (PlayerPolarityVisual_t2E7592CC4CFD6768A7C9D4CDA5864820C7B4F69B* __this, float ___0_target, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&U3CTransitionRoutineU3Ed__12_t5153C44B39EA4118C415A450776CB41CFB83E6D8_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	//<source_info:<no-source>:1>
+	{
+		U3CTransitionRoutineU3Ed__12_t5153C44B39EA4118C415A450776CB41CFB83E6D8* L_0 = (U3CTransitionRoutineU3Ed__12_t5153C44B39EA4118C415A450776CB41CFB83E6D8*)il2cpp_codegen_object_new(U3CTransitionRoutineU3Ed__12_t5153C44B39EA4118C415A450776CB41CFB83E6D8_il2cpp_TypeInfo_var);
+		U3CTransitionRoutineU3Ed__12__ctor_m9412A98B4820F5AB5D8BD1ED1A394E3A06533738(L_0, 0, NULL);
+		U3CTransitionRoutineU3Ed__12_t5153C44B39EA4118C415A450776CB41CFB83E6D8* L_1 = L_0;
+		NullCheck(L_1);
+		L_1->___U3CU3E4__this = __this;
+		Il2CppCodeGenWriteBarrier((void**)(&L_1->___U3CU3E4__this), (void*)__this);
+		U3CTransitionRoutineU3Ed__12_t5153C44B39EA4118C415A450776CB41CFB83E6D8* L_2 = L_1;
+		float L_3 = ___0_target;
+		NullCheck(L_2);
+		L_2->___target = L_3;
+		return L_2;
+	}
+}
+// Method Definition Index: 90301
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PlayerPolarityVisual_SetInvert_mB08FA3DAC5658FC7D6FC56F127D938A9B89C8EED (PlayerPolarityVisual_t2E7592CC4CFD6768A7C9D4CDA5864820C7B4F69B* __this, float ___0_value, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	int32_t V_0 = 0;
+	MaterialU5BU5D_t2B1D11C42DB07A4400C0535F92DBB87A2E346D3D* V_1 = NULL;
+	int32_t V_2 = 0;
+	{
+		//<source_info:C:/Users/mynur/OneDrive/Documentos/GitHub/Polarity_Breach_VR/Assets/Scripts/PolaritySystem/PlayerPolarityVisual.cs:80>
+		RendererU5BU5D_t32FDD782F67917B2291EA4FF242719877440A02A* L_0 = __this->___renderers;
+		if (L_0)
+		{
+			goto IL_0009;
+		}
+	}
+	{
+		//<source_info:C:/Users/mynur/OneDrive/Documentos/GitHub/Polarity_Breach_VR/Assets/Scripts/PolaritySystem/PlayerPolarityVisual.cs:80>
+		return;
+	}
+
+IL_0009:
+	{
+		//<source_info:C:/Users/mynur/OneDrive/Documentos/GitHub/Polarity_Breach_VR/Assets/Scripts/PolaritySystem/PlayerPolarityVisual.cs:82>
+		V_0 = 0;
+		goto IL_005c;
+	}
+
+IL_000d:
+	{
+		//<source_info:C:/Users/mynur/OneDrive/Documentos/GitHub/Polarity_Breach_VR/Assets/Scripts/PolaritySystem/PlayerPolarityVisual.cs:84>
+		RendererU5BU5D_t32FDD782F67917B2291EA4FF242719877440A02A* L_1 = __this->___renderers;
+		int32_t L_2 = V_0;
+		NullCheck(L_1);
+		int32_t L_3 = L_2;
+		Renderer_t320575F223BCB177A982E5DDB5DB19FAA89E7FBF* L_4 = (L_1)->GetAt(static_cast<il2cpp_array_size_t>(L_3));
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		bool L_5;
+		L_5 = Object_op_Equality_mB6120F782D83091EF56A198FCEBCF066DB4A9605(L_4, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
+		if (L_5)
+		{
+			goto IL_0058;
+		}
+	}
+	{
+		//<source_info:C:/Users/mynur/OneDrive/Documentos/GitHub/Polarity_Breach_VR/Assets/Scripts/PolaritySystem/PlayerPolarityVisual.cs:86>
+		RendererU5BU5D_t32FDD782F67917B2291EA4FF242719877440A02A* L_6 = __this->___renderers;
+		int32_t L_7 = V_0;
+		NullCheck(L_6);
+		int32_t L_8 = L_7;
+		Renderer_t320575F223BCB177A982E5DDB5DB19FAA89E7FBF* L_9 = (L_6)->GetAt(static_cast<il2cpp_array_size_t>(L_8));
+		NullCheck(L_9);
+		MaterialU5BU5D_t2B1D11C42DB07A4400C0535F92DBB87A2E346D3D* L_10;
+		L_10 = Renderer_get_materials_m43D33328432700524EAEAB093C67AE5689976118(L_9, NULL);
+		V_1 = L_10;
+		//<source_info:C:/Users/mynur/OneDrive/Documentos/GitHub/Polarity_Breach_VR/Assets/Scripts/PolaritySystem/PlayerPolarityVisual.cs:87>
+		V_2 = 0;
+		goto IL_0052;
+	}
+
+IL_002f:
+	{
+		//<source_info:C:/Users/mynur/OneDrive/Documentos/GitHub/Polarity_Breach_VR/Assets/Scripts/PolaritySystem/PlayerPolarityVisual.cs:89>
+		MaterialU5BU5D_t2B1D11C42DB07A4400C0535F92DBB87A2E346D3D* L_11 = V_1;
+		int32_t L_12 = V_2;
+		NullCheck(L_11);
+		int32_t L_13 = L_12;
+		Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* L_14 = (L_11)->GetAt(static_cast<il2cpp_array_size_t>(L_13));
+		String_t* L_15 = __this->___invertProperty;
+		NullCheck(L_14);
+		bool L_16;
+		L_16 = Material_HasProperty_mC09A83B44E368A217F606DD4954FA080CC03EC6C(L_14, L_15, NULL);
+		if (!L_16)
+		{
+			goto IL_004e;
+		}
+	}
+	{
+		//<source_info:C:/Users/mynur/OneDrive/Documentos/GitHub/Polarity_Breach_VR/Assets/Scripts/PolaritySystem/PlayerPolarityVisual.cs:90>
+		MaterialU5BU5D_t2B1D11C42DB07A4400C0535F92DBB87A2E346D3D* L_17 = V_1;
+		int32_t L_18 = V_2;
+		NullCheck(L_17);
+		int32_t L_19 = L_18;
+		Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* L_20 = (L_17)->GetAt(static_cast<il2cpp_array_size_t>(L_19));
+		String_t* L_21 = __this->___invertProperty;
+		float L_22 = ___0_value;
+		NullCheck(L_20);
+		Material_SetFloat_m879CF81D740BAE6F23C9822400679F4D16365836(L_20, L_21, L_22, NULL);
+	}
+
+IL_004e:
+	{
+		//<source_info:C:/Users/mynur/OneDrive/Documentos/GitHub/Polarity_Breach_VR/Assets/Scripts/PolaritySystem/PlayerPolarityVisual.cs:87>
+		int32_t L_23 = V_2;
+		V_2 = ((int32_t)il2cpp_codegen_add(L_23, 1));
+	}
+
+IL_0052:
+	{
+		//<source_info:C:/Users/mynur/OneDrive/Documentos/GitHub/Polarity_Breach_VR/Assets/Scripts/PolaritySystem/PlayerPolarityVisual.cs:87>
+		int32_t L_24 = V_2;
+		MaterialU5BU5D_t2B1D11C42DB07A4400C0535F92DBB87A2E346D3D* L_25 = V_1;
+		NullCheck(L_25);
+		if ((((int32_t)L_24) < ((int32_t)((int32_t)(((RuntimeArray*)L_25)->max_length)))))
+		{
+			goto IL_002f;
+		}
+	}
+
+IL_0058:
+	{
+		//<source_info:C:/Users/mynur/OneDrive/Documentos/GitHub/Polarity_Breach_VR/Assets/Scripts/PolaritySystem/PlayerPolarityVisual.cs:82>
+		int32_t L_26 = V_0;
+		V_0 = ((int32_t)il2cpp_codegen_add(L_26, 1));
+	}
+
+IL_005c:
+	{
+		//<source_info:C:/Users/mynur/OneDrive/Documentos/GitHub/Polarity_Breach_VR/Assets/Scripts/PolaritySystem/PlayerPolarityVisual.cs:82>
+		int32_t L_27 = V_0;
+		RendererU5BU5D_t32FDD782F67917B2291EA4FF242719877440A02A* L_28 = __this->___renderers;
+		NullCheck(L_28);
+		if ((((int32_t)L_27) < ((int32_t)((int32_t)(((RuntimeArray*)L_28)->max_length)))))
+		{
+			goto IL_000d;
+		}
+	}
+	{
+		//<source_info:C:/Users/mynur/OneDrive/Documentos/GitHub/Polarity_Breach_VR/Assets/Scripts/PolaritySystem/PlayerPolarityVisual.cs:93>
+		return;
+	}
+}
+// Method Definition Index: 90302
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PlayerPolarityVisual__ctor_m8C1633AD80C5D2C9A83D8B87608264153C093A43 (PlayerPolarityVisual_t2E7592CC4CFD6768A7C9D4CDA5864820C7B4F69B* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral9C265A76204CC4AC1829A5B3687E16AE85FC7A8A);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		//<source_info:C:/Users/mynur/OneDrive/Documentos/GitHub/Polarity_Breach_VR/Assets/Scripts/PolaritySystem/PlayerPolarityVisual.cs:10>
+		__this->___invertProperty = _stringLiteral9C265A76204CC4AC1829A5B3687E16AE85FC7A8A;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___invertProperty), (void*)_stringLiteral9C265A76204CC4AC1829A5B3687E16AE85FC7A8A);
+		//<source_info:C:/Users/mynur/OneDrive/Documentos/GitHub/Polarity_Breach_VR/Assets/Scripts/PolaritySystem/PlayerPolarityVisual.cs:12>
+		__this->___transitionDuration = (0.150000006f);
+		MonoBehaviour__ctor_m592DB0105CA0BC97AA1C5F4AD27B12D68A3B7C1E(__this, NULL);
+		return;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// Method Definition Index: 90303
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CTransitionRoutineU3Ed__12__ctor_m9412A98B4820F5AB5D8BD1ED1A394E3A06533738 (U3CTransitionRoutineU3Ed__12_t5153C44B39EA4118C415A450776CB41CFB83E6D8* __this, int32_t ___0_U3CU3E1__state, const RuntimeMethod* method) 
+{
+	//<source_info:<no-source>:1>
+	{
+		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2(__this, NULL);
+		int32_t L_0 = ___0_U3CU3E1__state;
+		__this->___U3CU3E1__state = L_0;
+		return;
+	}
+}
+// Method Definition Index: 90304
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CTransitionRoutineU3Ed__12_System_IDisposable_Dispose_m5410B69D1F7403E686030399A4AD9A498C34C5EE (U3CTransitionRoutineU3Ed__12_t5153C44B39EA4118C415A450776CB41CFB83E6D8* __this, const RuntimeMethod* method) 
+{
+	//<source_info:<no-source>:1>
+	{
+		return;
+	}
+}
+// Method Definition Index: 90305
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool U3CTransitionRoutineU3Ed__12_MoveNext_m72298A0D3A79BFC6EFAECE2FE8D9ADCC9E913CAC (U3CTransitionRoutineU3Ed__12_t5153C44B39EA4118C415A450776CB41CFB83E6D8* __this, const RuntimeMethod* method) 
+{
+	int32_t V_0 = 0;
+	PlayerPolarityVisual_t2E7592CC4CFD6768A7C9D4CDA5864820C7B4F69B* V_1 = NULL;
+	{
+		int32_t L_0 = __this->___U3CU3E1__state;
+		V_0 = L_0;
+		PlayerPolarityVisual_t2E7592CC4CFD6768A7C9D4CDA5864820C7B4F69B* L_1 = __this->___U3CU3E4__this;
+		V_1 = L_1;
+		int32_t L_2 = V_0;
+		if (!L_2)
+		{
+			goto IL_0017;
+		}
+	}
+	{
+		int32_t L_3 = V_0;
+		if ((((int32_t)L_3) == ((int32_t)1)))
+		{
+			goto IL_0089;
+		}
+	}
+	{
+		return (bool)0;
+	}
+
+IL_0017:
+	{
+		__this->___U3CU3E1__state = (-1);
+		//<source_info:C:/Users/mynur/OneDrive/Documentos/GitHub/Polarity_Breach_VR/Assets/Scripts/PolaritySystem/PlayerPolarityVisual.cs:62>
+		PlayerPolarityVisual_t2E7592CC4CFD6768A7C9D4CDA5864820C7B4F69B* L_4 = V_1;
+		NullCheck(L_4);
+		float L_5 = L_4->___currentValue;
+		__this->___U3CstartU3E5__2 = L_5;
+		//<source_info:C:/Users/mynur/OneDrive/Documentos/GitHub/Polarity_Breach_VR/Assets/Scripts/PolaritySystem/PlayerPolarityVisual.cs:63>
+		__this->___U3CtU3E5__3 = (0.0f);
+		goto IL_0090;
+	}
+
+IL_0037:
+	{
+		//<source_info:C:/Users/mynur/OneDrive/Documentos/GitHub/Polarity_Breach_VR/Assets/Scripts/PolaritySystem/PlayerPolarityVisual.cs:67>
+		float L_6 = __this->___U3CtU3E5__3;
+		float L_7;
+		L_7 = Time_get_deltaTime_mC3195000401F0FD167DD2F948FD2BC58330D0865(NULL);
+		__this->___U3CtU3E5__3 = ((float)il2cpp_codegen_add(L_6, L_7));
+		//<source_info:C:/Users/mynur/OneDrive/Documentos/GitHub/Polarity_Breach_VR/Assets/Scripts/PolaritySystem/PlayerPolarityVisual.cs:68>
+		PlayerPolarityVisual_t2E7592CC4CFD6768A7C9D4CDA5864820C7B4F69B* L_8 = V_1;
+		float L_9 = __this->___U3CstartU3E5__2;
+		float L_10 = __this->___target;
+		float L_11 = __this->___U3CtU3E5__3;
+		PlayerPolarityVisual_t2E7592CC4CFD6768A7C9D4CDA5864820C7B4F69B* L_12 = V_1;
+		NullCheck(L_12);
+		float L_13 = L_12->___transitionDuration;
+		float L_14;
+		L_14 = Mathf_Lerp_m47EF2FFB7647BD0A1FDC26DC03E28B19812139B5_inline(L_9, L_10, ((float)(L_11/L_13)), NULL);
+		NullCheck(L_8);
+		L_8->___currentValue = L_14;
+		//<source_info:C:/Users/mynur/OneDrive/Documentos/GitHub/Polarity_Breach_VR/Assets/Scripts/PolaritySystem/PlayerPolarityVisual.cs:69>
+		PlayerPolarityVisual_t2E7592CC4CFD6768A7C9D4CDA5864820C7B4F69B* L_15 = V_1;
+		PlayerPolarityVisual_t2E7592CC4CFD6768A7C9D4CDA5864820C7B4F69B* L_16 = V_1;
+		NullCheck(L_16);
+		float L_17 = L_16->___currentValue;
+		NullCheck(L_15);
+		PlayerPolarityVisual_SetInvert_mB08FA3DAC5658FC7D6FC56F127D938A9B89C8EED(L_15, L_17, NULL);
+		//<source_info:C:/Users/mynur/OneDrive/Documentos/GitHub/Polarity_Breach_VR/Assets/Scripts/PolaritySystem/PlayerPolarityVisual.cs:70>
+		__this->___U3CU3E2__current = NULL;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CU3E2__current), (void*)NULL);
+		__this->___U3CU3E1__state = 1;
+		return (bool)1;
+	}
+
+IL_0089:
+	{
+		__this->___U3CU3E1__state = (-1);
+	}
+
+IL_0090:
+	{
+		//<source_info:C:/Users/mynur/OneDrive/Documentos/GitHub/Polarity_Breach_VR/Assets/Scripts/PolaritySystem/PlayerPolarityVisual.cs:65>
+		float L_18 = __this->___U3CtU3E5__3;
+		PlayerPolarityVisual_t2E7592CC4CFD6768A7C9D4CDA5864820C7B4F69B* L_19 = V_1;
+		NullCheck(L_19);
+		float L_20 = L_19->___transitionDuration;
+		if ((((float)L_18) < ((float)L_20)))
+		{
+			goto IL_0037;
+		}
+	}
+	{
+		//<source_info:C:/Users/mynur/OneDrive/Documentos/GitHub/Polarity_Breach_VR/Assets/Scripts/PolaritySystem/PlayerPolarityVisual.cs:73>
+		PlayerPolarityVisual_t2E7592CC4CFD6768A7C9D4CDA5864820C7B4F69B* L_21 = V_1;
+		float L_22 = __this->___target;
+		NullCheck(L_21);
+		L_21->___currentValue = L_22;
+		//<source_info:C:/Users/mynur/OneDrive/Documentos/GitHub/Polarity_Breach_VR/Assets/Scripts/PolaritySystem/PlayerPolarityVisual.cs:74>
+		PlayerPolarityVisual_t2E7592CC4CFD6768A7C9D4CDA5864820C7B4F69B* L_23 = V_1;
+		float L_24 = __this->___target;
+		NullCheck(L_23);
+		PlayerPolarityVisual_SetInvert_mB08FA3DAC5658FC7D6FC56F127D938A9B89C8EED(L_23, L_24, NULL);
+		//<source_info:C:/Users/mynur/OneDrive/Documentos/GitHub/Polarity_Breach_VR/Assets/Scripts/PolaritySystem/PlayerPolarityVisual.cs:75>
+		PlayerPolarityVisual_t2E7592CC4CFD6768A7C9D4CDA5864820C7B4F69B* L_25 = V_1;
+		NullCheck(L_25);
+		L_25->___transition = (Coroutine_t85EA685566A254C23F3FD77AB5BDFFFF8799596B*)NULL;
+		Il2CppCodeGenWriteBarrier((void**)(&L_25->___transition), (void*)(Coroutine_t85EA685566A254C23F3FD77AB5BDFFFF8799596B*)NULL);
+		//<source_info:C:/Users/mynur/OneDrive/Documentos/GitHub/Polarity_Breach_VR/Assets/Scripts/PolaritySystem/PlayerPolarityVisual.cs:76>
+		return (bool)0;
+	}
+}
+// Method Definition Index: 90306
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CTransitionRoutineU3Ed__12_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_m05F6D0C4E2BCF7BEECC0026DE75B20AF528778E0 (U3CTransitionRoutineU3Ed__12_t5153C44B39EA4118C415A450776CB41CFB83E6D8* __this, const RuntimeMethod* method) 
+{
+	//<source_info:<no-source>:1>
+	{
+		RuntimeObject* L_0 = __this->___U3CU3E2__current;
+		return L_0;
+	}
+}
+// Method Definition Index: 90307
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CTransitionRoutineU3Ed__12_System_Collections_IEnumerator_Reset_m650268A5EC812FE3EA1722EB55A2FDD976A2F2B0 (U3CTransitionRoutineU3Ed__12_t5153C44B39EA4118C415A450776CB41CFB83E6D8* __this, const RuntimeMethod* method) 
+{
+	//<source_info:<no-source>:1>
+	{
+		NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A* L_0 = (NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A_il2cpp_TypeInfo_var)));
+		NotSupportedException__ctor_m1398D0CDE19B36AA3DE9392879738C1EA2439CDF(L_0, NULL);
+		IL2CPP_RAISE_MANAGED_EXCEPTION(L_0, ((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&U3CTransitionRoutineU3Ed__12_System_Collections_IEnumerator_Reset_m650268A5EC812FE3EA1722EB55A2FDD976A2F2B0_RuntimeMethod_var)));
+	}
+}
+// Method Definition Index: 90308
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CTransitionRoutineU3Ed__12_System_Collections_IEnumerator_get_Current_m5108D072CD87C62F72F98741DE2BBC72A70942D8 (U3CTransitionRoutineU3Ed__12_t5153C44B39EA4118C415A450776CB41CFB83E6D8* __this, const RuntimeMethod* method) 
+{
+	//<source_info:<no-source>:1>
+	{
+		RuntimeObject* L_0 = __this->___U3CU3E2__current;
+		return L_0;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// Method Definition Index: 90309
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t PolarityExtensions_Opposite_m1225CD632E146AFB1F6D72692466F2779827E2AD (int32_t ___0_polarity, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:C:/Users/mynur/OneDrive/Documentos/GitHub/Polarity_Breach_VR/Assets/Scripts/PolaritySystem/Polarity.cs:13>
+		int32_t L_0 = ___0_polarity;
+		if (!L_0)
+		{
+			goto IL_0005;
+		}
+	}
+	{
+		return (int32_t)(0);
+	}
+
+IL_0005:
+	{
+		return (int32_t)(1);
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// Method Definition Index: 90310
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PolarityComponent_add_OnPolarityChanged_m2E91C6D657C078F3EF9ABEDFF9A50277F9605AF9 (PolarityComponent_t1FB53DB0BF7CE9A8E59278F3854DC776322BBCA0* __this, Action_1_t2A685F9B7073D2171BE282EED0EC530989CA03E9* ___0_value, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Action_1_t2A685F9B7073D2171BE282EED0EC530989CA03E9_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	//<source_info:<no-source>:1>
+	Action_1_t2A685F9B7073D2171BE282EED0EC530989CA03E9* V_0 = NULL;
+	Action_1_t2A685F9B7073D2171BE282EED0EC530989CA03E9* V_1 = NULL;
+	Action_1_t2A685F9B7073D2171BE282EED0EC530989CA03E9* V_2 = NULL;
+	{
+		Action_1_t2A685F9B7073D2171BE282EED0EC530989CA03E9* L_0 = __this->___OnPolarityChanged;
+		V_0 = L_0;
+	}
+
+IL_0007:
+	{
+		Action_1_t2A685F9B7073D2171BE282EED0EC530989CA03E9* L_1 = V_0;
+		V_1 = L_1;
+		Action_1_t2A685F9B7073D2171BE282EED0EC530989CA03E9* L_2 = V_1;
+		Action_1_t2A685F9B7073D2171BE282EED0EC530989CA03E9* L_3 = ___0_value;
+		Delegate_t* L_4;
+		L_4 = Delegate_Combine_m1F725AEF318BE6F0426863490691A6F4606E7D00(L_2, L_3, NULL);
+		V_2 = ((Action_1_t2A685F9B7073D2171BE282EED0EC530989CA03E9*)Castclass((RuntimeObject*)L_4, Action_1_t2A685F9B7073D2171BE282EED0EC530989CA03E9_il2cpp_TypeInfo_var));
+		Action_1_t2A685F9B7073D2171BE282EED0EC530989CA03E9** L_5 = (Action_1_t2A685F9B7073D2171BE282EED0EC530989CA03E9**)(&__this->___OnPolarityChanged);
+		Action_1_t2A685F9B7073D2171BE282EED0EC530989CA03E9* L_6 = V_2;
+		Action_1_t2A685F9B7073D2171BE282EED0EC530989CA03E9* L_7 = V_1;
+		Action_1_t2A685F9B7073D2171BE282EED0EC530989CA03E9* L_8;
+		L_8 = InterlockedCompareExchangeImpl<Action_1_t2A685F9B7073D2171BE282EED0EC530989CA03E9*>(L_5, L_6, L_7);
+		V_0 = L_8;
+		Action_1_t2A685F9B7073D2171BE282EED0EC530989CA03E9* L_9 = V_0;
+		Action_1_t2A685F9B7073D2171BE282EED0EC530989CA03E9* L_10 = V_1;
+		if ((!(((RuntimeObject*)(Action_1_t2A685F9B7073D2171BE282EED0EC530989CA03E9*)L_9) == ((RuntimeObject*)(Action_1_t2A685F9B7073D2171BE282EED0EC530989CA03E9*)L_10))))
+		{
+			goto IL_0007;
+		}
+	}
+	{
+		return;
+	}
+}
+// Method Definition Index: 90311
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PolarityComponent_remove_OnPolarityChanged_mE62B5E429C533F83EF7175AB1C0EE11D0EA9980D (PolarityComponent_t1FB53DB0BF7CE9A8E59278F3854DC776322BBCA0* __this, Action_1_t2A685F9B7073D2171BE282EED0EC530989CA03E9* ___0_value, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Action_1_t2A685F9B7073D2171BE282EED0EC530989CA03E9_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	//<source_info:<no-source>:1>
+	Action_1_t2A685F9B7073D2171BE282EED0EC530989CA03E9* V_0 = NULL;
+	Action_1_t2A685F9B7073D2171BE282EED0EC530989CA03E9* V_1 = NULL;
+	Action_1_t2A685F9B7073D2171BE282EED0EC530989CA03E9* V_2 = NULL;
+	{
+		Action_1_t2A685F9B7073D2171BE282EED0EC530989CA03E9* L_0 = __this->___OnPolarityChanged;
+		V_0 = L_0;
+	}
+
+IL_0007:
+	{
+		Action_1_t2A685F9B7073D2171BE282EED0EC530989CA03E9* L_1 = V_0;
+		V_1 = L_1;
+		Action_1_t2A685F9B7073D2171BE282EED0EC530989CA03E9* L_2 = V_1;
+		Action_1_t2A685F9B7073D2171BE282EED0EC530989CA03E9* L_3 = ___0_value;
+		Delegate_t* L_4;
+		L_4 = Delegate_Remove_m8B7DD5661308FA972E23CA1CC3FC9CEB355504E3(L_2, L_3, NULL);
+		V_2 = ((Action_1_t2A685F9B7073D2171BE282EED0EC530989CA03E9*)Castclass((RuntimeObject*)L_4, Action_1_t2A685F9B7073D2171BE282EED0EC530989CA03E9_il2cpp_TypeInfo_var));
+		Action_1_t2A685F9B7073D2171BE282EED0EC530989CA03E9** L_5 = (Action_1_t2A685F9B7073D2171BE282EED0EC530989CA03E9**)(&__this->___OnPolarityChanged);
+		Action_1_t2A685F9B7073D2171BE282EED0EC530989CA03E9* L_6 = V_2;
+		Action_1_t2A685F9B7073D2171BE282EED0EC530989CA03E9* L_7 = V_1;
+		Action_1_t2A685F9B7073D2171BE282EED0EC530989CA03E9* L_8;
+		L_8 = InterlockedCompareExchangeImpl<Action_1_t2A685F9B7073D2171BE282EED0EC530989CA03E9*>(L_5, L_6, L_7);
+		V_0 = L_8;
+		Action_1_t2A685F9B7073D2171BE282EED0EC530989CA03E9* L_9 = V_0;
+		Action_1_t2A685F9B7073D2171BE282EED0EC530989CA03E9* L_10 = V_1;
+		if ((!(((RuntimeObject*)(Action_1_t2A685F9B7073D2171BE282EED0EC530989CA03E9*)L_9) == ((RuntimeObject*)(Action_1_t2A685F9B7073D2171BE282EED0EC530989CA03E9*)L_10))))
+		{
+			goto IL_0007;
+		}
+	}
+	{
+		return;
+	}
+}
+// Method Definition Index: 90312
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t PolarityComponent_get_CurrentPolarity_mEFF48D62986084A923894FAE9EDD5CC9061A76B0 (PolarityComponent_t1FB53DB0BF7CE9A8E59278F3854DC776322BBCA0* __this, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:C:/Users/mynur/OneDrive/Documentos/GitHub/Polarity_Breach_VR/Assets/Scripts/PolaritySystem/PolarityComponent.cs:12>
+		int32_t L_0 = __this->____polarity;
+		return L_0;
+	}
+}
+// Method Definition Index: 90313
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PolarityComponent_Toggle_mE50AD45D52FAEBAAA74E2AFF6B8A9F882ECC70EA (PolarityComponent_t1FB53DB0BF7CE9A8E59278F3854DC776322BBCA0* __this, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:C:/Users/mynur/OneDrive/Documentos/GitHub/Polarity_Breach_VR/Assets/Scripts/PolaritySystem/PolarityComponent.cs:14>
+		int32_t L_0 = __this->____polarity;
+		int32_t L_1;
+		L_1 = PolarityExtensions_Opposite_m1225CD632E146AFB1F6D72692466F2779827E2AD(L_0, NULL);
+		PolarityComponent_SetPolarity_mE4E146F210CE7D1D99678A13A5E179DA910C8BFA(__this, L_1, NULL);
+		return;
+	}
+}
+// Method Definition Index: 90314
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PolarityComponent_SetPolarity_mE4E146F210CE7D1D99678A13A5E179DA910C8BFA (PolarityComponent_t1FB53DB0BF7CE9A8E59278F3854DC776322BBCA0* __this, int32_t ___0_newPolarity, const RuntimeMethod* method) 
+{
+	Action_1_t2A685F9B7073D2171BE282EED0EC530989CA03E9* G_B4_0 = NULL;
+	Action_1_t2A685F9B7073D2171BE282EED0EC530989CA03E9* G_B3_0 = NULL;
+	{
+		//<source_info:C:/Users/mynur/OneDrive/Documentos/GitHub/Polarity_Breach_VR/Assets/Scripts/PolaritySystem/PolarityComponent.cs:17>
+		int32_t L_0 = __this->____polarity;
+		int32_t L_1 = ___0_newPolarity;
+		if ((!(((uint32_t)L_0) == ((uint32_t)L_1))))
+		{
+			goto IL_000a;
+		}
+	}
+	{
+		//<source_info:C:/Users/mynur/OneDrive/Documentos/GitHub/Polarity_Breach_VR/Assets/Scripts/PolaritySystem/PolarityComponent.cs:17>
+		return;
+	}
+
+IL_000a:
+	{
+		//<source_info:C:/Users/mynur/OneDrive/Documentos/GitHub/Polarity_Breach_VR/Assets/Scripts/PolaritySystem/PolarityComponent.cs:18>
+		int32_t L_2 = ___0_newPolarity;
+		__this->____polarity = L_2;
+		//<source_info:C:/Users/mynur/OneDrive/Documentos/GitHub/Polarity_Breach_VR/Assets/Scripts/PolaritySystem/PolarityComponent.cs:19>
+		Action_1_t2A685F9B7073D2171BE282EED0EC530989CA03E9* L_3 = __this->___OnPolarityChanged;
+		Action_1_t2A685F9B7073D2171BE282EED0EC530989CA03E9* L_4 = L_3;
+		if (L_4)
+		{
+			G_B4_0 = L_4;
+			goto IL_001c;
+		}
+		G_B3_0 = L_4;
+	}
+	{
+		return;
+	}
+
+IL_001c:
+	{
+		int32_t L_5 = __this->____polarity;
+		NullCheck(G_B4_0);
+		Action_1_Invoke_mDE5C2BAE577D61B72E945CAC1942702B1048D9D1_inline(G_B4_0, L_5, NULL);
+		//<source_info:C:/Users/mynur/OneDrive/Documentos/GitHub/Polarity_Breach_VR/Assets/Scripts/PolaritySystem/PolarityComponent.cs:20>
+		return;
+	}
+}
+// Method Definition Index: 90315
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PolarityComponent__ctor_mB7DFD6E14D188AB16CEB78565774340D084AE6F8 (PolarityComponent_t1FB53DB0BF7CE9A8E59278F3854DC776322BBCA0* __this, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:C:/Users/mynur/OneDrive/Documentos/GitHub/Polarity_Breach_VR/Assets/Scripts/PolaritySystem/PolarityComponent.cs:10>
+		__this->____polarity = 1;
+		MonoBehaviour__ctor_m592DB0105CA0BC97AA1C5F4AD27B12D68A3B7C1E(__this, NULL);
+		return;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// Method Definition Index: 90316
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PolarityPostProcessPulse_Awake_mEB764EF885D783D08AD0B54A4D57BB98AEBF3BB8 (PolarityPostProcessPulse_t05967FEAD321633709B2F7C9DE145D49B3AA0E62* __this, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:C:/Users/mynur/OneDrive/Documentos/GitHub/Polarity_Breach_VR/Assets/Scripts/PolaritySystem/PolarityPostProcessPulse.cs:21>
+		Volume_t7CAAEA22D7F13A50FAE114DE7A6986FEAC837377* L_0 = __this->___whiteVolume;
+		PolarityPostProcessPulse_SetWeight_m5F63A95F8B00AB4C36698D84247BFE345EFC43E7(__this, L_0, (0.0f), NULL);
+		//<source_info:C:/Users/mynur/OneDrive/Documentos/GitHub/Polarity_Breach_VR/Assets/Scripts/PolaritySystem/PolarityPostProcessPulse.cs:22>
+		Volume_t7CAAEA22D7F13A50FAE114DE7A6986FEAC837377* L_1 = __this->___blackVolume;
+		PolarityPostProcessPulse_SetWeight_m5F63A95F8B00AB4C36698D84247BFE345EFC43E7(__this, L_1, (0.0f), NULL);
+		//<source_info:C:/Users/mynur/OneDrive/Documentos/GitHub/Polarity_Breach_VR/Assets/Scripts/PolaritySystem/PolarityPostProcessPulse.cs:23>
+		return;
+	}
+}
+// Method Definition Index: 90317
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PolarityPostProcessPulse_Play_mA8FF0DAB31D46A292295AB06EC7383EDB9024362 (PolarityPostProcessPulse_t05967FEAD321633709B2F7C9DE145D49B3AA0E62* __this, int32_t ___0_polarity, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	Volume_t7CAAEA22D7F13A50FAE114DE7A6986FEAC837377* V_0 = NULL;
+	Volume_t7CAAEA22D7F13A50FAE114DE7A6986FEAC837377* V_1 = NULL;
+	Volume_t7CAAEA22D7F13A50FAE114DE7A6986FEAC837377* G_B3_0 = NULL;
+	Volume_t7CAAEA22D7F13A50FAE114DE7A6986FEAC837377* G_B6_0 = NULL;
+	{
+		//<source_info:C:/Users/mynur/OneDrive/Documentos/GitHub/Polarity_Breach_VR/Assets/Scripts/PolaritySystem/PolarityPostProcessPulse.cs:27>
+		int32_t L_0 = ___0_polarity;
+		if ((((int32_t)L_0) == ((int32_t)1)))
+		{
+			goto IL_000c;
+		}
+	}
+	{
+		Volume_t7CAAEA22D7F13A50FAE114DE7A6986FEAC837377* L_1 = __this->___blackVolume;
+		G_B3_0 = L_1;
+		goto IL_0012;
+	}
+
+IL_000c:
+	{
+		Volume_t7CAAEA22D7F13A50FAE114DE7A6986FEAC837377* L_2 = __this->___whiteVolume;
+		G_B3_0 = L_2;
+	}
+
+IL_0012:
+	{
+		V_0 = G_B3_0;
+		//<source_info:C:/Users/mynur/OneDrive/Documentos/GitHub/Polarity_Breach_VR/Assets/Scripts/PolaritySystem/PolarityPostProcessPulse.cs:28>
+		int32_t L_3 = ___0_polarity;
+		if ((((int32_t)L_3) == ((int32_t)1)))
+		{
+			goto IL_001f;
+		}
+	}
+	{
+		Volume_t7CAAEA22D7F13A50FAE114DE7A6986FEAC837377* L_4 = __this->___whiteVolume;
+		G_B6_0 = L_4;
+		goto IL_0025;
+	}
+
+IL_001f:
+	{
+		Volume_t7CAAEA22D7F13A50FAE114DE7A6986FEAC837377* L_5 = __this->___blackVolume;
+		G_B6_0 = L_5;
+	}
+
+IL_0025:
+	{
+		V_1 = G_B6_0;
+		//<source_info:C:/Users/mynur/OneDrive/Documentos/GitHub/Polarity_Breach_VR/Assets/Scripts/PolaritySystem/PolarityPostProcessPulse.cs:30>
+		Volume_t7CAAEA22D7F13A50FAE114DE7A6986FEAC837377* L_6 = V_0;
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		bool L_7;
+		L_7 = Object_op_Equality_mB6120F782D83091EF56A198FCEBCF066DB4A9605(L_6, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
+		if (!L_7)
+		{
+			goto IL_0030;
+		}
+	}
+	{
+		//<source_info:C:/Users/mynur/OneDrive/Documentos/GitHub/Polarity_Breach_VR/Assets/Scripts/PolaritySystem/PolarityPostProcessPulse.cs:30>
+		return;
+	}
+
+IL_0030:
+	{
+		//<source_info:C:/Users/mynur/OneDrive/Documentos/GitHub/Polarity_Breach_VR/Assets/Scripts/PolaritySystem/PolarityPostProcessPulse.cs:32>
+		Coroutine_t85EA685566A254C23F3FD77AB5BDFFFF8799596B* L_8 = __this->___pulseCoroutine;
+		if (!L_8)
+		{
+			goto IL_0044;
+		}
+	}
+	{
+		//<source_info:C:/Users/mynur/OneDrive/Documentos/GitHub/Polarity_Breach_VR/Assets/Scripts/PolaritySystem/PolarityPostProcessPulse.cs:34>
+		Coroutine_t85EA685566A254C23F3FD77AB5BDFFFF8799596B* L_9 = __this->___pulseCoroutine;
+		MonoBehaviour_StopCoroutine_mB0FC91BE84203BD8E360B3FBAE5B958B4C5ED22A(__this, L_9, NULL);
+	}
+
+IL_0044:
+	{
+		//<source_info:C:/Users/mynur/OneDrive/Documentos/GitHub/Polarity_Breach_VR/Assets/Scripts/PolaritySystem/PolarityPostProcessPulse.cs:37>
+		Volume_t7CAAEA22D7F13A50FAE114DE7A6986FEAC837377* L_10 = V_1;
+		PolarityPostProcessPulse_SetWeight_m5F63A95F8B00AB4C36698D84247BFE345EFC43E7(__this, L_10, (0.0f), NULL);
+		//<source_info:C:/Users/mynur/OneDrive/Documentos/GitHub/Polarity_Breach_VR/Assets/Scripts/PolaritySystem/PolarityPostProcessPulse.cs:38>
+		Volume_t7CAAEA22D7F13A50FAE114DE7A6986FEAC837377* L_11 = V_0;
+		RuntimeObject* L_12;
+		L_12 = PolarityPostProcessPulse_Pulse_m06E3A938E0C0BEF00B8684DF6893DAE169E06EDD(__this, L_11, NULL);
+		Coroutine_t85EA685566A254C23F3FD77AB5BDFFFF8799596B* L_13;
+		L_13 = MonoBehaviour_StartCoroutine_m4CAFF732AA28CD3BDC5363B44A863575530EC812(__this, L_12, NULL);
+		__this->___pulseCoroutine = L_13;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___pulseCoroutine), (void*)L_13);
+		//<source_info:C:/Users/mynur/OneDrive/Documentos/GitHub/Polarity_Breach_VR/Assets/Scripts/PolaritySystem/PolarityPostProcessPulse.cs:39>
+		return;
+	}
+}
+// Method Definition Index: 90318
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* PolarityPostProcessPulse_Pulse_m06E3A938E0C0BEF00B8684DF6893DAE169E06EDD (PolarityPostProcessPulse_t05967FEAD321633709B2F7C9DE145D49B3AA0E62* __this, Volume_t7CAAEA22D7F13A50FAE114DE7A6986FEAC837377* ___0_volume, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&U3CPulseU3Ed__8_t402EDF9D8A7ACCD413E5272759DE2CEB956CDF44_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	//<source_info:<no-source>:1>
+	{
+		U3CPulseU3Ed__8_t402EDF9D8A7ACCD413E5272759DE2CEB956CDF44* L_0 = (U3CPulseU3Ed__8_t402EDF9D8A7ACCD413E5272759DE2CEB956CDF44*)il2cpp_codegen_object_new(U3CPulseU3Ed__8_t402EDF9D8A7ACCD413E5272759DE2CEB956CDF44_il2cpp_TypeInfo_var);
+		U3CPulseU3Ed__8__ctor_m4CFBC58402D341FBA95B8C58ABA8452002E70A66(L_0, 0, NULL);
+		U3CPulseU3Ed__8_t402EDF9D8A7ACCD413E5272759DE2CEB956CDF44* L_1 = L_0;
+		NullCheck(L_1);
+		L_1->___U3CU3E4__this = __this;
+		Il2CppCodeGenWriteBarrier((void**)(&L_1->___U3CU3E4__this), (void*)__this);
+		U3CPulseU3Ed__8_t402EDF9D8A7ACCD413E5272759DE2CEB956CDF44* L_2 = L_1;
+		Volume_t7CAAEA22D7F13A50FAE114DE7A6986FEAC837377* L_3 = ___0_volume;
+		NullCheck(L_2);
+		L_2->___volume = L_3;
+		Il2CppCodeGenWriteBarrier((void**)(&L_2->___volume), (void*)L_3);
+		return L_2;
+	}
+}
+// Method Definition Index: 90319
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* PolarityPostProcessPulse_Fade_mFABEC1C46D3497CEF4B799D70839A37CBC912B2B (PolarityPostProcessPulse_t05967FEAD321633709B2F7C9DE145D49B3AA0E62* __this, Volume_t7CAAEA22D7F13A50FAE114DE7A6986FEAC837377* ___0_volume, float ___1_startWeight, float ___2_endWeight, float ___3_duration, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&U3CFadeU3Ed__9_t247AA66A5045BF0D4DACCFEA056E79B04B8A69EF_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	//<source_info:<no-source>:1>
+	{
+		U3CFadeU3Ed__9_t247AA66A5045BF0D4DACCFEA056E79B04B8A69EF* L_0 = (U3CFadeU3Ed__9_t247AA66A5045BF0D4DACCFEA056E79B04B8A69EF*)il2cpp_codegen_object_new(U3CFadeU3Ed__9_t247AA66A5045BF0D4DACCFEA056E79B04B8A69EF_il2cpp_TypeInfo_var);
+		U3CFadeU3Ed__9__ctor_m2367C521F00A7378F6B2C68F07E42D930AD21DB7(L_0, 0, NULL);
+		U3CFadeU3Ed__9_t247AA66A5045BF0D4DACCFEA056E79B04B8A69EF* L_1 = L_0;
+		NullCheck(L_1);
+		L_1->___U3CU3E4__this = __this;
+		Il2CppCodeGenWriteBarrier((void**)(&L_1->___U3CU3E4__this), (void*)__this);
+		U3CFadeU3Ed__9_t247AA66A5045BF0D4DACCFEA056E79B04B8A69EF* L_2 = L_1;
+		Volume_t7CAAEA22D7F13A50FAE114DE7A6986FEAC837377* L_3 = ___0_volume;
+		NullCheck(L_2);
+		L_2->___volume = L_3;
+		Il2CppCodeGenWriteBarrier((void**)(&L_2->___volume), (void*)L_3);
+		U3CFadeU3Ed__9_t247AA66A5045BF0D4DACCFEA056E79B04B8A69EF* L_4 = L_2;
+		float L_5 = ___1_startWeight;
+		NullCheck(L_4);
+		L_4->___startWeight = L_5;
+		U3CFadeU3Ed__9_t247AA66A5045BF0D4DACCFEA056E79B04B8A69EF* L_6 = L_4;
+		float L_7 = ___2_endWeight;
+		NullCheck(L_6);
+		L_6->___endWeight = L_7;
+		U3CFadeU3Ed__9_t247AA66A5045BF0D4DACCFEA056E79B04B8A69EF* L_8 = L_6;
+		float L_9 = ___3_duration;
+		NullCheck(L_8);
+		L_8->___duration = L_9;
+		return L_8;
+	}
+}
+// Method Definition Index: 90320
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PolarityPostProcessPulse_SetWeight_m5F63A95F8B00AB4C36698D84247BFE345EFC43E7 (PolarityPostProcessPulse_t05967FEAD321633709B2F7C9DE145D49B3AA0E62* __this, Volume_t7CAAEA22D7F13A50FAE114DE7A6986FEAC837377* ___0_volume, float ___1_weight, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		//<source_info:C:/Users/mynur/OneDrive/Documentos/GitHub/Polarity_Breach_VR/Assets/Scripts/PolaritySystem/PolarityPostProcessPulse.cs:72>
+		Volume_t7CAAEA22D7F13A50FAE114DE7A6986FEAC837377* L_0 = ___0_volume;
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		bool L_1;
+		L_1 = Object_op_Equality_mB6120F782D83091EF56A198FCEBCF066DB4A9605(L_0, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
+		if (!L_1)
+		{
+			goto IL_000a;
+		}
+	}
+	{
+		//<source_info:C:/Users/mynur/OneDrive/Documentos/GitHub/Polarity_Breach_VR/Assets/Scripts/PolaritySystem/PolarityPostProcessPulse.cs:72>
+		return;
+	}
+
+IL_000a:
+	{
+		//<source_info:C:/Users/mynur/OneDrive/Documentos/GitHub/Polarity_Breach_VR/Assets/Scripts/PolaritySystem/PolarityPostProcessPulse.cs:74>
+		Volume_t7CAAEA22D7F13A50FAE114DE7A6986FEAC837377* L_2 = ___0_volume;
+		float L_3 = ___1_weight;
+		NullCheck(L_2);
+		L_2->___weight = L_3;
+		//<source_info:C:/Users/mynur/OneDrive/Documentos/GitHub/Polarity_Breach_VR/Assets/Scripts/PolaritySystem/PolarityPostProcessPulse.cs:75>
+		return;
+	}
+}
+// Method Definition Index: 90321
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PolarityPostProcessPulse__ctor_m15D0D7231DFF90F2585C60881616D80DAA88076C (PolarityPostProcessPulse_t05967FEAD321633709B2F7C9DE145D49B3AA0E62* __this, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:C:/Users/mynur/OneDrive/Documentos/GitHub/Polarity_Breach_VR/Assets/Scripts/PolaritySystem/PolarityPostProcessPulse.cs:13>
+		__this->___peakWeight = (1.0f);
+		//<source_info:C:/Users/mynur/OneDrive/Documentos/GitHub/Polarity_Breach_VR/Assets/Scripts/PolaritySystem/PolarityPostProcessPulse.cs:14>
+		__this->___fadeInDuration = (0.0299999993f);
+		//<source_info:C:/Users/mynur/OneDrive/Documentos/GitHub/Polarity_Breach_VR/Assets/Scripts/PolaritySystem/PolarityPostProcessPulse.cs:15>
+		__this->___fadeOutDuration = (0.219999999f);
+		MonoBehaviour__ctor_m592DB0105CA0BC97AA1C5F4AD27B12D68A3B7C1E(__this, NULL);
+		return;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// Method Definition Index: 90322
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CFadeU3Ed__9__ctor_m2367C521F00A7378F6B2C68F07E42D930AD21DB7 (U3CFadeU3Ed__9_t247AA66A5045BF0D4DACCFEA056E79B04B8A69EF* __this, int32_t ___0_U3CU3E1__state, const RuntimeMethod* method) 
+{
+	//<source_info:<no-source>:1>
+	{
+		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2(__this, NULL);
+		int32_t L_0 = ___0_U3CU3E1__state;
+		__this->___U3CU3E1__state = L_0;
+		return;
+	}
+}
+// Method Definition Index: 90323
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CFadeU3Ed__9_System_IDisposable_Dispose_mC8DA1C2F63177C06B6791DC82B03339E4EC142A2 (U3CFadeU3Ed__9_t247AA66A5045BF0D4DACCFEA056E79B04B8A69EF* __this, const RuntimeMethod* method) 
+{
+	//<source_info:<no-source>:1>
+	{
+		return;
+	}
+}
+// Method Definition Index: 90324
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool U3CFadeU3Ed__9_MoveNext_m12FBCBF9BF1F0C1CE3FFFE60A645B56EB595589B (U3CFadeU3Ed__9_t247AA66A5045BF0D4DACCFEA056E79B04B8A69EF* __this, const RuntimeMethod* method) 
+{
+	int32_t V_0 = 0;
+	PolarityPostProcessPulse_t05967FEAD321633709B2F7C9DE145D49B3AA0E62* V_1 = NULL;
+	float V_2 = 0.0f;
+	{
+		int32_t L_0 = __this->___U3CU3E1__state;
+		V_0 = L_0;
+		PolarityPostProcessPulse_t05967FEAD321633709B2F7C9DE145D49B3AA0E62* L_1 = __this->___U3CU3E4__this;
+		V_1 = L_1;
+		int32_t L_2 = V_0;
+		if (!L_2)
+		{
+			goto IL_001a;
+		}
+	}
+	{
+		int32_t L_3 = V_0;
+		if ((((int32_t)L_3) == ((int32_t)1)))
+		{
+			goto IL_00a2;
+		}
+	}
+	{
+		return (bool)0;
+	}
+
+IL_001a:
+	{
+		__this->___U3CU3E1__state = (-1);
+		//<source_info:C:/Users/mynur/OneDrive/Documentos/GitHub/Polarity_Breach_VR/Assets/Scripts/PolaritySystem/PolarityPostProcessPulse.cs:52>
+		float L_4 = __this->___duration;
+		if ((!(((float)L_4) <= ((float)(0.0f)))))
+		{
+			goto IL_0042;
+		}
+	}
+	{
+		//<source_info:C:/Users/mynur/OneDrive/Documentos/GitHub/Polarity_Breach_VR/Assets/Scripts/PolaritySystem/PolarityPostProcessPulse.cs:54>
+		PolarityPostProcessPulse_t05967FEAD321633709B2F7C9DE145D49B3AA0E62* L_5 = V_1;
+		Volume_t7CAAEA22D7F13A50FAE114DE7A6986FEAC837377* L_6 = __this->___volume;
+		float L_7 = __this->___endWeight;
+		NullCheck(L_5);
+		PolarityPostProcessPulse_SetWeight_m5F63A95F8B00AB4C36698D84247BFE345EFC43E7(L_5, L_6, L_7, NULL);
+		//<source_info:C:/Users/mynur/OneDrive/Documentos/GitHub/Polarity_Breach_VR/Assets/Scripts/PolaritySystem/PolarityPostProcessPulse.cs:55>
+		return (bool)0;
+	}
+
+IL_0042:
+	{
+		//<source_info:C:/Users/mynur/OneDrive/Documentos/GitHub/Polarity_Breach_VR/Assets/Scripts/PolaritySystem/PolarityPostProcessPulse.cs:58>
+		__this->___U3CtimerU3E5__2 = (0.0f);
+		goto IL_00a9;
+	}
+
+IL_004f:
+	{
+		//<source_info:C:/Users/mynur/OneDrive/Documentos/GitHub/Polarity_Breach_VR/Assets/Scripts/PolaritySystem/PolarityPostProcessPulse.cs:62>
+		float L_8 = __this->___U3CtimerU3E5__2;
+		float L_9;
+		L_9 = Time_get_unscaledDeltaTime_mF057EECA857E5C0F90A3F910D26D3EE59F27C4B5(NULL);
+		__this->___U3CtimerU3E5__2 = ((float)il2cpp_codegen_add(L_8, L_9));
+		//<source_info:C:/Users/mynur/OneDrive/Documentos/GitHub/Polarity_Breach_VR/Assets/Scripts/PolaritySystem/PolarityPostProcessPulse.cs:63>
+		float L_10 = __this->___U3CtimerU3E5__2;
+		float L_11 = __this->___duration;
+		float L_12;
+		L_12 = Mathf_Clamp01_mA7E048DBDA832D399A581BE4D6DED9FA44CE0F14_inline(((float)(L_10/L_11)), NULL);
+		V_2 = L_12;
+		//<source_info:C:/Users/mynur/OneDrive/Documentos/GitHub/Polarity_Breach_VR/Assets/Scripts/PolaritySystem/PolarityPostProcessPulse.cs:64>
+		PolarityPostProcessPulse_t05967FEAD321633709B2F7C9DE145D49B3AA0E62* L_13 = V_1;
+		Volume_t7CAAEA22D7F13A50FAE114DE7A6986FEAC837377* L_14 = __this->___volume;
+		float L_15 = __this->___startWeight;
+		float L_16 = __this->___endWeight;
+		float L_17 = V_2;
+		float L_18;
+		L_18 = Mathf_Lerp_m47EF2FFB7647BD0A1FDC26DC03E28B19812139B5_inline(L_15, L_16, L_17, NULL);
+		NullCheck(L_13);
+		PolarityPostProcessPulse_SetWeight_m5F63A95F8B00AB4C36698D84247BFE345EFC43E7(L_13, L_14, L_18, NULL);
+		//<source_info:C:/Users/mynur/OneDrive/Documentos/GitHub/Polarity_Breach_VR/Assets/Scripts/PolaritySystem/PolarityPostProcessPulse.cs:66>
+		__this->___U3CU3E2__current = NULL;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CU3E2__current), (void*)NULL);
+		__this->___U3CU3E1__state = 1;
+		return (bool)1;
+	}
+
+IL_00a2:
+	{
+		__this->___U3CU3E1__state = (-1);
+	}
+
+IL_00a9:
+	{
+		//<source_info:C:/Users/mynur/OneDrive/Documentos/GitHub/Polarity_Breach_VR/Assets/Scripts/PolaritySystem/PolarityPostProcessPulse.cs:60>
+		float L_19 = __this->___U3CtimerU3E5__2;
+		float L_20 = __this->___duration;
+		if ((((float)L_19) < ((float)L_20)))
+		{
+			goto IL_004f;
+		}
+	}
+	{
+		//<source_info:C:/Users/mynur/OneDrive/Documentos/GitHub/Polarity_Breach_VR/Assets/Scripts/PolaritySystem/PolarityPostProcessPulse.cs:68>
+		return (bool)0;
+	}
+}
+// Method Definition Index: 90325
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CFadeU3Ed__9_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_m5302E6F672922C11CF0C6065E8BE3F7A2B0874F9 (U3CFadeU3Ed__9_t247AA66A5045BF0D4DACCFEA056E79B04B8A69EF* __this, const RuntimeMethod* method) 
+{
+	//<source_info:<no-source>:1>
+	{
+		RuntimeObject* L_0 = __this->___U3CU3E2__current;
+		return L_0;
+	}
+}
+// Method Definition Index: 90326
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CFadeU3Ed__9_System_Collections_IEnumerator_Reset_mB171D8D47263E609BCBB2E726F27257D7835C6B7 (U3CFadeU3Ed__9_t247AA66A5045BF0D4DACCFEA056E79B04B8A69EF* __this, const RuntimeMethod* method) 
+{
+	//<source_info:<no-source>:1>
+	{
+		NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A* L_0 = (NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A_il2cpp_TypeInfo_var)));
+		NotSupportedException__ctor_m1398D0CDE19B36AA3DE9392879738C1EA2439CDF(L_0, NULL);
+		IL2CPP_RAISE_MANAGED_EXCEPTION(L_0, ((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&U3CFadeU3Ed__9_System_Collections_IEnumerator_Reset_mB171D8D47263E609BCBB2E726F27257D7835C6B7_RuntimeMethod_var)));
+	}
+}
+// Method Definition Index: 90327
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CFadeU3Ed__9_System_Collections_IEnumerator_get_Current_m30C59CC80183502E9FD030750E564C8DFCDAE2D6 (U3CFadeU3Ed__9_t247AA66A5045BF0D4DACCFEA056E79B04B8A69EF* __this, const RuntimeMethod* method) 
+{
+	//<source_info:<no-source>:1>
+	{
+		RuntimeObject* L_0 = __this->___U3CU3E2__current;
+		return L_0;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// Method Definition Index: 90328
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CPulseU3Ed__8__ctor_m4CFBC58402D341FBA95B8C58ABA8452002E70A66 (U3CPulseU3Ed__8_t402EDF9D8A7ACCD413E5272759DE2CEB956CDF44* __this, int32_t ___0_U3CU3E1__state, const RuntimeMethod* method) 
+{
+	//<source_info:<no-source>:1>
+	{
+		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2(__this, NULL);
+		int32_t L_0 = ___0_U3CU3E1__state;
+		__this->___U3CU3E1__state = L_0;
+		return;
+	}
+}
+// Method Definition Index: 90329
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CPulseU3Ed__8_System_IDisposable_Dispose_m8253495520B73813645684A9F708FD48648DA61A (U3CPulseU3Ed__8_t402EDF9D8A7ACCD413E5272759DE2CEB956CDF44* __this, const RuntimeMethod* method) 
+{
+	//<source_info:<no-source>:1>
+	{
+		return;
+	}
+}
+// Method Definition Index: 90330
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool U3CPulseU3Ed__8_MoveNext_mE76E73A51B2FE8F57A156BFDD87C65B39AA89B75 (U3CPulseU3Ed__8_t402EDF9D8A7ACCD413E5272759DE2CEB956CDF44* __this, const RuntimeMethod* method) 
+{
+	int32_t V_0 = 0;
+	PolarityPostProcessPulse_t05967FEAD321633709B2F7C9DE145D49B3AA0E62* V_1 = NULL;
+	{
+		int32_t L_0 = __this->___U3CU3E1__state;
+		V_0 = L_0;
+		PolarityPostProcessPulse_t05967FEAD321633709B2F7C9DE145D49B3AA0E62* L_1 = __this->___U3CU3E4__this;
+		V_1 = L_1;
+		int32_t L_2 = V_0;
+		switch (L_2)
+		{
+			case 0:
+			{
+				goto IL_0022;
+			}
+			case 1:
+			{
+				goto IL_0055;
+			}
+			case 2:
+			{
+				goto IL_0088;
+			}
+		}
+	}
+	{
+		return (bool)0;
+	}
+
+IL_0022:
+	{
+		__this->___U3CU3E1__state = (-1);
+		//<source_info:C:/Users/mynur/OneDrive/Documentos/GitHub/Polarity_Breach_VR/Assets/Scripts/PolaritySystem/PolarityPostProcessPulse.cs:43>
+		PolarityPostProcessPulse_t05967FEAD321633709B2F7C9DE145D49B3AA0E62* L_3 = V_1;
+		Volume_t7CAAEA22D7F13A50FAE114DE7A6986FEAC837377* L_4 = __this->___volume;
+		PolarityPostProcessPulse_t05967FEAD321633709B2F7C9DE145D49B3AA0E62* L_5 = V_1;
+		NullCheck(L_5);
+		float L_6 = L_5->___peakWeight;
+		PolarityPostProcessPulse_t05967FEAD321633709B2F7C9DE145D49B3AA0E62* L_7 = V_1;
+		NullCheck(L_7);
+		float L_8 = L_7->___fadeInDuration;
+		NullCheck(L_3);
+		RuntimeObject* L_9;
+		L_9 = PolarityPostProcessPulse_Fade_mFABEC1C46D3497CEF4B799D70839A37CBC912B2B(L_3, L_4, (0.0f), L_6, L_8, NULL);
+		__this->___U3CU3E2__current = L_9;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CU3E2__current), (void*)L_9);
+		__this->___U3CU3E1__state = 1;
+		return (bool)1;
+	}
+
+IL_0055:
+	{
+		__this->___U3CU3E1__state = (-1);
+		//<source_info:C:/Users/mynur/OneDrive/Documentos/GitHub/Polarity_Breach_VR/Assets/Scripts/PolaritySystem/PolarityPostProcessPulse.cs:44>
+		PolarityPostProcessPulse_t05967FEAD321633709B2F7C9DE145D49B3AA0E62* L_10 = V_1;
+		Volume_t7CAAEA22D7F13A50FAE114DE7A6986FEAC837377* L_11 = __this->___volume;
+		PolarityPostProcessPulse_t05967FEAD321633709B2F7C9DE145D49B3AA0E62* L_12 = V_1;
+		NullCheck(L_12);
+		float L_13 = L_12->___peakWeight;
+		PolarityPostProcessPulse_t05967FEAD321633709B2F7C9DE145D49B3AA0E62* L_14 = V_1;
+		NullCheck(L_14);
+		float L_15 = L_14->___fadeOutDuration;
+		NullCheck(L_10);
+		RuntimeObject* L_16;
+		L_16 = PolarityPostProcessPulse_Fade_mFABEC1C46D3497CEF4B799D70839A37CBC912B2B(L_10, L_11, L_13, (0.0f), L_15, NULL);
+		__this->___U3CU3E2__current = L_16;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CU3E2__current), (void*)L_16);
+		__this->___U3CU3E1__state = 2;
+		return (bool)1;
+	}
+
+IL_0088:
+	{
+		__this->___U3CU3E1__state = (-1);
+		//<source_info:C:/Users/mynur/OneDrive/Documentos/GitHub/Polarity_Breach_VR/Assets/Scripts/PolaritySystem/PolarityPostProcessPulse.cs:46>
+		PolarityPostProcessPulse_t05967FEAD321633709B2F7C9DE145D49B3AA0E62* L_17 = V_1;
+		Volume_t7CAAEA22D7F13A50FAE114DE7A6986FEAC837377* L_18 = __this->___volume;
+		NullCheck(L_17);
+		PolarityPostProcessPulse_SetWeight_m5F63A95F8B00AB4C36698D84247BFE345EFC43E7(L_17, L_18, (0.0f), NULL);
+		//<source_info:C:/Users/mynur/OneDrive/Documentos/GitHub/Polarity_Breach_VR/Assets/Scripts/PolaritySystem/PolarityPostProcessPulse.cs:47>
+		PolarityPostProcessPulse_t05967FEAD321633709B2F7C9DE145D49B3AA0E62* L_19 = V_1;
+		NullCheck(L_19);
+		L_19->___pulseCoroutine = (Coroutine_t85EA685566A254C23F3FD77AB5BDFFFF8799596B*)NULL;
+		Il2CppCodeGenWriteBarrier((void**)(&L_19->___pulseCoroutine), (void*)(Coroutine_t85EA685566A254C23F3FD77AB5BDFFFF8799596B*)NULL);
+		//<source_info:C:/Users/mynur/OneDrive/Documentos/GitHub/Polarity_Breach_VR/Assets/Scripts/PolaritySystem/PolarityPostProcessPulse.cs:48>
+		return (bool)0;
+	}
+}
+// Method Definition Index: 90331
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CPulseU3Ed__8_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_mC49CBF3584D91C272C029BDBA70943D84AA00406 (U3CPulseU3Ed__8_t402EDF9D8A7ACCD413E5272759DE2CEB956CDF44* __this, const RuntimeMethod* method) 
+{
+	//<source_info:<no-source>:1>
+	{
+		RuntimeObject* L_0 = __this->___U3CU3E2__current;
+		return L_0;
+	}
+}
+// Method Definition Index: 90332
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CPulseU3Ed__8_System_Collections_IEnumerator_Reset_m2502C68ED36FF81B8828EFE76DC44A6635AC0FC0 (U3CPulseU3Ed__8_t402EDF9D8A7ACCD413E5272759DE2CEB956CDF44* __this, const RuntimeMethod* method) 
+{
+	//<source_info:<no-source>:1>
+	{
+		NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A* L_0 = (NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A_il2cpp_TypeInfo_var)));
+		NotSupportedException__ctor_m1398D0CDE19B36AA3DE9392879738C1EA2439CDF(L_0, NULL);
+		IL2CPP_RAISE_MANAGED_EXCEPTION(L_0, ((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&U3CPulseU3Ed__8_System_Collections_IEnumerator_Reset_m2502C68ED36FF81B8828EFE76DC44A6635AC0FC0_RuntimeMethod_var)));
+	}
+}
+// Method Definition Index: 90333
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CPulseU3Ed__8_System_Collections_IEnumerator_get_Current_m64B0DDAA6ED30E0B8EAFF2D1AFDBF58DBF7FBB10 (U3CPulseU3Ed__8_t402EDF9D8A7ACCD413E5272759DE2CEB956CDF44* __this, const RuntimeMethod* method) 
+{
+	//<source_info:<no-source>:1>
+	{
+		RuntimeObject* L_0 = __this->___U3CU3E2__current;
+		return L_0;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// Method Definition Index: 90334
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PolarityVisual_Awake_m5F1D6DC86750B0486B05C75770DBCD0140DB0DF1 (PolarityVisual_t1B1D8F62D356A95A438AE9480687E4D557617E88* __this, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:C:/Users/mynur/OneDrive/Documentos/GitHub/Polarity_Breach_VR/Assets/Scripts/PolaritySystem/PolarityVisual.cs:21>
+		PolarityVisual_GetComponents_m983207157F5BE037E9108661BD7C0ECACCA6C53E(__this, NULL);
+		//<source_info:C:/Users/mynur/OneDrive/Documentos/GitHub/Polarity_Breach_VR/Assets/Scripts/PolaritySystem/PolarityVisual.cs:22>
+		return;
+	}
+}
+// Method Definition Index: 90335
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PolarityVisual_GetComponents_m983207157F5BE037E9108661BD7C0ECACCA6C53E (PolarityVisual_t1B1D8F62D356A95A438AE9480687E4D557617E88* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Component_GetComponent_TisPolarityComponent_t1FB53DB0BF7CE9A8E59278F3854DC776322BBCA0_m317F7D3130E71487835B00DB1356E893EEF94764_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Component_GetComponentsInChildren_TisRenderer_t320575F223BCB177A982E5DDB5DB19FAA89E7FBF_m35AC34F858BD2F34770712CD020AA0518D9409C7_RuntimeMethod_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		//<source_info:C:/Users/mynur/OneDrive/Documentos/GitHub/Polarity_Breach_VR/Assets/Scripts/PolaritySystem/PolarityVisual.cs:26>
+		PolarityComponent_t1FB53DB0BF7CE9A8E59278F3854DC776322BBCA0* L_0;
+		L_0 = Component_GetComponent_TisPolarityComponent_t1FB53DB0BF7CE9A8E59278F3854DC776322BBCA0_m317F7D3130E71487835B00DB1356E893EEF94764(__this, Component_GetComponent_TisPolarityComponent_t1FB53DB0BF7CE9A8E59278F3854DC776322BBCA0_m317F7D3130E71487835B00DB1356E893EEF94764_RuntimeMethod_var);
+		__this->____polarity = L_0;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->____polarity), (void*)L_0);
+		//<source_info:C:/Users/mynur/OneDrive/Documentos/GitHub/Polarity_Breach_VR/Assets/Scripts/PolaritySystem/PolarityVisual.cs:27>
+		RendererU5BU5D_t32FDD782F67917B2291EA4FF242719877440A02A* L_1 = __this->____renderers;
+		if (!L_1)
+		{
+			goto IL_001d;
+		}
+	}
+	{
+		RendererU5BU5D_t32FDD782F67917B2291EA4FF242719877440A02A* L_2 = __this->____renderers;
+		NullCheck(L_2);
+		if ((((RuntimeArray*)L_2)->max_length))
+		{
+			goto IL_0029;
+		}
+	}
+
+IL_001d:
+	{
+		//<source_info:C:/Users/mynur/OneDrive/Documentos/GitHub/Polarity_Breach_VR/Assets/Scripts/PolaritySystem/PolarityVisual.cs:28>
+		RendererU5BU5D_t32FDD782F67917B2291EA4FF242719877440A02A* L_3;
+		L_3 = Component_GetComponentsInChildren_TisRenderer_t320575F223BCB177A982E5DDB5DB19FAA89E7FBF_m35AC34F858BD2F34770712CD020AA0518D9409C7(__this, Component_GetComponentsInChildren_TisRenderer_t320575F223BCB177A982E5DDB5DB19FAA89E7FBF_m35AC34F858BD2F34770712CD020AA0518D9409C7_RuntimeMethod_var);
+		__this->____renderers = L_3;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->____renderers), (void*)L_3);
+	}
+
+IL_0029:
+	{
+		//<source_info:C:/Users/mynur/OneDrive/Documentos/GitHub/Polarity_Breach_VR/Assets/Scripts/PolaritySystem/PolarityVisual.cs:29>
+		return;
+	}
+}
+// Method Definition Index: 90336
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PolarityVisual_OnEnable_m7BD7339B7A78871DC682EA028BF117831BDB5D58 (PolarityVisual_t1B1D8F62D356A95A438AE9480687E4D557617E88* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Action_1_t2A685F9B7073D2171BE282EED0EC530989CA03E9_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&PolarityVisual_Apply_mCB6CE0338B7E1A0F2F25708653B628FE66207C89_RuntimeMethod_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		//<source_info:C:/Users/mynur/OneDrive/Documentos/GitHub/Polarity_Breach_VR/Assets/Scripts/PolaritySystem/PolarityVisual.cs:33>
+		PolarityComponent_t1FB53DB0BF7CE9A8E59278F3854DC776322BBCA0* L_0 = __this->____polarity;
+		Action_1_t2A685F9B7073D2171BE282EED0EC530989CA03E9* L_1 = (Action_1_t2A685F9B7073D2171BE282EED0EC530989CA03E9*)il2cpp_codegen_object_new(Action_1_t2A685F9B7073D2171BE282EED0EC530989CA03E9_il2cpp_TypeInfo_var);
+		Action_1__ctor_m2A215C2B00BBAD929AE9298F40164012A7FB2063(L_1, __this, (intptr_t)((void*)PolarityVisual_Apply_mCB6CE0338B7E1A0F2F25708653B628FE66207C89_RuntimeMethod_var), NULL);
+		NullCheck(L_0);
+		PolarityComponent_add_OnPolarityChanged_m2E91C6D657C078F3EF9ABEDFF9A50277F9605AF9(L_0, L_1, NULL);
+		//<source_info:C:/Users/mynur/OneDrive/Documentos/GitHub/Polarity_Breach_VR/Assets/Scripts/PolaritySystem/PolarityVisual.cs:34>
+		PolarityComponent_t1FB53DB0BF7CE9A8E59278F3854DC776322BBCA0* L_2 = __this->____polarity;
+		NullCheck(L_2);
+		int32_t L_3;
+		L_3 = PolarityComponent_get_CurrentPolarity_mEFF48D62986084A923894FAE9EDD5CC9061A76B0_inline(L_2, NULL);
+		PolarityVisual_Apply_mCB6CE0338B7E1A0F2F25708653B628FE66207C89(__this, L_3, NULL);
+		//<source_info:C:/Users/mynur/OneDrive/Documentos/GitHub/Polarity_Breach_VR/Assets/Scripts/PolaritySystem/PolarityVisual.cs:35>
+		return;
+	}
+}
+// Method Definition Index: 90337
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PolarityVisual_OnDisable_mABA5E9B7CD9FA6125E4A16FF412644AC10BB8A31 (PolarityVisual_t1B1D8F62D356A95A438AE9480687E4D557617E88* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Action_1_t2A685F9B7073D2171BE282EED0EC530989CA03E9_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&PolarityVisual_Apply_mCB6CE0338B7E1A0F2F25708653B628FE66207C89_RuntimeMethod_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		//<source_info:C:/Users/mynur/OneDrive/Documentos/GitHub/Polarity_Breach_VR/Assets/Scripts/PolaritySystem/PolarityVisual.cs:39>
+		PolarityComponent_t1FB53DB0BF7CE9A8E59278F3854DC776322BBCA0* L_0 = __this->____polarity;
+		Action_1_t2A685F9B7073D2171BE282EED0EC530989CA03E9* L_1 = (Action_1_t2A685F9B7073D2171BE282EED0EC530989CA03E9*)il2cpp_codegen_object_new(Action_1_t2A685F9B7073D2171BE282EED0EC530989CA03E9_il2cpp_TypeInfo_var);
+		Action_1__ctor_m2A215C2B00BBAD929AE9298F40164012A7FB2063(L_1, __this, (intptr_t)((void*)PolarityVisual_Apply_mCB6CE0338B7E1A0F2F25708653B628FE66207C89_RuntimeMethod_var), NULL);
+		NullCheck(L_0);
+		PolarityComponent_remove_OnPolarityChanged_mE62B5E429C533F83EF7175AB1C0EE11D0EA9980D(L_0, L_1, NULL);
+		//<source_info:C:/Users/mynur/OneDrive/Documentos/GitHub/Polarity_Breach_VR/Assets/Scripts/PolaritySystem/PolarityVisual.cs:40>
+		return;
+	}
+}
+// Method Definition Index: 90338
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PolarityVisual_Apply_mCB6CE0338B7E1A0F2F25708653B628FE66207C89 (PolarityVisual_t1B1D8F62D356A95A438AE9480687E4D557617E88* __this, int32_t ___0_polarity, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&MaterialU5BU5D_t2B1D11C42DB07A4400C0535F92DBB87A2E346D3D_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* V_0 = NULL;
+	RendererU5BU5D_t32FDD782F67917B2291EA4FF242719877440A02A* V_1 = NULL;
+	int32_t V_2 = 0;
+	Renderer_t320575F223BCB177A982E5DDB5DB19FAA89E7FBF* V_3 = NULL;
+	MaterialU5BU5D_t2B1D11C42DB07A4400C0535F92DBB87A2E346D3D* V_4 = NULL;
+	int32_t V_5 = 0;
+	Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* G_B5_0 = NULL;
+	{
+		//<source_info:C:/Users/mynur/OneDrive/Documentos/GitHub/Polarity_Breach_VR/Assets/Scripts/PolaritySystem/PolarityVisual.cs:44>
+		RendererU5BU5D_t32FDD782F67917B2291EA4FF242719877440A02A* L_0 = __this->____renderers;
+		if (L_0)
+		{
+			goto IL_0009;
+		}
+	}
+	{
+		//<source_info:C:/Users/mynur/OneDrive/Documentos/GitHub/Polarity_Breach_VR/Assets/Scripts/PolaritySystem/PolarityVisual.cs:44>
+		return;
+	}
+
+IL_0009:
+	{
+		//<source_info:C:/Users/mynur/OneDrive/Documentos/GitHub/Polarity_Breach_VR/Assets/Scripts/PolaritySystem/PolarityVisual.cs:46>
+		int32_t L_1 = ___0_polarity;
+		if (!L_1)
+		{
+			goto IL_0014;
+		}
+	}
+	{
+		Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* L_2 = __this->____whiteMaterial;
+		G_B5_0 = L_2;
+		goto IL_001a;
+	}
+
+IL_0014:
+	{
+		Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* L_3 = __this->____blackMaterial;
+		G_B5_0 = L_3;
+	}
+
+IL_001a:
+	{
+		V_0 = G_B5_0;
+		//<source_info:C:/Users/mynur/OneDrive/Documentos/GitHub/Polarity_Breach_VR/Assets/Scripts/PolaritySystem/PolarityVisual.cs:47>
+		Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* L_4 = V_0;
+		PolarityVisual_SetMaterial_m21BDAA772E4564440A7882FEED58CE6BF9B0B9E5(__this, L_4, NULL);
+		//<source_info:C:/Users/mynur/OneDrive/Documentos/GitHub/Polarity_Breach_VR/Assets/Scripts/PolaritySystem/PolarityVisual.cs:49>
+		RendererU5BU5D_t32FDD782F67917B2291EA4FF242719877440A02A* L_5 = __this->____renderers;
+		V_1 = L_5;
+		V_2 = 0;
+		goto IL_006e;
+	}
+
+IL_002d:
+	{
+		//<source_info:C:/Users/mynur/OneDrive/Documentos/GitHub/Polarity_Breach_VR/Assets/Scripts/PolaritySystem/PolarityVisual.cs:49>
+		RendererU5BU5D_t32FDD782F67917B2291EA4FF242719877440A02A* L_6 = V_1;
+		int32_t L_7 = V_2;
+		NullCheck(L_6);
+		int32_t L_8 = L_7;
+		Renderer_t320575F223BCB177A982E5DDB5DB19FAA89E7FBF* L_9 = (L_6)->GetAt(static_cast<il2cpp_array_size_t>(L_8));
+		V_3 = L_9;
+		//<source_info:C:/Users/mynur/OneDrive/Documentos/GitHub/Polarity_Breach_VR/Assets/Scripts/PolaritySystem/PolarityVisual.cs:51>
+		Renderer_t320575F223BCB177A982E5DDB5DB19FAA89E7FBF* L_10 = V_3;
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		bool L_11;
+		L_11 = Object_op_Equality_mB6120F782D83091EF56A198FCEBCF066DB4A9605(L_10, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
+		if (L_11)
+		{
+			goto IL_006a;
+		}
+	}
+	{
+		//<source_info:C:/Users/mynur/OneDrive/Documentos/GitHub/Polarity_Breach_VR/Assets/Scripts/PolaritySystem/PolarityVisual.cs:53>
+		Renderer_t320575F223BCB177A982E5DDB5DB19FAA89E7FBF* L_12 = V_3;
+		NullCheck(L_12);
+		MaterialU5BU5D_t2B1D11C42DB07A4400C0535F92DBB87A2E346D3D* L_13;
+		L_13 = Renderer_get_sharedMaterials_m0B61AFD8EDA35A70C796FFB2F28BB62380051ABF(L_12, NULL);
+		NullCheck(L_13);
+		MaterialU5BU5D_t2B1D11C42DB07A4400C0535F92DBB87A2E346D3D* L_14 = (MaterialU5BU5D_t2B1D11C42DB07A4400C0535F92DBB87A2E346D3D*)(MaterialU5BU5D_t2B1D11C42DB07A4400C0535F92DBB87A2E346D3D*)SZArrayNew(MaterialU5BU5D_t2B1D11C42DB07A4400C0535F92DBB87A2E346D3D_il2cpp_TypeInfo_var, (uint32_t)((int32_t)(((RuntimeArray*)L_13)->max_length)));
+		V_4 = L_14;
+		//<source_info:C:/Users/mynur/OneDrive/Documentos/GitHub/Polarity_Breach_VR/Assets/Scripts/PolaritySystem/PolarityVisual.cs:55>
+		V_5 = 0;
+		goto IL_005a;
+	}
+
+IL_004e:
+	{
+		//<source_info:C:/Users/mynur/OneDrive/Documentos/GitHub/Polarity_Breach_VR/Assets/Scripts/PolaritySystem/PolarityVisual.cs:57>
+		MaterialU5BU5D_t2B1D11C42DB07A4400C0535F92DBB87A2E346D3D* L_15 = V_4;
+		int32_t L_16 = V_5;
+		Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* L_17 = V_0;
+		NullCheck(L_15);
+		ArrayElementTypeCheck (L_15, L_17);
+		(L_15)->SetAt(static_cast<il2cpp_array_size_t>(L_16), (Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3*)L_17);
+		//<source_info:C:/Users/mynur/OneDrive/Documentos/GitHub/Polarity_Breach_VR/Assets/Scripts/PolaritySystem/PolarityVisual.cs:55>
+		int32_t L_18 = V_5;
+		V_5 = ((int32_t)il2cpp_codegen_add(L_18, 1));
+	}
+
+IL_005a:
+	{
+		//<source_info:C:/Users/mynur/OneDrive/Documentos/GitHub/Polarity_Breach_VR/Assets/Scripts/PolaritySystem/PolarityVisual.cs:55>
+		int32_t L_19 = V_5;
+		MaterialU5BU5D_t2B1D11C42DB07A4400C0535F92DBB87A2E346D3D* L_20 = V_4;
+		NullCheck(L_20);
+		if ((((int32_t)L_19) < ((int32_t)((int32_t)(((RuntimeArray*)L_20)->max_length)))))
+		{
+			goto IL_004e;
+		}
+	}
+	{
+		//<source_info:C:/Users/mynur/OneDrive/Documentos/GitHub/Polarity_Breach_VR/Assets/Scripts/PolaritySystem/PolarityVisual.cs:60>
+		Renderer_t320575F223BCB177A982E5DDB5DB19FAA89E7FBF* L_21 = V_3;
+		MaterialU5BU5D_t2B1D11C42DB07A4400C0535F92DBB87A2E346D3D* L_22 = V_4;
+		NullCheck(L_21);
+		Renderer_set_materials_mAB0270CEB5AF2F6A8D21A012E77440DBFCBF9001(L_21, L_22, NULL);
+	}
+
+IL_006a:
+	{
+		int32_t L_23 = V_2;
+		V_2 = ((int32_t)il2cpp_codegen_add(L_23, 1));
+	}
+
+IL_006e:
+	{
+		//<source_info:C:/Users/mynur/OneDrive/Documentos/GitHub/Polarity_Breach_VR/Assets/Scripts/PolaritySystem/PolarityVisual.cs:49>
+		int32_t L_24 = V_2;
+		RendererU5BU5D_t32FDD782F67917B2291EA4FF242719877440A02A* L_25 = V_1;
+		NullCheck(L_25);
+		if ((((int32_t)L_24) < ((int32_t)((int32_t)(((RuntimeArray*)L_25)->max_length)))))
+		{
+			goto IL_002d;
+		}
+	}
+	{
+		//<source_info:C:/Users/mynur/OneDrive/Documentos/GitHub/Polarity_Breach_VR/Assets/Scripts/PolaritySystem/PolarityVisual.cs:62>
+		return;
+	}
+}
+// Method Definition Index: 90339
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PolarityVisual_SetMaterial_m21BDAA772E4564440A7882FEED58CE6BF9B0B9E5 (PolarityVisual_t1B1D8F62D356A95A438AE9480687E4D557617E88* __this, Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* ___0_material, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&MaterialU5BU5D_t2B1D11C42DB07A4400C0535F92DBB87A2E346D3D_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	RendererU5BU5D_t32FDD782F67917B2291EA4FF242719877440A02A* V_0 = NULL;
+	int32_t V_1 = 0;
+	Renderer_t320575F223BCB177A982E5DDB5DB19FAA89E7FBF* V_2 = NULL;
+	MaterialU5BU5D_t2B1D11C42DB07A4400C0535F92DBB87A2E346D3D* V_3 = NULL;
+	int32_t V_4 = 0;
+	{
+		//<source_info:C:/Users/mynur/OneDrive/Documentos/GitHub/Polarity_Breach_VR/Assets/Scripts/PolaritySystem/PolarityVisual.cs:66>
+		Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* L_0 = ___0_material;
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		bool L_1;
+		L_1 = Object_op_Equality_mB6120F782D83091EF56A198FCEBCF066DB4A9605(L_0, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
+		if (!L_1)
+		{
+			goto IL_000a;
+		}
+	}
+	{
+		//<source_info:C:/Users/mynur/OneDrive/Documentos/GitHub/Polarity_Breach_VR/Assets/Scripts/PolaritySystem/PolarityVisual.cs:66>
+		return;
+	}
+
+IL_000a:
+	{
+		//<source_info:C:/Users/mynur/OneDrive/Documentos/GitHub/Polarity_Breach_VR/Assets/Scripts/PolaritySystem/PolarityVisual.cs:68>
+		RendererU5BU5D_t32FDD782F67917B2291EA4FF242719877440A02A* L_2 = __this->____renderers;
+		V_0 = L_2;
+		V_1 = 0;
+		goto IL_0052;
+	}
+
+IL_0015:
+	{
+		//<source_info:C:/Users/mynur/OneDrive/Documentos/GitHub/Polarity_Breach_VR/Assets/Scripts/PolaritySystem/PolarityVisual.cs:68>
+		RendererU5BU5D_t32FDD782F67917B2291EA4FF242719877440A02A* L_3 = V_0;
+		int32_t L_4 = V_1;
+		NullCheck(L_3);
+		int32_t L_5 = L_4;
+		Renderer_t320575F223BCB177A982E5DDB5DB19FAA89E7FBF* L_6 = (L_3)->GetAt(static_cast<il2cpp_array_size_t>(L_5));
+		V_2 = L_6;
+		//<source_info:C:/Users/mynur/OneDrive/Documentos/GitHub/Polarity_Breach_VR/Assets/Scripts/PolaritySystem/PolarityVisual.cs:70>
+		Renderer_t320575F223BCB177A982E5DDB5DB19FAA89E7FBF* L_7 = V_2;
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		bool L_8;
+		L_8 = Object_op_Equality_mB6120F782D83091EF56A198FCEBCF066DB4A9605(L_7, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
+		if (L_8)
+		{
+			goto IL_004e;
+		}
+	}
+	{
+		//<source_info:C:/Users/mynur/OneDrive/Documentos/GitHub/Polarity_Breach_VR/Assets/Scripts/PolaritySystem/PolarityVisual.cs:72>
+		Renderer_t320575F223BCB177A982E5DDB5DB19FAA89E7FBF* L_9 = V_2;
+		NullCheck(L_9);
+		MaterialU5BU5D_t2B1D11C42DB07A4400C0535F92DBB87A2E346D3D* L_10;
+		L_10 = Renderer_get_sharedMaterials_m0B61AFD8EDA35A70C796FFB2F28BB62380051ABF(L_9, NULL);
+		NullCheck(L_10);
+		MaterialU5BU5D_t2B1D11C42DB07A4400C0535F92DBB87A2E346D3D* L_11 = (MaterialU5BU5D_t2B1D11C42DB07A4400C0535F92DBB87A2E346D3D*)(MaterialU5BU5D_t2B1D11C42DB07A4400C0535F92DBB87A2E346D3D*)SZArrayNew(MaterialU5BU5D_t2B1D11C42DB07A4400C0535F92DBB87A2E346D3D_il2cpp_TypeInfo_var, (uint32_t)((int32_t)(((RuntimeArray*)L_10)->max_length)));
+		V_3 = L_11;
+		//<source_info:C:/Users/mynur/OneDrive/Documentos/GitHub/Polarity_Breach_VR/Assets/Scripts/PolaritySystem/PolarityVisual.cs:74>
+		V_4 = 0;
+		goto IL_0040;
+	}
+
+IL_0035:
+	{
+		//<source_info:C:/Users/mynur/OneDrive/Documentos/GitHub/Polarity_Breach_VR/Assets/Scripts/PolaritySystem/PolarityVisual.cs:76>
+		MaterialU5BU5D_t2B1D11C42DB07A4400C0535F92DBB87A2E346D3D* L_12 = V_3;
+		int32_t L_13 = V_4;
+		Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* L_14 = ___0_material;
+		NullCheck(L_12);
+		ArrayElementTypeCheck (L_12, L_14);
+		(L_12)->SetAt(static_cast<il2cpp_array_size_t>(L_13), (Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3*)L_14);
+		//<source_info:C:/Users/mynur/OneDrive/Documentos/GitHub/Polarity_Breach_VR/Assets/Scripts/PolaritySystem/PolarityVisual.cs:74>
+		int32_t L_15 = V_4;
+		V_4 = ((int32_t)il2cpp_codegen_add(L_15, 1));
+	}
+
+IL_0040:
+	{
+		//<source_info:C:/Users/mynur/OneDrive/Documentos/GitHub/Polarity_Breach_VR/Assets/Scripts/PolaritySystem/PolarityVisual.cs:74>
+		int32_t L_16 = V_4;
+		MaterialU5BU5D_t2B1D11C42DB07A4400C0535F92DBB87A2E346D3D* L_17 = V_3;
+		NullCheck(L_17);
+		if ((((int32_t)L_16) < ((int32_t)((int32_t)(((RuntimeArray*)L_17)->max_length)))))
+		{
+			goto IL_0035;
+		}
+	}
+	{
+		//<source_info:C:/Users/mynur/OneDrive/Documentos/GitHub/Polarity_Breach_VR/Assets/Scripts/PolaritySystem/PolarityVisual.cs:79>
+		Renderer_t320575F223BCB177A982E5DDB5DB19FAA89E7FBF* L_18 = V_2;
+		MaterialU5BU5D_t2B1D11C42DB07A4400C0535F92DBB87A2E346D3D* L_19 = V_3;
+		NullCheck(L_18);
+		Renderer_set_materials_mAB0270CEB5AF2F6A8D21A012E77440DBFCBF9001(L_18, L_19, NULL);
+	}
+
+IL_004e:
+	{
+		int32_t L_20 = V_1;
+		V_1 = ((int32_t)il2cpp_codegen_add(L_20, 1));
+	}
+
+IL_0052:
+	{
+		//<source_info:C:/Users/mynur/OneDrive/Documentos/GitHub/Polarity_Breach_VR/Assets/Scripts/PolaritySystem/PolarityVisual.cs:68>
+		int32_t L_21 = V_1;
+		RendererU5BU5D_t32FDD782F67917B2291EA4FF242719877440A02A* L_22 = V_0;
+		NullCheck(L_22);
+		if ((((int32_t)L_21) < ((int32_t)((int32_t)(((RuntimeArray*)L_22)->max_length)))))
+		{
+			goto IL_0015;
+		}
+	}
+	{
+		//<source_info:C:/Users/mynur/OneDrive/Documentos/GitHub/Polarity_Breach_VR/Assets/Scripts/PolaritySystem/PolarityVisual.cs:81>
+		return;
+	}
+}
+// Method Definition Index: 90340
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PolarityVisual_FlashHit_m60653A3A8BB38F8DFBAACC832F4BF478B1052310 (PolarityVisual_t1B1D8F62D356A95A438AE9480687E4D557617E88* __this, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:C:/Users/mynur/OneDrive/Documentos/GitHub/Polarity_Breach_VR/Assets/Scripts/PolaritySystem/PolarityVisual.cs:85>
+		RuntimeObject* L_0;
+		L_0 = PolarityVisual_FlashHitRoutine_m5AA4D622FAE1BE6C9A5C772D03A6F5866FFA700D(__this, NULL);
+		Coroutine_t85EA685566A254C23F3FD77AB5BDFFFF8799596B* L_1;
+		L_1 = MonoBehaviour_StartCoroutine_m4CAFF732AA28CD3BDC5363B44A863575530EC812(__this, L_0, NULL);
+		//<source_info:C:/Users/mynur/OneDrive/Documentos/GitHub/Polarity_Breach_VR/Assets/Scripts/PolaritySystem/PolarityVisual.cs:86>
+		return;
+	}
+}
+// Method Definition Index: 90341
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* PolarityVisual_FlashHitRoutine_m5AA4D622FAE1BE6C9A5C772D03A6F5866FFA700D (PolarityVisual_t1B1D8F62D356A95A438AE9480687E4D557617E88* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&U3CFlashHitRoutineU3Ed__13_t30C53B21A2E865F607C0B768F5D9BF5623151CBC_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	//<source_info:<no-source>:1>
+	{
+		U3CFlashHitRoutineU3Ed__13_t30C53B21A2E865F607C0B768F5D9BF5623151CBC* L_0 = (U3CFlashHitRoutineU3Ed__13_t30C53B21A2E865F607C0B768F5D9BF5623151CBC*)il2cpp_codegen_object_new(U3CFlashHitRoutineU3Ed__13_t30C53B21A2E865F607C0B768F5D9BF5623151CBC_il2cpp_TypeInfo_var);
+		U3CFlashHitRoutineU3Ed__13__ctor_m7006E3DFEAE7A35E237879F5602D805AF37BA6C7(L_0, 0, NULL);
+		U3CFlashHitRoutineU3Ed__13_t30C53B21A2E865F607C0B768F5D9BF5623151CBC* L_1 = L_0;
+		NullCheck(L_1);
+		L_1->___U3CU3E4__this = __this;
+		Il2CppCodeGenWriteBarrier((void**)(&L_1->___U3CU3E4__this), (void*)__this);
+		return L_1;
+	}
+}
+// Method Definition Index: 90342
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PolarityVisual__ctor_mD4C78427DFCA4E04DF6FCC7E38F9FD33B95108FF (PolarityVisual_t1B1D8F62D356A95A438AE9480687E4D557617E88* __this, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:C:/Users/mynur/OneDrive/Documentos/GitHub/Polarity_Breach_VR/Assets/Scripts/PolaritySystem/PolarityVisual.cs:15>
+		__this->___flashDuration = (0.0399999991f);
+		MonoBehaviour__ctor_m592DB0105CA0BC97AA1C5F4AD27B12D68A3B7C1E(__this, NULL);
+		return;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// Method Definition Index: 90343
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CFlashHitRoutineU3Ed__13__ctor_m7006E3DFEAE7A35E237879F5602D805AF37BA6C7 (U3CFlashHitRoutineU3Ed__13_t30C53B21A2E865F607C0B768F5D9BF5623151CBC* __this, int32_t ___0_U3CU3E1__state, const RuntimeMethod* method) 
+{
+	//<source_info:<no-source>:1>
+	{
+		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2(__this, NULL);
+		int32_t L_0 = ___0_U3CU3E1__state;
+		__this->___U3CU3E1__state = L_0;
+		return;
+	}
+}
+// Method Definition Index: 90344
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CFlashHitRoutineU3Ed__13_System_IDisposable_Dispose_m336BF0C9539F294F8B4101925D1D6A57485A55D5 (U3CFlashHitRoutineU3Ed__13_t30C53B21A2E865F607C0B768F5D9BF5623151CBC* __this, const RuntimeMethod* method) 
+{
+	//<source_info:<no-source>:1>
+	{
+		return;
+	}
+}
+// Method Definition Index: 90345
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool U3CFlashHitRoutineU3Ed__13_MoveNext_mDB53232D482B149507D436764583207EEC67C6DB (U3CFlashHitRoutineU3Ed__13_t30C53B21A2E865F607C0B768F5D9BF5623151CBC* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&WaitForSeconds_tF179DF251655B8DF044952E70A60DF4B358A3DD3_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	int32_t V_0 = 0;
+	PolarityVisual_t1B1D8F62D356A95A438AE9480687E4D557617E88* V_1 = NULL;
+	{
+		int32_t L_0 = __this->___U3CU3E1__state;
+		V_0 = L_0;
+		PolarityVisual_t1B1D8F62D356A95A438AE9480687E4D557617E88* L_1 = __this->___U3CU3E4__this;
+		V_1 = L_1;
+		int32_t L_2 = V_0;
+		if (!L_2)
+		{
+			goto IL_0017;
+		}
+	}
+	{
+		int32_t L_3 = V_0;
+		if ((((int32_t)L_3) == ((int32_t)1)))
+		{
+			goto IL_0044;
+		}
+	}
+	{
+		return (bool)0;
+	}
+
+IL_0017:
+	{
+		__this->___U3CU3E1__state = (-1);
+		//<source_info:C:/Users/mynur/OneDrive/Documentos/GitHub/Polarity_Breach_VR/Assets/Scripts/PolaritySystem/PolarityVisual.cs:90>
+		PolarityVisual_t1B1D8F62D356A95A438AE9480687E4D557617E88* L_4 = V_1;
+		PolarityVisual_t1B1D8F62D356A95A438AE9480687E4D557617E88* L_5 = V_1;
+		NullCheck(L_5);
+		Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* L_6 = L_5->___flashMaterial;
+		NullCheck(L_4);
+		PolarityVisual_SetMaterial_m21BDAA772E4564440A7882FEED58CE6BF9B0B9E5(L_4, L_6, NULL);
+		//<source_info:C:/Users/mynur/OneDrive/Documentos/GitHub/Polarity_Breach_VR/Assets/Scripts/PolaritySystem/PolarityVisual.cs:92>
+		PolarityVisual_t1B1D8F62D356A95A438AE9480687E4D557617E88* L_7 = V_1;
+		NullCheck(L_7);
+		float L_8 = L_7->___flashDuration;
+		WaitForSeconds_tF179DF251655B8DF044952E70A60DF4B358A3DD3* L_9 = (WaitForSeconds_tF179DF251655B8DF044952E70A60DF4B358A3DD3*)il2cpp_codegen_object_new(WaitForSeconds_tF179DF251655B8DF044952E70A60DF4B358A3DD3_il2cpp_TypeInfo_var);
+		WaitForSeconds__ctor_m579F95BADEDBAB4B3A7E302C6EE3995926EF2EFC(L_9, L_8, NULL);
+		__this->___U3CU3E2__current = L_9;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CU3E2__current), (void*)L_9);
+		__this->___U3CU3E1__state = 1;
+		return (bool)1;
+	}
+
+IL_0044:
+	{
+		__this->___U3CU3E1__state = (-1);
+		//<source_info:C:/Users/mynur/OneDrive/Documentos/GitHub/Polarity_Breach_VR/Assets/Scripts/PolaritySystem/PolarityVisual.cs:94>
+		PolarityVisual_t1B1D8F62D356A95A438AE9480687E4D557617E88* L_10 = V_1;
+		PolarityVisual_t1B1D8F62D356A95A438AE9480687E4D557617E88* L_11 = V_1;
+		NullCheck(L_11);
+		PolarityComponent_t1FB53DB0BF7CE9A8E59278F3854DC776322BBCA0* L_12 = L_11->____polarity;
+		NullCheck(L_12);
+		int32_t L_13;
+		L_13 = PolarityComponent_get_CurrentPolarity_mEFF48D62986084A923894FAE9EDD5CC9061A76B0_inline(L_12, NULL);
+		NullCheck(L_10);
+		PolarityVisual_Apply_mCB6CE0338B7E1A0F2F25708653B628FE66207C89(L_10, L_13, NULL);
+		//<source_info:C:/Users/mynur/OneDrive/Documentos/GitHub/Polarity_Breach_VR/Assets/Scripts/PolaritySystem/PolarityVisual.cs:95>
+		return (bool)0;
+	}
+}
+// Method Definition Index: 90346
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CFlashHitRoutineU3Ed__13_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_mC978D78BE16527A0E0D537A78A3F8B1FF5B284AD (U3CFlashHitRoutineU3Ed__13_t30C53B21A2E865F607C0B768F5D9BF5623151CBC* __this, const RuntimeMethod* method) 
+{
+	//<source_info:<no-source>:1>
+	{
+		RuntimeObject* L_0 = __this->___U3CU3E2__current;
+		return L_0;
+	}
+}
+// Method Definition Index: 90347
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CFlashHitRoutineU3Ed__13_System_Collections_IEnumerator_Reset_mA868D507B6E2C8FC002F1C1ACE52082BB4CB5162 (U3CFlashHitRoutineU3Ed__13_t30C53B21A2E865F607C0B768F5D9BF5623151CBC* __this, const RuntimeMethod* method) 
+{
+	//<source_info:<no-source>:1>
+	{
+		NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A* L_0 = (NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A_il2cpp_TypeInfo_var)));
+		NotSupportedException__ctor_m1398D0CDE19B36AA3DE9392879738C1EA2439CDF(L_0, NULL);
+		IL2CPP_RAISE_MANAGED_EXCEPTION(L_0, ((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&U3CFlashHitRoutineU3Ed__13_System_Collections_IEnumerator_Reset_mA868D507B6E2C8FC002F1C1ACE52082BB4CB5162_RuntimeMethod_var)));
+	}
+}
+// Method Definition Index: 90348
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CFlashHitRoutineU3Ed__13_System_Collections_IEnumerator_get_Current_mB83FB001628A5F0542E23F149F1F3D18798280B3 (U3CFlashHitRoutineU3Ed__13_t30C53B21A2E865F607C0B768F5D9BF5623151CBC* __this, const RuntimeMethod* method) 
+{
+	//<source_info:<no-source>:1>
+	{
+		RuntimeObject* L_0 = __this->___U3CU3E2__current;
+		return L_0;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// Method Definition Index: 90349
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ProjectilePool_Awake_m3B7F3A4D7C81B8E289D2B03987758DE13635C815 (ProjectilePool_t723C2CD076FE4320E49200C785ACD04FCAA398E8* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&List_1_Add_m6688AAA897C848E232F99AB8A11BDE19E61D1F3C_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Object_Instantiate_TisShootProjectile_t4CAF1E2524313E5908E28A80A256CB9D5047CFA9_m8D25D307C4AA393577AE650763FE5A8D57C855EF_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	int32_t V_0 = 0;
+	ShootProjectile_t4CAF1E2524313E5908E28A80A256CB9D5047CFA9* V_1 = NULL;
+	{
+		//<source_info:C:/Users/mynur/OneDrive/Documentos/GitHub/Polarity_Breach_VR/Assets/Scripts/PolaritySystem/ProjectilePool.cs:15>
+		V_0 = 0;
+		goto IL_0032;
+	}
+
+IL_0004:
+	{
+		//<source_info:C:/Users/mynur/OneDrive/Documentos/GitHub/Polarity_Breach_VR/Assets/Scripts/PolaritySystem/ProjectilePool.cs:17>
+		ShootProjectile_t4CAF1E2524313E5908E28A80A256CB9D5047CFA9* L_0 = __this->___projectilePrefab;
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_1;
+		L_1 = Component_get_transform_m2919A1D81931E6932C7F06D4C2F0AB8DDA9A5371(__this, NULL);
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		ShootProjectile_t4CAF1E2524313E5908E28A80A256CB9D5047CFA9* L_2;
+		L_2 = Object_Instantiate_TisShootProjectile_t4CAF1E2524313E5908E28A80A256CB9D5047CFA9_m8D25D307C4AA393577AE650763FE5A8D57C855EF(L_0, L_1, Object_Instantiate_TisShootProjectile_t4CAF1E2524313E5908E28A80A256CB9D5047CFA9_m8D25D307C4AA393577AE650763FE5A8D57C855EF_RuntimeMethod_var);
+		V_1 = L_2;
+		//<source_info:C:/Users/mynur/OneDrive/Documentos/GitHub/Polarity_Breach_VR/Assets/Scripts/PolaritySystem/ProjectilePool.cs:18>
+		ShootProjectile_t4CAF1E2524313E5908E28A80A256CB9D5047CFA9* L_3 = V_1;
+		NullCheck(L_3);
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_4;
+		L_4 = Component_get_gameObject_m57AEFBB14DB39EC476F740BA000E170355DE691B(L_3, NULL);
+		NullCheck(L_4);
+		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_4, (bool)0, NULL);
+		//<source_info:C:/Users/mynur/OneDrive/Documentos/GitHub/Polarity_Breach_VR/Assets/Scripts/PolaritySystem/ProjectilePool.cs:19>
+		List_1_t39B0C22BC92BE7FD81CD1D9645F6C63B18866D34* L_5 = __this->___projectiles;
+		ShootProjectile_t4CAF1E2524313E5908E28A80A256CB9D5047CFA9* L_6 = V_1;
+		NullCheck(L_5);
+		List_1_Add_m6688AAA897C848E232F99AB8A11BDE19E61D1F3C_inline(L_5, L_6, List_1_Add_m6688AAA897C848E232F99AB8A11BDE19E61D1F3C_RuntimeMethod_var);
+		//<source_info:C:/Users/mynur/OneDrive/Documentos/GitHub/Polarity_Breach_VR/Assets/Scripts/PolaritySystem/ProjectilePool.cs:15>
+		int32_t L_7 = V_0;
+		V_0 = ((int32_t)il2cpp_codegen_add(L_7, 1));
+	}
+
+IL_0032:
+	{
+		//<source_info:C:/Users/mynur/OneDrive/Documentos/GitHub/Polarity_Breach_VR/Assets/Scripts/PolaritySystem/ProjectilePool.cs:15>
+		int32_t L_8 = V_0;
+		int32_t L_9 = __this->___poolSize;
+		if ((((int32_t)L_8) < ((int32_t)L_9)))
+		{
+			goto IL_0004;
+		}
+	}
+	{
+		//<source_info:C:/Users/mynur/OneDrive/Documentos/GitHub/Polarity_Breach_VR/Assets/Scripts/PolaritySystem/ProjectilePool.cs:21>
+		return;
+	}
+}
+// Method Definition Index: 90350
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR ShootProjectile_t4CAF1E2524313E5908E28A80A256CB9D5047CFA9* ProjectilePool_GetProjectile_m9B8B795E755E8380935E670DBD82E66946357D1F (ProjectilePool_t723C2CD076FE4320E49200C785ACD04FCAA398E8* __this, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___0_position, Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 ___1_rotation, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&List_1_get_Count_m67D9FAC15E8A516FAEFDD6D58FD64D918EED8669_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&List_1_get_Item_m4CC914DAD05FB51A71BFC9F2CDCA9C199FC203E5_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral88999A2B0E85BE00BADFABF7426ACF583D5502F4);
+		s_Il2CppMethodInitialized = true;
+	}
+	int32_t V_0 = 0;
+	{
+		//<source_info:C:/Users/mynur/OneDrive/Documentos/GitHub/Polarity_Breach_VR/Assets/Scripts/PolaritySystem/ProjectilePool.cs:25>
+		V_0 = 0;
+		goto IL_005c;
+	}
+
+IL_0004:
+	{
+		//<source_info:C:/Users/mynur/OneDrive/Documentos/GitHub/Polarity_Breach_VR/Assets/Scripts/PolaritySystem/ProjectilePool.cs:27>
+		List_1_t39B0C22BC92BE7FD81CD1D9645F6C63B18866D34* L_0 = __this->___projectiles;
+		int32_t L_1 = V_0;
+		NullCheck(L_0);
+		ShootProjectile_t4CAF1E2524313E5908E28A80A256CB9D5047CFA9* L_2;
+		L_2 = List_1_get_Item_m4CC914DAD05FB51A71BFC9F2CDCA9C199FC203E5(L_0, L_1, List_1_get_Item_m4CC914DAD05FB51A71BFC9F2CDCA9C199FC203E5_RuntimeMethod_var);
+		NullCheck(L_2);
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_3;
+		L_3 = Component_get_gameObject_m57AEFBB14DB39EC476F740BA000E170355DE691B(L_2, NULL);
+		NullCheck(L_3);
+		bool L_4;
+		L_4 = GameObject_get_activeInHierarchy_m49250F4F168DCC5388D5BE4F6A5681386907B109(L_3, NULL);
+		if (L_4)
+		{
+			goto IL_0058;
+		}
+	}
+	{
+		//<source_info:C:/Users/mynur/OneDrive/Documentos/GitHub/Polarity_Breach_VR/Assets/Scripts/PolaritySystem/ProjectilePool.cs:29>
+		List_1_t39B0C22BC92BE7FD81CD1D9645F6C63B18866D34* L_5 = __this->___projectiles;
+		int32_t L_6 = V_0;
+		NullCheck(L_5);
+		ShootProjectile_t4CAF1E2524313E5908E28A80A256CB9D5047CFA9* L_7;
+		L_7 = List_1_get_Item_m4CC914DAD05FB51A71BFC9F2CDCA9C199FC203E5(L_5, L_6, List_1_get_Item_m4CC914DAD05FB51A71BFC9F2CDCA9C199FC203E5_RuntimeMethod_var);
+		NullCheck(L_7);
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_8;
+		L_8 = Component_get_transform_m2919A1D81931E6932C7F06D4C2F0AB8DDA9A5371(L_7, NULL);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_9 = ___0_position;
+		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_10 = ___1_rotation;
+		NullCheck(L_8);
+		Transform_SetPositionAndRotation_m418859BF59086EEAA084FFD6F258A43FAB408F5A(L_8, L_9, L_10, NULL);
+		//<source_info:C:/Users/mynur/OneDrive/Documentos/GitHub/Polarity_Breach_VR/Assets/Scripts/PolaritySystem/ProjectilePool.cs:30>
+		List_1_t39B0C22BC92BE7FD81CD1D9645F6C63B18866D34* L_11 = __this->___projectiles;
+		int32_t L_12 = V_0;
+		NullCheck(L_11);
+		ShootProjectile_t4CAF1E2524313E5908E28A80A256CB9D5047CFA9* L_13;
+		L_13 = List_1_get_Item_m4CC914DAD05FB51A71BFC9F2CDCA9C199FC203E5(L_11, L_12, List_1_get_Item_m4CC914DAD05FB51A71BFC9F2CDCA9C199FC203E5_RuntimeMethod_var);
+		NullCheck(L_13);
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_14;
+		L_14 = Component_get_gameObject_m57AEFBB14DB39EC476F740BA000E170355DE691B(L_13, NULL);
+		NullCheck(L_14);
+		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_14, (bool)1, NULL);
+		//<source_info:C:/Users/mynur/OneDrive/Documentos/GitHub/Polarity_Breach_VR/Assets/Scripts/PolaritySystem/ProjectilePool.cs:31>
+		List_1_t39B0C22BC92BE7FD81CD1D9645F6C63B18866D34* L_15 = __this->___projectiles;
+		int32_t L_16 = V_0;
+		NullCheck(L_15);
+		ShootProjectile_t4CAF1E2524313E5908E28A80A256CB9D5047CFA9* L_17;
+		L_17 = List_1_get_Item_m4CC914DAD05FB51A71BFC9F2CDCA9C199FC203E5(L_15, L_16, List_1_get_Item_m4CC914DAD05FB51A71BFC9F2CDCA9C199FC203E5_RuntimeMethod_var);
+		return L_17;
+	}
+
+IL_0058:
+	{
+		//<source_info:C:/Users/mynur/OneDrive/Documentos/GitHub/Polarity_Breach_VR/Assets/Scripts/PolaritySystem/ProjectilePool.cs:25>
+		int32_t L_18 = V_0;
+		V_0 = ((int32_t)il2cpp_codegen_add(L_18, 1));
+	}
+
+IL_005c:
+	{
+		//<source_info:C:/Users/mynur/OneDrive/Documentos/GitHub/Polarity_Breach_VR/Assets/Scripts/PolaritySystem/ProjectilePool.cs:25>
+		int32_t L_19 = V_0;
+		List_1_t39B0C22BC92BE7FD81CD1D9645F6C63B18866D34* L_20 = __this->___projectiles;
+		NullCheck(L_20);
+		int32_t L_21;
+		L_21 = List_1_get_Count_m67D9FAC15E8A516FAEFDD6D58FD64D918EED8669_inline(L_20, List_1_get_Count_m67D9FAC15E8A516FAEFDD6D58FD64D918EED8669_RuntimeMethod_var);
+		if ((((int32_t)L_19) < ((int32_t)L_21)))
+		{
+			goto IL_0004;
+		}
+	}
+	{
+		//<source_info:C:/Users/mynur/OneDrive/Documentos/GitHub/Polarity_Breach_VR/Assets/Scripts/PolaritySystem/ProjectilePool.cs:34>
+		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
+		Debug_LogWarning_m33EF1B897E0C7C6FF538989610BFAFFEF4628CA9(_stringLiteral88999A2B0E85BE00BADFABF7426ACF583D5502F4, NULL);
+		//<source_info:C:/Users/mynur/OneDrive/Documentos/GitHub/Polarity_Breach_VR/Assets/Scripts/PolaritySystem/ProjectilePool.cs:34>
+		return (ShootProjectile_t4CAF1E2524313E5908E28A80A256CB9D5047CFA9*)NULL;
+	}
+}
+// Method Definition Index: 90351
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ProjectilePool__ctor_m51CA313236803B62ACFD3F49894BBE59F483036B (ProjectilePool_t723C2CD076FE4320E49200C785ACD04FCAA398E8* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&List_1__ctor_m6A99A77FB76A19E57541C3D50E1CFE452F7E5104_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&List_1_t39B0C22BC92BE7FD81CD1D9645F6C63B18866D34_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		//<source_info:C:/Users/mynur/OneDrive/Documentos/GitHub/Polarity_Breach_VR/Assets/Scripts/PolaritySystem/ProjectilePool.cs:9>
+		__this->___poolSize = ((int32_t)30);
+		//<source_info:C:/Users/mynur/OneDrive/Documentos/GitHub/Polarity_Breach_VR/Assets/Scripts/PolaritySystem/ProjectilePool.cs:11>
+		List_1_t39B0C22BC92BE7FD81CD1D9645F6C63B18866D34* L_0 = (List_1_t39B0C22BC92BE7FD81CD1D9645F6C63B18866D34*)il2cpp_codegen_object_new(List_1_t39B0C22BC92BE7FD81CD1D9645F6C63B18866D34_il2cpp_TypeInfo_var);
+		List_1__ctor_m6A99A77FB76A19E57541C3D50E1CFE452F7E5104(L_0, List_1__ctor_m6A99A77FB76A19E57541C3D50E1CFE452F7E5104_RuntimeMethod_var);
+		__this->___projectiles = L_0;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___projectiles), (void*)L_0);
+		MonoBehaviour__ctor_m592DB0105CA0BC97AA1C5F4AD27B12D68A3B7C1E(__this, NULL);
+		return;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// Method Definition Index: 90352
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ShootProjectile_Awake_m4061930176B854851AE80A600CC82AD4BBF7E4C4 (ShootProjectile_t4CAF1E2524313E5908E28A80A256CB9D5047CFA9* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Component_GetComponent_TisPolarityComponent_t1FB53DB0BF7CE9A8E59278F3854DC776322BBCA0_m317F7D3130E71487835B00DB1356E893EEF94764_RuntimeMethod_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		//<source_info:C:/Users/mynur/OneDrive/Documentos/GitHub/Polarity_Breach_VR/Assets/Scripts/PolaritySystem/ShootProjectile.cs:35>
+		PolarityComponent_t1FB53DB0BF7CE9A8E59278F3854DC776322BBCA0* L_0;
+		L_0 = Component_GetComponent_TisPolarityComponent_t1FB53DB0BF7CE9A8E59278F3854DC776322BBCA0_m317F7D3130E71487835B00DB1356E893EEF94764(__this, Component_GetComponent_TisPolarityComponent_t1FB53DB0BF7CE9A8E59278F3854DC776322BBCA0_m317F7D3130E71487835B00DB1356E893EEF94764_RuntimeMethod_var);
+		__this->____polarity = L_0;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->____polarity), (void*)L_0);
+		return;
+	}
+}
+// Method Definition Index: 90353
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ShootProjectile_OnEnable_mBB8FACFABB091D39ADBAD8D6C8831A1C4B337733 (ShootProjectile_t4CAF1E2524313E5908E28A80A256CB9D5047CFA9* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		//<source_info:C:/Users/mynur/OneDrive/Documentos/GitHub/Polarity_Breach_VR/Assets/Scripts/PolaritySystem/ShootProjectile.cs:39>
+		float L_0;
+		L_0 = Time_get_time_m3A271BB1B20041144AC5B7863B71AB1F0150374B(NULL);
+		__this->____spawnTime = L_0;
+		//<source_info:C:/Users/mynur/OneDrive/Documentos/GitHub/Polarity_Breach_VR/Assets/Scripts/PolaritySystem/ShootProjectile.cs:41>
+		TrailRenderer_tF7E185EF383CF4300DFC3E1DE59FA6100B93CA39* L_1 = __this->___trail;
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		bool L_2;
+		L_2 = Object_op_Inequality_mD0BE578448EAA61948F25C32F8DD55AB1F778602(L_1, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
+		if (!L_2)
+		{
+			goto IL_0024;
+		}
+	}
+	{
+		//<source_info:C:/Users/mynur/OneDrive/Documentos/GitHub/Polarity_Breach_VR/Assets/Scripts/PolaritySystem/ShootProjectile.cs:41>
+		TrailRenderer_tF7E185EF383CF4300DFC3E1DE59FA6100B93CA39* L_3 = __this->___trail;
+		NullCheck(L_3);
+		TrailRenderer_Clear_m52593FE681F7171649479A57A2AFCA89C508413F(L_3, NULL);
+	}
+
+IL_0024:
+	{
+		//<source_info:C:/Users/mynur/OneDrive/Documentos/GitHub/Polarity_Breach_VR/Assets/Scripts/PolaritySystem/ShootProjectile.cs:43>
+		VisualEffect_t8CF4F0E13AEBF27224BB1323CC103666EDBBCFB0* L_4 = __this->___vfx;
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		bool L_5;
+		L_5 = Object_op_Inequality_mD0BE578448EAA61948F25C32F8DD55AB1F778602(L_4, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
+		if (!L_5)
+		{
+			goto IL_0048;
+		}
+	}
+	{
+		//<source_info:C:/Users/mynur/OneDrive/Documentos/GitHub/Polarity_Breach_VR/Assets/Scripts/PolaritySystem/ShootProjectile.cs:45>
+		VisualEffect_t8CF4F0E13AEBF27224BB1323CC103666EDBBCFB0* L_6 = __this->___vfx;
+		NullCheck(L_6);
+		VisualEffect_Reinit_m6156FD4BF32F28CA875E23B3CEF8CF187016A042(L_6, NULL);
+		//<source_info:C:/Users/mynur/OneDrive/Documentos/GitHub/Polarity_Breach_VR/Assets/Scripts/PolaritySystem/ShootProjectile.cs:46>
+		VisualEffect_t8CF4F0E13AEBF27224BB1323CC103666EDBBCFB0* L_7 = __this->___vfx;
+		NullCheck(L_7);
+		VisualEffect_Play_m3A49E82BEE9A6F1ED48156A12908F9D13AADEE1F(L_7, NULL);
+	}
+
+IL_0048:
+	{
+		//<source_info:C:/Users/mynur/OneDrive/Documentos/GitHub/Polarity_Breach_VR/Assets/Scripts/PolaritySystem/ShootProjectile.cs:49>
+		ParticleSystem_tB19986EE308BD63D36FB6025EEEAFBEDB97C67C1* L_8 = __this->___particles;
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		bool L_9;
+		L_9 = Object_op_Inequality_mD0BE578448EAA61948F25C32F8DD55AB1F778602(L_8, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
+		if (!L_9)
+		{
+			goto IL_006c;
+		}
+	}
+	{
+		//<source_info:C:/Users/mynur/OneDrive/Documentos/GitHub/Polarity_Breach_VR/Assets/Scripts/PolaritySystem/ShootProjectile.cs:51>
+		ParticleSystem_tB19986EE308BD63D36FB6025EEEAFBEDB97C67C1* L_10 = __this->___particles;
+		NullCheck(L_10);
+		ParticleSystem_Clear_mE026AF9610248EB560530CD292FEED0F7571F732(L_10, NULL);
+		//<source_info:C:/Users/mynur/OneDrive/Documentos/GitHub/Polarity_Breach_VR/Assets/Scripts/PolaritySystem/ShootProjectile.cs:52>
+		ParticleSystem_tB19986EE308BD63D36FB6025EEEAFBEDB97C67C1* L_11 = __this->___particles;
+		NullCheck(L_11);
+		ParticleSystem_Play_mD943E601BFE16CB9BB5D1F5E6AED5C36F5F11EF5(L_11, NULL);
+	}
+
+IL_006c:
+	{
+		//<source_info:C:/Users/mynur/OneDrive/Documentos/GitHub/Polarity_Breach_VR/Assets/Scripts/PolaritySystem/ShootProjectile.cs:54>
+		return;
+	}
+}
+// Method Definition Index: 90354
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ShootProjectile_Update_m967533C21D9E46D56F470CA77991E5EF3C31E640 (ShootProjectile_t4CAF1E2524313E5908E28A80A256CB9D5047CFA9* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Component_GetComponentInParent_TisIDamageable_t07050BAA6A48ED40626F1F034CE04E3B015CB4FA_m65E7CD8A96879E8DB82951F748E329F588966D78_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Physics_t1244C2983AEAFA149425AFFC3DF53BC91C18ED56_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	float V_0 = 0.0f;
+	RaycastHitU5BU5D_t008B8309DE422FE7567068D743D68054D5EBF1A8* V_1 = NULL;
+	int32_t V_2 = 0;
+	{
+		//<source_info:C:/Users/mynur/OneDrive/Documentos/GitHub/Polarity_Breach_VR/Assets/Scripts/PolaritySystem/ShootProjectile.cs:58>
+		float L_0 = __this->____speed;
+		float L_1;
+		L_1 = Time_get_deltaTime_mC3195000401F0FD167DD2F948FD2BC58330D0865(NULL);
+		V_0 = ((float)il2cpp_codegen_multiply(L_0, L_1));
+		//<source_info:C:/Users/mynur/OneDrive/Documentos/GitHub/Polarity_Breach_VR/Assets/Scripts/PolaritySystem/ShootProjectile.cs:59>
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_2;
+		L_2 = Component_get_transform_m2919A1D81931E6932C7F06D4C2F0AB8DDA9A5371(__this, NULL);
+		NullCheck(L_2);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_3;
+		L_3 = Transform_get_position_m69CD5FA214FDAE7BB701552943674846C220FDE1(L_2, NULL);
+		//<source_info:C:/Users/mynur/OneDrive/Documentos/GitHub/Polarity_Breach_VR/Assets/Scripts/PolaritySystem/ShootProjectile.cs:61>
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_4;
+		L_4 = Component_get_transform_m2919A1D81931E6932C7F06D4C2F0AB8DDA9A5371(__this, NULL);
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_5 = L_4;
+		NullCheck(L_5);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_6;
+		L_6 = Transform_get_position_m69CD5FA214FDAE7BB701552943674846C220FDE1(L_5, NULL);
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_7;
+		L_7 = Component_get_transform_m2919A1D81931E6932C7F06D4C2F0AB8DDA9A5371(__this, NULL);
+		NullCheck(L_7);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_8;
+		L_8 = Transform_get_forward_mFCFACF7165FDAB21E80E384C494DF278386CEE2F(L_7, NULL);
+		float L_9 = V_0;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_10;
+		L_10 = Vector3_op_Multiply_m87BA7C578F96C8E49BB07088DAAC4649F83B0353_inline(L_8, L_9, NULL);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_11;
+		L_11 = Vector3_op_Addition_m78C0EC70CB66E8DCAC225743D82B268DAEE92067_inline(L_6, L_10, NULL);
+		NullCheck(L_5);
+		Transform_set_position_mA1A817124BB41B685043DED2A9BA48CDF37C4156(L_5, L_11, NULL);
+		//<source_info:C:/Users/mynur/OneDrive/Documentos/GitHub/Polarity_Breach_VR/Assets/Scripts/PolaritySystem/ShootProjectile.cs:63>
+		float L_12 = __this->___hitRadius;
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_13;
+		L_13 = Component_get_transform_m2919A1D81931E6932C7F06D4C2F0AB8DDA9A5371(__this, NULL);
+		NullCheck(L_13);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_14;
+		L_14 = Transform_get_forward_mFCFACF7165FDAB21E80E384C494DF278386CEE2F(L_13, NULL);
+		float L_15 = V_0;
+		il2cpp_codegen_runtime_class_init_inline(Physics_t1244C2983AEAFA149425AFFC3DF53BC91C18ED56_il2cpp_TypeInfo_var);
+		RaycastHitU5BU5D_t008B8309DE422FE7567068D743D68054D5EBF1A8* L_16;
+		L_16 = Physics_SphereCastAll_mE651DDBD29BBBBC4E3D33BBDE3C9C082ACFCB91C(L_3, L_12, L_14, L_15, (-1), 2, NULL);
+		V_1 = L_16;
+		//<source_info:C:/Users/mynur/OneDrive/Documentos/GitHub/Polarity_Breach_VR/Assets/Scripts/PolaritySystem/ShootProjectile.cs:65>
+		V_2 = 0;
+		goto IL_00b9;
+	}
+
+IL_005d:
+	{
+		//<source_info:C:/Users/mynur/OneDrive/Documentos/GitHub/Polarity_Breach_VR/Assets/Scripts/PolaritySystem/ShootProjectile.cs:67>
+		RaycastHitU5BU5D_t008B8309DE422FE7567068D743D68054D5EBF1A8* L_17 = V_1;
+		int32_t L_18 = V_2;
+		NullCheck(L_17);
+		Collider_t1CC3163924FCD6C4CC2E816373A929C1E3D55E76* L_19;
+		L_19 = RaycastHit_get_collider_m84B160439BBEAB6D9E94B799F720E25C9E2D444D(((L_17)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_18))), NULL);
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		bool L_20;
+		L_20 = Object_op_Equality_mB6120F782D83091EF56A198FCEBCF066DB4A9605(L_19, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
+		if (L_20)
+		{
+			goto IL_00b5;
+		}
+	}
+	{
+		//<source_info:C:/Users/mynur/OneDrive/Documentos/GitHub/Polarity_Breach_VR/Assets/Scripts/PolaritySystem/ShootProjectile.cs:68>
+		RaycastHitU5BU5D_t008B8309DE422FE7567068D743D68054D5EBF1A8* L_21 = V_1;
+		int32_t L_22 = V_2;
+		NullCheck(L_21);
+		Collider_t1CC3163924FCD6C4CC2E816373A929C1E3D55E76* L_23;
+		L_23 = RaycastHit_get_collider_m84B160439BBEAB6D9E94B799F720E25C9E2D444D(((L_21)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_22))), NULL);
+		NullCheck(L_23);
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_24;
+		L_24 = Component_get_transform_m2919A1D81931E6932C7F06D4C2F0AB8DDA9A5371(L_23, NULL);
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_25;
+		L_25 = Component_get_transform_m2919A1D81931E6932C7F06D4C2F0AB8DDA9A5371(__this, NULL);
+		NullCheck(L_24);
+		bool L_26;
+		L_26 = Transform_IsChildOf_mFE071BE1E775E825401FE0A9B9BE49E39D256CEA(L_24, L_25, NULL);
+		if (L_26)
+		{
+			goto IL_00b5;
+		}
+	}
+	{
+		//<source_info:C:/Users/mynur/OneDrive/Documentos/GitHub/Polarity_Breach_VR/Assets/Scripts/PolaritySystem/ShootProjectile.cs:69>
+		RaycastHitU5BU5D_t008B8309DE422FE7567068D743D68054D5EBF1A8* L_27 = V_1;
+		int32_t L_28 = V_2;
+		NullCheck(L_27);
+		Collider_t1CC3163924FCD6C4CC2E816373A929C1E3D55E76* L_29;
+		L_29 = RaycastHit_get_collider_m84B160439BBEAB6D9E94B799F720E25C9E2D444D(((L_27)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_28))), NULL);
+		NullCheck(L_29);
+		RuntimeObject* L_30;
+		L_30 = Component_GetComponentInParent_TisIDamageable_t07050BAA6A48ED40626F1F034CE04E3B015CB4FA_m65E7CD8A96879E8DB82951F748E329F588966D78(L_29, Component_GetComponentInParent_TisIDamageable_t07050BAA6A48ED40626F1F034CE04E3B015CB4FA_m65E7CD8A96879E8DB82951F748E329F588966D78_RuntimeMethod_var);
+		if (!L_30)
+		{
+			goto IL_00b5;
+		}
+	}
+	{
+		//<source_info:C:/Users/mynur/OneDrive/Documentos/GitHub/Polarity_Breach_VR/Assets/Scripts/PolaritySystem/ShootProjectile.cs:71>
+		RaycastHitU5BU5D_t008B8309DE422FE7567068D743D68054D5EBF1A8* L_31 = V_1;
+		int32_t L_32 = V_2;
+		NullCheck(L_31);
+		Collider_t1CC3163924FCD6C4CC2E816373A929C1E3D55E76* L_33;
+		L_33 = RaycastHit_get_collider_m84B160439BBEAB6D9E94B799F720E25C9E2D444D(((L_31)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_32))), NULL);
+		ShootProjectile_HandleHit_m0E577AB12CDE4017E80E2D17428BD30E778727F8(__this, L_33, NULL);
+		//<source_info:C:/Users/mynur/OneDrive/Documentos/GitHub/Polarity_Breach_VR/Assets/Scripts/PolaritySystem/ShootProjectile.cs:72>
+		return;
+	}
+
+IL_00b5:
+	{
+		//<source_info:C:/Users/mynur/OneDrive/Documentos/GitHub/Polarity_Breach_VR/Assets/Scripts/PolaritySystem/ShootProjectile.cs:65>
+		int32_t L_34 = V_2;
+		V_2 = ((int32_t)il2cpp_codegen_add(L_34, 1));
+	}
+
+IL_00b9:
+	{
+		//<source_info:C:/Users/mynur/OneDrive/Documentos/GitHub/Polarity_Breach_VR/Assets/Scripts/PolaritySystem/ShootProjectile.cs:65>
+		int32_t L_35 = V_2;
+		RaycastHitU5BU5D_t008B8309DE422FE7567068D743D68054D5EBF1A8* L_36 = V_1;
+		NullCheck(L_36);
+		if ((((int32_t)L_35) < ((int32_t)((int32_t)(((RuntimeArray*)L_36)->max_length)))))
+		{
+			goto IL_005d;
+		}
+	}
+	{
+		//<source_info:C:/Users/mynur/OneDrive/Documentos/GitHub/Polarity_Breach_VR/Assets/Scripts/PolaritySystem/ShootProjectile.cs:75>
+		float L_37;
+		L_37 = Time_get_time_m3A271BB1B20041144AC5B7863B71AB1F0150374B(NULL);
+		float L_38 = __this->____spawnTime;
+		float L_39 = __this->____lifeTime;
+		if ((!(((float)((float)il2cpp_codegen_subtract(L_37, L_38))) >= ((float)L_39))))
+		{
+			goto IL_00df;
+		}
+	}
+	{
+		//<source_info:C:/Users/mynur/OneDrive/Documentos/GitHub/Polarity_Breach_VR/Assets/Scripts/PolaritySystem/ShootProjectile.cs:75>
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_40;
+		L_40 = Component_get_gameObject_m57AEFBB14DB39EC476F740BA000E170355DE691B(__this, NULL);
+		NullCheck(L_40);
+		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_40, (bool)0, NULL);
+	}
+
+IL_00df:
+	{
+		//<source_info:C:/Users/mynur/OneDrive/Documentos/GitHub/Polarity_Breach_VR/Assets/Scripts/PolaritySystem/ShootProjectile.cs:76>
+		return;
+	}
+}
+// Method Definition Index: 90355
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ShootProjectile_SetStats_mA68F4675602CE78450584EC5BC11C8425FC73882 (ShootProjectile_t4CAF1E2524313E5908E28A80A256CB9D5047CFA9* __this, float ___0_speed, float ___1_damage, float ___2_knockbackForce, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:C:/Users/mynur/OneDrive/Documentos/GitHub/Polarity_Breach_VR/Assets/Scripts/PolaritySystem/ShootProjectile.cs:80>
+		float L_0 = ___0_speed;
+		__this->____speed = L_0;
+		//<source_info:C:/Users/mynur/OneDrive/Documentos/GitHub/Polarity_Breach_VR/Assets/Scripts/PolaritySystem/ShootProjectile.cs:81>
+		float L_1 = ___1_damage;
+		__this->____damage = L_1;
+		//<source_info:C:/Users/mynur/OneDrive/Documentos/GitHub/Polarity_Breach_VR/Assets/Scripts/PolaritySystem/ShootProjectile.cs:82>
+		float L_2 = ___2_knockbackForce;
+		__this->____knockbackForce = L_2;
+		//<source_info:C:/Users/mynur/OneDrive/Documentos/GitHub/Polarity_Breach_VR/Assets/Scripts/PolaritySystem/ShootProjectile.cs:83>
+		return;
+	}
+}
+// Method Definition Index: 90356
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ShootProjectile_OnTriggerEnter_m0325AF4CD5C6431274E11C06A54C08A212668E0F (ShootProjectile_t4CAF1E2524313E5908E28A80A256CB9D5047CFA9* __this, Collider_t1CC3163924FCD6C4CC2E816373A929C1E3D55E76* ___0_other, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:C:/Users/mynur/OneDrive/Documentos/GitHub/Polarity_Breach_VR/Assets/Scripts/PolaritySystem/ShootProjectile.cs:87>
+		Collider_t1CC3163924FCD6C4CC2E816373A929C1E3D55E76* L_0 = ___0_other;
+		ShootProjectile_HandleHit_m0E577AB12CDE4017E80E2D17428BD30E778727F8(__this, L_0, NULL);
+		//<source_info:C:/Users/mynur/OneDrive/Documentos/GitHub/Polarity_Breach_VR/Assets/Scripts/PolaritySystem/ShootProjectile.cs:88>
+		return;
+	}
+}
+// Method Definition Index: 90357
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ShootProjectile_HandleHit_m0E577AB12CDE4017E80E2D17428BD30E778727F8 (ShootProjectile_t4CAF1E2524313E5908E28A80A256CB9D5047CFA9* __this, Collider_t1CC3163924FCD6C4CC2E816373A929C1E3D55E76* ___0_other, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Component_GetComponentInParent_TisBossShield_t0CA1B25A12A4CFD773F7060DF191054A955E1B84_m77CA3D5972E411811F19319E2BDE0C5B8F0708C1_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Component_GetComponentInParent_TisBossWeakPoint_t502A335D841A6A96167C6E10CACA201C9F1BE4BC_mCD3999ECA7BC1C0661285BED509BEC4B2E7EE6C1_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Component_GetComponentInParent_TisEnemyHealth_tBBE8DFA320087F0FED2E699F1A79262CD00C1F6D_m7DCD532DF55BBD4BE7EC5C8BE96DA89AF8F2CB4E_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Component_GetComponentInParent_TisPolarityVisual_t1B1D8F62D356A95A438AE9480687E4D557617E88_m90C8D8EA46CB144E69EDCE051760B72CEF3373A6_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Component_GetComponent_TisRigidbody_t268697F5A994213ED97393309870968BC1C7393C_m4B5CAD64B52D153BEA96432633CA9A45FA523DD8_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	BossShield_t0CA1B25A12A4CFD773F7060DF191054A955E1B84* V_0 = NULL;
+	BossWeakPoint_t502A335D841A6A96167C6E10CACA201C9F1BE4BC* V_1 = NULL;
+	EnemyHealth_tBBE8DFA320087F0FED2E699F1A79262CD00C1F6D* V_2 = NULL;
+	Rigidbody_t268697F5A994213ED97393309870968BC1C7393C* V_3 = NULL;
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 V_4;
+	memset((&V_4), 0, sizeof(V_4));
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 V_5;
+	memset((&V_5), 0, sizeof(V_5));
+	PolarityVisual_t1B1D8F62D356A95A438AE9480687E4D557617E88* G_B20_0 = NULL;
+	PolarityVisual_t1B1D8F62D356A95A438AE9480687E4D557617E88* G_B19_0 = NULL;
+	{
+		//<source_info:C:/Users/mynur/OneDrive/Documentos/GitHub/Polarity_Breach_VR/Assets/Scripts/PolaritySystem/ShootProjectile.cs:92>
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_0;
+		L_0 = Component_get_gameObject_m57AEFBB14DB39EC476F740BA000E170355DE691B(__this, NULL);
+		NullCheck(L_0);
+		bool L_1;
+		L_1 = GameObject_get_activeSelf_m4F3E5240E138B66AAA080EA30759A3D0517DA368(L_0, NULL);
+		if (L_1)
+		{
+			goto IL_000e;
+		}
+	}
+	{
+		//<source_info:C:/Users/mynur/OneDrive/Documentos/GitHub/Polarity_Breach_VR/Assets/Scripts/PolaritySystem/ShootProjectile.cs:92>
+		return;
+	}
+
+IL_000e:
+	{
+		//<source_info:C:/Users/mynur/OneDrive/Documentos/GitHub/Polarity_Breach_VR/Assets/Scripts/PolaritySystem/ShootProjectile.cs:94>
+		Collider_t1CC3163924FCD6C4CC2E816373A929C1E3D55E76* L_2 = ___0_other;
+		NullCheck(L_2);
+		BossShield_t0CA1B25A12A4CFD773F7060DF191054A955E1B84* L_3;
+		L_3 = Component_GetComponentInParent_TisBossShield_t0CA1B25A12A4CFD773F7060DF191054A955E1B84_m77CA3D5972E411811F19319E2BDE0C5B8F0708C1(L_2, Component_GetComponentInParent_TisBossShield_t0CA1B25A12A4CFD773F7060DF191054A955E1B84_m77CA3D5972E411811F19319E2BDE0C5B8F0708C1_RuntimeMethod_var);
+		V_0 = L_3;
+		//<source_info:C:/Users/mynur/OneDrive/Documentos/GitHub/Polarity_Breach_VR/Assets/Scripts/PolaritySystem/ShootProjectile.cs:95>
+		BossShield_t0CA1B25A12A4CFD773F7060DF191054A955E1B84* L_4 = V_0;
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		bool L_5;
+		L_5 = Object_op_Inequality_mD0BE578448EAA61948F25C32F8DD55AB1F778602(L_4, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
+		if (!L_5)
+		{
+			goto IL_003b;
+		}
+	}
+	{
+		BossShield_t0CA1B25A12A4CFD773F7060DF191054A955E1B84* L_6 = V_0;
+		NullCheck(L_6);
+		bool L_7;
+		L_7 = BossShield_get_IsInvulnerable_m65A751E16B03E874D6C6E63CCFD257E8B4A742FB(L_6, NULL);
+		if (!L_7)
+		{
+			goto IL_003b;
+		}
+	}
+	{
+		//<source_info:C:/Users/mynur/OneDrive/Documentos/GitHub/Polarity_Breach_VR/Assets/Scripts/PolaritySystem/ShootProjectile.cs:97>
+		bool L_8 = __this->____disapearOnHit;
+		if (!L_8)
+		{
+			goto IL_003a;
+		}
+	}
+	{
+		//<source_info:C:/Users/mynur/OneDrive/Documentos/GitHub/Polarity_Breach_VR/Assets/Scripts/PolaritySystem/ShootProjectile.cs:99>
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_9;
+		L_9 = Component_get_gameObject_m57AEFBB14DB39EC476F740BA000E170355DE691B(__this, NULL);
+		NullCheck(L_9);
+		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_9, (bool)0, NULL);
+	}
+
+IL_003a:
+	{
+		//<source_info:C:/Users/mynur/OneDrive/Documentos/GitHub/Polarity_Breach_VR/Assets/Scripts/PolaritySystem/ShootProjectile.cs:102>
+		return;
+	}
+
+IL_003b:
+	{
+		//<source_info:C:/Users/mynur/OneDrive/Documentos/GitHub/Polarity_Breach_VR/Assets/Scripts/PolaritySystem/ShootProjectile.cs:105>
+		Collider_t1CC3163924FCD6C4CC2E816373A929C1E3D55E76* L_10 = ___0_other;
+		NullCheck(L_10);
+		BossWeakPoint_t502A335D841A6A96167C6E10CACA201C9F1BE4BC* L_11;
+		L_11 = Component_GetComponentInParent_TisBossWeakPoint_t502A335D841A6A96167C6E10CACA201C9F1BE4BC_mCD3999ECA7BC1C0661285BED509BEC4B2E7EE6C1(L_10, Component_GetComponentInParent_TisBossWeakPoint_t502A335D841A6A96167C6E10CACA201C9F1BE4BC_mCD3999ECA7BC1C0661285BED509BEC4B2E7EE6C1_RuntimeMethod_var);
+		V_1 = L_11;
+		//<source_info:C:/Users/mynur/OneDrive/Documentos/GitHub/Polarity_Breach_VR/Assets/Scripts/PolaritySystem/ShootProjectile.cs:106>
+		BossWeakPoint_t502A335D841A6A96167C6E10CACA201C9F1BE4BC* L_12 = V_1;
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		bool L_13;
+		L_13 = Object_op_Inequality_mD0BE578448EAA61948F25C32F8DD55AB1F778602(L_12, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
+		if (!L_13)
+		{
+			goto IL_0068;
+		}
+	}
+	{
+		BossWeakPoint_t502A335D841A6A96167C6E10CACA201C9F1BE4BC* L_14 = V_1;
+		NullCheck(L_14);
+		bool L_15;
+		L_15 = BossWeakPoint_get_CanTakeDamage_m7B680DFB89374BCA31320B9E44E8158C7B0B680B(L_14, NULL);
+		if (L_15)
+		{
+			goto IL_0068;
+		}
+	}
+	{
+		//<source_info:C:/Users/mynur/OneDrive/Documentos/GitHub/Polarity_Breach_VR/Assets/Scripts/PolaritySystem/ShootProjectile.cs:108>
+		bool L_16 = __this->____disapearOnHit;
+		if (!L_16)
+		{
+			goto IL_0067;
+		}
+	}
+	{
+		//<source_info:C:/Users/mynur/OneDrive/Documentos/GitHub/Polarity_Breach_VR/Assets/Scripts/PolaritySystem/ShootProjectile.cs:110>
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_17;
+		L_17 = Component_get_gameObject_m57AEFBB14DB39EC476F740BA000E170355DE691B(__this, NULL);
+		NullCheck(L_17);
+		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_17, (bool)0, NULL);
+	}
+
+IL_0067:
+	{
+		//<source_info:C:/Users/mynur/OneDrive/Documentos/GitHub/Polarity_Breach_VR/Assets/Scripts/PolaritySystem/ShootProjectile.cs:113>
+		return;
+	}
+
+IL_0068:
+	{
+		//<source_info:C:/Users/mynur/OneDrive/Documentos/GitHub/Polarity_Breach_VR/Assets/Scripts/PolaritySystem/ShootProjectile.cs:116>
+		Collider_t1CC3163924FCD6C4CC2E816373A929C1E3D55E76* L_18 = ___0_other;
+		NullCheck(L_18);
+		EnemyHealth_tBBE8DFA320087F0FED2E699F1A79262CD00C1F6D* L_19;
+		L_19 = Component_GetComponentInParent_TisEnemyHealth_tBBE8DFA320087F0FED2E699F1A79262CD00C1F6D_m7DCD532DF55BBD4BE7EC5C8BE96DA89AF8F2CB4E(L_18, Component_GetComponentInParent_TisEnemyHealth_tBBE8DFA320087F0FED2E699F1A79262CD00C1F6D_m7DCD532DF55BBD4BE7EC5C8BE96DA89AF8F2CB4E_RuntimeMethod_var);
+		V_2 = L_19;
+		//<source_info:C:/Users/mynur/OneDrive/Documentos/GitHub/Polarity_Breach_VR/Assets/Scripts/PolaritySystem/ShootProjectile.cs:117>
+		PolarityComponent_t1FB53DB0BF7CE9A8E59278F3854DC776322BBCA0* L_20 = __this->____polarity;
+		Collider_t1CC3163924FCD6C4CC2E816373A929C1E3D55E76* L_21 = ___0_other;
+		NullCheck(L_21);
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_22;
+		L_22 = Component_get_gameObject_m57AEFBB14DB39EC476F740BA000E170355DE691B(L_21, NULL);
+		float L_23 = __this->____damage;
+		bool L_24;
+		L_24 = DamageSystem_TryApplyDamage_m3E64B29A17605B7DBDB9172CB768E4024DF25E1F(L_20, L_22, L_23, NULL);
+		//<source_info:C:/Users/mynur/OneDrive/Documentos/GitHub/Polarity_Breach_VR/Assets/Scripts/PolaritySystem/ShootProjectile.cs:119>
+		if (!L_24)
+		{
+			goto IL_0130;
+		}
+	}
+	{
+		//<source_info:C:/Users/mynur/OneDrive/Documentos/GitHub/Polarity_Breach_VR/Assets/Scripts/PolaritySystem/ShootProjectile.cs:121>
+		Collider_t1CC3163924FCD6C4CC2E816373A929C1E3D55E76* L_25 = ___0_other;
+		NullCheck(L_25);
+		Rigidbody_t268697F5A994213ED97393309870968BC1C7393C* L_26;
+		L_26 = Component_GetComponent_TisRigidbody_t268697F5A994213ED97393309870968BC1C7393C_m4B5CAD64B52D153BEA96432633CA9A45FA523DD8(L_25, Component_GetComponent_TisRigidbody_t268697F5A994213ED97393309870968BC1C7393C_m4B5CAD64B52D153BEA96432633CA9A45FA523DD8_RuntimeMethod_var);
+		V_3 = L_26;
+		//<source_info:C:/Users/mynur/OneDrive/Documentos/GitHub/Polarity_Breach_VR/Assets/Scripts/PolaritySystem/ShootProjectile.cs:122>
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_27;
+		L_27 = Component_get_transform_m2919A1D81931E6932C7F06D4C2F0AB8DDA9A5371(__this, NULL);
+		NullCheck(L_27);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_28;
+		L_28 = Transform_get_forward_mFCFACF7165FDAB21E80E384C494DF278386CEE2F(L_27, NULL);
+		V_4 = L_28;
+		//<source_info:C:/Users/mynur/OneDrive/Documentos/GitHub/Polarity_Breach_VR/Assets/Scripts/PolaritySystem/ShootProjectile.cs:123>
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_29 = __this->____impactEffect;
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_30;
+		L_30 = Component_get_transform_m2919A1D81931E6932C7F06D4C2F0AB8DDA9A5371(__this, NULL);
+		NullCheck(L_30);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_31;
+		L_31 = Transform_get_position_m69CD5FA214FDAE7BB701552943674846C220FDE1(L_30, NULL);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_32 = V_4;
+		FeedbackHandler_SpawnParticles_mC9B78CAA4927D45676AA6CB70495E7BF64ACCFD9(L_29, L_31, L_32, NULL);
+		//<source_info:C:/Users/mynur/OneDrive/Documentos/GitHub/Polarity_Breach_VR/Assets/Scripts/PolaritySystem/ShootProjectile.cs:125>
+		EnemyHealth_tBBE8DFA320087F0FED2E699F1A79262CD00C1F6D* L_33 = V_2;
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		bool L_34;
+		L_34 = Object_op_Equality_mB6120F782D83091EF56A198FCEBCF066DB4A9605(L_33, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
+		if (L_34)
+		{
+			goto IL_00c8;
+		}
+	}
+	{
+		EnemyHealth_tBBE8DFA320087F0FED2E699F1A79262CD00C1F6D* L_35 = V_2;
+		NullCheck(L_35);
+		bool L_36;
+		L_36 = EnemyHealth_get_IsDead_mC48625E00B4AF7C7D94281E53575A88D0D078AC1(L_35, NULL);
+		if (L_36)
+		{
+			goto IL_00ce;
+		}
+	}
+
+IL_00c8:
+	{
+		//<source_info:C:/Users/mynur/OneDrive/Documentos/GitHub/Polarity_Breach_VR/Assets/Scripts/PolaritySystem/ShootProjectile.cs:127>
+		ShootProjectile_PlayImpactSfx_mB5A778E2D29071BE793A6C7595AD95EE4792D0A5(__this, NULL);
+	}
+
+IL_00ce:
+	{
+		//<source_info:C:/Users/mynur/OneDrive/Documentos/GitHub/Polarity_Breach_VR/Assets/Scripts/PolaritySystem/ShootProjectile.cs:130>
+		Rigidbody_t268697F5A994213ED97393309870968BC1C7393C* L_37 = V_3;
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		bool L_38;
+		L_38 = Object_op_Inequality_mD0BE578448EAA61948F25C32F8DD55AB1F778602(L_37, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
+		if (!L_38)
+		{
+			goto IL_010b;
+		}
+	}
+	{
+		//<source_info:C:/Users/mynur/OneDrive/Documentos/GitHub/Polarity_Breach_VR/Assets/Scripts/PolaritySystem/ShootProjectile.cs:132>
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_39;
+		L_39 = Component_get_transform_m2919A1D81931E6932C7F06D4C2F0AB8DDA9A5371(__this, NULL);
+		NullCheck(L_39);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_40;
+		L_40 = Transform_get_forward_mFCFACF7165FDAB21E80E384C494DF278386CEE2F(L_39, NULL);
+		V_5 = L_40;
+		//<source_info:C:/Users/mynur/OneDrive/Documentos/GitHub/Polarity_Breach_VR/Assets/Scripts/PolaritySystem/ShootProjectile.cs:133>
+		(&V_5)->___y = (0.0f);
+		//<source_info:C:/Users/mynur/OneDrive/Documentos/GitHub/Polarity_Breach_VR/Assets/Scripts/PolaritySystem/ShootProjectile.cs:134>
+		Vector3_Normalize_mC749B887A4C74BA0A2E13E6377F17CCAEB0AADA8_inline((&V_5), NULL);
+		//<source_info:C:/Users/mynur/OneDrive/Documentos/GitHub/Polarity_Breach_VR/Assets/Scripts/PolaritySystem/ShootProjectile.cs:136>
+		Rigidbody_t268697F5A994213ED97393309870968BC1C7393C* L_41 = V_3;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_42 = V_5;
+		float L_43 = __this->____knockbackForce;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_44;
+		L_44 = Vector3_op_Multiply_m87BA7C578F96C8E49BB07088DAAC4649F83B0353_inline(L_42, L_43, NULL);
+		NullCheck(L_41);
+		Rigidbody_AddForce_mBDBC288D0E266BC1B62E3649B4FCE46E7EA9CCBC(L_41, L_44, 1, NULL);
+	}
+
+IL_010b:
+	{
+		//<source_info:C:/Users/mynur/OneDrive/Documentos/GitHub/Polarity_Breach_VR/Assets/Scripts/PolaritySystem/ShootProjectile.cs:139>
+		Collider_t1CC3163924FCD6C4CC2E816373A929C1E3D55E76* L_45 = ___0_other;
+		NullCheck(L_45);
+		PolarityVisual_t1B1D8F62D356A95A438AE9480687E4D557617E88* L_46;
+		L_46 = Component_GetComponentInParent_TisPolarityVisual_t1B1D8F62D356A95A438AE9480687E4D557617E88_m90C8D8EA46CB144E69EDCE051760B72CEF3373A6(L_45, Component_GetComponentInParent_TisPolarityVisual_t1B1D8F62D356A95A438AE9480687E4D557617E88_m90C8D8EA46CB144E69EDCE051760B72CEF3373A6_RuntimeMethod_var);
+		PolarityVisual_t1B1D8F62D356A95A438AE9480687E4D557617E88* L_47 = L_46;
+		if (L_47)
+		{
+			G_B20_0 = L_47;
+			goto IL_0117;
+		}
+		G_B19_0 = L_47;
+	}
+	{
+		goto IL_011c;
+	}
+
+IL_0117:
+	{
+		NullCheck(G_B20_0);
+		PolarityVisual_FlashHit_m60653A3A8BB38F8DFBAACC832F4BF478B1052310(G_B20_0, NULL);
+	}
+
+IL_011c:
+	{
+		//<source_info:C:/Users/mynur/OneDrive/Documentos/GitHub/Polarity_Breach_VR/Assets/Scripts/PolaritySystem/ShootProjectile.cs:141>
+		bool L_48 = __this->____disapearOnHit;
+		if (!L_48)
+		{
+			goto IL_0130;
+		}
+	}
+	{
+		//<source_info:C:/Users/mynur/OneDrive/Documentos/GitHub/Polarity_Breach_VR/Assets/Scripts/PolaritySystem/ShootProjectile.cs:143>
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_49;
+		L_49 = Component_get_gameObject_m57AEFBB14DB39EC476F740BA000E170355DE691B(__this, NULL);
+		NullCheck(L_49);
+		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_49, (bool)0, NULL);
+	}
+
+IL_0130:
+	{
+		//<source_info:C:/Users/mynur/OneDrive/Documentos/GitHub/Polarity_Breach_VR/Assets/Scripts/PolaritySystem/ShootProjectile.cs:146>
+		return;
+	}
+}
+// Method Definition Index: 90358
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AudioClip_t5D272C4EB4F2D3ED49F1C346DEA373CF6D585F20* ShootProjectile_GetRandomImpactSound_m20E72E4537F683EF3E21CD871EA5F757B76A3890 (ShootProjectile_t4CAF1E2524313E5908E28A80A256CB9D5047CFA9* __this, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:C:/Users/mynur/OneDrive/Documentos/GitHub/Polarity_Breach_VR/Assets/Scripts/PolaritySystem/ShootProjectile.cs:150>
+		AudioClipU5BU5D_t916722468F7EDCFA833318C35CD7D41097D75D31* L_0 = __this->____impactSounds;
+		if (!L_0)
+		{
+			goto IL_0027;
+		}
+	}
+	{
+		AudioClipU5BU5D_t916722468F7EDCFA833318C35CD7D41097D75D31* L_1 = __this->____impactSounds;
+		NullCheck(L_1);
+		if (!(((RuntimeArray*)L_1)->max_length))
+		{
+			goto IL_0027;
+		}
+	}
+	{
+		//<source_info:C:/Users/mynur/OneDrive/Documentos/GitHub/Polarity_Breach_VR/Assets/Scripts/PolaritySystem/ShootProjectile.cs:152>
+		AudioClipU5BU5D_t916722468F7EDCFA833318C35CD7D41097D75D31* L_2 = __this->____impactSounds;
+		AudioClipU5BU5D_t916722468F7EDCFA833318C35CD7D41097D75D31* L_3 = __this->____impactSounds;
+		NullCheck(L_3);
+		int32_t L_4;
+		L_4 = Random_Range_m6763D9767F033357F88B6637F048F4ACA4123B68(0, ((int32_t)(((RuntimeArray*)L_3)->max_length)), NULL);
+		NullCheck(L_2);
+		int32_t L_5 = L_4;
+		AudioClip_t5D272C4EB4F2D3ED49F1C346DEA373CF6D585F20* L_6 = (L_2)->GetAt(static_cast<il2cpp_array_size_t>(L_5));
+		return L_6;
+	}
+
+IL_0027:
+	{
+		//<source_info:C:/Users/mynur/OneDrive/Documentos/GitHub/Polarity_Breach_VR/Assets/Scripts/PolaritySystem/ShootProjectile.cs:155>
+		AudioClip_t5D272C4EB4F2D3ED49F1C346DEA373CF6D585F20* L_7 = __this->____impactSound;
+		return L_7;
+	}
+}
+// Method Definition Index: 90359
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ShootProjectile_PlayImpactSfx_mB5A778E2D29071BE793A6C7595AD95EE4792D0A5 (ShootProjectile_t4CAF1E2524313E5908E28A80A256CB9D5047CFA9* __this, const RuntimeMethod* method) 
+{
+	AudioClip_t5D272C4EB4F2D3ED49F1C346DEA373CF6D585F20* V_0 = NULL;
+	{
+		//<source_info:C:/Users/mynur/OneDrive/Documentos/GitHub/Polarity_Breach_VR/Assets/Scripts/PolaritySystem/ShootProjectile.cs:160>
+		AudioClip_t5D272C4EB4F2D3ED49F1C346DEA373CF6D585F20* L_0;
+		L_0 = ShootProjectile_GetRandomImpactSound_m20E72E4537F683EF3E21CD871EA5F757B76A3890(__this, NULL);
+		V_0 = L_0;
+		//<source_info:C:/Users/mynur/OneDrive/Documentos/GitHub/Polarity_Breach_VR/Assets/Scripts/PolaritySystem/ShootProjectile.cs:162>
+		bool L_1 = __this->____playImpactSoundAs2D;
+		if (!L_1)
+		{
+			goto IL_001c;
+		}
+	}
+	{
+		//<source_info:C:/Users/mynur/OneDrive/Documentos/GitHub/Polarity_Breach_VR/Assets/Scripts/PolaritySystem/ShootProjectile.cs:164>
+		AudioClip_t5D272C4EB4F2D3ED49F1C346DEA373CF6D585F20* L_2 = V_0;
+		float L_3 = __this->____impactSoundVolume;
+		AudioHandler_Play2DSound_mFD8282050D03848109B843C87EEC28565AB80327(L_2, L_3, NULL);
+		//<source_info:C:/Users/mynur/OneDrive/Documentos/GitHub/Polarity_Breach_VR/Assets/Scripts/PolaritySystem/ShootProjectile.cs:165>
+		return;
+	}
+
+IL_001c:
+	{
+		//<source_info:C:/Users/mynur/OneDrive/Documentos/GitHub/Polarity_Breach_VR/Assets/Scripts/PolaritySystem/ShootProjectile.cs:168>
+		AudioClip_t5D272C4EB4F2D3ED49F1C346DEA373CF6D585F20* L_4 = V_0;
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_5;
+		L_5 = Component_get_transform_m2919A1D81931E6932C7F06D4C2F0AB8DDA9A5371(__this, NULL);
+		NullCheck(L_5);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_6;
+		L_6 = Transform_get_position_m69CD5FA214FDAE7BB701552943674846C220FDE1(L_5, NULL);
+		float L_7 = __this->____impactSoundVolume;
+		AudioHandler_Play3DSound_mD6D9E86A34606D63F1BF14A480A8F6C4E8388181(L_4, L_6, L_7, NULL);
+		//<source_info:C:/Users/mynur/OneDrive/Documentos/GitHub/Polarity_Breach_VR/Assets/Scripts/PolaritySystem/ShootProjectile.cs:169>
+		return;
+	}
+}
+// Method Definition Index: 90360
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ShootProjectile__ctor_m2B68E977995D6CBFC2EAC117F2C08A66DF382A02 (ShootProjectile_t4CAF1E2524313E5908E28A80A256CB9D5047CFA9* __this, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:C:/Users/mynur/OneDrive/Documentos/GitHub/Polarity_Breach_VR/Assets/Scripts/PolaritySystem/ShootProjectile.cs:17>
+		__this->____lifeTime = (3.0f);
+		//<source_info:C:/Users/mynur/OneDrive/Documentos/GitHub/Polarity_Breach_VR/Assets/Scripts/PolaritySystem/ShootProjectile.cs:18>
+		__this->____disapearOnHit = (bool)1;
+		//<source_info:C:/Users/mynur/OneDrive/Documentos/GitHub/Polarity_Breach_VR/Assets/Scripts/PolaritySystem/ShootProjectile.cs:22>
+		__this->____impactSoundVolume = (1.0f);
+		//<source_info:C:/Users/mynur/OneDrive/Documentos/GitHub/Polarity_Breach_VR/Assets/Scripts/PolaritySystem/ShootProjectile.cs:26>
+		__this->___hitRadius = (0.100000001f);
+		MonoBehaviour__ctor_m592DB0105CA0BC97AA1C5F4AD27B12D68A3B7C1E(__this, NULL);
+		return;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// Method Definition Index: 90361
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SimpleHealth_add_OnDied_m311AA03D4EC3ABED82713E8C379EA984A75CB769 (SimpleHealth_t9546BB9FBEC3A98C7645D2EAD6DFAEDEDE048029* __this, Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* ___0_value, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	//<source_info:<no-source>:1>
+	Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* V_0 = NULL;
+	Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* V_1 = NULL;
+	Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* V_2 = NULL;
+	{
+		Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* L_0 = __this->___OnDied;
+		V_0 = L_0;
+	}
+
+IL_0007:
+	{
+		Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* L_1 = V_0;
+		V_1 = L_1;
+		Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* L_2 = V_1;
+		Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* L_3 = ___0_value;
+		Delegate_t* L_4;
+		L_4 = Delegate_Combine_m1F725AEF318BE6F0426863490691A6F4606E7D00(L_2, L_3, NULL);
+		V_2 = ((Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07*)CastclassSealed((RuntimeObject*)L_4, Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07_il2cpp_TypeInfo_var));
+		Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07** L_5 = (Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07**)(&__this->___OnDied);
+		Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* L_6 = V_2;
+		Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* L_7 = V_1;
+		Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* L_8;
+		L_8 = InterlockedCompareExchangeImpl<Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07*>(L_5, L_6, L_7);
+		V_0 = L_8;
+		Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* L_9 = V_0;
+		Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* L_10 = V_1;
+		if ((!(((RuntimeObject*)(Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07*)L_9) == ((RuntimeObject*)(Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07*)L_10))))
+		{
+			goto IL_0007;
+		}
+	}
+	{
+		return;
+	}
+}
+// Method Definition Index: 90362
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SimpleHealth_remove_OnDied_mF9B0BCC11ADEE11BFD87147DDD71D5A90FD6BF0E (SimpleHealth_t9546BB9FBEC3A98C7645D2EAD6DFAEDEDE048029* __this, Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* ___0_value, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	//<source_info:<no-source>:1>
+	Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* V_0 = NULL;
+	Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* V_1 = NULL;
+	Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* V_2 = NULL;
+	{
+		Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* L_0 = __this->___OnDied;
+		V_0 = L_0;
+	}
+
+IL_0007:
+	{
+		Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* L_1 = V_0;
+		V_1 = L_1;
+		Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* L_2 = V_1;
+		Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* L_3 = ___0_value;
+		Delegate_t* L_4;
+		L_4 = Delegate_Remove_m8B7DD5661308FA972E23CA1CC3FC9CEB355504E3(L_2, L_3, NULL);
+		V_2 = ((Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07*)CastclassSealed((RuntimeObject*)L_4, Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07_il2cpp_TypeInfo_var));
+		Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07** L_5 = (Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07**)(&__this->___OnDied);
+		Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* L_6 = V_2;
+		Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* L_7 = V_1;
+		Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* L_8;
+		L_8 = InterlockedCompareExchangeImpl<Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07*>(L_5, L_6, L_7);
+		V_0 = L_8;
+		Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* L_9 = V_0;
+		Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* L_10 = V_1;
+		if ((!(((RuntimeObject*)(Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07*)L_9) == ((RuntimeObject*)(Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07*)L_10))))
+		{
+			goto IL_0007;
+		}
+	}
+	{
+		return;
+	}
+}
+// Method Definition Index: 90363
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SimpleHealth_add_OnHealthChanged_mE8BA74DF30EEBAFDBD0557850B0E2C8D1AB40F71 (SimpleHealth_t9546BB9FBEC3A98C7645D2EAD6DFAEDEDE048029* __this, Action_2_t4195ED8D681728C29103F36BCD591C0F089C9132* ___0_value, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Action_2_t4195ED8D681728C29103F36BCD591C0F089C9132_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	//<source_info:<no-source>:1>
+	Action_2_t4195ED8D681728C29103F36BCD591C0F089C9132* V_0 = NULL;
+	Action_2_t4195ED8D681728C29103F36BCD591C0F089C9132* V_1 = NULL;
+	Action_2_t4195ED8D681728C29103F36BCD591C0F089C9132* V_2 = NULL;
+	{
+		Action_2_t4195ED8D681728C29103F36BCD591C0F089C9132* L_0 = __this->___OnHealthChanged;
+		V_0 = L_0;
+	}
+
+IL_0007:
+	{
+		Action_2_t4195ED8D681728C29103F36BCD591C0F089C9132* L_1 = V_0;
+		V_1 = L_1;
+		Action_2_t4195ED8D681728C29103F36BCD591C0F089C9132* L_2 = V_1;
+		Action_2_t4195ED8D681728C29103F36BCD591C0F089C9132* L_3 = ___0_value;
+		Delegate_t* L_4;
+		L_4 = Delegate_Combine_m1F725AEF318BE6F0426863490691A6F4606E7D00(L_2, L_3, NULL);
+		V_2 = ((Action_2_t4195ED8D681728C29103F36BCD591C0F089C9132*)Castclass((RuntimeObject*)L_4, Action_2_t4195ED8D681728C29103F36BCD591C0F089C9132_il2cpp_TypeInfo_var));
+		Action_2_t4195ED8D681728C29103F36BCD591C0F089C9132** L_5 = (Action_2_t4195ED8D681728C29103F36BCD591C0F089C9132**)(&__this->___OnHealthChanged);
+		Action_2_t4195ED8D681728C29103F36BCD591C0F089C9132* L_6 = V_2;
+		Action_2_t4195ED8D681728C29103F36BCD591C0F089C9132* L_7 = V_1;
+		Action_2_t4195ED8D681728C29103F36BCD591C0F089C9132* L_8;
+		L_8 = InterlockedCompareExchangeImpl<Action_2_t4195ED8D681728C29103F36BCD591C0F089C9132*>(L_5, L_6, L_7);
+		V_0 = L_8;
+		Action_2_t4195ED8D681728C29103F36BCD591C0F089C9132* L_9 = V_0;
+		Action_2_t4195ED8D681728C29103F36BCD591C0F089C9132* L_10 = V_1;
+		if ((!(((RuntimeObject*)(Action_2_t4195ED8D681728C29103F36BCD591C0F089C9132*)L_9) == ((RuntimeObject*)(Action_2_t4195ED8D681728C29103F36BCD591C0F089C9132*)L_10))))
+		{
+			goto IL_0007;
+		}
+	}
+	{
+		return;
+	}
+}
+// Method Definition Index: 90364
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SimpleHealth_remove_OnHealthChanged_m6AB9EA141E75D877BA38BE6EE04DADCD1A8AB868 (SimpleHealth_t9546BB9FBEC3A98C7645D2EAD6DFAEDEDE048029* __this, Action_2_t4195ED8D681728C29103F36BCD591C0F089C9132* ___0_value, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Action_2_t4195ED8D681728C29103F36BCD591C0F089C9132_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	//<source_info:<no-source>:1>
+	Action_2_t4195ED8D681728C29103F36BCD591C0F089C9132* V_0 = NULL;
+	Action_2_t4195ED8D681728C29103F36BCD591C0F089C9132* V_1 = NULL;
+	Action_2_t4195ED8D681728C29103F36BCD591C0F089C9132* V_2 = NULL;
+	{
+		Action_2_t4195ED8D681728C29103F36BCD591C0F089C9132* L_0 = __this->___OnHealthChanged;
+		V_0 = L_0;
+	}
+
+IL_0007:
+	{
+		Action_2_t4195ED8D681728C29103F36BCD591C0F089C9132* L_1 = V_0;
+		V_1 = L_1;
+		Action_2_t4195ED8D681728C29103F36BCD591C0F089C9132* L_2 = V_1;
+		Action_2_t4195ED8D681728C29103F36BCD591C0F089C9132* L_3 = ___0_value;
+		Delegate_t* L_4;
+		L_4 = Delegate_Remove_m8B7DD5661308FA972E23CA1CC3FC9CEB355504E3(L_2, L_3, NULL);
+		V_2 = ((Action_2_t4195ED8D681728C29103F36BCD591C0F089C9132*)Castclass((RuntimeObject*)L_4, Action_2_t4195ED8D681728C29103F36BCD591C0F089C9132_il2cpp_TypeInfo_var));
+		Action_2_t4195ED8D681728C29103F36BCD591C0F089C9132** L_5 = (Action_2_t4195ED8D681728C29103F36BCD591C0F089C9132**)(&__this->___OnHealthChanged);
+		Action_2_t4195ED8D681728C29103F36BCD591C0F089C9132* L_6 = V_2;
+		Action_2_t4195ED8D681728C29103F36BCD591C0F089C9132* L_7 = V_1;
+		Action_2_t4195ED8D681728C29103F36BCD591C0F089C9132* L_8;
+		L_8 = InterlockedCompareExchangeImpl<Action_2_t4195ED8D681728C29103F36BCD591C0F089C9132*>(L_5, L_6, L_7);
+		V_0 = L_8;
+		Action_2_t4195ED8D681728C29103F36BCD591C0F089C9132* L_9 = V_0;
+		Action_2_t4195ED8D681728C29103F36BCD591C0F089C9132* L_10 = V_1;
+		if ((!(((RuntimeObject*)(Action_2_t4195ED8D681728C29103F36BCD591C0F089C9132*)L_9) == ((RuntimeObject*)(Action_2_t4195ED8D681728C29103F36BCD591C0F089C9132*)L_10))))
+		{
+			goto IL_0007;
+		}
+	}
+	{
+		return;
+	}
+}
+// Method Definition Index: 90365
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float SimpleHealth_get_Current_mAEC5C359F0EB62C85421A8FAA5DE12F8E8D79DB4 (SimpleHealth_t9546BB9FBEC3A98C7645D2EAD6DFAEDEDE048029* __this, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:C:/Users/mynur/OneDrive/Documentos/GitHub/Polarity_Breach_VR/Assets/Scripts/PolaritySystem/SimpleHealth.cs:16>
+		float L_0 = __this->____current;
+		return L_0;
+	}
+}
+// Method Definition Index: 90366
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float SimpleHealth_get_Max_mB52E5AAE887F5BE1C19109BE29327909F29EB859 (SimpleHealth_t9546BB9FBEC3A98C7645D2EAD6DFAEDEDE048029* __this, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:C:/Users/mynur/OneDrive/Documentos/GitHub/Polarity_Breach_VR/Assets/Scripts/PolaritySystem/SimpleHealth.cs:17>
+		float L_0 = __this->____maxHealth;
+		return L_0;
+	}
+}
+// Method Definition Index: 90367
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SimpleHealth_Awake_mC32A5AE559DB16CC51D7287CC529FC4178B4A96D (SimpleHealth_t9546BB9FBEC3A98C7645D2EAD6DFAEDEDE048029* __this, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:C:/Users/mynur/OneDrive/Documentos/GitHub/Polarity_Breach_VR/Assets/Scripts/PolaritySystem/SimpleHealth.cs:19>
+		float L_0 = __this->____maxHealth;
+		__this->____current = L_0;
+		return;
+	}
+}
+// Method Definition Index: 90368
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SimpleHealth_OnEnable_m936E0C246AEBA2379CDD271F5886B9B8D1A64AD9 (SimpleHealth_t9546BB9FBEC3A98C7645D2EAD6DFAEDEDE048029* __this, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:C:/Users/mynur/OneDrive/Documentos/GitHub/Polarity_Breach_VR/Assets/Scripts/PolaritySystem/SimpleHealth.cs:20>
+		float L_0 = __this->____maxHealth;
+		__this->____current = L_0;
+		return;
+	}
+}
+// Method Definition Index: 90369
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SimpleHealth_TakeDamage_m6C2DCC95F9B4D30B21666622C439C62E87CF67E5 (SimpleHealth_t9546BB9FBEC3A98C7645D2EAD6DFAEDEDE048029* __this, float ___0_amount, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral9C42CD023F188164C1F7F3BECD44B6C4C4293ADE);
+		s_Il2CppMethodInitialized = true;
+	}
+	Action_2_t4195ED8D681728C29103F36BCD591C0F089C9132* G_B4_0 = NULL;
+	Action_2_t4195ED8D681728C29103F36BCD591C0F089C9132* G_B3_0 = NULL;
+	Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* G_B8_0 = NULL;
+	Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* G_B7_0 = NULL;
+	{
+		//<source_info:C:/Users/mynur/OneDrive/Documentos/GitHub/Polarity_Breach_VR/Assets/Scripts/PolaritySystem/SimpleHealth.cs:24>
+		float L_0 = __this->____current;
+		if ((!(((float)L_0) <= ((float)(0.0f)))))
+		{
+			goto IL_000e;
+		}
+	}
+	{
+		//<source_info:C:/Users/mynur/OneDrive/Documentos/GitHub/Polarity_Breach_VR/Assets/Scripts/PolaritySystem/SimpleHealth.cs:24>
+		return;
+	}
+
+IL_000e:
+	{
+		//<source_info:C:/Users/mynur/OneDrive/Documentos/GitHub/Polarity_Breach_VR/Assets/Scripts/PolaritySystem/SimpleHealth.cs:26>
+		float L_1 = __this->____current;
+		float L_2 = ___0_amount;
+		float L_3;
+		L_3 = Mathf_Max_mF5379E63D2BBAC76D090748695D833934F8AD051_inline((0.0f), ((float)il2cpp_codegen_subtract(L_1, L_2)), NULL);
+		__this->____current = L_3;
+		//<source_info:C:/Users/mynur/OneDrive/Documentos/GitHub/Polarity_Breach_VR/Assets/Scripts/PolaritySystem/SimpleHealth.cs:27>
+		Action_2_t4195ED8D681728C29103F36BCD591C0F089C9132* L_4 = __this->___OnHealthChanged;
+		Action_2_t4195ED8D681728C29103F36BCD591C0F089C9132* L_5 = L_4;
+		if (L_5)
+		{
+			G_B4_0 = L_5;
+			goto IL_0032;
+		}
+		G_B3_0 = L_5;
+	}
+	{
+		goto IL_0043;
+	}
+
+IL_0032:
+	{
+		float L_6 = __this->____current;
+		float L_7 = __this->____maxHealth;
+		NullCheck(G_B4_0);
+		Action_2_Invoke_m50A62593A87E11ED31B47FE46E633AB3B9A7666C_inline(G_B4_0, L_6, L_7, NULL);
+	}
+
+IL_0043:
+	{
+		//<source_info:C:/Users/mynur/OneDrive/Documentos/GitHub/Polarity_Breach_VR/Assets/Scripts/PolaritySystem/SimpleHealth.cs:28>
+		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_8 = (ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918*)(ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918*)SZArrayNew(ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918_il2cpp_TypeInfo_var, (uint32_t)4);
+		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_9 = L_8;
+		String_t* L_10;
+		L_10 = Object_get_name_mAC2F6B897CF1303BA4249B4CB55271AFACBB6392(__this, NULL);
+		NullCheck(L_9);
+		ArrayElementTypeCheck (L_9, L_10);
+		(L_9)->SetAt(static_cast<il2cpp_array_size_t>(0), (RuntimeObject*)L_10);
+		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_11 = L_9;
+		float L_12 = ___0_amount;
+		float L_13 = L_12;
+		RuntimeObject* L_14 = Box(il2cpp_defaults.single_class, &L_13);
+		NullCheck(L_11);
+		ArrayElementTypeCheck (L_11, L_14);
+		(L_11)->SetAt(static_cast<il2cpp_array_size_t>(1), (RuntimeObject*)L_14);
+		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_15 = L_11;
+		float L_16 = __this->____current;
+		float L_17 = L_16;
+		RuntimeObject* L_18 = Box(il2cpp_defaults.single_class, &L_17);
+		NullCheck(L_15);
+		ArrayElementTypeCheck (L_15, L_18);
+		(L_15)->SetAt(static_cast<il2cpp_array_size_t>(2), (RuntimeObject*)L_18);
+		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_19 = L_15;
+		float L_20 = __this->____maxHealth;
+		float L_21 = L_20;
+		RuntimeObject* L_22 = Box(il2cpp_defaults.single_class, &L_21);
+		NullCheck(L_19);
+		ArrayElementTypeCheck (L_19, L_22);
+		(L_19)->SetAt(static_cast<il2cpp_array_size_t>(3), (RuntimeObject*)L_22);
+		String_t* L_23;
+		L_23 = String_Format_m918500C1EFB475181349A79989BB79BB36102894(_stringLiteral9C42CD023F188164C1F7F3BECD44B6C4C4293ADE, L_19, NULL);
+		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
+		Debug_Log_m87A9A3C761FF5C43ED8A53B16190A53D08F818BB(L_23, NULL);
+		//<source_info:C:/Users/mynur/OneDrive/Documentos/GitHub/Polarity_Breach_VR/Assets/Scripts/PolaritySystem/SimpleHealth.cs:30>
+		float L_24 = __this->____current;
+		if ((!(((float)L_24) <= ((float)(0.0f)))))
+		{
+			goto IL_00ae;
+		}
+	}
+	{
+		//<source_info:C:/Users/mynur/OneDrive/Documentos/GitHub/Polarity_Breach_VR/Assets/Scripts/PolaritySystem/SimpleHealth.cs:32>
+		__this->____current = (0.0f);
+		//<source_info:C:/Users/mynur/OneDrive/Documentos/GitHub/Polarity_Breach_VR/Assets/Scripts/PolaritySystem/SimpleHealth.cs:33>
+		Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* L_25 = __this->___OnDied;
+		Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* L_26 = L_25;
+		if (L_26)
+		{
+			G_B8_0 = L_26;
+			goto IL_00a9;
+		}
+		G_B7_0 = L_26;
+	}
+	{
+		return;
+	}
+
+IL_00a9:
+	{
+		NullCheck(G_B8_0);
+		Action_Invoke_m7126A54DACA72B845424072887B5F3A51FC3808E_inline(G_B8_0, NULL);
+	}
+
+IL_00ae:
+	{
+		//<source_info:C:/Users/mynur/OneDrive/Documentos/GitHub/Polarity_Breach_VR/Assets/Scripts/PolaritySystem/SimpleHealth.cs:35>
+		return;
+	}
+}
+// Method Definition Index: 90370
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SimpleHealth__ctor_m7F3ECCE65C74969A0C12B813B1983CEFAC2CA811 (SimpleHealth_t9546BB9FBEC3A98C7645D2EAD6DFAEDEDE048029* __this, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:C:/Users/mynur/OneDrive/Documentos/GitHub/Polarity_Breach_VR/Assets/Scripts/PolaritySystem/SimpleHealth.cs:10>
+		__this->____maxHealth = (30.0f);
+		MonoBehaviour__ctor_m592DB0105CA0BC97AA1C5F4AD27B12D68A3B7C1E(__this, NULL);
+		return;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// Method Definition Index: 90371
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool TestShooter_get_IsCharging_m61562E631B293552CB0536FD83FB8D5BD21C5195 (TestShooter_t31886477AD339CA401E8D12EF68BC7D1E9AAD6DE* __this, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:C:/Users/mynur/OneDrive/Documentos/GitHub/Polarity_Breach_VR/Assets/Scripts/PolaritySystem/TestShooter.cs:56>
+		bool L_0 = __this->____isCharging;
+		return L_0;
+	}
+}
+// Method Definition Index: 90372
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool TestShooter_get_ChargeReady_m09D76051B0DD50CA8E21CBC762E3952E2E368962 (TestShooter_t31886477AD339CA401E8D12EF68BC7D1E9AAD6DE* __this, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:C:/Users/mynur/OneDrive/Documentos/GitHub/Polarity_Breach_VR/Assets/Scripts/PolaritySystem/TestShooter.cs:57>
+		bool L_0 = __this->____chargeReady;
+		return L_0;
+	}
+}
+// Method Definition Index: 90373
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float TestShooter_get_ChargeProgress_m46112FCEDE44DB539328B88D1124012126D536AA (TestShooter_t31886477AD339CA401E8D12EF68BC7D1E9AAD6DE* __this, const RuntimeMethod* method) 
+{
+	float V_0 = 0.0f;
+	{
+		//<source_info:C:/Users/mynur/OneDrive/Documentos/GitHub/Polarity_Breach_VR/Assets/Scripts/PolaritySystem/TestShooter.cs:63>
+		bool L_0 = __this->____isCharging;
+		if (L_0)
+		{
+			goto IL_000e;
+		}
+	}
+	{
+		//<source_info:C:/Users/mynur/OneDrive/Documentos/GitHub/Polarity_Breach_VR/Assets/Scripts/PolaritySystem/TestShooter.cs:63>
+		return (0.0f);
+	}
+
+IL_000e:
+	{
+		//<source_info:C:/Users/mynur/OneDrive/Documentos/GitHub/Polarity_Breach_VR/Assets/Scripts/PolaritySystem/TestShooter.cs:64>
+		float L_1;
+		L_1 = TestShooter_GetChargeTime_m9E5516B8C132A93B1F1CE903B3783FCD5915FD38(__this, NULL);
+		V_0 = L_1;
+		//<source_info:C:/Users/mynur/OneDrive/Documentos/GitHub/Polarity_Breach_VR/Assets/Scripts/PolaritySystem/TestShooter.cs:65>
+		float L_2 = V_0;
+		if ((!(((float)L_2) <= ((float)(0.0f)))))
+		{
+			goto IL_0023;
+		}
+	}
+	{
+		//<source_info:C:/Users/mynur/OneDrive/Documentos/GitHub/Polarity_Breach_VR/Assets/Scripts/PolaritySystem/TestShooter.cs:65>
+		return (1.0f);
+	}
+
+IL_0023:
+	{
+		//<source_info:C:/Users/mynur/OneDrive/Documentos/GitHub/Polarity_Breach_VR/Assets/Scripts/PolaritySystem/TestShooter.cs:66>
+		float L_3;
+		L_3 = Time_get_time_m3A271BB1B20041144AC5B7863B71AB1F0150374B(NULL);
+		float L_4 = __this->____chargeStartTime;
+		float L_5 = V_0;
+		float L_6;
+		L_6 = Mathf_Clamp01_mA7E048DBDA832D399A581BE4D6DED9FA44CE0F14_inline(((float)(((float)il2cpp_codegen_subtract(L_3, L_4))/L_5)), NULL);
+		return L_6;
+	}
+}
+// Method Definition Index: 90374
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TestShooter_Awake_mF94C79D76602D1FDCA984915ACE955841DFE8ADF (TestShooter_t31886477AD339CA401E8D12EF68BC7D1E9AAD6DE* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Component_GetComponent_TisPlayerStatsData_t8AB00CC7DF7DB19B96714A2AC9281D6B0A107302_m710C3B1E9E695D867C7C5201A3F99828A6D9C7CD_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Component_GetComponent_TisPolarityComponent_t1FB53DB0BF7CE9A8E59278F3854DC776322BBCA0_m317F7D3130E71487835B00DB1356E893EEF94764_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral22E90655F730F1AA2D41C719EEAA0CE038D2A90C);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral2A66352C635C8B65B594F1E0AB2C6283B9D8AAAA);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		//<source_info:C:/Users/mynur/OneDrive/Documentos/GitHub/Polarity_Breach_VR/Assets/Scripts/PolaritySystem/TestShooter.cs:72>
+		PolarityComponent_t1FB53DB0BF7CE9A8E59278F3854DC776322BBCA0* L_0;
+		L_0 = Component_GetComponent_TisPolarityComponent_t1FB53DB0BF7CE9A8E59278F3854DC776322BBCA0_m317F7D3130E71487835B00DB1356E893EEF94764(__this, Component_GetComponent_TisPolarityComponent_t1FB53DB0BF7CE9A8E59278F3854DC776322BBCA0_m317F7D3130E71487835B00DB1356E893EEF94764_RuntimeMethod_var);
+		__this->____polarity = L_0;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->____polarity), (void*)L_0);
+		//<source_info:C:/Users/mynur/OneDrive/Documentos/GitHub/Polarity_Breach_VR/Assets/Scripts/PolaritySystem/TestShooter.cs:73>
+		PlayerStatsData_t8AB00CC7DF7DB19B96714A2AC9281D6B0A107302* L_1;
+		L_1 = Component_GetComponent_TisPlayerStatsData_t8AB00CC7DF7DB19B96714A2AC9281D6B0A107302_m710C3B1E9E695D867C7C5201A3F99828A6D9C7CD(__this, Component_GetComponent_TisPlayerStatsData_t8AB00CC7DF7DB19B96714A2AC9281D6B0A107302_m710C3B1E9E695D867C7C5201A3F99828A6D9C7CD_RuntimeMethod_var);
+		__this->____playerStats = L_1;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->____playerStats), (void*)L_1);
+		//<source_info:C:/Users/mynur/OneDrive/Documentos/GitHub/Polarity_Breach_VR/Assets/Scripts/PolaritySystem/TestShooter.cs:75>
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_2 = __this->____muzzle;
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		bool L_3;
+		L_3 = Object_op_Equality_mB6120F782D83091EF56A198FCEBCF066DB4A9605(L_2, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
+		if (!L_3)
+		{
+			goto IL_0032;
+		}
+	}
+	{
+		//<source_info:C:/Users/mynur/OneDrive/Documentos/GitHub/Polarity_Breach_VR/Assets/Scripts/PolaritySystem/TestShooter.cs:76>
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_4;
+		L_4 = Component_get_transform_m2919A1D81931E6932C7F06D4C2F0AB8DDA9A5371(__this, NULL);
+		__this->____muzzle = L_4;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->____muzzle), (void*)L_4);
+	}
+
+IL_0032:
+	{
+		//<source_info:C:/Users/mynur/OneDrive/Documentos/GitHub/Polarity_Breach_VR/Assets/Scripts/PolaritySystem/TestShooter.cs:78>
+		AudioSource_t871AC2272F896738252F04EE949AEF5B241D3299* L_5 = __this->___chargeLoopSource;
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		bool L_6;
+		L_6 = Object_op_Equality_mB6120F782D83091EF56A198FCEBCF066DB4A9605(L_5, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
+		if (!L_6)
+		{
+			goto IL_0051;
+		}
+	}
+	{
+		//<source_info:C:/Users/mynur/OneDrive/Documentos/GitHub/Polarity_Breach_VR/Assets/Scripts/PolaritySystem/TestShooter.cs:79>
+		AudioSource_t871AC2272F896738252F04EE949AEF5B241D3299* L_7;
+		L_7 = TestShooter_CreateLoopSource_m451775E0789373660DBA1015DEC6DB1D871663E2(__this, _stringLiteral22E90655F730F1AA2D41C719EEAA0CE038D2A90C, NULL);
+		__this->___chargeLoopSource = L_7;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___chargeLoopSource), (void*)L_7);
+	}
+
+IL_0051:
+	{
+		//<source_info:C:/Users/mynur/OneDrive/Documentos/GitHub/Polarity_Breach_VR/Assets/Scripts/PolaritySystem/TestShooter.cs:80>
+		AudioSource_t871AC2272F896738252F04EE949AEF5B241D3299* L_8 = __this->___heldChargeLoopSource;
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		bool L_9;
+		L_9 = Object_op_Equality_mB6120F782D83091EF56A198FCEBCF066DB4A9605(L_8, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
+		if (!L_9)
+		{
+			goto IL_0070;
+		}
+	}
+	{
+		//<source_info:C:/Users/mynur/OneDrive/Documentos/GitHub/Polarity_Breach_VR/Assets/Scripts/PolaritySystem/TestShooter.cs:81>
+		AudioSource_t871AC2272F896738252F04EE949AEF5B241D3299* L_10;
+		L_10 = TestShooter_CreateLoopSource_m451775E0789373660DBA1015DEC6DB1D871663E2(__this, _stringLiteral2A66352C635C8B65B594F1E0AB2C6283B9D8AAAA, NULL);
+		__this->___heldChargeLoopSource = L_10;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___heldChargeLoopSource), (void*)L_10);
+	}
+
+IL_0070:
+	{
+		//<source_info:C:/Users/mynur/OneDrive/Documentos/GitHub/Polarity_Breach_VR/Assets/Scripts/PolaritySystem/TestShooter.cs:82>
+		return;
+	}
+}
+// Method Definition Index: 90375
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TestShooter_OnEnable_mEFFB0F4F8C15ADF078E367DB4F6479CA118F9685 (TestShooter_t31886477AD339CA401E8D12EF68BC7D1E9AAD6DE* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Action_1_t10DCB0C07D0D3C565CEACADC80D1152B35A45F6C_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&TestShooter_HandlePause_m38B02DF4365B21D0FB978E453BD1D3E06F9B3965_RuntimeMethod_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		//<source_info:C:/Users/mynur/OneDrive/Documentos/GitHub/Polarity_Breach_VR/Assets/Scripts/PolaritySystem/TestShooter.cs:86>
+		Action_1_t10DCB0C07D0D3C565CEACADC80D1152B35A45F6C* L_0 = (Action_1_t10DCB0C07D0D3C565CEACADC80D1152B35A45F6C*)il2cpp_codegen_object_new(Action_1_t10DCB0C07D0D3C565CEACADC80D1152B35A45F6C_il2cpp_TypeInfo_var);
+		Action_1__ctor_mA8C3AC97D1F076EA5D1D0C10CEE6BD3E94711501(L_0, __this, (intptr_t)((void*)TestShooter_HandlePause_m38B02DF4365B21D0FB978E453BD1D3E06F9B3965_RuntimeMethod_var), NULL);
+		PauseMenu_add_OnPauseChanged_m68F3154EEF37F50EFBB31D7C1548ECAF6F6C965E(L_0, NULL);
+		//<source_info:C:/Users/mynur/OneDrive/Documentos/GitHub/Polarity_Breach_VR/Assets/Scripts/PolaritySystem/TestShooter.cs:87>
+		Action_1_t10DCB0C07D0D3C565CEACADC80D1152B35A45F6C* L_1 = (Action_1_t10DCB0C07D0D3C565CEACADC80D1152B35A45F6C*)il2cpp_codegen_object_new(Action_1_t10DCB0C07D0D3C565CEACADC80D1152B35A45F6C_il2cpp_TypeInfo_var);
+		Action_1__ctor_mA8C3AC97D1F076EA5D1D0C10CEE6BD3E94711501(L_1, __this, (intptr_t)((void*)TestShooter_HandlePause_m38B02DF4365B21D0FB978E453BD1D3E06F9B3965_RuntimeMethod_var), NULL);
+		UIQueue_add_OnBlockingChanged_mB6F17F101D7A5B87F987827DEB0E80B6F16B31B4(L_1, NULL);
+		//<source_info:C:/Users/mynur/OneDrive/Documentos/GitHub/Polarity_Breach_VR/Assets/Scripts/PolaritySystem/TestShooter.cs:88>
+		return;
+	}
+}
+// Method Definition Index: 90376
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TestShooter_OnDisable_m91D59C3D40FF87862532AE21FB9F237421EF506F (TestShooter_t31886477AD339CA401E8D12EF68BC7D1E9AAD6DE* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Action_1_t10DCB0C07D0D3C565CEACADC80D1152B35A45F6C_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&TestShooter_HandlePause_m38B02DF4365B21D0FB978E453BD1D3E06F9B3965_RuntimeMethod_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		//<source_info:C:/Users/mynur/OneDrive/Documentos/GitHub/Polarity_Breach_VR/Assets/Scripts/PolaritySystem/TestShooter.cs:92>
+		Action_1_t10DCB0C07D0D3C565CEACADC80D1152B35A45F6C* L_0 = (Action_1_t10DCB0C07D0D3C565CEACADC80D1152B35A45F6C*)il2cpp_codegen_object_new(Action_1_t10DCB0C07D0D3C565CEACADC80D1152B35A45F6C_il2cpp_TypeInfo_var);
+		Action_1__ctor_mA8C3AC97D1F076EA5D1D0C10CEE6BD3E94711501(L_0, __this, (intptr_t)((void*)TestShooter_HandlePause_m38B02DF4365B21D0FB978E453BD1D3E06F9B3965_RuntimeMethod_var), NULL);
+		PauseMenu_remove_OnPauseChanged_mC6E3B56C26155EBF5CD6E0009E926F1411135145(L_0, NULL);
+		//<source_info:C:/Users/mynur/OneDrive/Documentos/GitHub/Polarity_Breach_VR/Assets/Scripts/PolaritySystem/TestShooter.cs:93>
+		Action_1_t10DCB0C07D0D3C565CEACADC80D1152B35A45F6C* L_1 = (Action_1_t10DCB0C07D0D3C565CEACADC80D1152B35A45F6C*)il2cpp_codegen_object_new(Action_1_t10DCB0C07D0D3C565CEACADC80D1152B35A45F6C_il2cpp_TypeInfo_var);
+		Action_1__ctor_mA8C3AC97D1F076EA5D1D0C10CEE6BD3E94711501(L_1, __this, (intptr_t)((void*)TestShooter_HandlePause_m38B02DF4365B21D0FB978E453BD1D3E06F9B3965_RuntimeMethod_var), NULL);
+		UIQueue_remove_OnBlockingChanged_m420E117375CFF4D62D83E4F6CCCC7E46A4DF6764(L_1, NULL);
+		//<source_info:C:/Users/mynur/OneDrive/Documentos/GitHub/Polarity_Breach_VR/Assets/Scripts/PolaritySystem/TestShooter.cs:94>
+		TestShooter_StopChargeLoop_mDB1FC580B8E28F95414ACB913A15A6315379B55B(__this, NULL);
+		//<source_info:C:/Users/mynur/OneDrive/Documentos/GitHub/Polarity_Breach_VR/Assets/Scripts/PolaritySystem/TestShooter.cs:95>
+		TestShooter_StopHeldChargeLoop_m30EA02507D58ECC7FA46F3FA3DBFC0016BFAB601(__this, NULL);
+		//<source_info:C:/Users/mynur/OneDrive/Documentos/GitHub/Polarity_Breach_VR/Assets/Scripts/PolaritySystem/TestShooter.cs:96>
+		TestShooter_StopVibration_m635EE4097D5260FBA1304E0405923CDEC70F755F(__this, NULL);
+		//<source_info:C:/Users/mynur/OneDrive/Documentos/GitHub/Polarity_Breach_VR/Assets/Scripts/PolaritySystem/TestShooter.cs:97>
+		return;
+	}
+}
+// Method Definition Index: 90377
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TestShooter_Update_mBB01A168D34A913B8B177C39498366D1CB828CEC (TestShooter_t31886477AD339CA401E8D12EF68BC7D1E9AAD6DE* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&OVRInput_t759D9CC8F14D8539AD78A0375A2306C39D77100A_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		//<source_info:C:/Users/mynur/OneDrive/Documentos/GitHub/Polarity_Breach_VR/Assets/Scripts/PolaritySystem/TestShooter.cs:101>
+		bool L_0;
+		L_0 = UIQueue_get_IsBlocking_m6B2BCD297AA3050728F60F53EA389653911E0134_inline(NULL);
+		if (L_0)
+		{
+			goto IL_000e;
+		}
+	}
+	{
+		bool L_1;
+		L_1 = PauseMenu_get_IsPaused_mD104EA82FBC4D985AEA9F223CFA038687136944E_inline(NULL);
+		if (!L_1)
+		{
+			goto IL_0016;
+		}
+	}
+
+IL_000e:
+	{
+		//<source_info:C:/Users/mynur/OneDrive/Documentos/GitHub/Polarity_Breach_VR/Assets/Scripts/PolaritySystem/TestShooter.cs:103>
+		__this->____wasPressed = (bool)0;
+		//<source_info:C:/Users/mynur/OneDrive/Documentos/GitHub/Polarity_Breach_VR/Assets/Scripts/PolaritySystem/TestShooter.cs:104>
+		return;
+	}
+
+IL_0016:
+	{
+		//<source_info:C:/Users/mynur/OneDrive/Documentos/GitHub/Polarity_Breach_VR/Assets/Scripts/PolaritySystem/TestShooter.cs:107>
+		il2cpp_codegen_runtime_class_init_inline(OVRInput_t759D9CC8F14D8539AD78A0375A2306C39D77100A_il2cpp_TypeInfo_var);
+		float L_2;
+		L_2 = OVRInput_Get_m1FD85568F358C43019E09E48A7BEBD6CD7F7E5D8(1, 2, NULL);
+		//<source_info:C:/Users/mynur/OneDrive/Documentos/GitHub/Polarity_Breach_VR/Assets/Scripts/PolaritySystem/TestShooter.cs:108>
+		//<source_info:C:/Users/mynur/OneDrive/Documentos/GitHub/Polarity_Breach_VR/Assets/Scripts/PolaritySystem/TestShooter.cs:111>
+		if (((((int32_t)((!(((float)L_2) >= ((float)(0.5f))))? 1 : 0)) == ((int32_t)0))? 1 : 0))
+		{
+			goto IL_003f;
+		}
+	}
+	{
+		//<source_info:C:/Users/mynur/OneDrive/Documentos/GitHub/Polarity_Breach_VR/Assets/Scripts/PolaritySystem/TestShooter.cs:113>
+		bool L_3 = __this->____isCharging;
+		if (!L_3)
+		{
+			goto IL_0037;
+		}
+	}
+	{
+		//<source_info:C:/Users/mynur/OneDrive/Documentos/GitHub/Polarity_Breach_VR/Assets/Scripts/PolaritySystem/TestShooter.cs:113>
+		TestShooter_ReleaseCharge_mF746FAA28A8582F2BDDBA8C9EDC2658AEC95CDBE(__this, NULL);
+	}
+
+IL_0037:
+	{
+		//<source_info:C:/Users/mynur/OneDrive/Documentos/GitHub/Polarity_Breach_VR/Assets/Scripts/PolaritySystem/TestShooter.cs:114>
+		__this->____wasPressed = (bool)0;
+		//<source_info:C:/Users/mynur/OneDrive/Documentos/GitHub/Polarity_Breach_VR/Assets/Scripts/PolaritySystem/TestShooter.cs:115>
+		return;
+	}
+
+IL_003f:
+	{
+		//<source_info:C:/Users/mynur/OneDrive/Documentos/GitHub/Polarity_Breach_VR/Assets/Scripts/PolaritySystem/TestShooter.cs:119>
+		bool L_4 = __this->____wasPressed;
+		if (L_4)
+		{
+			goto IL_0081;
+		}
+	}
+	{
+		//<source_info:C:/Users/mynur/OneDrive/Documentos/GitHub/Polarity_Breach_VR/Assets/Scripts/PolaritySystem/TestShooter.cs:121>
+		__this->____wasPressed = (bool)1;
+		//<source_info:C:/Users/mynur/OneDrive/Documentos/GitHub/Polarity_Breach_VR/Assets/Scripts/PolaritySystem/TestShooter.cs:123>
+		float L_5;
+		L_5 = Time_get_time_m3A271BB1B20041144AC5B7863B71AB1F0150374B(NULL);
+		float L_6 = __this->____lastShotTime;
+		PlayerStatsData_t8AB00CC7DF7DB19B96714A2AC9281D6B0A107302* L_7 = __this->____playerStats;
+		NullCheck(L_7);
+		float L_8 = L_7->___attackSpeedDelay;
+		if ((!(((float)L_5) >= ((float)((float)il2cpp_codegen_add(L_6, L_8))))))
+		{
+			goto IL_0080;
+		}
+	}
+	{
+		//<source_info:C:/Users/mynur/OneDrive/Documentos/GitHub/Polarity_Breach_VR/Assets/Scripts/PolaritySystem/TestShooter.cs:125>
+		TestShooter_Shoot_mE9F9C6ACD89B4151973BF8FE19C564ED5D4DE99D(__this, NULL);
+		//<source_info:C:/Users/mynur/OneDrive/Documentos/GitHub/Polarity_Breach_VR/Assets/Scripts/PolaritySystem/TestShooter.cs:127>
+		PlayerStatsData_t8AB00CC7DF7DB19B96714A2AC9281D6B0A107302* L_9 = __this->____playerStats;
+		NullCheck(L_9);
+		bool L_10 = L_9->___chargeShotUnlocked;
+		if (!L_10)
+		{
+			goto IL_0080;
+		}
+	}
+	{
+		//<source_info:C:/Users/mynur/OneDrive/Documentos/GitHub/Polarity_Breach_VR/Assets/Scripts/PolaritySystem/TestShooter.cs:128>
+		TestShooter_StartCharging_mD8DA049FE38D19CD937E24A8FE23205E8726698B(__this, NULL);
+	}
+
+IL_0080:
+	{
+		//<source_info:C:/Users/mynur/OneDrive/Documentos/GitHub/Polarity_Breach_VR/Assets/Scripts/PolaritySystem/TestShooter.cs:131>
+		return;
+	}
+
+IL_0081:
+	{
+		//<source_info:C:/Users/mynur/OneDrive/Documentos/GitHub/Polarity_Breach_VR/Assets/Scripts/PolaritySystem/TestShooter.cs:135>
+		bool L_11 = __this->____isCharging;
+		if (!L_11)
+		{
+			goto IL_008f;
+		}
+	}
+	{
+		//<source_info:C:/Users/mynur/OneDrive/Documentos/GitHub/Polarity_Breach_VR/Assets/Scripts/PolaritySystem/TestShooter.cs:135>
+		TestShooter_UpdateCharging_m96B6E84F147396DCBDF057A7D5D632A629BDB5B1(__this, NULL);
+	}
+
+IL_008f:
+	{
+		//<source_info:C:/Users/mynur/OneDrive/Documentos/GitHub/Polarity_Breach_VR/Assets/Scripts/PolaritySystem/TestShooter.cs:136>
+		return;
+	}
+}
+// Method Definition Index: 90378
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TestShooter_HandlePause_m38B02DF4365B21D0FB978E453BD1D3E06F9B3965 (TestShooter_t31886477AD339CA401E8D12EF68BC7D1E9AAD6DE* __this, bool ___0_paused, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:C:/Users/mynur/OneDrive/Documentos/GitHub/Polarity_Breach_VR/Assets/Scripts/PolaritySystem/TestShooter.cs:140>
+		bool L_0 = ___0_paused;
+		if (!L_0)
+		{
+			goto IL_0011;
+		}
+	}
+	{
+		//<source_info:C:/Users/mynur/OneDrive/Documentos/GitHub/Polarity_Breach_VR/Assets/Scripts/PolaritySystem/TestShooter.cs:142>
+		TestShooter_CancelCharge_m6DD785FFBB4561C0CF0CF03D9EFA2AB8D7D2BC6C(__this, (bool)0, NULL);
+		//<source_info:C:/Users/mynur/OneDrive/Documentos/GitHub/Polarity_Breach_VR/Assets/Scripts/PolaritySystem/TestShooter.cs:143>
+		__this->____wasPressed = (bool)0;
+	}
+
+IL_0011:
+	{
+		//<source_info:C:/Users/mynur/OneDrive/Documentos/GitHub/Polarity_Breach_VR/Assets/Scripts/PolaritySystem/TestShooter.cs:145>
+		return;
+	}
+}
+// Method Definition Index: 90379
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float TestShooter_GetChargeTime_m9E5516B8C132A93B1F1CE903B3783FCD5915FD38 (TestShooter_t31886477AD339CA401E8D12EF68BC7D1E9AAD6DE* __this, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:C:/Users/mynur/OneDrive/Documentos/GitHub/Polarity_Breach_VR/Assets/Scripts/PolaritySystem/TestShooter.cs:149>
+		float L_0 = __this->___referenceAttackDelay;
+		if ((!(((float)L_0) <= ((float)(0.0f)))))
+		{
+			goto IL_0019;
+		}
+	}
+	{
+		//<source_info:C:/Users/mynur/OneDrive/Documentos/GitHub/Polarity_Breach_VR/Assets/Scripts/PolaritySystem/TestShooter.cs:149>
+		PlayerStatsData_t8AB00CC7DF7DB19B96714A2AC9281D6B0A107302* L_1 = __this->____playerStats;
+		NullCheck(L_1);
+		float L_2 = L_1->___chargeTime;
+		return L_2;
+	}
+
+IL_0019:
+	{
+		//<source_info:C:/Users/mynur/OneDrive/Documentos/GitHub/Polarity_Breach_VR/Assets/Scripts/PolaritySystem/TestShooter.cs:150>
+		PlayerStatsData_t8AB00CC7DF7DB19B96714A2AC9281D6B0A107302* L_3 = __this->____playerStats;
+		NullCheck(L_3);
+		float L_4 = L_3->___chargeTime;
+		PlayerStatsData_t8AB00CC7DF7DB19B96714A2AC9281D6B0A107302* L_5 = __this->____playerStats;
+		NullCheck(L_5);
+		float L_6 = L_5->___attackSpeedDelay;
+		float L_7 = __this->___referenceAttackDelay;
+		return ((float)il2cpp_codegen_multiply(L_4, ((float)(L_6/L_7))));
+	}
+}
+// Method Definition Index: 90380
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float TestShooter_GetChargePitch_m493115F1439369768A04930004F83227B854FADB (TestShooter_t31886477AD339CA401E8D12EF68BC7D1E9AAD6DE* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	float V_0 = 0.0f;
+	{
+		//<source_info:C:/Users/mynur/OneDrive/Documentos/GitHub/Polarity_Breach_VR/Assets/Scripts/PolaritySystem/TestShooter.cs:155>
+		AudioClip_t5D272C4EB4F2D3ED49F1C346DEA373CF6D585F20* L_0 = __this->___chargeSound;
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		bool L_1;
+		L_1 = Object_op_Equality_mB6120F782D83091EF56A198FCEBCF066DB4A9605(L_0, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
+		if (!L_1)
+		{
+			goto IL_0014;
+		}
+	}
+	{
+		//<source_info:C:/Users/mynur/OneDrive/Documentos/GitHub/Polarity_Breach_VR/Assets/Scripts/PolaritySystem/TestShooter.cs:155>
+		return (1.0f);
+	}
+
+IL_0014:
+	{
+		//<source_info:C:/Users/mynur/OneDrive/Documentos/GitHub/Polarity_Breach_VR/Assets/Scripts/PolaritySystem/TestShooter.cs:157>
+		float L_2;
+		L_2 = TestShooter_GetChargeTime_m9E5516B8C132A93B1F1CE903B3783FCD5915FD38(__this, NULL);
+		V_0 = L_2;
+		//<source_info:C:/Users/mynur/OneDrive/Documentos/GitHub/Polarity_Breach_VR/Assets/Scripts/PolaritySystem/TestShooter.cs:158>
+		float L_3 = V_0;
+		if ((!(((float)L_3) <= ((float)(0.0f)))))
+		{
+			goto IL_002a;
+		}
+	}
+	{
+		//<source_info:C:/Users/mynur/OneDrive/Documentos/GitHub/Polarity_Breach_VR/Assets/Scripts/PolaritySystem/TestShooter.cs:158>
+		float L_4 = __this->___maxChargePitch;
+		return L_4;
+	}
+
+IL_002a:
+	{
+		//<source_info:C:/Users/mynur/OneDrive/Documentos/GitHub/Polarity_Breach_VR/Assets/Scripts/PolaritySystem/TestShooter.cs:160>
+		AudioClip_t5D272C4EB4F2D3ED49F1C346DEA373CF6D585F20* L_5 = __this->___chargeSound;
+		NullCheck(L_5);
+		float L_6;
+		L_6 = AudioClip_get_length_m6102CB29AF65988797452E4D6E43D4788303873D(L_5, NULL);
+		float L_7 = V_0;
+		//<source_info:C:/Users/mynur/OneDrive/Documentos/GitHub/Polarity_Breach_VR/Assets/Scripts/PolaritySystem/TestShooter.cs:161>
+		float L_8 = __this->___minChargePitch;
+		float L_9 = __this->___maxChargePitch;
+		float L_10;
+		L_10 = Mathf_Clamp_mEB9AEA827D27D20FCC787F7375156AF46BB12BBF_inline(((float)(L_6/L_7)), L_8, L_9, NULL);
+		return L_10;
+	}
+}
+// Method Definition Index: 90381
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TestShooter_StartCharging_mD8DA049FE38D19CD937E24A8FE23205E8726698B (TestShooter_t31886477AD339CA401E8D12EF68BC7D1E9AAD6DE* __this, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:C:/Users/mynur/OneDrive/Documentos/GitHub/Polarity_Breach_VR/Assets/Scripts/PolaritySystem/TestShooter.cs:166>
+		__this->____isCharging = (bool)1;
+		//<source_info:C:/Users/mynur/OneDrive/Documentos/GitHub/Polarity_Breach_VR/Assets/Scripts/PolaritySystem/TestShooter.cs:167>
+		__this->____chargeReady = (bool)0;
+		//<source_info:C:/Users/mynur/OneDrive/Documentos/GitHub/Polarity_Breach_VR/Assets/Scripts/PolaritySystem/TestShooter.cs:168>
+		float L_0;
+		L_0 = Time_get_time_m3A271BB1B20041144AC5B7863B71AB1F0150374B(NULL);
+		__this->____chargeStartTime = L_0;
+		//<source_info:C:/Users/mynur/OneDrive/Documentos/GitHub/Polarity_Breach_VR/Assets/Scripts/PolaritySystem/TestShooter.cs:169>
+		TestShooter_StopHeldChargeLoop_m30EA02507D58ECC7FA46F3FA3DBFC0016BFAB601(__this, NULL);
+		//<source_info:C:/Users/mynur/OneDrive/Documentos/GitHub/Polarity_Breach_VR/Assets/Scripts/PolaritySystem/TestShooter.cs:170>
+		TestShooter_StartChargeLoop_mFE822B3250C64BAB1398AE03C2D9D5083691F201(__this, NULL);
+		//<source_info:C:/Users/mynur/OneDrive/Documentos/GitHub/Polarity_Breach_VR/Assets/Scripts/PolaritySystem/TestShooter.cs:171>
+		return;
+	}
+}
+// Method Definition Index: 90382
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TestShooter_UpdateCharging_m96B6E84F147396DCBDF057A7D5D632A629BDB5B1 (TestShooter_t31886477AD339CA401E8D12EF68BC7D1E9AAD6DE* __this, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:C:/Users/mynur/OneDrive/Documentos/GitHub/Polarity_Breach_VR/Assets/Scripts/PolaritySystem/TestShooter.cs:175>
+		float L_0;
+		L_0 = Time_get_time_m3A271BB1B20041144AC5B7863B71AB1F0150374B(NULL);
+		float L_1 = __this->____chargeStartTime;
+		//<source_info:C:/Users/mynur/OneDrive/Documentos/GitHub/Polarity_Breach_VR/Assets/Scripts/PolaritySystem/TestShooter.cs:177>
+		float L_2;
+		L_2 = TestShooter_GetChargeTime_m9E5516B8C132A93B1F1CE903B3783FCD5915FD38(__this, NULL);
+		if ((!(((float)((float)il2cpp_codegen_subtract(L_0, L_1))) >= ((float)L_2))))
+		{
+			goto IL_003c;
+		}
+	}
+	{
+		bool L_3 = __this->____chargeReady;
+		if (L_3)
+		{
+			goto IL_003c;
+		}
+	}
+	{
+		//<source_info:C:/Users/mynur/OneDrive/Documentos/GitHub/Polarity_Breach_VR/Assets/Scripts/PolaritySystem/TestShooter.cs:179>
+		__this->____chargeReady = (bool)1;
+		//<source_info:C:/Users/mynur/OneDrive/Documentos/GitHub/Polarity_Breach_VR/Assets/Scripts/PolaritySystem/TestShooter.cs:180>
+		TestShooter_StartHeldChargeLoop_mA7FDCE543E52FDFE296FE1640B0C111AB68B1A82(__this, NULL);
+		//<source_info:C:/Users/mynur/OneDrive/Documentos/GitHub/Polarity_Breach_VR/Assets/Scripts/PolaritySystem/TestShooter.cs:181>
+		TestShooter_StopChargeLoop_mDB1FC580B8E28F95414ACB913A15A6315379B55B(__this, NULL);
+		//<source_info:C:/Users/mynur/OneDrive/Documentos/GitHub/Polarity_Breach_VR/Assets/Scripts/PolaritySystem/TestShooter.cs:182>
+		RuntimeObject* L_4;
+		L_4 = TestShooter_VibrateReady_m47D7BDD72D15E2F0D2C0F30DA4B81C05FC17BF73(__this, NULL);
+		Coroutine_t85EA685566A254C23F3FD77AB5BDFFFF8799596B* L_5;
+		L_5 = MonoBehaviour_StartCoroutine_m4CAFF732AA28CD3BDC5363B44A863575530EC812(__this, L_4, NULL);
+	}
+
+IL_003c:
+	{
+		//<source_info:C:/Users/mynur/OneDrive/Documentos/GitHub/Polarity_Breach_VR/Assets/Scripts/PolaritySystem/TestShooter.cs:184>
+		return;
+	}
+}
+// Method Definition Index: 90383
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* TestShooter_VibrateReady_m47D7BDD72D15E2F0D2C0F30DA4B81C05FC17BF73 (TestShooter_t31886477AD339CA401E8D12EF68BC7D1E9AAD6DE* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&U3CVibrateReadyU3Ed__48_tE2A74AF7171D8E9AF1C56B717DAD214012621AD8_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	//<source_info:<no-source>:1>
+	{
+		U3CVibrateReadyU3Ed__48_tE2A74AF7171D8E9AF1C56B717DAD214012621AD8* L_0 = (U3CVibrateReadyU3Ed__48_tE2A74AF7171D8E9AF1C56B717DAD214012621AD8*)il2cpp_codegen_object_new(U3CVibrateReadyU3Ed__48_tE2A74AF7171D8E9AF1C56B717DAD214012621AD8_il2cpp_TypeInfo_var);
+		U3CVibrateReadyU3Ed__48__ctor_m230F1619E21C2CF0380096D865CDF6C499B04B42(L_0, 0, NULL);
+		U3CVibrateReadyU3Ed__48_tE2A74AF7171D8E9AF1C56B717DAD214012621AD8* L_1 = L_0;
+		NullCheck(L_1);
+		L_1->___U3CU3E4__this = __this;
+		Il2CppCodeGenWriteBarrier((void**)(&L_1->___U3CU3E4__this), (void*)__this);
+		return L_1;
+	}
+}
+// Method Definition Index: 90384
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TestShooter_StopVibration_m635EE4097D5260FBA1304E0405923CDEC70F755F (TestShooter_t31886477AD339CA401E8D12EF68BC7D1E9AAD6DE* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&OVRInput_t759D9CC8F14D8539AD78A0375A2306C39D77100A_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		//<source_info:C:/Users/mynur/OneDrive/Documentos/GitHub/Polarity_Breach_VR/Assets/Scripts/PolaritySystem/TestShooter.cs:195>
+		il2cpp_codegen_runtime_class_init_inline(OVRInput_t759D9CC8F14D8539AD78A0375A2306C39D77100A_il2cpp_TypeInfo_var);
+		OVRInput_SetControllerVibration_m7DE7256047DAAB0F6F5E327250A23B9D7074871E((0.0f), (0.0f), 2, NULL);
+		//<source_info:C:/Users/mynur/OneDrive/Documentos/GitHub/Polarity_Breach_VR/Assets/Scripts/PolaritySystem/TestShooter.cs:196>
+		return;
+	}
+}
+// Method Definition Index: 90385
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TestShooter_ReleaseCharge_mF746FAA28A8582F2BDDBA8C9EDC2658AEC95CDBE (TestShooter_t31886477AD339CA401E8D12EF68BC7D1E9AAD6DE* __this, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:C:/Users/mynur/OneDrive/Documentos/GitHub/Polarity_Breach_VR/Assets/Scripts/PolaritySystem/TestShooter.cs:200>
+		bool L_0 = __this->____isCharging;
+		if (!L_0)
+		{
+			goto IL_0024;
+		}
+	}
+	{
+		bool L_1 = __this->____chargeReady;
+		if (!L_1)
+		{
+			goto IL_0024;
+		}
+	}
+	{
+		//<source_info:C:/Users/mynur/OneDrive/Documentos/GitHub/Polarity_Breach_VR/Assets/Scripts/PolaritySystem/TestShooter.cs:202>
+		TestShooter_StopChargeLoop_mDB1FC580B8E28F95414ACB913A15A6315379B55B(__this, NULL);
+		//<source_info:C:/Users/mynur/OneDrive/Documentos/GitHub/Polarity_Breach_VR/Assets/Scripts/PolaritySystem/TestShooter.cs:203>
+		TestShooter_StopHeldChargeLoop_m30EA02507D58ECC7FA46F3FA3DBFC0016BFAB601(__this, NULL);
+		//<source_info:C:/Users/mynur/OneDrive/Documentos/GitHub/Polarity_Breach_VR/Assets/Scripts/PolaritySystem/TestShooter.cs:204>
+		TestShooter_ChargeShot_mD5B47047718DBD7B9A3AC01017D23836E424DFC4(__this, NULL);
+		goto IL_002b;
+	}
+
+IL_0024:
+	{
+		//<source_info:C:/Users/mynur/OneDrive/Documentos/GitHub/Polarity_Breach_VR/Assets/Scripts/PolaritySystem/TestShooter.cs:208>
+		TestShooter_CancelCharge_m6DD785FFBB4561C0CF0CF03D9EFA2AB8D7D2BC6C(__this, (bool)1, NULL);
+	}
+
+IL_002b:
+	{
+		//<source_info:C:/Users/mynur/OneDrive/Documentos/GitHub/Polarity_Breach_VR/Assets/Scripts/PolaritySystem/TestShooter.cs:211>
+		__this->____isCharging = (bool)0;
+		//<source_info:C:/Users/mynur/OneDrive/Documentos/GitHub/Polarity_Breach_VR/Assets/Scripts/PolaritySystem/TestShooter.cs:212>
+		__this->____chargeReady = (bool)0;
+		//<source_info:C:/Users/mynur/OneDrive/Documentos/GitHub/Polarity_Breach_VR/Assets/Scripts/PolaritySystem/TestShooter.cs:213>
+		return;
+	}
+}
+// Method Definition Index: 90386
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TestShooter_Shoot_mE9F9C6ACD89B4151973BF8FE19C564ED5D4DE99D (TestShooter_t31886477AD339CA401E8D12EF68BC7D1E9AAD6DE* __this, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:C:/Users/mynur/OneDrive/Documentos/GitHub/Polarity_Breach_VR/Assets/Scripts/PolaritySystem/TestShooter.cs:217>
+		//<source_info:C:/Users/mynur/OneDrive/Documentos/GitHub/Polarity_Breach_VR/Assets/Scripts/PolaritySystem/TestShooter.cs:218>
+		//<source_info:C:/Users/mynur/OneDrive/Documentos/GitHub/Polarity_Breach_VR/Assets/Scripts/PolaritySystem/TestShooter.cs:219>
+		//<source_info:C:/Users/mynur/OneDrive/Documentos/GitHub/Polarity_Breach_VR/Assets/Scripts/PolaritySystem/TestShooter.cs:220>
+		ProjectilePool_t723C2CD076FE4320E49200C785ACD04FCAA398E8* L_0 = __this->____normalProjectilePool;
+		PlayerStatsData_t8AB00CC7DF7DB19B96714A2AC9281D6B0A107302* L_1 = __this->____playerStats;
+		NullCheck(L_1);
+		float L_2 = L_1->___attackSpeed;
+		PlayerStatsData_t8AB00CC7DF7DB19B96714A2AC9281D6B0A107302* L_3 = __this->____playerStats;
+		NullCheck(L_3);
+		float L_4 = L_3->___attackDamage;
+		PlayerStatsData_t8AB00CC7DF7DB19B96714A2AC9281D6B0A107302* L_5 = __this->____playerStats;
+		NullCheck(L_5);
+		float L_6 = L_5->___knockBackPower;
+		TestShooter_ShootFromPool_m4159151CCFC09563D8A6AD7C476DA924EFA36C07(__this, L_0, L_2, L_4, L_6, NULL);
+		//<source_info:C:/Users/mynur/OneDrive/Documentos/GitHub/Polarity_Breach_VR/Assets/Scripts/PolaritySystem/TestShooter.cs:221>
+		TestShooter_PlayShootSfx_m461A9E4217F61E0F0D8ED8A454847D44EA7B1753(__this, NULL);
+		//<source_info:C:/Users/mynur/OneDrive/Documentos/GitHub/Polarity_Breach_VR/Assets/Scripts/PolaritySystem/TestShooter.cs:222>
+		return;
+	}
+}
+// Method Definition Index: 90387
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TestShooter_ChargeShot_mD5B47047718DBD7B9A3AC01017D23836E424DFC4 (TestShooter_t31886477AD339CA401E8D12EF68BC7D1E9AAD6DE* __this, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:C:/Users/mynur/OneDrive/Documentos/GitHub/Polarity_Breach_VR/Assets/Scripts/PolaritySystem/TestShooter.cs:226>
+		//<source_info:C:/Users/mynur/OneDrive/Documentos/GitHub/Polarity_Breach_VR/Assets/Scripts/PolaritySystem/TestShooter.cs:227>
+		//<source_info:C:/Users/mynur/OneDrive/Documentos/GitHub/Polarity_Breach_VR/Assets/Scripts/PolaritySystem/TestShooter.cs:228>
+		//<source_info:C:/Users/mynur/OneDrive/Documentos/GitHub/Polarity_Breach_VR/Assets/Scripts/PolaritySystem/TestShooter.cs:229>
+		ProjectilePool_t723C2CD076FE4320E49200C785ACD04FCAA398E8* L_0 = __this->____chargedProjectilePool;
+		PlayerStatsData_t8AB00CC7DF7DB19B96714A2AC9281D6B0A107302* L_1 = __this->____playerStats;
+		NullCheck(L_1);
+		float L_2 = L_1->___chargeShotSpeed;
+		PlayerStatsData_t8AB00CC7DF7DB19B96714A2AC9281D6B0A107302* L_3 = __this->____playerStats;
+		NullCheck(L_3);
+		float L_4 = L_3->___chargeShotDamage;
+		PlayerStatsData_t8AB00CC7DF7DB19B96714A2AC9281D6B0A107302* L_5 = __this->____playerStats;
+		NullCheck(L_5);
+		float L_6 = L_5->___chargeShotKnockBackPower;
+		TestShooter_ShootFromPool_m4159151CCFC09563D8A6AD7C476DA924EFA36C07(__this, L_0, L_2, L_4, L_6, NULL);
+		//<source_info:C:/Users/mynur/OneDrive/Documentos/GitHub/Polarity_Breach_VR/Assets/Scripts/PolaritySystem/TestShooter.cs:230>
+		TestShooter_PlayChargeShotSfx_m91430B4EE9E9839D9C868B654544AC1AAC86CBC9(__this, NULL);
+		//<source_info:C:/Users/mynur/OneDrive/Documentos/GitHub/Polarity_Breach_VR/Assets/Scripts/PolaritySystem/TestShooter.cs:231>
+		return;
+	}
+}
+// Method Definition Index: 90388
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TestShooter_ShootFromPool_m4159151CCFC09563D8A6AD7C476DA924EFA36C07 (TestShooter_t31886477AD339CA401E8D12EF68BC7D1E9AAD6DE* __this, ProjectilePool_t723C2CD076FE4320E49200C785ACD04FCAA398E8* ___0_pool, float ___1_speed, float ___2_damage, float ___3_knockbackForce, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Component_GetComponent_TisPolarityComponent_t1FB53DB0BF7CE9A8E59278F3854DC776322BBCA0_m317F7D3130E71487835B00DB1356E893EEF94764_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	ShootProjectile_t4CAF1E2524313E5908E28A80A256CB9D5047CFA9* V_0 = NULL;
+	PolarityComponent_t1FB53DB0BF7CE9A8E59278F3854DC776322BBCA0* V_1 = NULL;
+	{
+		//<source_info:C:/Users/mynur/OneDrive/Documentos/GitHub/Polarity_Breach_VR/Assets/Scripts/PolaritySystem/TestShooter.cs:235>
+		ProjectilePool_t723C2CD076FE4320E49200C785ACD04FCAA398E8* L_0 = ___0_pool;
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		bool L_1;
+		L_1 = Object_op_Equality_mB6120F782D83091EF56A198FCEBCF066DB4A9605(L_0, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
+		if (!L_1)
+		{
+			goto IL_000a;
+		}
+	}
+	{
+		//<source_info:C:/Users/mynur/OneDrive/Documentos/GitHub/Polarity_Breach_VR/Assets/Scripts/PolaritySystem/TestShooter.cs:235>
+		return;
+	}
+
+IL_000a:
+	{
+		//<source_info:C:/Users/mynur/OneDrive/Documentos/GitHub/Polarity_Breach_VR/Assets/Scripts/PolaritySystem/TestShooter.cs:237>
+		ProjectilePool_t723C2CD076FE4320E49200C785ACD04FCAA398E8* L_2 = ___0_pool;
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_3 = __this->____muzzle;
+		NullCheck(L_3);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_4;
+		L_4 = Transform_get_position_m69CD5FA214FDAE7BB701552943674846C220FDE1(L_3, NULL);
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_5 = __this->____muzzle;
+		NullCheck(L_5);
+		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_6;
+		L_6 = Transform_get_rotation_m32AF40CA0D50C797DA639A696F8EAEC7524C179C(L_5, NULL);
+		NullCheck(L_2);
+		ShootProjectile_t4CAF1E2524313E5908E28A80A256CB9D5047CFA9* L_7;
+		L_7 = ProjectilePool_GetProjectile_m9B8B795E755E8380935E670DBD82E66946357D1F(L_2, L_4, L_6, NULL);
+		V_0 = L_7;
+		//<source_info:C:/Users/mynur/OneDrive/Documentos/GitHub/Polarity_Breach_VR/Assets/Scripts/PolaritySystem/TestShooter.cs:239>
+		ShootProjectile_t4CAF1E2524313E5908E28A80A256CB9D5047CFA9* L_8 = V_0;
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		bool L_9;
+		L_9 = Object_op_Equality_mB6120F782D83091EF56A198FCEBCF066DB4A9605(L_8, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
+		if (!L_9)
+		{
+			goto IL_0031;
+		}
+	}
+	{
+		//<source_info:C:/Users/mynur/OneDrive/Documentos/GitHub/Polarity_Breach_VR/Assets/Scripts/PolaritySystem/TestShooter.cs:239>
+		return;
+	}
+
+IL_0031:
+	{
+		//<source_info:C:/Users/mynur/OneDrive/Documentos/GitHub/Polarity_Breach_VR/Assets/Scripts/PolaritySystem/TestShooter.cs:240>
+		ShootProjectile_t4CAF1E2524313E5908E28A80A256CB9D5047CFA9* L_10 = V_0;
+		float L_11 = ___1_speed;
+		float L_12 = ___2_damage;
+		float L_13 = ___3_knockbackForce;
+		NullCheck(L_10);
+		ShootProjectile_SetStats_mA68F4675602CE78450584EC5BC11C8425FC73882(L_10, L_11, L_12, L_13, NULL);
+		//<source_info:C:/Users/mynur/OneDrive/Documentos/GitHub/Polarity_Breach_VR/Assets/Scripts/PolaritySystem/TestShooter.cs:242>
+		ShootProjectile_t4CAF1E2524313E5908E28A80A256CB9D5047CFA9* L_14 = V_0;
+		NullCheck(L_14);
+		PolarityComponent_t1FB53DB0BF7CE9A8E59278F3854DC776322BBCA0* L_15;
+		L_15 = Component_GetComponent_TisPolarityComponent_t1FB53DB0BF7CE9A8E59278F3854DC776322BBCA0_m317F7D3130E71487835B00DB1356E893EEF94764(L_14, Component_GetComponent_TisPolarityComponent_t1FB53DB0BF7CE9A8E59278F3854DC776322BBCA0_m317F7D3130E71487835B00DB1356E893EEF94764_RuntimeMethod_var);
+		V_1 = L_15;
+		//<source_info:C:/Users/mynur/OneDrive/Documentos/GitHub/Polarity_Breach_VR/Assets/Scripts/PolaritySystem/TestShooter.cs:243>
+		PolarityComponent_t1FB53DB0BF7CE9A8E59278F3854DC776322BBCA0* L_16 = V_1;
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		bool L_17;
+		L_17 = Object_op_Inequality_mD0BE578448EAA61948F25C32F8DD55AB1F778602(L_16, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
+		if (!L_17)
+		{
+			goto IL_005c;
+		}
+	}
+	{
+		//<source_info:C:/Users/mynur/OneDrive/Documentos/GitHub/Polarity_Breach_VR/Assets/Scripts/PolaritySystem/TestShooter.cs:243>
+		PolarityComponent_t1FB53DB0BF7CE9A8E59278F3854DC776322BBCA0* L_18 = V_1;
+		PolarityComponent_t1FB53DB0BF7CE9A8E59278F3854DC776322BBCA0* L_19 = __this->____polarity;
+		NullCheck(L_19);
+		int32_t L_20;
+		L_20 = PolarityComponent_get_CurrentPolarity_mEFF48D62986084A923894FAE9EDD5CC9061A76B0_inline(L_19, NULL);
+		NullCheck(L_18);
+		PolarityComponent_SetPolarity_mE4E146F210CE7D1D99678A13A5E179DA910C8BFA(L_18, L_20, NULL);
+	}
+
+IL_005c:
+	{
+		//<source_info:C:/Users/mynur/OneDrive/Documentos/GitHub/Polarity_Breach_VR/Assets/Scripts/PolaritySystem/TestShooter.cs:245>
+		float L_21;
+		L_21 = Time_get_time_m3A271BB1B20041144AC5B7863B71AB1F0150374B(NULL);
+		__this->____lastShotTime = L_21;
+		//<source_info:C:/Users/mynur/OneDrive/Documentos/GitHub/Polarity_Breach_VR/Assets/Scripts/PolaritySystem/TestShooter.cs:246>
+		return;
+	}
+}
+// Method Definition Index: 90389
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AudioClip_t5D272C4EB4F2D3ED49F1C346DEA373CF6D585F20* TestShooter_GetRandomShootSound_m56E303EBE8B16FEB400F6F79F1E9D1835CB032A4 (TestShooter_t31886477AD339CA401E8D12EF68BC7D1E9AAD6DE* __this, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:C:/Users/mynur/OneDrive/Documentos/GitHub/Polarity_Breach_VR/Assets/Scripts/PolaritySystem/TestShooter.cs:250>
+		AudioClipU5BU5D_t916722468F7EDCFA833318C35CD7D41097D75D31* L_0 = __this->___shootSounds;
+		if (!L_0)
+		{
+			goto IL_0027;
+		}
+	}
+	{
+		AudioClipU5BU5D_t916722468F7EDCFA833318C35CD7D41097D75D31* L_1 = __this->___shootSounds;
+		NullCheck(L_1);
+		if (!(((RuntimeArray*)L_1)->max_length))
+		{
+			goto IL_0027;
+		}
+	}
+	{
+		//<source_info:C:/Users/mynur/OneDrive/Documentos/GitHub/Polarity_Breach_VR/Assets/Scripts/PolaritySystem/TestShooter.cs:252>
+		AudioClipU5BU5D_t916722468F7EDCFA833318C35CD7D41097D75D31* L_2 = __this->___shootSounds;
+		AudioClipU5BU5D_t916722468F7EDCFA833318C35CD7D41097D75D31* L_3 = __this->___shootSounds;
+		NullCheck(L_3);
+		int32_t L_4;
+		L_4 = Random_Range_m6763D9767F033357F88B6637F048F4ACA4123B68(0, ((int32_t)(((RuntimeArray*)L_3)->max_length)), NULL);
+		NullCheck(L_2);
+		int32_t L_5 = L_4;
+		AudioClip_t5D272C4EB4F2D3ED49F1C346DEA373CF6D585F20* L_6 = (L_2)->GetAt(static_cast<il2cpp_array_size_t>(L_5));
+		return L_6;
+	}
+
+IL_0027:
+	{
+		//<source_info:C:/Users/mynur/OneDrive/Documentos/GitHub/Polarity_Breach_VR/Assets/Scripts/PolaritySystem/TestShooter.cs:255>
+		AudioClip_t5D272C4EB4F2D3ED49F1C346DEA373CF6D585F20* L_7 = __this->___shootSound;
+		return L_7;
+	}
+}
+// Method Definition Index: 90390
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TestShooter_PlayShootSfx_m461A9E4217F61E0F0D8ED8A454847D44EA7B1753 (TestShooter_t31886477AD339CA401E8D12EF68BC7D1E9AAD6DE* __this, const RuntimeMethod* method) 
+{
+	AudioClip_t5D272C4EB4F2D3ED49F1C346DEA373CF6D585F20* V_0 = NULL;
+	{
+		//<source_info:C:/Users/mynur/OneDrive/Documentos/GitHub/Polarity_Breach_VR/Assets/Scripts/PolaritySystem/TestShooter.cs:260>
+		AudioClip_t5D272C4EB4F2D3ED49F1C346DEA373CF6D585F20* L_0;
+		L_0 = TestShooter_GetRandomShootSound_m56E303EBE8B16FEB400F6F79F1E9D1835CB032A4(__this, NULL);
+		V_0 = L_0;
+		//<source_info:C:/Users/mynur/OneDrive/Documentos/GitHub/Polarity_Breach_VR/Assets/Scripts/PolaritySystem/TestShooter.cs:262>
+		bool L_1 = __this->___playShootSoundAs2D;
+		if (!L_1)
+		{
+			goto IL_001c;
+		}
+	}
+	{
+		//<source_info:C:/Users/mynur/OneDrive/Documentos/GitHub/Polarity_Breach_VR/Assets/Scripts/PolaritySystem/TestShooter.cs:264>
+		AudioClip_t5D272C4EB4F2D3ED49F1C346DEA373CF6D585F20* L_2 = V_0;
+		float L_3 = __this->___shootSoundVolume;
+		AudioHandler_Play2DSound_mFD8282050D03848109B843C87EEC28565AB80327(L_2, L_3, NULL);
+		//<source_info:C:/Users/mynur/OneDrive/Documentos/GitHub/Polarity_Breach_VR/Assets/Scripts/PolaritySystem/TestShooter.cs:265>
+		return;
+	}
+
+IL_001c:
+	{
+		//<source_info:C:/Users/mynur/OneDrive/Documentos/GitHub/Polarity_Breach_VR/Assets/Scripts/PolaritySystem/TestShooter.cs:268>
+		AudioClip_t5D272C4EB4F2D3ED49F1C346DEA373CF6D585F20* L_4 = V_0;
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_5;
+		L_5 = Component_get_transform_m2919A1D81931E6932C7F06D4C2F0AB8DDA9A5371(__this, NULL);
+		NullCheck(L_5);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_6;
+		L_6 = Transform_get_position_m69CD5FA214FDAE7BB701552943674846C220FDE1(L_5, NULL);
+		float L_7 = __this->___shootSoundVolume;
+		AudioHandler_Play3DSound_mD6D9E86A34606D63F1BF14A480A8F6C4E8388181(L_4, L_6, L_7, NULL);
+		//<source_info:C:/Users/mynur/OneDrive/Documentos/GitHub/Polarity_Breach_VR/Assets/Scripts/PolaritySystem/TestShooter.cs:269>
+		return;
+	}
+}
+// Method Definition Index: 90391
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TestShooter_StartChargeLoop_mFE822B3250C64BAB1398AE03C2D9D5083691F201 (TestShooter_t31886477AD339CA401E8D12EF68BC7D1E9AAD6DE* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral22E90655F730F1AA2D41C719EEAA0CE038D2A90C);
+		s_Il2CppMethodInitialized = true;
+	}
+	AudioSource_t871AC2272F896738252F04EE949AEF5B241D3299* G_B6_0 = NULL;
+	AudioSource_t871AC2272F896738252F04EE949AEF5B241D3299* G_B5_0 = NULL;
+	float G_B7_0 = 0.0f;
+	AudioSource_t871AC2272F896738252F04EE949AEF5B241D3299* G_B7_1 = NULL;
+	{
+		//<source_info:C:/Users/mynur/OneDrive/Documentos/GitHub/Polarity_Breach_VR/Assets/Scripts/PolaritySystem/TestShooter.cs:273>
+		AudioClip_t5D272C4EB4F2D3ED49F1C346DEA373CF6D585F20* L_0 = __this->___chargeSound;
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		bool L_1;
+		L_1 = Object_op_Equality_mB6120F782D83091EF56A198FCEBCF066DB4A9605(L_0, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
+		if (!L_1)
+		{
+			goto IL_000f;
+		}
+	}
+	{
+		//<source_info:C:/Users/mynur/OneDrive/Documentos/GitHub/Polarity_Breach_VR/Assets/Scripts/PolaritySystem/TestShooter.cs:273>
+		return;
+	}
+
+IL_000f:
+	{
+		//<source_info:C:/Users/mynur/OneDrive/Documentos/GitHub/Polarity_Breach_VR/Assets/Scripts/PolaritySystem/TestShooter.cs:275>
+		AudioSource_t871AC2272F896738252F04EE949AEF5B241D3299* L_2 = __this->___chargeLoopSource;
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		bool L_3;
+		L_3 = Object_op_Equality_mB6120F782D83091EF56A198FCEBCF066DB4A9605(L_2, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
+		if (!L_3)
+		{
+			goto IL_002e;
+		}
+	}
+	{
+		//<source_info:C:/Users/mynur/OneDrive/Documentos/GitHub/Polarity_Breach_VR/Assets/Scripts/PolaritySystem/TestShooter.cs:276>
+		AudioSource_t871AC2272F896738252F04EE949AEF5B241D3299* L_4;
+		L_4 = TestShooter_CreateLoopSource_m451775E0789373660DBA1015DEC6DB1D871663E2(__this, _stringLiteral22E90655F730F1AA2D41C719EEAA0CE038D2A90C, NULL);
+		__this->___chargeLoopSource = L_4;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___chargeLoopSource), (void*)L_4);
+	}
+
+IL_002e:
+	{
+		//<source_info:C:/Users/mynur/OneDrive/Documentos/GitHub/Polarity_Breach_VR/Assets/Scripts/PolaritySystem/TestShooter.cs:278>
+		AudioSource_t871AC2272F896738252F04EE949AEF5B241D3299* L_5 = __this->___chargeLoopSource;
+		AudioClip_t5D272C4EB4F2D3ED49F1C346DEA373CF6D585F20* L_6 = __this->___chargeSound;
+		NullCheck(L_5);
+		AudioSource_set_clip_mFF441895E274286C88D9C75ED5CA1B1B39528D70(L_5, L_6, NULL);
+		//<source_info:C:/Users/mynur/OneDrive/Documentos/GitHub/Polarity_Breach_VR/Assets/Scripts/PolaritySystem/TestShooter.cs:279>
+		AudioSource_t871AC2272F896738252F04EE949AEF5B241D3299* L_7 = __this->___chargeLoopSource;
+		float L_8 = __this->___chargeSoundVolume;
+		NullCheck(L_7);
+		AudioSource_set_volume_mD902BBDBBDE0E3C148609BF3C05096148E90F2C0(L_7, L_8, NULL);
+		//<source_info:C:/Users/mynur/OneDrive/Documentos/GitHub/Polarity_Breach_VR/Assets/Scripts/PolaritySystem/TestShooter.cs:280>
+		AudioSource_t871AC2272F896738252F04EE949AEF5B241D3299* L_9 = __this->___chargeLoopSource;
+		NullCheck(L_9);
+		AudioSource_set_loop_m834A590939D8456008C0F897FD80B0ECFFB7FE56(L_9, (bool)1, NULL);
+		//<source_info:C:/Users/mynur/OneDrive/Documentos/GitHub/Polarity_Breach_VR/Assets/Scripts/PolaritySystem/TestShooter.cs:281>
+		AudioSource_t871AC2272F896738252F04EE949AEF5B241D3299* L_10 = __this->___chargeLoopSource;
+		bool L_11 = __this->___playChargeShotSoundsAs2D;
+		if (L_11)
+		{
+			G_B6_0 = L_10;
+			goto IL_0071;
+		}
+		G_B5_0 = L_10;
+	}
+	{
+		G_B7_0 = (1.0f);
+		G_B7_1 = G_B5_0;
+		goto IL_0076;
+	}
+
+IL_0071:
+	{
+		G_B7_0 = (0.0f);
+		G_B7_1 = G_B6_0;
+	}
+
+IL_0076:
+	{
+		NullCheck(G_B7_1);
+		AudioSource_set_spatialBlend_mCEE7A3E87A8C146E048B2CA3413FDC7BDB7BE001(G_B7_1, G_B7_0, NULL);
+		//<source_info:C:/Users/mynur/OneDrive/Documentos/GitHub/Polarity_Breach_VR/Assets/Scripts/PolaritySystem/TestShooter.cs:282>
+		AudioSource_t871AC2272F896738252F04EE949AEF5B241D3299* L_12 = __this->___chargeLoopSource;
+		AudioMixerGroup_tD29AC8336F7425DF007944F8195CEABF34FC3311* L_13;
+		L_13 = AudioHandler_get_DefaultSfxMixerGroup_m9DA83D716071C3EC05EA24B09F2E98CF9C98FC16_inline(NULL);
+		NullCheck(L_12);
+		AudioSource_set_outputAudioMixerGroup_m10D0A0EAE270424CD2F3BB960CFAA158D9FC24CF(L_12, L_13, NULL);
+		//<source_info:C:/Users/mynur/OneDrive/Documentos/GitHub/Polarity_Breach_VR/Assets/Scripts/PolaritySystem/TestShooter.cs:283>
+		AudioSource_t871AC2272F896738252F04EE949AEF5B241D3299* L_14 = __this->___chargeLoopSource;
+		float L_15;
+		L_15 = TestShooter_GetChargePitch_m493115F1439369768A04930004F83227B854FADB(__this, NULL);
+		NullCheck(L_14);
+		AudioSource_set_pitch_mD14631FC99BF38AAFB356D9C45546BC16CF9E811(L_14, L_15, NULL);
+		//<source_info:C:/Users/mynur/OneDrive/Documentos/GitHub/Polarity_Breach_VR/Assets/Scripts/PolaritySystem/TestShooter.cs:284>
+		AudioSource_t871AC2272F896738252F04EE949AEF5B241D3299* L_16 = __this->___chargeLoopSource;
+		NullCheck(L_16);
+		AudioSource_Play_m95DF07111C61D0E0F00257A00384D31531D590C3(L_16, NULL);
+		//<source_info:C:/Users/mynur/OneDrive/Documentos/GitHub/Polarity_Breach_VR/Assets/Scripts/PolaritySystem/TestShooter.cs:285>
+		return;
+	}
+}
+// Method Definition Index: 90392
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TestShooter_StopChargeLoop_mDB1FC580B8E28F95414ACB913A15A6315379B55B (TestShooter_t31886477AD339CA401E8D12EF68BC7D1E9AAD6DE* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		//<source_info:C:/Users/mynur/OneDrive/Documentos/GitHub/Polarity_Breach_VR/Assets/Scripts/PolaritySystem/TestShooter.cs:289>
+		AudioSource_t871AC2272F896738252F04EE949AEF5B241D3299* L_0 = __this->___chargeLoopSource;
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		bool L_1;
+		L_1 = Object_op_Equality_mB6120F782D83091EF56A198FCEBCF066DB4A9605(L_0, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
+		if (!L_1)
+		{
+			goto IL_000f;
+		}
+	}
+	{
+		//<source_info:C:/Users/mynur/OneDrive/Documentos/GitHub/Polarity_Breach_VR/Assets/Scripts/PolaritySystem/TestShooter.cs:289>
+		return;
+	}
+
+IL_000f:
+	{
+		//<source_info:C:/Users/mynur/OneDrive/Documentos/GitHub/Polarity_Breach_VR/Assets/Scripts/PolaritySystem/TestShooter.cs:291>
+		AudioSource_t871AC2272F896738252F04EE949AEF5B241D3299* L_2 = __this->___chargeLoopSource;
+		NullCheck(L_2);
+		bool L_3;
+		L_3 = AudioSource_get_isPlaying_mC203303F2F7146B2C056CB47B9391463FDF408FC(L_2, NULL);
+		if (!L_3)
+		{
+			goto IL_003f;
+		}
+	}
+	{
+		AudioSource_t871AC2272F896738252F04EE949AEF5B241D3299* L_4 = __this->___chargeLoopSource;
+		NullCheck(L_4);
+		AudioClip_t5D272C4EB4F2D3ED49F1C346DEA373CF6D585F20* L_5;
+		L_5 = AudioSource_get_clip_m4F5027066F9FC44B44192713142B0C277BB418FE(L_4, NULL);
+		AudioClip_t5D272C4EB4F2D3ED49F1C346DEA373CF6D585F20* L_6 = __this->___chargeSound;
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		bool L_7;
+		L_7 = Object_op_Equality_mB6120F782D83091EF56A198FCEBCF066DB4A9605(L_5, L_6, NULL);
+		if (!L_7)
+		{
+			goto IL_003f;
+		}
+	}
+	{
+		//<source_info:C:/Users/mynur/OneDrive/Documentos/GitHub/Polarity_Breach_VR/Assets/Scripts/PolaritySystem/TestShooter.cs:292>
+		AudioSource_t871AC2272F896738252F04EE949AEF5B241D3299* L_8 = __this->___chargeLoopSource;
+		NullCheck(L_8);
+		AudioSource_Stop_m318F17F17A147C77FF6E0A5A7A6BE057DB90F537(L_8, NULL);
+	}
+
+IL_003f:
+	{
+		//<source_info:C:/Users/mynur/OneDrive/Documentos/GitHub/Polarity_Breach_VR/Assets/Scripts/PolaritySystem/TestShooter.cs:294>
+		AudioSource_t871AC2272F896738252F04EE949AEF5B241D3299* L_9 = __this->___chargeLoopSource;
+		NullCheck(L_9);
+		AudioSource_set_loop_m834A590939D8456008C0F897FD80B0ECFFB7FE56(L_9, (bool)0, NULL);
+		//<source_info:C:/Users/mynur/OneDrive/Documentos/GitHub/Polarity_Breach_VR/Assets/Scripts/PolaritySystem/TestShooter.cs:295>
+		AudioSource_t871AC2272F896738252F04EE949AEF5B241D3299* L_10 = __this->___chargeLoopSource;
+		NullCheck(L_10);
+		AudioSource_set_pitch_mD14631FC99BF38AAFB356D9C45546BC16CF9E811(L_10, (1.0f), NULL);
+		//<source_info:C:/Users/mynur/OneDrive/Documentos/GitHub/Polarity_Breach_VR/Assets/Scripts/PolaritySystem/TestShooter.cs:296>
+		return;
+	}
+}
+// Method Definition Index: 90393
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TestShooter_StartHeldChargeLoop_mA7FDCE543E52FDFE296FE1640B0C111AB68B1A82 (TestShooter_t31886477AD339CA401E8D12EF68BC7D1E9AAD6DE* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral2A66352C635C8B65B594F1E0AB2C6283B9D8AAAA);
+		s_Il2CppMethodInitialized = true;
+	}
+	AudioSource_t871AC2272F896738252F04EE949AEF5B241D3299* G_B6_0 = NULL;
+	AudioSource_t871AC2272F896738252F04EE949AEF5B241D3299* G_B5_0 = NULL;
+	float G_B7_0 = 0.0f;
+	AudioSource_t871AC2272F896738252F04EE949AEF5B241D3299* G_B7_1 = NULL;
+	{
+		//<source_info:C:/Users/mynur/OneDrive/Documentos/GitHub/Polarity_Breach_VR/Assets/Scripts/PolaritySystem/TestShooter.cs:300>
+		AudioClip_t5D272C4EB4F2D3ED49F1C346DEA373CF6D585F20* L_0 = __this->___heldChargeSound;
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		bool L_1;
+		L_1 = Object_op_Equality_mB6120F782D83091EF56A198FCEBCF066DB4A9605(L_0, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
+		if (!L_1)
+		{
+			goto IL_000f;
+		}
+	}
+	{
+		//<source_info:C:/Users/mynur/OneDrive/Documentos/GitHub/Polarity_Breach_VR/Assets/Scripts/PolaritySystem/TestShooter.cs:300>
+		return;
+	}
+
+IL_000f:
+	{
+		//<source_info:C:/Users/mynur/OneDrive/Documentos/GitHub/Polarity_Breach_VR/Assets/Scripts/PolaritySystem/TestShooter.cs:302>
+		AudioSource_t871AC2272F896738252F04EE949AEF5B241D3299* L_2 = __this->___heldChargeLoopSource;
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		bool L_3;
+		L_3 = Object_op_Equality_mB6120F782D83091EF56A198FCEBCF066DB4A9605(L_2, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
+		if (!L_3)
+		{
+			goto IL_002e;
+		}
+	}
+	{
+		//<source_info:C:/Users/mynur/OneDrive/Documentos/GitHub/Polarity_Breach_VR/Assets/Scripts/PolaritySystem/TestShooter.cs:303>
+		AudioSource_t871AC2272F896738252F04EE949AEF5B241D3299* L_4;
+		L_4 = TestShooter_CreateLoopSource_m451775E0789373660DBA1015DEC6DB1D871663E2(__this, _stringLiteral2A66352C635C8B65B594F1E0AB2C6283B9D8AAAA, NULL);
+		__this->___heldChargeLoopSource = L_4;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___heldChargeLoopSource), (void*)L_4);
+	}
+
+IL_002e:
+	{
+		//<source_info:C:/Users/mynur/OneDrive/Documentos/GitHub/Polarity_Breach_VR/Assets/Scripts/PolaritySystem/TestShooter.cs:305>
+		AudioSource_t871AC2272F896738252F04EE949AEF5B241D3299* L_5 = __this->___heldChargeLoopSource;
+		AudioClip_t5D272C4EB4F2D3ED49F1C346DEA373CF6D585F20* L_6 = __this->___heldChargeSound;
+		NullCheck(L_5);
+		AudioSource_set_clip_mFF441895E274286C88D9C75ED5CA1B1B39528D70(L_5, L_6, NULL);
+		//<source_info:C:/Users/mynur/OneDrive/Documentos/GitHub/Polarity_Breach_VR/Assets/Scripts/PolaritySystem/TestShooter.cs:306>
+		AudioSource_t871AC2272F896738252F04EE949AEF5B241D3299* L_7 = __this->___heldChargeLoopSource;
+		float L_8 = __this->___heldChargeSoundVolume;
+		NullCheck(L_7);
+		AudioSource_set_volume_mD902BBDBBDE0E3C148609BF3C05096148E90F2C0(L_7, L_8, NULL);
+		//<source_info:C:/Users/mynur/OneDrive/Documentos/GitHub/Polarity_Breach_VR/Assets/Scripts/PolaritySystem/TestShooter.cs:307>
+		AudioSource_t871AC2272F896738252F04EE949AEF5B241D3299* L_9 = __this->___heldChargeLoopSource;
+		NullCheck(L_9);
+		AudioSource_set_loop_m834A590939D8456008C0F897FD80B0ECFFB7FE56(L_9, (bool)1, NULL);
+		//<source_info:C:/Users/mynur/OneDrive/Documentos/GitHub/Polarity_Breach_VR/Assets/Scripts/PolaritySystem/TestShooter.cs:308>
+		AudioSource_t871AC2272F896738252F04EE949AEF5B241D3299* L_10 = __this->___heldChargeLoopSource;
+		bool L_11 = __this->___playChargeShotSoundsAs2D;
+		if (L_11)
+		{
+			G_B6_0 = L_10;
+			goto IL_0071;
+		}
+		G_B5_0 = L_10;
+	}
+	{
+		G_B7_0 = (1.0f);
+		G_B7_1 = G_B5_0;
+		goto IL_0076;
+	}
+
+IL_0071:
+	{
+		G_B7_0 = (0.0f);
+		G_B7_1 = G_B6_0;
+	}
+
+IL_0076:
+	{
+		NullCheck(G_B7_1);
+		AudioSource_set_spatialBlend_mCEE7A3E87A8C146E048B2CA3413FDC7BDB7BE001(G_B7_1, G_B7_0, NULL);
+		//<source_info:C:/Users/mynur/OneDrive/Documentos/GitHub/Polarity_Breach_VR/Assets/Scripts/PolaritySystem/TestShooter.cs:309>
+		AudioSource_t871AC2272F896738252F04EE949AEF5B241D3299* L_12 = __this->___heldChargeLoopSource;
+		AudioMixerGroup_tD29AC8336F7425DF007944F8195CEABF34FC3311* L_13;
+		L_13 = AudioHandler_get_DefaultSfxMixerGroup_m9DA83D716071C3EC05EA24B09F2E98CF9C98FC16_inline(NULL);
+		NullCheck(L_12);
+		AudioSource_set_outputAudioMixerGroup_m10D0A0EAE270424CD2F3BB960CFAA158D9FC24CF(L_12, L_13, NULL);
+		//<source_info:C:/Users/mynur/OneDrive/Documentos/GitHub/Polarity_Breach_VR/Assets/Scripts/PolaritySystem/TestShooter.cs:310>
+		AudioSource_t871AC2272F896738252F04EE949AEF5B241D3299* L_14 = __this->___heldChargeLoopSource;
+		NullCheck(L_14);
+		AudioSource_Play_m95DF07111C61D0E0F00257A00384D31531D590C3(L_14, NULL);
+		//<source_info:C:/Users/mynur/OneDrive/Documentos/GitHub/Polarity_Breach_VR/Assets/Scripts/PolaritySystem/TestShooter.cs:311>
+		return;
+	}
+}
+// Method Definition Index: 90394
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TestShooter_StopHeldChargeLoop_m30EA02507D58ECC7FA46F3FA3DBFC0016BFAB601 (TestShooter_t31886477AD339CA401E8D12EF68BC7D1E9AAD6DE* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		//<source_info:C:/Users/mynur/OneDrive/Documentos/GitHub/Polarity_Breach_VR/Assets/Scripts/PolaritySystem/TestShooter.cs:315>
+		AudioSource_t871AC2272F896738252F04EE949AEF5B241D3299* L_0 = __this->___heldChargeLoopSource;
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		bool L_1;
+		L_1 = Object_op_Equality_mB6120F782D83091EF56A198FCEBCF066DB4A9605(L_0, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
+		if (!L_1)
+		{
+			goto IL_000f;
+		}
+	}
+	{
+		//<source_info:C:/Users/mynur/OneDrive/Documentos/GitHub/Polarity_Breach_VR/Assets/Scripts/PolaritySystem/TestShooter.cs:315>
+		return;
+	}
+
+IL_000f:
+	{
+		//<source_info:C:/Users/mynur/OneDrive/Documentos/GitHub/Polarity_Breach_VR/Assets/Scripts/PolaritySystem/TestShooter.cs:317>
+		AudioSource_t871AC2272F896738252F04EE949AEF5B241D3299* L_2 = __this->___heldChargeLoopSource;
+		NullCheck(L_2);
+		bool L_3;
+		L_3 = AudioSource_get_isPlaying_mC203303F2F7146B2C056CB47B9391463FDF408FC(L_2, NULL);
+		if (!L_3)
+		{
+			goto IL_003f;
+		}
+	}
+	{
+		AudioSource_t871AC2272F896738252F04EE949AEF5B241D3299* L_4 = __this->___heldChargeLoopSource;
+		NullCheck(L_4);
+		AudioClip_t5D272C4EB4F2D3ED49F1C346DEA373CF6D585F20* L_5;
+		L_5 = AudioSource_get_clip_m4F5027066F9FC44B44192713142B0C277BB418FE(L_4, NULL);
+		AudioClip_t5D272C4EB4F2D3ED49F1C346DEA373CF6D585F20* L_6 = __this->___heldChargeSound;
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		bool L_7;
+		L_7 = Object_op_Equality_mB6120F782D83091EF56A198FCEBCF066DB4A9605(L_5, L_6, NULL);
+		if (!L_7)
+		{
+			goto IL_003f;
+		}
+	}
+	{
+		//<source_info:C:/Users/mynur/OneDrive/Documentos/GitHub/Polarity_Breach_VR/Assets/Scripts/PolaritySystem/TestShooter.cs:318>
+		AudioSource_t871AC2272F896738252F04EE949AEF5B241D3299* L_8 = __this->___heldChargeLoopSource;
+		NullCheck(L_8);
+		AudioSource_Stop_m318F17F17A147C77FF6E0A5A7A6BE057DB90F537(L_8, NULL);
+	}
+
+IL_003f:
+	{
+		//<source_info:C:/Users/mynur/OneDrive/Documentos/GitHub/Polarity_Breach_VR/Assets/Scripts/PolaritySystem/TestShooter.cs:320>
+		AudioSource_t871AC2272F896738252F04EE949AEF5B241D3299* L_9 = __this->___heldChargeLoopSource;
+		NullCheck(L_9);
+		AudioSource_set_loop_m834A590939D8456008C0F897FD80B0ECFFB7FE56(L_9, (bool)0, NULL);
+		//<source_info:C:/Users/mynur/OneDrive/Documentos/GitHub/Polarity_Breach_VR/Assets/Scripts/PolaritySystem/TestShooter.cs:321>
+		return;
+	}
+}
+// Method Definition Index: 90395
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TestShooter_CancelCharge_m6DD785FFBB4561C0CF0CF03D9EFA2AB8D7D2BC6C (TestShooter_t31886477AD339CA401E8D12EF68BC7D1E9AAD6DE* __this, bool ___0_playCancelSound, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:C:/Users/mynur/OneDrive/Documentos/GitHub/Polarity_Breach_VR/Assets/Scripts/PolaritySystem/TestShooter.cs:325>
+		bool L_0 = __this->____isCharging;
+		if (L_0)
+		{
+			goto IL_0009;
+		}
+	}
+	{
+		//<source_info:C:/Users/mynur/OneDrive/Documentos/GitHub/Polarity_Breach_VR/Assets/Scripts/PolaritySystem/TestShooter.cs:325>
+		return;
+	}
+
+IL_0009:
+	{
+		//<source_info:C:/Users/mynur/OneDrive/Documentos/GitHub/Polarity_Breach_VR/Assets/Scripts/PolaritySystem/TestShooter.cs:327>
+		TestShooter_StopChargeLoop_mDB1FC580B8E28F95414ACB913A15A6315379B55B(__this, NULL);
+		//<source_info:C:/Users/mynur/OneDrive/Documentos/GitHub/Polarity_Breach_VR/Assets/Scripts/PolaritySystem/TestShooter.cs:328>
+		TestShooter_StopHeldChargeLoop_m30EA02507D58ECC7FA46F3FA3DBFC0016BFAB601(__this, NULL);
+		//<source_info:C:/Users/mynur/OneDrive/Documentos/GitHub/Polarity_Breach_VR/Assets/Scripts/PolaritySystem/TestShooter.cs:329>
+		TestShooter_StopVibration_m635EE4097D5260FBA1304E0405923CDEC70F755F(__this, NULL);
+		//<source_info:C:/Users/mynur/OneDrive/Documentos/GitHub/Polarity_Breach_VR/Assets/Scripts/PolaritySystem/TestShooter.cs:330>
+		float L_1;
+		L_1 = Time_get_time_m3A271BB1B20041144AC5B7863B71AB1F0150374B(NULL);
+		__this->____lastShotTime = L_1;
+		//<source_info:C:/Users/mynur/OneDrive/Documentos/GitHub/Polarity_Breach_VR/Assets/Scripts/PolaritySystem/TestShooter.cs:332>
+		bool L_2 = ___0_playCancelSound;
+		if (!L_2)
+		{
+			goto IL_002f;
+		}
+	}
+	{
+		//<source_info:C:/Users/mynur/OneDrive/Documentos/GitHub/Polarity_Breach_VR/Assets/Scripts/PolaritySystem/TestShooter.cs:334>
+		TestShooter_PlayChargeCancelSfx_mB9DE5C9589E875655E6C5F9827DF6F6D89540734(__this, NULL);
+	}
+
+IL_002f:
+	{
+		//<source_info:C:/Users/mynur/OneDrive/Documentos/GitHub/Polarity_Breach_VR/Assets/Scripts/PolaritySystem/TestShooter.cs:337>
+		__this->____isCharging = (bool)0;
+		//<source_info:C:/Users/mynur/OneDrive/Documentos/GitHub/Polarity_Breach_VR/Assets/Scripts/PolaritySystem/TestShooter.cs:338>
+		__this->____chargeReady = (bool)0;
+		//<source_info:C:/Users/mynur/OneDrive/Documentos/GitHub/Polarity_Breach_VR/Assets/Scripts/PolaritySystem/TestShooter.cs:339>
+		return;
+	}
+}
+// Method Definition Index: 90396
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TestShooter_PlayChargeCancelSfx_mB9DE5C9589E875655E6C5F9827DF6F6D89540734 (TestShooter_t31886477AD339CA401E8D12EF68BC7D1E9AAD6DE* __this, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:C:/Users/mynur/OneDrive/Documentos/GitHub/Polarity_Breach_VR/Assets/Scripts/PolaritySystem/TestShooter.cs:343>
+		bool L_0 = __this->___playChargeShotSoundsAs2D;
+		if (!L_0)
+		{
+			goto IL_001a;
+		}
+	}
+	{
+		//<source_info:C:/Users/mynur/OneDrive/Documentos/GitHub/Polarity_Breach_VR/Assets/Scripts/PolaritySystem/TestShooter.cs:345>
+		AudioClip_t5D272C4EB4F2D3ED49F1C346DEA373CF6D585F20* L_1 = __this->___chargeCancelSound;
+		float L_2 = __this->___chargeCancelSoundVolume;
+		AudioHandler_Play2DSound_mFD8282050D03848109B843C87EEC28565AB80327(L_1, L_2, NULL);
+		//<source_info:C:/Users/mynur/OneDrive/Documentos/GitHub/Polarity_Breach_VR/Assets/Scripts/PolaritySystem/TestShooter.cs:346>
+		return;
+	}
+
+IL_001a:
+	{
+		//<source_info:C:/Users/mynur/OneDrive/Documentos/GitHub/Polarity_Breach_VR/Assets/Scripts/PolaritySystem/TestShooter.cs:349>
+		AudioClip_t5D272C4EB4F2D3ED49F1C346DEA373CF6D585F20* L_3 = __this->___chargeCancelSound;
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_4;
+		L_4 = Component_get_transform_m2919A1D81931E6932C7F06D4C2F0AB8DDA9A5371(__this, NULL);
+		NullCheck(L_4);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_5;
+		L_5 = Transform_get_position_m69CD5FA214FDAE7BB701552943674846C220FDE1(L_4, NULL);
+		float L_6 = __this->___chargeCancelSoundVolume;
+		AudioHandler_Play3DSound_mD6D9E86A34606D63F1BF14A480A8F6C4E8388181(L_3, L_5, L_6, NULL);
+		//<source_info:C:/Users/mynur/OneDrive/Documentos/GitHub/Polarity_Breach_VR/Assets/Scripts/PolaritySystem/TestShooter.cs:350>
+		return;
+	}
+}
+// Method Definition Index: 90397
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TestShooter_PlayChargeShotSfx_m91430B4EE9E9839D9C868B654544AC1AAC86CBC9 (TestShooter_t31886477AD339CA401E8D12EF68BC7D1E9AAD6DE* __this, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:C:/Users/mynur/OneDrive/Documentos/GitHub/Polarity_Breach_VR/Assets/Scripts/PolaritySystem/TestShooter.cs:354>
+		bool L_0 = __this->___playChargeShotSoundsAs2D;
+		if (!L_0)
+		{
+			goto IL_001a;
+		}
+	}
+	{
+		//<source_info:C:/Users/mynur/OneDrive/Documentos/GitHub/Polarity_Breach_VR/Assets/Scripts/PolaritySystem/TestShooter.cs:356>
+		AudioClip_t5D272C4EB4F2D3ED49F1C346DEA373CF6D585F20* L_1 = __this->___chargedShotSound;
+		float L_2 = __this->___chargedShotSoundVolume;
+		AudioHandler_Play2DSound_mFD8282050D03848109B843C87EEC28565AB80327(L_1, L_2, NULL);
+		//<source_info:C:/Users/mynur/OneDrive/Documentos/GitHub/Polarity_Breach_VR/Assets/Scripts/PolaritySystem/TestShooter.cs:357>
+		return;
+	}
+
+IL_001a:
+	{
+		//<source_info:C:/Users/mynur/OneDrive/Documentos/GitHub/Polarity_Breach_VR/Assets/Scripts/PolaritySystem/TestShooter.cs:360>
+		AudioClip_t5D272C4EB4F2D3ED49F1C346DEA373CF6D585F20* L_3 = __this->___chargedShotSound;
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_4;
+		L_4 = Component_get_transform_m2919A1D81931E6932C7F06D4C2F0AB8DDA9A5371(__this, NULL);
+		NullCheck(L_4);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_5;
+		L_5 = Transform_get_position_m69CD5FA214FDAE7BB701552943674846C220FDE1(L_4, NULL);
+		float L_6 = __this->___chargedShotSoundVolume;
+		AudioHandler_Play3DSound_mD6D9E86A34606D63F1BF14A480A8F6C4E8388181(L_3, L_5, L_6, NULL);
+		//<source_info:C:/Users/mynur/OneDrive/Documentos/GitHub/Polarity_Breach_VR/Assets/Scripts/PolaritySystem/TestShooter.cs:361>
+		return;
+	}
+}
+// Method Definition Index: 90398
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AudioSource_t871AC2272F896738252F04EE949AEF5B241D3299* TestShooter_CreateLoopSource_m451775E0789373660DBA1015DEC6DB1D871663E2 (TestShooter_t31886477AD339CA401E8D12EF68BC7D1E9AAD6DE* __this, String_t* ___0_sourceName, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&GameObject_AddComponent_TisAudioSource_t871AC2272F896738252F04EE949AEF5B241D3299_m0E8EFDB9B3D8DF1ADE10C56D3168A9C1BA19BF14_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&GameObject_t76FEDD663AB33C991A9C9A23129337651094216F_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		//<source_info:C:/Users/mynur/OneDrive/Documentos/GitHub/Polarity_Breach_VR/Assets/Scripts/PolaritySystem/TestShooter.cs:365>
+		String_t* L_0 = ___0_sourceName;
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_1 = (GameObject_t76FEDD663AB33C991A9C9A23129337651094216F*)il2cpp_codegen_object_new(GameObject_t76FEDD663AB33C991A9C9A23129337651094216F_il2cpp_TypeInfo_var);
+		GameObject__ctor_m37D512B05D292F954792225E6C6EEE95293A9B88(L_1, L_0, NULL);
+		//<source_info:C:/Users/mynur/OneDrive/Documentos/GitHub/Polarity_Breach_VR/Assets/Scripts/PolaritySystem/TestShooter.cs:366>
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_2 = L_1;
+		NullCheck(L_2);
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_3;
+		L_3 = GameObject_get_transform_m0BC10ADFA1632166AE5544BDF9038A2650C2AE56(L_2, NULL);
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_4;
+		L_4 = Component_get_transform_m2919A1D81931E6932C7F06D4C2F0AB8DDA9A5371(__this, NULL);
+		NullCheck(L_3);
+		Transform_SetParent_m6677538B60246D958DD91F931C50F969CCBB5250(L_3, L_4, NULL);
+		//<source_info:C:/Users/mynur/OneDrive/Documentos/GitHub/Polarity_Breach_VR/Assets/Scripts/PolaritySystem/TestShooter.cs:367>
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_5 = L_2;
+		NullCheck(L_5);
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_6;
+		L_6 = GameObject_get_transform_m0BC10ADFA1632166AE5544BDF9038A2650C2AE56(L_5, NULL);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_7;
+		L_7 = Vector3_get_zero_m0C1249C3F25B1C70EAD3CC8B31259975A457AE39_inline(NULL);
+		NullCheck(L_6);
+		Transform_set_localPosition_mDE1C997F7D79C0885210B7732B4BA50EE7D73134(L_6, L_7, NULL);
+		//<source_info:C:/Users/mynur/OneDrive/Documentos/GitHub/Polarity_Breach_VR/Assets/Scripts/PolaritySystem/TestShooter.cs:369>
+		NullCheck(L_5);
+		AudioSource_t871AC2272F896738252F04EE949AEF5B241D3299* L_8;
+		L_8 = GameObject_AddComponent_TisAudioSource_t871AC2272F896738252F04EE949AEF5B241D3299_m0E8EFDB9B3D8DF1ADE10C56D3168A9C1BA19BF14(L_5, GameObject_AddComponent_TisAudioSource_t871AC2272F896738252F04EE949AEF5B241D3299_m0E8EFDB9B3D8DF1ADE10C56D3168A9C1BA19BF14_RuntimeMethod_var);
+		//<source_info:C:/Users/mynur/OneDrive/Documentos/GitHub/Polarity_Breach_VR/Assets/Scripts/PolaritySystem/TestShooter.cs:370>
+		AudioSource_t871AC2272F896738252F04EE949AEF5B241D3299* L_9 = L_8;
+		NullCheck(L_9);
+		AudioSource_set_playOnAwake_m7EACC6ECEF12D7BA86A4E5A53603F1C8F9E11949(L_9, (bool)0, NULL);
+		//<source_info:C:/Users/mynur/OneDrive/Documentos/GitHub/Polarity_Breach_VR/Assets/Scripts/PolaritySystem/TestShooter.cs:371>
+		return L_9;
+	}
+}
+// Method Definition Index: 90399
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TestShooter__ctor_m58EBA265EFDC159ABAC16A960D1E039A1F557139 (TestShooter_t31886477AD339CA401E8D12EF68BC7D1E9AAD6DE* __this, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:C:/Users/mynur/OneDrive/Documentos/GitHub/Polarity_Breach_VR/Assets/Scripts/PolaritySystem/TestShooter.cs:19>
+		__this->___shootSoundVolume = (1.0f);
+		//<source_info:C:/Users/mynur/OneDrive/Documentos/GitHub/Polarity_Breach_VR/Assets/Scripts/PolaritySystem/TestShooter.cs:25>
+		__this->___chargeSoundVolume = (1.0f);
+		//<source_info:C:/Users/mynur/OneDrive/Documentos/GitHub/Polarity_Breach_VR/Assets/Scripts/PolaritySystem/TestShooter.cs:28>
+		__this->___heldChargeSoundVolume = (1.0f);
+		//<source_info:C:/Users/mynur/OneDrive/Documentos/GitHub/Polarity_Breach_VR/Assets/Scripts/PolaritySystem/TestShooter.cs:30>
+		__this->___chargeCancelSoundVolume = (1.0f);
+		//<source_info:C:/Users/mynur/OneDrive/Documentos/GitHub/Polarity_Breach_VR/Assets/Scripts/PolaritySystem/TestShooter.cs:32>
+		__this->___chargedShotSoundVolume = (1.0f);
+		//<source_info:C:/Users/mynur/OneDrive/Documentos/GitHub/Polarity_Breach_VR/Assets/Scripts/PolaritySystem/TestShooter.cs:33>
+		__this->___playChargeShotSoundsAs2D = (bool)1;
+		//<source_info:C:/Users/mynur/OneDrive/Documentos/GitHub/Polarity_Breach_VR/Assets/Scripts/PolaritySystem/TestShooter.cs:37>
+		__this->___referenceAttackDelay = (0.5f);
+		//<source_info:C:/Users/mynur/OneDrive/Documentos/GitHub/Polarity_Breach_VR/Assets/Scripts/PolaritySystem/TestShooter.cs:38>
+		__this->___minChargePitch = (0.699999988f);
+		//<source_info:C:/Users/mynur/OneDrive/Documentos/GitHub/Polarity_Breach_VR/Assets/Scripts/PolaritySystem/TestShooter.cs:39>
+		__this->___maxChargePitch = (2.0f);
+		//<source_info:C:/Users/mynur/OneDrive/Documentos/GitHub/Polarity_Breach_VR/Assets/Scripts/PolaritySystem/TestShooter.cs:42>
+		__this->___vibrationFrequency = (0.5f);
+		//<source_info:C:/Users/mynur/OneDrive/Documentos/GitHub/Polarity_Breach_VR/Assets/Scripts/PolaritySystem/TestShooter.cs:43>
+		__this->___vibrationAmplitude = (0.800000012f);
+		//<source_info:C:/Users/mynur/OneDrive/Documentos/GitHub/Polarity_Breach_VR/Assets/Scripts/PolaritySystem/TestShooter.cs:44>
+		__this->___vibrationDuration = (0.150000006f);
+		//<source_info:C:/Users/mynur/OneDrive/Documentos/GitHub/Polarity_Breach_VR/Assets/Scripts/PolaritySystem/TestShooter.cs:53>
+		__this->____lastShotTime = (-std::numeric_limits<float>::infinity());
+		MonoBehaviour__ctor_m592DB0105CA0BC97AA1C5F4AD27B12D68A3B7C1E(__this, NULL);
+		return;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// Method Definition Index: 90400
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CVibrateReadyU3Ed__48__ctor_m230F1619E21C2CF0380096D865CDF6C499B04B42 (U3CVibrateReadyU3Ed__48_tE2A74AF7171D8E9AF1C56B717DAD214012621AD8* __this, int32_t ___0_U3CU3E1__state, const RuntimeMethod* method) 
+{
+	//<source_info:<no-source>:1>
+	{
+		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2(__this, NULL);
+		int32_t L_0 = ___0_U3CU3E1__state;
+		__this->___U3CU3E1__state = L_0;
+		return;
+	}
+}
+// Method Definition Index: 90401
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CVibrateReadyU3Ed__48_System_IDisposable_Dispose_m14A06ED8E40DB45B786169CDF8F6575F36FBBBAE (U3CVibrateReadyU3Ed__48_tE2A74AF7171D8E9AF1C56B717DAD214012621AD8* __this, const RuntimeMethod* method) 
+{
+	//<source_info:<no-source>:1>
+	{
+		return;
+	}
+}
+// Method Definition Index: 90402
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool U3CVibrateReadyU3Ed__48_MoveNext_mBA2F9420FCC5EC22C5DCE5C0C3797DF8732C5F43 (U3CVibrateReadyU3Ed__48_tE2A74AF7171D8E9AF1C56B717DAD214012621AD8* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&OVRInput_t759D9CC8F14D8539AD78A0375A2306C39D77100A_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&WaitForSecondsRealtime_tA8CE0AAB4B0C872B843E7973637037D17682BA01_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	int32_t V_0 = 0;
+	TestShooter_t31886477AD339CA401E8D12EF68BC7D1E9AAD6DE* V_1 = NULL;
+	{
+		int32_t L_0 = __this->___U3CU3E1__state;
+		V_0 = L_0;
+		TestShooter_t31886477AD339CA401E8D12EF68BC7D1E9AAD6DE* L_1 = __this->___U3CU3E4__this;
+		V_1 = L_1;
+		int32_t L_2 = V_0;
+		if (!L_2)
+		{
+			goto IL_0017;
+		}
+	}
+	{
+		int32_t L_3 = V_0;
+		if ((((int32_t)L_3) == ((int32_t)1)))
+		{
+			goto IL_004a;
+		}
+	}
+	{
+		return (bool)0;
+	}
+
+IL_0017:
+	{
+		__this->___U3CU3E1__state = (-1);
+		//<source_info:C:/Users/mynur/OneDrive/Documentos/GitHub/Polarity_Breach_VR/Assets/Scripts/PolaritySystem/TestShooter.cs:188>
+		TestShooter_t31886477AD339CA401E8D12EF68BC7D1E9AAD6DE* L_4 = V_1;
+		NullCheck(L_4);
+		float L_5 = L_4->___vibrationFrequency;
+		TestShooter_t31886477AD339CA401E8D12EF68BC7D1E9AAD6DE* L_6 = V_1;
+		NullCheck(L_6);
+		float L_7 = L_6->___vibrationAmplitude;
+		il2cpp_codegen_runtime_class_init_inline(OVRInput_t759D9CC8F14D8539AD78A0375A2306C39D77100A_il2cpp_TypeInfo_var);
+		OVRInput_SetControllerVibration_m7DE7256047DAAB0F6F5E327250A23B9D7074871E(L_5, L_7, 2, NULL);
+		//<source_info:C:/Users/mynur/OneDrive/Documentos/GitHub/Polarity_Breach_VR/Assets/Scripts/PolaritySystem/TestShooter.cs:189>
+		TestShooter_t31886477AD339CA401E8D12EF68BC7D1E9AAD6DE* L_8 = V_1;
+		NullCheck(L_8);
+		float L_9 = L_8->___vibrationDuration;
+		WaitForSecondsRealtime_tA8CE0AAB4B0C872B843E7973637037D17682BA01* L_10 = (WaitForSecondsRealtime_tA8CE0AAB4B0C872B843E7973637037D17682BA01*)il2cpp_codegen_object_new(WaitForSecondsRealtime_tA8CE0AAB4B0C872B843E7973637037D17682BA01_il2cpp_TypeInfo_var);
+		WaitForSecondsRealtime__ctor_mBFC1E4F0E042D5EC6E7EEB211A2FE5193A8F6D6F(L_10, L_9, NULL);
+		__this->___U3CU3E2__current = L_10;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CU3E2__current), (void*)L_10);
+		__this->___U3CU3E1__state = 1;
+		return (bool)1;
+	}
+
+IL_004a:
+	{
+		__this->___U3CU3E1__state = (-1);
+		//<source_info:C:/Users/mynur/OneDrive/Documentos/GitHub/Polarity_Breach_VR/Assets/Scripts/PolaritySystem/TestShooter.cs:190>
+		TestShooter_t31886477AD339CA401E8D12EF68BC7D1E9AAD6DE* L_11 = V_1;
+		NullCheck(L_11);
+		TestShooter_StopVibration_m635EE4097D5260FBA1304E0405923CDEC70F755F(L_11, NULL);
+		//<source_info:C:/Users/mynur/OneDrive/Documentos/GitHub/Polarity_Breach_VR/Assets/Scripts/PolaritySystem/TestShooter.cs:191>
+		return (bool)0;
+	}
+}
+// Method Definition Index: 90403
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CVibrateReadyU3Ed__48_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_m8B7400ABFD01110FBB1EB2261911D542EC0AF5B0 (U3CVibrateReadyU3Ed__48_tE2A74AF7171D8E9AF1C56B717DAD214012621AD8* __this, const RuntimeMethod* method) 
+{
+	//<source_info:<no-source>:1>
+	{
+		RuntimeObject* L_0 = __this->___U3CU3E2__current;
+		return L_0;
+	}
+}
+// Method Definition Index: 90404
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CVibrateReadyU3Ed__48_System_Collections_IEnumerator_Reset_m5AD1AF5FD41AB283F8737BBAE3174A9250789EB9 (U3CVibrateReadyU3Ed__48_tE2A74AF7171D8E9AF1C56B717DAD214012621AD8* __this, const RuntimeMethod* method) 
+{
+	//<source_info:<no-source>:1>
+	{
+		NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A* L_0 = (NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A_il2cpp_TypeInfo_var)));
+		NotSupportedException__ctor_m1398D0CDE19B36AA3DE9392879738C1EA2439CDF(L_0, NULL);
+		IL2CPP_RAISE_MANAGED_EXCEPTION(L_0, ((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&U3CVibrateReadyU3Ed__48_System_Collections_IEnumerator_Reset_m5AD1AF5FD41AB283F8737BBAE3174A9250789EB9_RuntimeMethod_var)));
+	}
+}
+// Method Definition Index: 90405
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CVibrateReadyU3Ed__48_System_Collections_IEnumerator_get_Current_mFB90679B64C185ECD6E9E667283F243FDE17DEF5 (U3CVibrateReadyU3Ed__48_tE2A74AF7171D8E9AF1C56B717DAD214012621AD8* __this, const RuntimeMethod* method) 
+{
+	//<source_info:<no-source>:1>
+	{
+		RuntimeObject* L_0 = __this->___U3CU3E2__current;
+		return L_0;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// Method Definition Index: 90406
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void VfxPolarityColor_Awake_mF718B05EA53939F2B4C01D20D4654887F3327F7A (VfxPolarityColor_t9F93A7C64C7606D719A677B3E55156AE06B2A79D* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Component_GetComponent_TisPolarityComponent_t1FB53DB0BF7CE9A8E59278F3854DC776322BBCA0_m317F7D3130E71487835B00DB1356E893EEF94764_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Component_GetComponentsInChildren_TisVisualEffect_t8CF4F0E13AEBF27224BB1323CC103666EDBBCFB0_mDCB784FAE6A8621604B589374A38FE7E6990A45A_RuntimeMethod_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		//<source_info:C:/Users/mynur/OneDrive/Documentos/GitHub/Polarity_Breach_VR/Assets/Scripts/PolaritySystem/VFXPolarityColor.cs:21>
+		PolarityComponent_t1FB53DB0BF7CE9A8E59278F3854DC776322BBCA0* L_0;
+		L_0 = Component_GetComponent_TisPolarityComponent_t1FB53DB0BF7CE9A8E59278F3854DC776322BBCA0_m317F7D3130E71487835B00DB1356E893EEF94764(__this, Component_GetComponent_TisPolarityComponent_t1FB53DB0BF7CE9A8E59278F3854DC776322BBCA0_m317F7D3130E71487835B00DB1356E893EEF94764_RuntimeMethod_var);
+		__this->___polarity = L_0;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___polarity), (void*)L_0);
+		//<source_info:C:/Users/mynur/OneDrive/Documentos/GitHub/Polarity_Breach_VR/Assets/Scripts/PolaritySystem/VFXPolarityColor.cs:23>
+		VisualEffectU5BU5D_t046742D1CF935350387F65E34F5726A3E1A72A23* L_1 = __this->___effects;
+		if (!L_1)
+		{
+			goto IL_001d;
+		}
+	}
+	{
+		VisualEffectU5BU5D_t046742D1CF935350387F65E34F5726A3E1A72A23* L_2 = __this->___effects;
+		NullCheck(L_2);
+		if ((((RuntimeArray*)L_2)->max_length))
+		{
+			goto IL_0029;
+		}
+	}
+
+IL_001d:
+	{
+		//<source_info:C:/Users/mynur/OneDrive/Documentos/GitHub/Polarity_Breach_VR/Assets/Scripts/PolaritySystem/VFXPolarityColor.cs:24>
+		VisualEffectU5BU5D_t046742D1CF935350387F65E34F5726A3E1A72A23* L_3;
+		L_3 = Component_GetComponentsInChildren_TisVisualEffect_t8CF4F0E13AEBF27224BB1323CC103666EDBBCFB0_mDCB784FAE6A8621604B589374A38FE7E6990A45A(__this, Component_GetComponentsInChildren_TisVisualEffect_t8CF4F0E13AEBF27224BB1323CC103666EDBBCFB0_mDCB784FAE6A8621604B589374A38FE7E6990A45A_RuntimeMethod_var);
+		__this->___effects = L_3;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___effects), (void*)L_3);
+	}
+
+IL_0029:
+	{
+		//<source_info:C:/Users/mynur/OneDrive/Documentos/GitHub/Polarity_Breach_VR/Assets/Scripts/PolaritySystem/VFXPolarityColor.cs:25>
+		return;
+	}
+}
+// Method Definition Index: 90407
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void VfxPolarityColor_OnEnable_m699EAE7761AF931195D49CBDF196D56FDF82D0CB (VfxPolarityColor_t9F93A7C64C7606D719A677B3E55156AE06B2A79D* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Action_1_t2A685F9B7073D2171BE282EED0EC530989CA03E9_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&VfxPolarityColor_Apply_m6B3602A619FB72D01A4F326D54BE7B175DECC872_RuntimeMethod_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		//<source_info:C:/Users/mynur/OneDrive/Documentos/GitHub/Polarity_Breach_VR/Assets/Scripts/PolaritySystem/VFXPolarityColor.cs:29>
+		PolarityComponent_t1FB53DB0BF7CE9A8E59278F3854DC776322BBCA0* L_0 = __this->___polarity;
+		Action_1_t2A685F9B7073D2171BE282EED0EC530989CA03E9* L_1 = (Action_1_t2A685F9B7073D2171BE282EED0EC530989CA03E9*)il2cpp_codegen_object_new(Action_1_t2A685F9B7073D2171BE282EED0EC530989CA03E9_il2cpp_TypeInfo_var);
+		Action_1__ctor_m2A215C2B00BBAD929AE9298F40164012A7FB2063(L_1, __this, (intptr_t)((void*)VfxPolarityColor_Apply_m6B3602A619FB72D01A4F326D54BE7B175DECC872_RuntimeMethod_var), NULL);
+		NullCheck(L_0);
+		PolarityComponent_add_OnPolarityChanged_m2E91C6D657C078F3EF9ABEDFF9A50277F9605AF9(L_0, L_1, NULL);
+		//<source_info:C:/Users/mynur/OneDrive/Documentos/GitHub/Polarity_Breach_VR/Assets/Scripts/PolaritySystem/VFXPolarityColor.cs:30>
+		PolarityComponent_t1FB53DB0BF7CE9A8E59278F3854DC776322BBCA0* L_2 = __this->___polarity;
+		NullCheck(L_2);
+		int32_t L_3;
+		L_3 = PolarityComponent_get_CurrentPolarity_mEFF48D62986084A923894FAE9EDD5CC9061A76B0_inline(L_2, NULL);
+		VfxPolarityColor_Apply_m6B3602A619FB72D01A4F326D54BE7B175DECC872(__this, L_3, NULL);
+		//<source_info:C:/Users/mynur/OneDrive/Documentos/GitHub/Polarity_Breach_VR/Assets/Scripts/PolaritySystem/VFXPolarityColor.cs:31>
+		return;
+	}
+}
+// Method Definition Index: 90408
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void VfxPolarityColor_OnDisable_m83FB0EC1A3C32231F111E0BC3234E077246644B9 (VfxPolarityColor_t9F93A7C64C7606D719A677B3E55156AE06B2A79D* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Action_1_t2A685F9B7073D2171BE282EED0EC530989CA03E9_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&VfxPolarityColor_Apply_m6B3602A619FB72D01A4F326D54BE7B175DECC872_RuntimeMethod_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		//<source_info:C:/Users/mynur/OneDrive/Documentos/GitHub/Polarity_Breach_VR/Assets/Scripts/PolaritySystem/VFXPolarityColor.cs:35>
+		PolarityComponent_t1FB53DB0BF7CE9A8E59278F3854DC776322BBCA0* L_0 = __this->___polarity;
+		Action_1_t2A685F9B7073D2171BE282EED0EC530989CA03E9* L_1 = (Action_1_t2A685F9B7073D2171BE282EED0EC530989CA03E9*)il2cpp_codegen_object_new(Action_1_t2A685F9B7073D2171BE282EED0EC530989CA03E9_il2cpp_TypeInfo_var);
+		Action_1__ctor_m2A215C2B00BBAD929AE9298F40164012A7FB2063(L_1, __this, (intptr_t)((void*)VfxPolarityColor_Apply_m6B3602A619FB72D01A4F326D54BE7B175DECC872_RuntimeMethod_var), NULL);
+		NullCheck(L_0);
+		PolarityComponent_remove_OnPolarityChanged_mE62B5E429C533F83EF7175AB1C0EE11D0EA9980D(L_0, L_1, NULL);
+		//<source_info:C:/Users/mynur/OneDrive/Documentos/GitHub/Polarity_Breach_VR/Assets/Scripts/PolaritySystem/VFXPolarityColor.cs:36>
+		return;
+	}
+}
+// Method Definition Index: 90409
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void VfxPolarityColor_Apply_m6B3602A619FB72D01A4F326D54BE7B175DECC872 (VfxPolarityColor_t9F93A7C64C7606D719A677B3E55156AE06B2A79D* __this, int32_t ___0_value, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	Color_tD001788D726C3A7F1379BEED0260B9591F440C1F V_0;
+	memset((&V_0), 0, sizeof(V_0));
+	int32_t V_1 = 0;
+	Color_tD001788D726C3A7F1379BEED0260B9591F440C1F G_B5_0;
+	memset((&G_B5_0), 0, sizeof(G_B5_0));
+	{
+		//<source_info:C:/Users/mynur/OneDrive/Documentos/GitHub/Polarity_Breach_VR/Assets/Scripts/PolaritySystem/VFXPolarityColor.cs:40>
+		VisualEffectU5BU5D_t046742D1CF935350387F65E34F5726A3E1A72A23* L_0 = __this->___effects;
+		if (L_0)
+		{
+			goto IL_0009;
+		}
+	}
+	{
+		//<source_info:C:/Users/mynur/OneDrive/Documentos/GitHub/Polarity_Breach_VR/Assets/Scripts/PolaritySystem/VFXPolarityColor.cs:40>
+		return;
+	}
+
+IL_0009:
+	{
+		//<source_info:C:/Users/mynur/OneDrive/Documentos/GitHub/Polarity_Breach_VR/Assets/Scripts/PolaritySystem/VFXPolarityColor.cs:42>
+		int32_t L_1 = ___0_value;
+		if (!L_1)
+		{
+			goto IL_0014;
+		}
+	}
+	{
+		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_2 = __this->___whiteColor;
+		G_B5_0 = L_2;
+		goto IL_001a;
+	}
+
+IL_0014:
+	{
+		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_3 = __this->___blackColor;
+		G_B5_0 = L_3;
+	}
+
+IL_001a:
+	{
+		float L_4 = __this->___intensity;
+		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_5;
+		L_5 = Color_op_Multiply_m379B20A820266ACF82A21425B9CAE8DCD773CFBB_inline(G_B5_0, L_4, NULL);
+		V_0 = L_5;
+		//<source_info:C:/Users/mynur/OneDrive/Documentos/GitHub/Polarity_Breach_VR/Assets/Scripts/PolaritySystem/VFXPolarityColor.cs:44>
+		V_1 = 0;
+		goto IL_006c;
+	}
+
+IL_002a:
+	{
+		//<source_info:C:/Users/mynur/OneDrive/Documentos/GitHub/Polarity_Breach_VR/Assets/Scripts/PolaritySystem/VFXPolarityColor.cs:46>
+		VisualEffectU5BU5D_t046742D1CF935350387F65E34F5726A3E1A72A23* L_6 = __this->___effects;
+		int32_t L_7 = V_1;
+		NullCheck(L_6);
+		int32_t L_8 = L_7;
+		VisualEffect_t8CF4F0E13AEBF27224BB1323CC103666EDBBCFB0* L_9 = (L_6)->GetAt(static_cast<il2cpp_array_size_t>(L_8));
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		bool L_10;
+		L_10 = Object_op_Equality_mB6120F782D83091EF56A198FCEBCF066DB4A9605(L_9, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
+		if (L_10)
+		{
+			goto IL_0068;
+		}
+	}
+	{
+		//<source_info:C:/Users/mynur/OneDrive/Documentos/GitHub/Polarity_Breach_VR/Assets/Scripts/PolaritySystem/VFXPolarityColor.cs:48>
+		VisualEffectU5BU5D_t046742D1CF935350387F65E34F5726A3E1A72A23* L_11 = __this->___effects;
+		int32_t L_12 = V_1;
+		NullCheck(L_11);
+		int32_t L_13 = L_12;
+		VisualEffect_t8CF4F0E13AEBF27224BB1323CC103666EDBBCFB0* L_14 = (L_11)->GetAt(static_cast<il2cpp_array_size_t>(L_13));
+		String_t* L_15 = __this->___colorProperty;
+		NullCheck(L_14);
+		bool L_16;
+		L_16 = VisualEffect_HasVector4_m9BD809A0E57D0083CC65C3F8240FF3A55F866811(L_14, L_15, NULL);
+		if (!L_16)
+		{
+			goto IL_0068;
+		}
+	}
+	{
+		//<source_info:C:/Users/mynur/OneDrive/Documentos/GitHub/Polarity_Breach_VR/Assets/Scripts/PolaritySystem/VFXPolarityColor.cs:49>
+		VisualEffectU5BU5D_t046742D1CF935350387F65E34F5726A3E1A72A23* L_17 = __this->___effects;
+		int32_t L_18 = V_1;
+		NullCheck(L_17);
+		int32_t L_19 = L_18;
+		VisualEffect_t8CF4F0E13AEBF27224BB1323CC103666EDBBCFB0* L_20 = (L_17)->GetAt(static_cast<il2cpp_array_size_t>(L_19));
+		String_t* L_21 = __this->___colorProperty;
+		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_22 = V_0;
+		Vector4_t58B63D32F48C0DBF50DE2C60794C4676C80EDBE3 L_23;
+		L_23 = Color_op_Implicit_m9B3228DAFA8DC57A75DE00CBBF13ED4F1E7B01FF_inline(L_22, NULL);
+		NullCheck(L_20);
+		VisualEffect_SetVector4_m2689F7AA23636CA94447027AFE213A03F51B261C(L_20, L_21, L_23, NULL);
+	}
+
+IL_0068:
+	{
+		//<source_info:C:/Users/mynur/OneDrive/Documentos/GitHub/Polarity_Breach_VR/Assets/Scripts/PolaritySystem/VFXPolarityColor.cs:44>
+		int32_t L_24 = V_1;
+		V_1 = ((int32_t)il2cpp_codegen_add(L_24, 1));
+	}
+
+IL_006c:
+	{
+		//<source_info:C:/Users/mynur/OneDrive/Documentos/GitHub/Polarity_Breach_VR/Assets/Scripts/PolaritySystem/VFXPolarityColor.cs:44>
+		int32_t L_25 = V_1;
+		VisualEffectU5BU5D_t046742D1CF935350387F65E34F5726A3E1A72A23* L_26 = __this->___effects;
+		NullCheck(L_26);
+		if ((((int32_t)L_25) < ((int32_t)((int32_t)(((RuntimeArray*)L_26)->max_length)))))
+		{
+			goto IL_002a;
+		}
+	}
+	{
+		//<source_info:C:/Users/mynur/OneDrive/Documentos/GitHub/Polarity_Breach_VR/Assets/Scripts/PolaritySystem/VFXPolarityColor.cs:51>
+		return;
+	}
+}
+// Method Definition Index: 90410
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void VfxPolarityColor__ctor_mE1A8A1AA0CE217838DD080F9073C5059608C080B (VfxPolarityColor_t9F93A7C64C7606D719A677B3E55156AE06B2A79D* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralDC0F1873BEDF44FDDD035F0A907B592964714EA5);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		//<source_info:C:/Users/mynur/OneDrive/Documentos/GitHub/Polarity_Breach_VR/Assets/Scripts/PolaritySystem/VFXPolarityColor.cs:10>
+		__this->___colorProperty = _stringLiteralDC0F1873BEDF44FDDD035F0A907B592964714EA5;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___colorProperty), (void*)_stringLiteralDC0F1873BEDF44FDDD035F0A907B592964714EA5);
+		//<source_info:C:/Users/mynur/OneDrive/Documentos/GitHub/Polarity_Breach_VR/Assets/Scripts/PolaritySystem/VFXPolarityColor.cs:13>
+		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_0;
+		L_0 = Color_get_white_m068F5AF879B0FCA584E3693F762EA41BB65532C6_inline(NULL);
+		__this->___whiteColor = L_0;
+		//<source_info:C:/Users/mynur/OneDrive/Documentos/GitHub/Polarity_Breach_VR/Assets/Scripts/PolaritySystem/VFXPolarityColor.cs:14>
+		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_1;
+		L_1 = Color_get_black_mB50217951591A045844C61E7FF31EEE3FEF16737_inline(NULL);
+		__this->___blackColor = L_1;
+		//<source_info:C:/Users/mynur/OneDrive/Documentos/GitHub/Polarity_Breach_VR/Assets/Scripts/PolaritySystem/VFXPolarityColor.cs:15>
+		__this->___intensity = (1.0f);
+		MonoBehaviour__ctor_m592DB0105CA0BC97AA1C5F4AD27B12D68A3B7C1E(__this, NULL);
+		return;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+// Method Definition Index: 52924
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float Mathf_Max_mF5379E63D2BBAC76D090748695D833934F8AD051_inline (float ___0_a, float ___1_b, const RuntimeMethod* method) 
+{
+	float V_0 = 0.0f;
+	float G_B3_0 = 0.0f;
+	{
+		//<source_info:/home/bokken/build/output/unity/unity/Runtime/Export/Math/Mathf.cs:148>
+		float L_0 = ___0_a;
+		float L_1 = ___1_b;
+		if ((((float)L_0) > ((float)L_1)))
+		{
+			goto IL_0008;
+		}
+	}
+	{
+		float L_2 = ___1_b;
+		G_B3_0 = L_2;
+		goto IL_0009;
+	}
+
+IL_0008:
+	{
+		float L_3 = ___0_a;
+		G_B3_0 = L_3;
+	}
+
+IL_0009:
+	{
+		V_0 = G_B3_0;
+		goto IL_000c;
+	}
+
+IL_000c:
+	{
+		//<source_info:/home/bokken/build/output/unity/unity/Runtime/Export/Math/Mathf.cs:148>
+		float L_4 = V_0;
+		return L_4;
+	}
+}
+// Method Definition Index: 878
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Action_Invoke_m7126A54DACA72B845424072887B5F3A51FC3808E_inline (Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* __this, const RuntimeMethod* method) 
+{
+	//<source_info:<no-source>:1>
+	typedef void (*FunctionPointerType) (RuntimeObject*, const RuntimeMethod*);
+	((FunctionPointerType)__this->___invoke_impl)((Il2CppObject*)__this->___method_code, reinterpret_cast<RuntimeMethod*>(__this->___method));
+}
+// Method Definition Index: 89622
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR EnemyPool_t3FF71B3C1895973B8497F4E778889D4DE40E84E0* EnemyWaveSpawner_get_Pool_mD92B60D5B53D165B102904EED629D61900BAA114_inline (EnemyWaveSpawner_t8F462F74B7B56D3D3D3637304D5934F06D1F3B88* __this, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:C:/Users/mynur/OneDrive/Documentos/GitHub/Polarity_Breach_VR/Assets/Scripts/Enemy/EnemyWaveSpawner.cs:90>
+		EnemyPool_t3FF71B3C1895973B8497F4E778889D4DE40E84E0* L_0 = __this->___enemyPool;
+		return L_0;
+	}
+}
+// Method Definition Index: 90127
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool BossHealth_get_IsShielded_mCADCB3DC3CA7064E33DA8712CA7725BB5403837D_inline (BossHealth_t8B40372B7852023F1AF6C408BAA5BA400317665E* __this, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:C:/Users/mynur/OneDrive/Documentos/GitHub/Polarity_Breach_VR/Assets/Scripts/Boss/BossHealth.cs:19>
+		bool L_0 = __this->___U3CIsShieldedU3Ek__BackingField;
+		return L_0;
+	}
+}
+// Method Definition Index: 52666
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Color_tD001788D726C3A7F1379BEED0260B9591F440C1F Color_get_red_mA2E53E7173FDC97E68E335049AB0FAAEE43A844D_inline (const RuntimeMethod* method) 
+{
+	{
+		//<source_info:/home/bokken/build/output/unity/unity/Runtime/Export/Math/Color.cs:930>
+		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_0;
+		memset((&L_0), 0, sizeof(L_0));
+		Color__ctor_m3786F0D6E510D9CFA544523A955870BD2A514C8C_inline((&L_0), (1.0f), (0.0f), (0.0f), (1.0f), NULL);
+		return L_0;
+	}
+}
+// Method Definition Index: 90252
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void AudioHandler_set_DefaultSfxMixerGroup_m5018A21EBA1556FC3DE783DD31F67962A3B9A4B6_inline (AudioMixerGroup_tD29AC8336F7425DF007944F8195CEABF34FC3311* ___0_value, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&AudioHandler_tE052A61F0CA9DC9106F9CDB5CB21D6EC158EED15_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		//<source_info:C:/Users/mynur/OneDrive/Documentos/GitHub/Polarity_Breach_VR/Assets/Scripts/Audio/AudioHandler.cs:8>
+		AudioMixerGroup_tD29AC8336F7425DF007944F8195CEABF34FC3311* L_0 = ___0_value;
+		((AudioHandler_tE052A61F0CA9DC9106F9CDB5CB21D6EC158EED15_StaticFields*)il2cpp_codegen_static_fields_for(AudioHandler_tE052A61F0CA9DC9106F9CDB5CB21D6EC158EED15_il2cpp_TypeInfo_var))->___U3CDefaultSfxMixerGroupU3Ek__BackingField = L_0;
+		Il2CppCodeGenWriteBarrier((void**)(&((AudioHandler_tE052A61F0CA9DC9106F9CDB5CB21D6EC158EED15_StaticFields*)il2cpp_codegen_static_fields_for(AudioHandler_tE052A61F0CA9DC9106F9CDB5CB21D6EC158EED15_il2cpp_TypeInfo_var))->___U3CDefaultSfxMixerGroupU3Ek__BackingField), (void*)L_0);
+		return;
+	}
+}
+// Method Definition Index: 90251
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR AudioMixerGroup_tD29AC8336F7425DF007944F8195CEABF34FC3311* AudioHandler_get_DefaultSfxMixerGroup_m9DA83D716071C3EC05EA24B09F2E98CF9C98FC16_inline (const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&AudioHandler_tE052A61F0CA9DC9106F9CDB5CB21D6EC158EED15_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		//<source_info:C:/Users/mynur/OneDrive/Documentos/GitHub/Polarity_Breach_VR/Assets/Scripts/Audio/AudioHandler.cs:8>
+		AudioMixerGroup_tD29AC8336F7425DF007944F8195CEABF34FC3311* L_0 = ((AudioHandler_tE052A61F0CA9DC9106F9CDB5CB21D6EC158EED15_StaticFields*)il2cpp_codegen_static_fields_for(AudioHandler_tE052A61F0CA9DC9106F9CDB5CB21D6EC158EED15_il2cpp_TypeInfo_var))->___U3CDefaultSfxMixerGroupU3Ek__BackingField;
+		return L_0;
+	}
+}
+// Method Definition Index: 52942
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float Mathf_Clamp01_mA7E048DBDA832D399A581BE4D6DED9FA44CE0F14_inline (float ___0_value, const RuntimeMethod* method) 
+{
+	bool V_0 = false;
+	float V_1 = 0.0f;
+	bool V_2 = false;
+	{
+		//<source_info:/home/bokken/build/output/unity/unity/Runtime/Export/Math/Mathf.cs:318>
+		float L_0 = ___0_value;
+		V_0 = (bool)((((float)L_0) < ((float)(0.0f)))? 1 : 0);
+		bool L_1 = V_0;
+		if (!L_1)
+		{
+			goto IL_0015;
+		}
+	}
+	{
+		//<source_info:/home/bokken/build/output/unity/unity/Runtime/Export/Math/Mathf.cs:319>
+		V_1 = (0.0f);
+		goto IL_002d;
+	}
+
+IL_0015:
+	{
+		//<source_info:/home/bokken/build/output/unity/unity/Runtime/Export/Math/Mathf.cs:320>
+		float L_2 = ___0_value;
+		V_2 = (bool)((((float)L_2) > ((float)(1.0f)))? 1 : 0);
+		bool L_3 = V_2;
+		if (!L_3)
+		{
+			goto IL_0029;
+		}
+	}
+	{
+		//<source_info:/home/bokken/build/output/unity/unity/Runtime/Export/Math/Mathf.cs:321>
+		V_1 = (1.0f);
+		goto IL_002d;
+	}
+
+IL_0029:
+	{
+		//<source_info:/home/bokken/build/output/unity/unity/Runtime/Export/Math/Mathf.cs:323>
+		float L_4 = ___0_value;
+		V_1 = L_4;
+		goto IL_002d;
+	}
+
+IL_002d:
+	{
+		//<source_info:/home/bokken/build/output/unity/unity/Runtime/Export/Math/Mathf.cs:324>
+		float L_5 = V_1;
+		return L_5;
+	}
+}
+// Method Definition Index: 90312
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t PolarityComponent_get_CurrentPolarity_mEFF48D62986084A923894FAE9EDD5CC9061A76B0_inline (PolarityComponent_t1FB53DB0BF7CE9A8E59278F3854DC776322BBCA0* __this, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:C:/Users/mynur/OneDrive/Documentos/GitHub/Polarity_Breach_VR/Assets/Scripts/PolaritySystem/PolarityComponent.cs:12>
+		int32_t L_0 = __this->____polarity;
+		return L_0;
+	}
+}
+// Method Definition Index: 52641
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Color_tD001788D726C3A7F1379BEED0260B9591F440C1F Color_op_Multiply_m379B20A820266ACF82A21425B9CAE8DCD773CFBB_inline (Color_tD001788D726C3A7F1379BEED0260B9591F440C1F ___0_a, float ___1_b, const RuntimeMethod* method) 
+{
+	Color_tD001788D726C3A7F1379BEED0260B9591F440C1F V_0;
+	memset((&V_0), 0, sizeof(V_0));
+	{
+		//<source_info:/home/bokken/build/output/unity/unity/Runtime/Export/Math/Color.cs:123>
+		il2cpp_codegen_initobj((&V_0), sizeof(Color_tD001788D726C3A7F1379BEED0260B9591F440C1F));
+		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_0 = ___0_a;
+		float L_1 = L_0.___r;
+		float L_2 = ___1_b;
+		(&V_0)->___r = ((float)il2cpp_codegen_multiply(L_1, L_2));
+		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_3 = ___0_a;
+		float L_4 = L_3.___g;
+		float L_5 = ___1_b;
+		(&V_0)->___g = ((float)il2cpp_codegen_multiply(L_4, L_5));
+		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_6 = ___0_a;
+		float L_7 = L_6.___b;
+		float L_8 = ___1_b;
+		(&V_0)->___b = ((float)il2cpp_codegen_multiply(L_7, L_8));
+		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_9 = ___0_a;
+		float L_10 = L_9.___a;
+		float L_11 = ___1_b;
+		(&V_0)->___a = ((float)il2cpp_codegen_multiply(L_10, L_11));
+		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_12 = V_0;
+		return L_12;
+	}
+}
+// Method Definition Index: 52667
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Color_tD001788D726C3A7F1379BEED0260B9591F440C1F Color_get_white_m068F5AF879B0FCA584E3693F762EA41BB65532C6_inline (const RuntimeMethod* method) 
+{
+	{
+		//<source_info:/home/bokken/build/output/unity/unity/Runtime/Export/Math/Color.cs:1014>
+		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_0;
+		memset((&L_0), 0, sizeof(L_0));
+		Color__ctor_m3786F0D6E510D9CFA544523A955870BD2A514C8C_inline((&L_0), (1.0f), (1.0f), (1.0f), (1.0f), NULL);
+		return L_0;
+	}
+}
+// Method Definition Index: 52657
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Color_tD001788D726C3A7F1379BEED0260B9591F440C1F Color_get_black_mB50217951591A045844C61E7FF31EEE3FEF16737_inline (const RuntimeMethod* method) 
+{
+	{
+		//<source_info:/home/bokken/build/output/unity/unity/Runtime/Export/Math/Color.cs:576>
+		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_0;
+		memset((&L_0), 0, sizeof(L_0));
+		Color__ctor_m3786F0D6E510D9CFA544523A955870BD2A514C8C_inline((&L_0), (0.0f), (0.0f), (0.0f), (1.0f), NULL);
+		return L_0;
+	}
+}
+// Method Definition Index: 89808
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool UIQueue_get_IsBlocking_m6B2BCD297AA3050728F60F53EA389653911E0134_inline (const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&UIQueue_t8AFAA58F4BAAB525F589D653F5937C91555DC1FC_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		//<source_info:C:/Users/mynur/OneDrive/Documentos/GitHub/Polarity_Breach_VR/Assets/Scripts/CanvasUI/Dialogues/UiQueue.cs:11>
+		bool L_0 = ((UIQueue_t8AFAA58F4BAAB525F589D653F5937C91555DC1FC_StaticFields*)il2cpp_codegen_static_fields_for(UIQueue_t8AFAA58F4BAAB525F589D653F5937C91555DC1FC_il2cpp_TypeInfo_var))->___U3CIsBlockingU3Ek__BackingField;
+		return L_0;
+	}
+}
+// Method Definition Index: 89980
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool PauseMenu_get_IsPaused_mD104EA82FBC4D985AEA9F223CFA038687136944E_inline (const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&PauseMenu_t766A7A9211D178C625B0C5F1EBF00502A0DE1CF7_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		//<source_info:C:/Users/mynur/OneDrive/Documentos/GitHub/Polarity_Breach_VR/Assets/Scripts/Player/PauseMenu.cs:24>
+		bool L_0 = ((PauseMenu_t766A7A9211D178C625B0C5F1EBF00502A0DE1CF7_StaticFields*)il2cpp_codegen_static_fields_for(PauseMenu_t766A7A9211D178C625B0C5F1EBF00502A0DE1CF7_il2cpp_TypeInfo_var))->___U3CIsPausedU3Ek__BackingField;
+		return L_0;
+	}
+}
+// Method Definition Index: 52943
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float Mathf_Lerp_m47EF2FFB7647BD0A1FDC26DC03E28B19812139B5_inline (float ___0_a, float ___1_b, float ___2_t, const RuntimeMethod* method) 
+{
+	float V_0 = 0.0f;
+	{
+		//<source_info:/home/bokken/build/output/unity/unity/Runtime/Export/Math/Mathf.cs:332>
+		float L_0 = ___0_a;
+		float L_1 = ___1_b;
+		float L_2 = ___0_a;
+		float L_3 = ___2_t;
+		float L_4;
+		L_4 = Mathf_Clamp01_mA7E048DBDA832D399A581BE4D6DED9FA44CE0F14_inline(L_3, NULL);
+		V_0 = ((float)il2cpp_codegen_add(L_0, ((float)il2cpp_codegen_multiply(((float)il2cpp_codegen_subtract(L_1, L_2)), L_4))));
+		goto IL_0010;
+	}
+
+IL_0010:
+	{
+		//<source_info:/home/bokken/build/output/unity/unity/Runtime/Export/Math/Mathf.cs:333>
+		float L_5 = V_0;
+		return L_5;
+	}
+}
+// Method Definition Index: 52836
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 Vector3_op_Multiply_m87BA7C578F96C8E49BB07088DAAC4649F83B0353_inline (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___0_a, float ___1_d, const RuntimeMethod* method) 
+{
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 V_0;
+	memset((&V_0), 0, sizeof(V_0));
+	{
+		//<source_info:/home/bokken/build/output/unity/unity/Runtime/Export/Math/Vector3.cs:786>
+		il2cpp_codegen_initobj((&V_0), sizeof(Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2));
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_0 = ___0_a;
+		float L_1 = L_0.___x;
+		float L_2 = ___1_d;
+		(&V_0)->___x = ((float)il2cpp_codegen_multiply(L_1, L_2));
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_3 = ___0_a;
+		float L_4 = L_3.___y;
+		float L_5 = ___1_d;
+		(&V_0)->___y = ((float)il2cpp_codegen_multiply(L_4, L_5));
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_6 = ___0_a;
+		float L_7 = L_6.___z;
+		float L_8 = ___1_d;
+		(&V_0)->___z = ((float)il2cpp_codegen_multiply(L_7, L_8));
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_9 = V_0;
+		return L_9;
+	}
+}
+// Method Definition Index: 52833
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 Vector3_op_Addition_m78C0EC70CB66E8DCAC225743D82B268DAEE92067_inline (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___0_a, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___1_b, const RuntimeMethod* method) 
+{
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 V_0;
+	memset((&V_0), 0, sizeof(V_0));
+	{
+		//<source_info:/home/bokken/build/output/unity/unity/Runtime/Export/Math/Vector3.cs:777>
+		il2cpp_codegen_initobj((&V_0), sizeof(Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2));
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_0 = ___0_a;
+		float L_1 = L_0.___x;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_2 = ___1_b;
+		float L_3 = L_2.___x;
+		(&V_0)->___x = ((float)il2cpp_codegen_add(L_1, L_3));
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_4 = ___0_a;
+		float L_5 = L_4.___y;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_6 = ___1_b;
+		float L_7 = L_6.___y;
+		(&V_0)->___y = ((float)il2cpp_codegen_add(L_5, L_7));
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_8 = ___0_a;
+		float L_9 = L_8.___z;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_10 = ___1_b;
+		float L_11 = L_10.___z;
+		(&V_0)->___z = ((float)il2cpp_codegen_add(L_9, L_11));
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_12 = V_0;
+		return L_12;
+	}
+}
+// Method Definition Index: 52805
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Vector3_Normalize_mC749B887A4C74BA0A2E13E6377F17CCAEB0AADA8_inline (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2* __this, const RuntimeMethod* method) 
+{
+	float V_0 = 0.0f;
+	bool V_1 = false;
+	{
+		//<source_info:/home/bokken/build/output/unity/unity/Runtime/Export/Math/Vector3.cs:436>
+		float L_0;
+		L_0 = Vector3_get_magnitude_mF0D6017E90B345F1F52D1CC564C640F1A847AF2D_inline(__this, NULL);
+		V_0 = L_0;
+		//<source_info:/home/bokken/build/output/unity/unity/Runtime/Export/Math/Vector3.cs:437>
+		float L_1 = V_0;
+		V_1 = (bool)((((float)L_1) > ((float)(9.99999975E-06f)))? 1 : 0);
+		bool L_2 = V_1;
+		if (!L_2)
+		{
+			goto IL_0042;
+		}
+	}
+	{
+		//<source_info:/home/bokken/build/output/unity/unity/Runtime/Export/Math/Vector3.cs:439>
+		float L_3 = __this->___x;
+		float L_4 = V_0;
+		__this->___x = ((float)(L_3/L_4));
+		//<source_info:/home/bokken/build/output/unity/unity/Runtime/Export/Math/Vector3.cs:440>
+		float L_5 = __this->___y;
+		float L_6 = V_0;
+		__this->___y = ((float)(L_5/L_6));
+		//<source_info:/home/bokken/build/output/unity/unity/Runtime/Export/Math/Vector3.cs:441>
+		float L_7 = __this->___z;
+		float L_8 = V_0;
+		__this->___z = ((float)(L_7/L_8));
+		goto IL_0065;
+	}
+
+IL_0042:
+	{
+		//<source_info:/home/bokken/build/output/unity/unity/Runtime/Export/Math/Vector3.cs:445>
+		__this->___x = (0.0f);
+		//<source_info:/home/bokken/build/output/unity/unity/Runtime/Export/Math/Vector3.cs:446>
+		__this->___y = (0.0f);
+		//<source_info:/home/bokken/build/output/unity/unity/Runtime/Export/Math/Vector3.cs:447>
+		__this->___z = (0.0f);
+	}
+
+IL_0065:
+	{
+		//<source_info:/home/bokken/build/output/unity/unity/Runtime/Export/Math/Vector3.cs:449>
+		return;
+	}
+}
+// Method Definition Index: 52940
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float Mathf_Clamp_mEB9AEA827D27D20FCC787F7375156AF46BB12BBF_inline (float ___0_value, float ___1_min, float ___2_max, const RuntimeMethod* method) 
+{
+	bool V_0 = false;
+	bool V_1 = false;
+	float V_2 = 0.0f;
+	{
+		//<source_info:/home/bokken/build/output/unity/unity/Runtime/Export/Math/Mathf.cs:289>
+		float L_0 = ___0_value;
+		float L_1 = ___1_min;
+		V_0 = (bool)((((float)L_0) < ((float)L_1))? 1 : 0);
+		bool L_2 = V_0;
+		if (!L_2)
+		{
+			goto IL_000e;
+		}
+	}
+	{
+		//<source_info:/home/bokken/build/output/unity/unity/Runtime/Export/Math/Mathf.cs:290>
+		float L_3 = ___1_min;
+		___0_value = L_3;
+		goto IL_0019;
+	}
+
+IL_000e:
+	{
+		//<source_info:/home/bokken/build/output/unity/unity/Runtime/Export/Math/Mathf.cs:291>
+		float L_4 = ___0_value;
+		float L_5 = ___2_max;
+		V_1 = (bool)((((float)L_4) > ((float)L_5))? 1 : 0);
+		bool L_6 = V_1;
+		if (!L_6)
+		{
+			goto IL_0019;
+		}
+	}
+	{
+		//<source_info:/home/bokken/build/output/unity/unity/Runtime/Export/Math/Mathf.cs:292>
+		float L_7 = ___2_max;
+		___0_value = L_7;
+	}
+
+IL_0019:
+	{
+		//<source_info:/home/bokken/build/output/unity/unity/Runtime/Export/Math/Mathf.cs:293>
+		float L_8 = ___0_value;
+		V_2 = L_8;
+		goto IL_001d;
+	}
+
+IL_001d:
+	{
+		//<source_info:/home/bokken/build/output/unity/unity/Runtime/Export/Math/Mathf.cs:294>
+		float L_9 = V_2;
+		return L_9;
+	}
+}
+// Method Definition Index: 52824
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 Vector3_get_zero_m0C1249C3F25B1C70EAD3CC8B31259975A457AE39_inline (const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		//<source_info:/home/bokken/build/output/unity/unity/Runtime/Export/Math/Vector3.cs:721>
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_0 = ((Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2_StaticFields*)il2cpp_codegen_static_fields_for(Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2_il2cpp_TypeInfo_var))->___zeroVector;
+		return L_0;
+	}
+}
+// Method Definition Index: 52650
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector4_t58B63D32F48C0DBF50DE2C60794C4676C80EDBE3 Color_op_Implicit_m9B3228DAFA8DC57A75DE00CBBF13ED4F1E7B01FF_inline (Color_tD001788D726C3A7F1379BEED0260B9591F440C1F ___0_c, const RuntimeMethod* method) 
+{
+	Vector4_t58B63D32F48C0DBF50DE2C60794C4676C80EDBE3 V_0;
+	memset((&V_0), 0, sizeof(V_0));
+	{
+		//<source_info:/home/bokken/build/output/unity/unity/Runtime/Export/Math/Color.cs:338>
+		il2cpp_codegen_initobj((&V_0), sizeof(Vector4_t58B63D32F48C0DBF50DE2C60794C4676C80EDBE3));
+		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_0 = ___0_c;
+		float L_1 = L_0.___r;
+		(&V_0)->___x = L_1;
+		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_2 = ___0_c;
+		float L_3 = L_2.___g;
+		(&V_0)->___y = L_3;
+		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_4 = ___0_c;
+		float L_5 = L_4.___b;
+		(&V_0)->___z = L_5;
+		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_6 = ___0_c;
+		float L_7 = L_6.___a;
+		(&V_0)->___w = L_7;
+		Vector4_t58B63D32F48C0DBF50DE2C60794C4676C80EDBE3 L_8 = V_0;
+		return L_8;
+	}
+}
+// Method Definition Index: 880
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Action_1_Invoke_mF2422B2DD29F74CE66F791C3F68E288EC7C3DB9E_gshared_inline (Action_1_t6F9EB113EB3F16226AEF811A2744F4111C116C87* __this, RuntimeObject* ___0_obj, const RuntimeMethod* method) 
+{
+	//<source_info:<no-source>:1>
+	typedef void (*FunctionPointerType) (RuntimeObject*, RuntimeObject*, const RuntimeMethod*);
+	((FunctionPointerType)__this->___invoke_impl)((Il2CppObject*)__this->___method_code, ___0_obj, reinterpret_cast<RuntimeMethod*>(__this->___method));
+}
+// Method Definition Index: 880
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Action_1_Invoke_mBF7DDBCD230E9D28EDF45D3E65F907DE1AE0CCBC_gshared_inline (Action_1_tC926860F20D428DA3E93D6FBA36420E904DD903B* __this, int32_t ___0_obj, const RuntimeMethod* method) 
+{
+	//<source_info:<no-source>:1>
+	typedef void (*FunctionPointerType) (RuntimeObject*, int32_t, const RuntimeMethod*);
+	((FunctionPointerType)__this->___invoke_impl)((Il2CppObject*)__this->___method_code, ___0_obj, reinterpret_cast<RuntimeMethod*>(__this->___method));
+}
+// Method Definition Index: 11034
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void List_1_Add_mEBCF994CC3814631017F46A387B1A192ED6C85C7_gshared_inline (List_1_tA239CB83DE5615F348BB0507E45F490F4F7C9A8D* __this, RuntimeObject* ___0_item, const RuntimeMethod* method) 
+{
+	//<source_info:<no-source>:1>
+	ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* V_0 = NULL;
+	int32_t V_1 = 0;
+	{
+		int32_t L_0 = __this->____version;
+		__this->____version = ((int32_t)il2cpp_codegen_add(L_0, 1));
+		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_1 = __this->____items;
+		V_0 = L_1;
+		int32_t L_2 = __this->____size;
+		V_1 = L_2;
+		int32_t L_3 = V_1;
+		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_4 = V_0;
+		NullCheck(L_4);
+		if ((!(((uint32_t)L_3) < ((uint32_t)((int32_t)(((RuntimeArray*)L_4)->max_length))))))
+		{
+			goto IL_0034;
+		}
+	}
+	{
+		int32_t L_5 = V_1;
+		__this->____size = ((int32_t)il2cpp_codegen_add(L_5, 1));
+		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_6 = V_0;
+		int32_t L_7 = V_1;
+		RuntimeObject* L_8 = ___0_item;
+		NullCheck(L_6);
+		(L_6)->SetAt(static_cast<il2cpp_array_size_t>(L_7), (RuntimeObject*)L_8);
+		return;
+	}
+
+IL_0034:
+	{
+		RuntimeObject* L_9 = ___0_item;
+		List_1_AddWithResize_m79A9BF770BEF9C06BE40D5401E55E375F2726CC4(__this, L_9, il2cpp_rgctx_method(method->klass->rgctx_data, 14));
+		return;
+	}
+}
+// Method Definition Index: 11024
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t List_1_get_Count_m4407E4C389F22B8CEC282C15D56516658746C383_gshared_inline (List_1_tA239CB83DE5615F348BB0507E45F490F4F7C9A8D* __this, const RuntimeMethod* method) 
+{
+	//<source_info:<no-source>:1>
+	{
+		int32_t L_0 = __this->____size;
+		return L_0;
+	}
+}
+// Method Definition Index: 882
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Action_2_Invoke_m50A62593A87E11ED31B47FE46E633AB3B9A7666C_gshared_inline (Action_2_t4195ED8D681728C29103F36BCD591C0F089C9132* __this, float ___0_arg1, float ___1_arg2, const RuntimeMethod* method) 
+{
+	//<source_info:<no-source>:1>
+	typedef void (*FunctionPointerType) (RuntimeObject*, float, float, const RuntimeMethod*);
+	((FunctionPointerType)__this->___invoke_impl)((Il2CppObject*)__this->___method_code, ___0_arg1, ___1_arg2, reinterpret_cast<RuntimeMethod*>(__this->___method));
+}
+// Method Definition Index: 52632
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Color__ctor_m3786F0D6E510D9CFA544523A955870BD2A514C8C_inline (Color_tD001788D726C3A7F1379BEED0260B9591F440C1F* __this, float ___0_r, float ___1_g, float ___2_b, float ___3_a, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:/home/bokken/build/output/unity/unity/Runtime/Export/Math/Color.cs:38>
+		float L_0 = ___0_r;
+		__this->___r = L_0;
+		//<source_info:/home/bokken/build/output/unity/unity/Runtime/Export/Math/Color.cs:38>
+		float L_1 = ___1_g;
+		__this->___g = L_1;
+		//<source_info:/home/bokken/build/output/unity/unity/Runtime/Export/Math/Color.cs:38>
+		float L_2 = ___2_b;
+		__this->___b = L_2;
+		//<source_info:/home/bokken/build/output/unity/unity/Runtime/Export/Math/Color.cs:38>
+		float L_3 = ___3_a;
+		__this->___a = L_3;
+		//<source_info:/home/bokken/build/output/unity/unity/Runtime/Export/Math/Color.cs:39>
+		return;
+	}
+}
+// Method Definition Index: 52817
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float Vector3_get_magnitude_mF0D6017E90B345F1F52D1CC564C640F1A847AF2D_inline (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Math_tEB65DE7CA8B083C412C969C92981C030865486CE_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		//<source_info:/home/bokken/build/output/unity/unity/Runtime/Export/Math/Vector3.cs:672>
+		float L_0 = __this->___x;
+		float L_1 = __this->___x;
+		float L_2 = __this->___y;
+		float L_3 = __this->___y;
+		float L_4 = __this->___z;
+		float L_5 = __this->___z;
+		il2cpp_codegen_runtime_class_init_inline(Math_tEB65DE7CA8B083C412C969C92981C030865486CE_il2cpp_TypeInfo_var);
+		double L_6;
+		L_6 = sqrt(((double)((float)il2cpp_codegen_add(((float)il2cpp_codegen_add(((float)il2cpp_codegen_multiply(L_0, L_1)), ((float)il2cpp_codegen_multiply(L_2, L_3)))), ((float)il2cpp_codegen_multiply(L_4, L_5))))));
+		return ((float)L_6);
+	}
+}
