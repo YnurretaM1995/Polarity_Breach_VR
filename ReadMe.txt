@@ -1,79 +1,94 @@
-============================================================
-POLARITY BREACH - CONTROLS
-============================================================
+# Polarity Breach VR
 
-Top-down twin-stick shooter.
-Supports keyboard + mouse and Xbox controller.
-You can switch between them at any time: the game
-auto-detects the last device used for aiming.
+A first-person shooter for **Meta Quest 2**, built in Unity 6.3 with the Meta XR SDK.
 
-------------------------------------------------------------
-GAMEPLAY
-------------------------------------------------------------
+A VR adaptation of *Polarity Breach*, originally a 2.5D shooter with an external camera. This wasn't a port: the combat systems carried over intact, but the entire control, camera and interface layer was redesigned from scratch for VR.
 
-  ACTION              KEYBOARD & MOUSE          XBOX CONTROLLER
-  ------------------  ------------------------  --------------------
-  Move                WASD                      Left Stick
-  Aim / Rotate        Mouse                     Right Stick
-  Fire                Left Click                Right Trigger (RT)
-  Charge Shot *       Hold Left Click, release  Hold RT, release
-  Switch Polarity     Right Click               Left Trigger (LT)
-  Dash *              Space                     B
+---
 
-  * Dash and Charge Shot are unlockable abilities.
-    They do nothing until unlocked (togglable in the Cheat Menu).
+## The Core Mechanic
 
-------------------------------------------------------------
-MENUS
-------------------------------------------------------------
+The game is built around a **binary polarity system**: black and white.
 
-  ACTION              KEYBOARD & MOUSE          XBOX CONTROLLER
-  ------------------  ------------------------  --------------------
-  Pause / Resume      Esc                       Start
-  Cheat Menu          F1                        Select
+- You can only damage enemies of the **opposite** polarity.
+- Only projectiles of the **opposite** polarity can damage you.
+- Switching polarity has a cooldown, so every switch is a decision.
 
-  The Pause Menu also has a Cheat Menu button that toggles
-  the debug overlay.
+In first person this created a design problem: the player can't see themselves. Active polarity is communicated through the weapon, which inverts its texture in real time, and through the reticle, which changes along with it.
 
-------------------------------------------------------------
-CORE MECHANIC - POLARITY
-------------------------------------------------------------
+---
 
-  The player and every enemy are either BLACK or WHITE.
+## Controls
 
-  - Opposite colors deal damage.
-      A white projectile hurts a black enemy.
+| Action 		|	 Input  	|
+|---			|---			|
+| Movement 		| Left Stick	 	|
+| Rotation 		| Head movement 	|
+| Fire 			| Right Trigger 	|
+| Charged shot 		| Hold Right Trigger	|
+| Switch polarity 	| Left Trigger 		|
+| Dash 			| Left Grip 		|
+| Advance dialogue 	| A Button 		|
 
-  - Matching colors do nothing.
-      A white projectile passes through a white target.
+Continuous locomotion is **gaze-relative**: the stick moves you toward wherever you're looking. There's no stick turning — the head is the camera.
 
-  Switch your polarity on the fly to damage what's in front
-  of you, and to shrug off incoming fire of your own color.
+---
 
-------------------------------------------------------------
-CHEAT MENU (development only)
-------------------------------------------------------------
+## Systems
 
-  Opens with F1 or from the Pause Menu.
-  Mouse only - the sliders can't be operated with a controller.
-  The game keeps running while it's open.
+**Combat**
+- Polarity system with conditional damage (`DamageSystem`, `PolarityComponent`)
+- Semi-automatic fire gated by `attackSpeedDelay` cooldown
+- Charged shot that charges faster the higher your attack speed
+- Directional dash with cooldown
+- Object pooling for projectiles and enemies
 
-  Contents:
+**Enemies**
+- Pursuit AI with line of sight, radius detection, and distinct melee/ranged behaviour (`EnemyPursuitAI`)
+- Melee enemies that slow the player through proximity
+- Ranged enemies with per-wave configurable spread fire
+- Wave spawner with formation patterns and telegraphed spawn warnings
 
-    Player Stats   movement speed, max health, God Mode,
-                   polarity switch cooldown
-    Dash           unlock toggle, speed, duration, cooldown
-    Normal Shot    fire delay, damage, projectile speed, knockback
-    Charge Shot    unlock toggle, damage, speed, knockback,
-                   charge time
-    Wave Debug     kill all enemies (skips to the next wave)
+**Boss**
+- Four phases with destructible weak points
+- Shield that stays invulnerable while enemies remain alive
+- Circular bullet patterns and rotating beams of alternating polarity
+- Beams built with VFX Graph + Shader Graph, in two variants (additive for white, alpha for black)
 
-------------------------------------------------------------
-NOTES
-------------------------------------------------------------
+**Progression**
+- XP system with a scaling level curve
+- Level-up upgrade cards: damage, attack speed, or max health
+- Run timer with a persistent JSON leaderboard
 
-  - Dying restarts the current scene.
-  - Low health triggers a blood overlay that pulses faster
-    the closer you are to dying.
+**Presentation**
+- Dialogue system with typewriter effect, portraits, and hold-to-skip
+- UI queue that gates gameplay (`UIQueue`)
+- Haptic feedback: pulse synced to weapon charge, and an escalating heartbeat in the left controller as health drops
+- End-of-run transition with in-headset fade and level teardown
 
-============================================================
+---
+
+### Project Settings
+
+| Setting 		| Value 			|
+|---			|---				|
+| Platform 		| Meta Quest (Build Profiles) 	|
+| Scripting Backend 	| IL2CPP 			|
+| Target Architecture 	| ARM64 			|
+| Graphics API 		| Vulkan 			|
+| Minimum API Level 	| 32 				|
+| XR Plugin 		| OpenXR (desktop + Android) 	|
+| Render Mode 		| Single Pass Instanced 	|
+| Run In Background 	| Enabled 			|
+
+
+## Current Status
+
+Playable demo from start to finish: menu → three wave-based rooms → boss → victory or defeat.
+
+**Known gaps:**
+- Pause menu (needs world-space conversion with laser interaction)
+- Debug menu (built with `OnGUI`, which doesn't render in VR)
+- Physical dodging by ducking
+
+---
